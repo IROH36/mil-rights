@@ -259,6 +259,146 @@
       "kaynak_adi": "National Cemetery Administration",
       "etiketler": ["veteran","family-member","all-branches"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "combat-zone-tax-exclusion",
+      "ana_baslik": "pay",
+      "baslik": "Combat Zone Tax Exclusion",
+      "ozet": "Service members serving in a designated combat zone can exclude their basic pay, reenlistment bonuses, and imminent danger pay from federal income tax for each month of qualifying service. The exclusion is applied automatically — the military organization certifies eligibility and excludes the income from your W-2. Social Security and Medicare taxes still apply to excluded combat pay.",
+      "resmi_link": "https://www.irs.gov/individuals/military/tax-exclusion-for-combat-service",
+      "kaynak_adi": "IRS",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hostile-fire-imminent-danger-pay",
+      "ana_baslik": "pay",
+      "baslik": "Hostile Fire & Imminent Danger Pay",
+      "ozet": "Service members assigned to areas designated by the DoD as subject to hostile fire, explosion of hostile mines, or other immediate dangers receive Hostile Fire Pay (HFP) or Imminent Danger Pay (IDP) of $225 per month. Pay is authorized for the entire month if a member serves any portion of it in a qualifying location. This special pay is in addition to regular base pay and is also excluded from federal income tax when earned in a combat zone.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/specialpay/hfp_idp/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "family-separation-allowance",
+      "ana_baslik": "pay",
+      "baslik": "Family Separation Allowance (FSA)",
+      "ozet": "Active-duty service members separated from their dependents for more than 30 consecutive days due to military orders — such as deployments, shipboard duty, or unaccompanied overseas assignments — receive a Family Separation Allowance of $250 per month. FSA is paid in addition to any other pay and allowances and does not require an application; it is authorized automatically when qualifying conditions are met. Both spouses receive FSA if both are military members and both are involuntarily separated from their dependents.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/fsa/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["active-duty","all-branches","all-ranks","deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-reserve-select",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Reserve Select",
+      "ozet": "TRICARE Reserve Select (TRS) is a premium-based health plan available to qualified Selected Reserve members and their families who are not on active duty orders for more than 30 days and are not eligible for the Federal Employees Health Benefits program. The sponsor must enroll first; family members can then purchase coverage separately through the regional TRICARE contractor. TRS provides coverage similar to TRICARE Select, including access to any TRICARE-authorized provider.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TRS",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["reservist","national-guard","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-young-adult",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Young Adult",
+      "ozet": "TRICARE Young Adult (TYA) is a purchasable health plan for unmarried adult children of eligible sponsors who have aged out of standard TRICARE coverage, typically at age 21 (or 23 if a full-time college student), and are under age 26. TYA is available as TYA-Prime (assigned primary care manager) or TYA-Select (any authorized provider) and requires a monthly premium. The dependent must not be eligible for employer-sponsored health coverage to qualify.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TYA",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "veterans-crisis-line",
+      "ana_baslik": "healthcare",
+      "baslik": "Veterans Crisis Line",
+      "ozet": "The Veterans Crisis Line provides free, confidential 24/7 crisis support for veterans, active-duty service members, National Guard and Reserve members, and their families and friends — no VA enrollment or benefits eligibility is required. Reach trained responders by calling 988 then pressing 1, texting 838255, or chatting online at VeteransCrisisLine.net. Responders listen, provide immediate support, and connect callers with local resources.",
+      "resmi_link": "https://www.veteranscrisisline.net/",
+      "kaynak_adi": "Veterans Crisis Line",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "sgli-life-insurance",
+      "ana_baslik": "family",
+      "baslik": "SGLI — Servicemembers' Group Life Insurance",
+      "ozet": "Servicemembers' Group Life Insurance (SGLI) is a low-cost term life insurance program that automatically covers eligible service members for up to $500,000 in $50,000 increments, at a cost of just 5 cents per $1,000 of coverage per month. Eligible members include active-duty military, Ready Reserve and National Guard members with at least 12 scheduled training periods per year, commissioned NOAA and USPHS officers, and ROTC members. Full coverage is automatic at enrollment; members must actively elect to reduce or decline it.",
+      "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/sgli/",
+      "kaynak_adi": "VA",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "yellow-ribbon-program",
+      "ana_baslik": "family",
+      "baslik": "Yellow Ribbon Program",
+      "ozet": "The Yellow Ribbon Program supplements the Post-9/11 GI Bill to help cover tuition and fee costs at private, out-of-state, foreign, or graduate schools that exceed the standard GI Bill cap. Eligibility requires qualifying for Post-9/11 GI Bill benefits at the 100% level and meeting service criteria such as 36 months of active duty. Participating schools contribute funds toward the remaining cost gap, and the VA matches those contributions dollar for dollar.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/",
+      "kaynak_adi": "VA",
+      "etiketler": ["active-duty","veteran","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "jag-legal-assistance",
+      "ana_baslik": "family",
+      "baslik": "Military Legal Assistance (JAG)",
+      "ozet": "Active-duty service members, their dependents, and certain reserve component members are entitled to free legal assistance through military Judge Advocate General (JAG) offices on or near installations. Services commonly include help with wills, powers of attorney, landlord-tenant disputes, consumer protection issues, and deployment-related legal matters. Use the Armed Forces Legal Assistance locator at legalassistance.law.af.mil to find the nearest office by state or zip code.",
+      "resmi_link": "https://legalassistance.law.af.mil/",
+      "kaynak_adi": "DoD / Armed Forces Legal Assistance",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-adapted-housing-grants",
+      "ana_baslik": "housing",
+      "baslik": "VA Disability Housing Grants (SAH & SHA)",
+      "ozet": "The VA offers two grants to help veterans with service-connected disabilities buy, build, or modify a permanent home: the Specially Adapted Housing (SAH) grant (up to $126,526 for FY 2026) and the Special Home Adaptation (SHA) grant (up to $25,350 for FY 2026). Eligibility requires specific service-connected disabilities such as loss of use of more than one limb, blindness in both eyes, or certain burn injuries. Each grant may be used up to six times over a veteran's lifetime.",
+      "resmi_link": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability","housing-allowance"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hud-vash",
+      "ana_baslik": "housing",
+      "baslik": "HUD-VASH — Housing Vouchers for Homeless Veterans",
+      "ozet": "HUD-VASH is a joint program between the Department of Housing and Urban Development and the VA that combines Housing Choice Voucher rental assistance with VA case management and supportive services. The program helps homeless veterans and their families secure permanent housing while connecting them to healthcare, mental health treatment, and other VA support. Since 2008, HUD has distributed over 116,000 vouchers across all 50 states, Guam, Puerto Rico, and the U.S. Virgin Islands.",
+      "resmi_link": "https://department.va.gov/homeless/hud-vash/",
+      "kaynak_adi": "VA / HUD",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "pact-act-toxic-exposure",
+      "ana_baslik": "veterans",
+      "baslik": "PACT Act — Toxic Exposure Benefits",
+      "ozet": "The Sergeant First Class Heath Robinson Honoring our PACT Act of 2022 is the largest expansion of VA health care and benefits in history, covering veterans exposed to burn pits, Agent Orange, radiation, and other toxic substances. The law adds over 20 new presumptive conditions — including cancers and respiratory illnesses for Gulf War and post-9/11 veterans — eliminating the requirement to prove that military service caused the disease. It also broadens VA health care enrollment eligibility and extends benefits to survivors of deceased veterans who qualify under the new conditions.",
+      "resmi_link": "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "survivor-benefit-plan",
+      "ana_baslik": "veterans",
+      "baslik": "Survivor Benefit Plan (SBP)",
+      "ozet": "The Survivor Benefit Plan (SBP) allows retiring service members to elect coverage so that their spouse or dependent children continue to receive a monthly annuity — up to 55% of covered retired pay — after the retiree's death. Enrollment is elected at retirement; the premium is a percentage of covered retired pay, deducted monthly from the retirement check. Survivors of service members who die on active duty before retirement may also be eligible for an SBP annuity through DFAS.",
+      "resmi_link": "https://www.dfas.mil/RetiredMilitary/provide/sbp/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["veteran","all-branches","all-ranks","retirement","survivor-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dependents-educational-assistance",
+      "ana_baslik": "veterans",
+      "baslik": "DEA — Dependents' Educational Assistance (Chapter 35)",
+      "ozet": "The Survivors' and Dependents' Educational Assistance (DEA) program provides monthly education payments to the children and spouses of veterans who died in service, are missing in action, or have a permanent and total service-connected disability. Benefits cover undergraduate and graduate degrees, vocational training, apprenticeships, and certification programs, typically for 36 to 45 months depending on when training began. Eligible dependents apply through the VA and receive monthly payments to help cover tuition and living expenses.",
+      "resmi_link": "https://www.va.gov/education/survivor-dependent-benefits/dependents-education-assistance/",
+      "kaynak_adi": "VA",
+      "etiketler": ["family-member","veteran","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }

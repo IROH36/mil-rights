@@ -5,6 +5,17 @@
 
 ---
 
+## Content expansion: 14 new topics — status: done ✓ (2026-06-01)
+40 topics total (was 26). New topics by category:
+- Pay: Combat Zone Tax Exclusion (IRS), Hostile Fire/Imminent Danger Pay (DFAS*), Family Separation Allowance (DFAS*)
+- Healthcare: TRICARE Reserve Select, TRICARE Young Adult, Veterans Crisis Line
+- Family: SGLI Life Insurance, Yellow Ribbon Program, JAG Legal Assistance
+- Housing: VA Disability Housing Grants (SAH/SHA), HUD-VASH
+- Veterans: PACT Act/Toxic Exposure, Survivor Benefit Plan (DFAS*), DEA Chapter 35
+*DFAS pages returned HTTP 403 on direct fetch; summaries based on DFAS search excerpts — human spot-check recommended.
+
+---
+
 ## UI redesign + 8 new topics — status: done ✓ (2026-06-01)
 26 topics total (was 18). New: TRICARE For Life, CHAMPVA, GI Bill Transfer, Military Spouse
 Residency & License Rights (MSRRA), Veterans ID Card (VIC), VA Caregiver Support (PCAFC),
