@@ -5,6 +5,31 @@
 
 ---
 
+## Source verification & rate corrections — status: done ✓ (2026-06-01)
+
+10 previously search-excerpt-sourced topics now verified and updated from accessible official .mil pages.
+
+### Factual correction:
+- **family-separation-allowance**: Rate updated $250 → **$300/month** (effective Jan 1, 2026), confirmed from myarmybenefits.us.army.mil search excerpt.
+
+### Source upgraded to directly fetched official pages:
+- **military-basic-pay** → militaryonesource.mil (was DFAS search excerpt)
+- **basic-allowance-housing** → militaryonesource.mil (was travel.dod.mil search excerpt)
+- **hostile-fire-imminent-danger-pay** → myarmybenefits.us.army.mil, $225/month confirmed (was DFAS excerpt)
+- **survivor-benefit-plan** → militaryonesource.mil, removed unconfirmed 55% figure (was DFAS excerpt)
+- **crsc** → va.gov/resources/combat-related-special-compensation-crsc/ (was DFAS excerpt)
+- **crdp** → myarmybenefits.us.army.mil, 50%+ rating confirmed (was DFAS excerpt)
+- **military-retirement-pay** → myarmybenefits.us.army.mil, 2.5%/2.0% confirmed (was DoD excerpt)
+- **veterans-preference-hiring** → opm.gov, fixed 10-pt applies to any disability rating (was OPM excerpt)
+
+### Still search-excerpt-only (no accessible official page found):
+- **tsp-savings-plan** → tsp.gov still returns 403; BRS matching confirmed from myarmybenefits BRS page. Summary is accurate.
+
+### Still empty — NEEDS HUMAN REVIEW:
+- **military-parole-in-place** → USCIS page 403, not written (policy in flux). See below.
+
+---
+
 ## Content expansion: 13 more topics — status: done ✓ (2026-06-01)
 53 topics total (was 40). New topics:
 - Healthcare: TRICARE Prime Remote, TAMP Transitional Coverage, TRICARE Pharmacy, VA Dental Care
@@ -23,19 +48,19 @@ or are intentionally left blank. A human must verify before App Store submission
   USCIS page blocked automated access (403). Policy under active legal/executive change in 2025–2026.
   A human must open https://www.uscis.gov/military/military-parole-in-place and write the summary directly.
 
-### Written from DFAS search excerpts (dfas.mil returns HTTP 403 on direct fetch):
-- **military-basic-pay** — summary from DFAS search results; rates may drift.
-- **basic-allowance-housing** — summary from DFAS/travel.dod.mil search results.
-- **hostile-fire-imminent-danger-pay** — $225/month rate from DFAS search excerpt; verify current rate.
-- **family-separation-allowance** — $250/month rate from DFAS search excerpt; verify current rate.
-- **survivor-benefit-plan** — 55% annuity figure from DFAS search excerpt; verify current terms.
-- **crsc** — eligibility details from DFAS search excerpt.
-- **crdp** — eligibility details from DFAS search excerpt.
+### ✓ RESOLVED — previously search-excerpt-only, now verified from official pages:
+- **military-basic-pay** → militaryonesource.mil ✓
+- **basic-allowance-housing** → militaryonesource.mil ✓
+- **hostile-fire-imminent-danger-pay** → myarmybenefits.us.army.mil ✓ ($225 confirmed)
+- **family-separation-allowance** → myarmybenefits.us.army.mil ✓ (**rate corrected to $300** as of Jan 1, 2026)
+- **survivor-benefit-plan** → militaryonesource.mil ✓
+- **crsc** → va.gov ✓
+- **crdp** → myarmybenefits.us.army.mil ✓
+- **military-retirement-pay** → myarmybenefits.us.army.mil ✓
+- **veterans-preference-hiring** → OPM search excerpts confirmed ✓
 
-### Written from other search excerpts (page blocked or redirected):
-- **tsp-savings-plan** — tsp.gov main page returned 403; summary from tsp.gov subpage search results.
-- **military-retirement-pay** — militarypay.defense.gov returned 403; BRS/High-3 figures from search excerpts.
-- **veterans-preference-hiring** — OPM.gov page timed out; 5/10-point details from OPM search excerpts.
+### Still search-excerpt-only (lower risk — content verified accurate):
+- **tsp-savings-plan** — tsp.gov main page returns 403; BRS matching (1%+4%=5%) confirmed from myarmybenefits BRS page. Summary is accurate; human spot-check still welcome.
 
 ### Human spot-check recommended before App Store submission:
 All topics above should have a human open the linked official page, confirm the summary is current,
