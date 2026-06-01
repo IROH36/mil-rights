@@ -156,6 +156,14 @@
     .empty-title { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
     .empty-desc  { font-size: 14px; color: #64748b; line-height: 1.55; }
 
+    /* ── SUPPORT LINK (Phase 3) ─────────────────────── */
+    .support-wrap { text-align: center; margin-top: 20px; padding-bottom: 4px; }
+    .support-link {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 13px; color: #94a3b8; text-decoration: none;
+    }
+    .support-link:hover { color: #64748b; }
+
     /* ── BOTTOM NAV ─────────────────────────────────── */
     .bottom-nav {
       flex-shrink: 0;
@@ -347,6 +355,9 @@ let S = { screen:"home", category:null, topicId:null, prev:"home", query:"" };
 let favs = JSON.parse(localStorage.getItem("mil-favs") || "[]");
 const saveFavs = () => localStorage.setItem("mil-favs", JSON.stringify(favs));
 
+// ── REMOTE CONFIG ─────────────────────────────────────────────────────────────
+let CONFIG = { donation_active: false, donation_link: "" };
+
 function toggleFav(id) {
   const i = favs.indexOf(id);
   i === -1 ? favs.push(id) : favs.splice(i, 1);
@@ -413,7 +424,18 @@ function renderHome() {
     </div>`;
   }).join("");
 
-  $c(`<div class="grid">${cards}</div>`);
+  const supportHtml = (CONFIG.donation_active && CONFIG.donation_link)
+    ? `<div class="support-wrap">
+        <a href="${CONFIG.donation_link}" target="_blank" rel="noopener noreferrer" class="support-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M12 21C12 21 3 14.5 3 8.5a5 5 0 019-3 5 5 0 019 3c0 6-9 12.5-9 12.5z"/>
+          </svg>
+          Support this project
+        </a>
+      </div>`
+    : "";
+
+  $c(`<div class="grid">${cards}</div>${supportHtml}`);
 }
 
 // ── CATEGORY ──────────────────────────────────────────────────────────────────
@@ -555,6 +577,10 @@ function renderFavorites() {
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 render();
+fetch("uzak-ayarlar.json")
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .then(cfg => { CONFIG = cfg; if (S.screen === "home") renderHome(); })
+  .catch(() => {});
 </script>
 </body>
 </html>

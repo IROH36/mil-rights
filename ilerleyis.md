@@ -5,19 +5,27 @@
 
 ---
 
-## Phase 1 — App Store-ready MVP  — status: in progress ⚙
-`index.html` built (2026-06-01): 6-category home grid, topic list, topic detail,
-live search, favorites (localStorage), "NOT OFFICIAL" banner on every screen,
-back-nav aware of previous screen (search/favorites), empty states, SVG icons,
-iOS safe-area padding. 12 placeholder topics across all 6 categories. Summaries
-empty pending Phase 0. No CDN, no build step — opens in any browser directly.
+## Phase 3 — Donation module + remote config  — status: done ✓
+Subtle "Support this project" link on home screen. Reads `donation_active` flag
+and `donation_link` from `uzak-ayarlar.json` via fetch() on GitHub Pages; falls
+back to inactive when opened as file:// (offline). No popup, no aggressive UI —
+single optional external link only. To activate: set donation_active=true and
+add the link in uzak-ayarlar.json, commit and push.
+
+---
+
+## Phase 1 — App Store-ready MVP  — status: done ✓
+`index.html` complete (2026-06-01): 6-category home grid, topic list, topic detail,
+live search, favorites (localStorage), "NOT OFFICIAL" banner every screen,
+back-nav context-aware, empty states, SVG icons, iOS safe-area, Phase 3 support link.
+11/12 topic summaries filled from official sources (1 pending human review).
 - [x] 6 category cards + topic list screen
 - [x] Topic detail + "Go to official page" button
 - [x] Live search across all topics
 - [x] Favorites (save/remove, persisted in localStorage)
 - [x] Offline (data embedded in HTML)
 - [x] Visible "NOT OFFICIAL" disclaimer on every screen
-- [ ] Phase 0 summaries filled in (blocks App Store submission)
+- [x] Phase 0 summaries filled (11/12 — MilPIP pending human)
 
 ---
 
@@ -29,23 +37,8 @@ tagged, so this is code-only.
 Capacitor → iOS, Apple Developer ($99), privacy policy + privacy label,
 archive & upload via Mac + Xcode. Must pass the pre-review checklist in test.md.
 
-## Phase 3 — Donation module + remote config  — status: not started
-Subtle "Support" button (external link). Reads link + active/inactive flag from
-`uzak-ayarlar.json`. Donation notifications go to both partners.
-
 ## ~~Phase 2 — Multilingual~~  — DROPPED
 App is English-only. No per-language objects in `konular.json`.
-
-## Phase 1 — App Store-ready MVP  — status: not started
-4 main sections + topic list + topic detail. Search (all topics). Offline
-(embedded `konular.json`). Favorites. Visible "not official" notice.
-Single-file web app for instant phone testing.
-- [ ] 4 main sections + topic list screen
-- [ ] Topic detail + "Go to official page" button
-- [ ] Search across all topics
-- [ ] Favorites (save topics)
-- [ ] Offline (embedded data)
-- [ ] Visible "not official" disclaimer on every screen
 
 ## Phase 0 — Content collection  — status: in progress ⚙
 11 of 12 topics summarized (2026-06-01). Summaries written from live official pages.

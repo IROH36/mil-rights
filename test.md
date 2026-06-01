@@ -11,6 +11,15 @@
 
 ---
 
+## Phase 3 — Donation module tests
+| Date | Feature tested | Where | Result |
+|------|----------------|-------|--------|
+|      | donation_active=false → support link NOT visible on home | Browser desktop | |
+|      | donation_active=true + link set → support link visible, subtle | Browser desktop | |
+|      | Support link opens correct external URL in new tab | Browser desktop | |
+|      | file:// access → support link hidden (fetch fails, default inactive) | Browser desktop (file://) | |
+|      | On real device via GitHub Pages: link visible when active | Friend's iPhone (US) | |
+
 ## Phase 1 — MVP tests
 | Date | Feature tested | Where | Result |
 |------|----------------|-------|--------|
