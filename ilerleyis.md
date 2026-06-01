@@ -5,8 +5,9 @@
 
 ---
 
-## Content expansion: 19 more topics — status: done ✓ (2026-06-01)
-72 topics total (was 53). Latest batch:
+## Content expansion: 20 more topics — status: done ✓ (2026-06-01)
+73 topics total (was 53). Latest batch:
+- Family: Commissary Shopping Privileges (corp.commissaries.com/DeCA)
 - Veterans: VA Decision Reviews & Appeals (va.gov), DoD SkillBridge (skillbridge.osd.mil — human verified)
 - Pay: Hazardous Duty Incentive Pay / HDIP (myarmybenefits/DoD)
 - Housing: Temporary Lodging Allowance / TLA OCONUS (militaryonesource.mil)

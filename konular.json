@@ -719,6 +719,16 @@
       "kaynak_adi": "DoD SkillBridge",
       "etiketler": ["active-duty","all-branches","all-ranks"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "commissary-benefits",
+      "ana_baslik": "family",
+      "baslik": "Commissary Shopping Privileges",
+      "ozet": "Defense Commissary Agency (DeCA) stores offer tax-free grocery and household shopping at reduced prices to active-duty service members, Guard and Reserve members, military retirees, veterans with any VA service-connected disability rating, Medal of Honor and Purple Heart recipients, former POWs, primary family caregivers enrolled in the VA's PCAFC program, and their authorized family members. Veterans and caregivers must present a current Veteran Health Identification Card (VHIC) or other VA-issued eligibility documentation, and must enroll for recurring installation access at the local visitor center (includes identity verification and background screening). Commissary privileges were expanded to service-connected disabled veterans effective January 1, 2020.",
+      "resmi_link": "https://corp.commissaries.com/extended-eligibility",
+      "kaynak_adi": "Defense Commissary Agency (DeCA)",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","retirement"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
