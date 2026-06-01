@@ -5,10 +5,17 @@
 
 ---
 
-## Content expansion: 24 more topics — status: done ✓ (2026-06-01)
-77 topics total (was 53). Latest batch:
+## Content expansion: 26 more topics — status: done ✓ (2026-06-01)
+79 topics total (was 53). Latest batch:
+- Family: Space-A Military Flights (amc.af.mil), Exchange/BX-PX Shopping (aafes.com)
 - Healthcare: TRICARE Prime (tricare.mil), VA Telehealth (telehealth.va.gov)
 - Veterans: VET TEC 2.0 (va.gov), Military Funeral Honors (cem.va.gov)
+
+### ⚠ NEEDS HUMAN REVIEW — clothing-allowance:
+dfas.mil CMA pages return HTTP 403 for automated fetch. Official DFAS pages:
+https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/CMA1/ (initial)
+https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/CMA2/ (replacement)
+Human should open these, copy eligibility + rate structure, paste here for topic creation.
 
 Previous batches:
 - Family: Commissary Shopping Privileges (corp.commissaries.com/DeCA)
