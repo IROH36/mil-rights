@@ -1,0 +1,14 @@
+{
+  "konular": [
+    {
+      "id": "naturalization-basics",
+      "ana_baslik": "citizenship",
+      "baslik": "Naturalization Through Military Service",
+      "ozet": "",
+      "resmi_link": "https://www.uscis.gov/military/naturalization-through-military-service",
+      "kaynak_adi": "USCIS",
+      "etiketler": ["green-card", "active-duty", "all-branches", "all-ranks"],
+      "son_kontrol": ""
+    }
+  ]
+}
