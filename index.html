@@ -973,6 +973,27 @@ const DATA = { konular: [
     etiketler: ["active-duty", "reservist", "national-guard", "family-member", "all-branches", "education-benefit"],
     son_kontrol: "2026-06"
   },
+  // HEALTHCARE — TRICARE PRIME, SELECT, VET CENTERS & TELEHEALTH
+  {
+    id: "tricare-prime",
+    ana_baslik: "healthcare",
+    baslik: "TRICARE Prime",
+    ozet: "TRICARE Prime is a managed care plan that assigns each enrolled beneficiary a Primary Care Manager (PCM) — at a military treatment facility or civilian network provider — who coordinates all routine care and specialist referrals; active-duty service members and their families pay no out-of-pocket costs, while retirees and other beneficiaries pay annual enrollment fees and copayments. The plan is only available in designated Prime Service Areas, so beneficiaries outside those areas should consider TRICARE Prime Remote or TRICARE Select instead. Enrollment is required and can be completed through the TRICARE Plan Finder tool at tricare.mil.",
+    resmi_link: "https://tricare.mil/Plans/HealthPlans/TP",
+    kaynak_adi: "TRICARE",
+    etiketler: ["active-duty", "veteran", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "tricare"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "va-telehealth",
+    ana_baslik: "healthcare",
+    baslik: "VA Telehealth Services",
+    ozet: "VA telehealth allows enrolled veterans to consult with VA health care providers by video from home or from a community ATLAS (Accessing Telehealth through Local Area Stations) location, using the free VA Video Connect app on any internet-connected device — smartphone, tablet, or computer. Standard telehealth visits carry no copay, and the VA can provide an iPad to eligible veterans who lack a video-capable device or internet access at home. Ask your VA care team to set up a telehealth appointment, or visit telehealth.va.gov for more information.",
+    resmi_link: "https://telehealth.va.gov/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "all-branches", "all-ranks", "va-health"],
+    son_kontrol: "2026-06"
+  },
   // HEALTHCARE — TRICARE SELECT & VET CENTERS
   {
     id: "tricare-select",
@@ -1086,6 +1107,27 @@ const DATA = { konular: [
     resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/montgomery-active-duty/",
     kaynak_adi: "VA",
     etiketler: ["veteran", "active-duty", "all-branches", "all-ranks", "education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — HIGH-TECH TRAINING, SKILLBRIDGE & APPEALS
+  {
+    id: "vet-tec",
+    ana_baslik: "veterans",
+    baslik: "VET TEC 2.0 — High-Tech Training",
+    ozet: "VET TEC 2.0 (Veterans Employment Through Technology Education Courses) pays tuition and fees directly to approved training providers for veterans pursuing high-demand technology careers — including computer programming, software development, data processing, and information sciences — plus a monthly housing allowance equal to the Post-9/11 GI Bill rate and a books and supplies stipend. Eligibility requires an honorable or other-than-dishonorable discharge (or active-duty status within 180 days of separation), at least 36 months of active duty service, and being under age 62; up to 4,000 participants are accepted per fiscal year and the program is funded through September 30, 2027. Apply through VA.gov and use the GI Bill Comparison Tool to find approved high-tech training providers.",
+    resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/vettec-high-tech-program/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "active-duty", "all-branches", "all-ranks", "education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "military-funeral-honors",
+    ana_baslik: "veterans",
+    baslik: "Military Funeral Honors",
+    ozet: "Under federal law (Public Law 106-65), any eligible veteran or active-duty service member is entitled to a military funeral honors ceremony upon family request at no cost, consisting of at minimum the playing of Taps and the folding and presentation of the American flag to the next of kin. Eligibility requires an honorable or general (under honorable conditions) discharge from active military service, or qualifying service in the Selected Reserve; veterans with dishonorable or bad-conduct discharges are not eligible. Families request the ceremony by providing the veteran's DD-214 or other discharge documentation to the funeral home, which coordinates directly with the appropriate military branch.",
+    resmi_link: "https://www.cem.va.gov/military_funeral_honors.asp",
+    kaynak_adi: "National Cemetery Administration / VA",
+    etiketler: ["veteran", "active-duty", "family-member", "all-branches", "all-ranks"],
     son_kontrol: "2026-06"
   },
   // VETERANS — SKILLBRIDGE & APPEALS

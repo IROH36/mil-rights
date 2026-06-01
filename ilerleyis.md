@@ -5,8 +5,12 @@
 
 ---
 
-## Content expansion: 20 more topics — status: done ✓ (2026-06-01)
-73 topics total (was 53). Latest batch:
+## Content expansion: 24 more topics — status: done ✓ (2026-06-01)
+77 topics total (was 53). Latest batch:
+- Healthcare: TRICARE Prime (tricare.mil), VA Telehealth (telehealth.va.gov)
+- Veterans: VET TEC 2.0 (va.gov), Military Funeral Honors (cem.va.gov)
+
+Previous batches:
 - Family: Commissary Shopping Privileges (corp.commissaries.com/DeCA)
 - Veterans: VA Decision Reviews & Appeals (va.gov), DoD SkillBridge (skillbridge.osd.mil — human verified)
 - Pay: Hazardous Duty Incentive Pay / HDIP (myarmybenefits/DoD)
