@@ -53,14 +53,14 @@ archive & upload via Mac + Xcode. Must pass the pre-review checklist in test.md.
 App is English-only. No per-language objects in `konular.json`.
 
 ## Phase 0 — Content collection  — status: in progress ⚙
-11 of 12 topics summarized (2026-06-01). Summaries written from live official pages.
-Sources: USCIS, DFAS, TRICARE, VA, Military OneSource, Defense Travel Mgmt Office.
-- [x] Citizenship topics (1/2 — see flag below)
-- [x] Pay topics (BAH, Basic Pay)
-- [x] Healthcare topics (TRICARE, VA Health Care)
-- [x] Family topics (GI Bill, Dependent ID/DEERS)
-- [x] Housing topics (SCRA, Off-Post Renting)
-- [x] Veterans topics (VA Disability, VA Pension)
+18 topics total, 17 with summaries (2026-06-01). All summaries from live official pages.
+Sources: USCIS, DFAS, TRICARE, VA, Military OneSource, DTMO, DoDEA.
+- [x] Citizenship (1/2 — MilPIP pending human review)
+- [x] Pay (Basic Pay, BAH, BAS)
+- [x] Healthcare (TRICARE, VA Health, TRICARE Dental, Mental Health)
+- [x] Family (GI Bill, DEERS, DoDEA Schools)
+- [x] Housing (SCRA, Off-Post Renting, VA Home Loan)
+- [x] Veterans (VA Disability, VA Pension, VR&E)
 - [ ] Friend verified all links/summaries ← required before App Store submission
 
 ⚠ NEEDS HUMAN REVIEW — military-parole-in-place:
