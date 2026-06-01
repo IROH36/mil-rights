@@ -5,16 +5,15 @@
 
 ---
 
-## Content expansion: 8 more topics — status: done ✓ (2026-06-01)
-61 topics total (was 53). New topics sourced from official pages:
+## Content expansion: 9 more topics — status: done ✓ (2026-06-01)
+62 topics total (was 53). New topics sourced from official pages:
 - Family: FSGLI (va.gov), MyCAA Military Spouse Scholarship (militaryonesource.mil)
 - Veterans: VGLI (va.gov), VA Aid & Attendance / Housebound (va.gov), TAP Transition Assistance (va.gov), USERRA Employment Rights (esgr.mil/DoD)
+- Pay: Dislocation Allowance / DLA (dfas.mil — human verified)
 - Housing: VA IRRRL / Streamline Refinance (va.gov), Overseas Housing Allowance / OHA (myarmybenefits/DTMO)
 
-### ⚠ NEEDS HUMAN REVIEW — dislocation-allowance (DLA):
-All official pages (dfas.mil, travel.dod.mil, myarmybenefits) returned 403 or 404 during automated fetch.
-A human must open https://www.travel.dod.mil/Allowances/Dislocation-Allowance/ or https://www.dfas.mil/MilitaryMembers/travelpay/armypcs/dislocationallowance/,
-read the current eligibility and rates, write a 2-3 sentence summary, and add the topic to konular.json + index.html DATA.
+### ✓ RESOLVED — dislocation-allowance (DLA):
+Content provided by human from DFAS official page. Topic added to konular.json + index.html DATA (son_kontrol: 2026-06).
 
 ---
 

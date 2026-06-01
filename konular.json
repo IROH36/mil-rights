@@ -609,6 +609,16 @@
       "kaynak_adi": "DTMO / DoD",
       "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","housing-allowance"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dislocation-allowance",
+      "ana_baslik": "pay",
+      "baslik": "Dislocation Allowance (DLA)",
+      "ozet": "The Dislocation Allowance (DLA) partially reimburses service members for household relocation expenses incurred during a Permanent Change of Station (PCS) move, evacuation, or government-ordered housing change; it is generally authorized once per fiscal year. DLA is not available for a first PCS without dependents, for active duty entry without dependents, or for separation and retirement travel. Two rates apply — with or without dependents — based on whether authorized dependents also relocated; current rates are published by the Defense Travel Management Office and reimbursement is filed at the installation finance office.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/travelpay/armypcs/dislocationallowance/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
