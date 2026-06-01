@@ -5,6 +5,14 @@
 
 ---
 
+## Content expansion: 7 more topics — status: done ✓ (2026-06-01)
+60 topics total (was 53). New topics sourced from official pages:
+- Family: FSGLI (va.gov), MyCAA Military Spouse Scholarship (militaryonesource.mil)
+- Veterans: VGLI (va.gov), VA Aid & Attendance / Housebound (va.gov), TAP Transition Assistance (va.gov), USERRA Employment Rights (esgr.mil/DoD)
+- Housing: VA IRRRL / Streamline Refinance (va.gov)
+
+---
+
 ## PWA + Dark Mode + Search Upgrade + UI Polish — status: done ✓ (2026-06-01)
 
 ### 1. Military Parole content — HUMAN REVIEW COMPLETE ✓
