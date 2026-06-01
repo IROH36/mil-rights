@@ -1,0 +1,21 @@
+{
+  "name": "Mil-Rights — U.S. Military Rights Guide",
+  "short_name": "Mil-Rights",
+  "description": "Free offline guide to U.S. military rights, benefits, and official resources.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c1d38",
+  "theme_color": "#1a2f5e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["reference", "government"],
+  "lang": "en-US"
+}
