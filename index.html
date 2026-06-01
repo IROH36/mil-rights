@@ -379,6 +379,66 @@ const DATA = { konular: [
     kaynak_adi: "U.S. Department of Veterans Affairs",
     etiketler: ["veteran", "retirement"],
     son_kontrol: "2026-06"
+  },
+  {
+    id: "va-home-loan",
+    ana_baslik: "housing",
+    baslik: "VA-Backed Home Loan",
+    ozet: "The VA-backed home loan program allows eligible veterans, service members, and surviving spouses to purchase, build, or refinance a home — in many cases with no down payment required. To use the benefit, applicants must first obtain a Certificate of Eligibility (COE), which can be requested online, by mail, or through a lender. Standard credit and income requirements still apply through the private lender.",
+    resmi_link: "https://www.va.gov/housing-assistance/home-loans/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["veteran", "active-duty", "all-branches"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "va-vocational-rehab",
+    ana_baslik: "veterans",
+    baslik: "Vocational Rehabilitation & Employment (VR&E)",
+    ozet: "The VA Vocational Rehabilitation and Employment program helps service members and veterans with service-connected disabilities that limit their ability to work prepare for, find, and maintain suitable employment. The program offers multiple tracks: reemployment assistance, rapid access to employment, self-employment support, long-term services, and independent living. Eligible individuals can apply online at VA.gov using VA Form 28-1900.",
+    resmi_link: "https://www.va.gov/careers-employment/vocational-rehabilitation/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["veteran", "active-duty", "disability", "all-branches"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "tricare-dental",
+    ana_baslik: "healthcare",
+    baslik: "TRICARE Dental Program",
+    ozet: "The TRICARE Dental Program (TDP) is a voluntary dental insurance plan administered by United Concordia, available to eligible family members of service members who are registered in DEERS. To enroll, the military sponsor must have at least 12 months of remaining service at the time of enrollment; enrollment is completed through milConnect. Active duty service members receive dental care through the military dental system rather than the TDP.",
+    resmi_link: "https://tricare.mil/Plans/DentalPlans",
+    kaynak_adi: "TRICARE",
+    etiketler: ["active-duty", "family-member", "tricare", "all-branches"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "mental-health-resources",
+    ana_baslik: "healthcare",
+    baslik: "Mental Health Support & Counseling",
+    ozet: "Military OneSource provides free, confidential counseling and mental health support to service members, veterans, and their families — including individual, couple, and family counseling, the Military and Family Life Counseling program, and peer-to-peer support. Under the Brandon Act, service members may request a mental health evaluation at any time by notifying their chain of command. Support is available 24/7 at 800-342-9647, by secure online chat, or by dialing 988 and pressing 1 for the Veterans Crisis Line.",
+    resmi_link: "https://www.militaryonesource.mil/health-wellness/mental-health/",
+    kaynak_adi: "Military OneSource",
+    etiketler: ["active-duty", "veteran", "family-member", "reservist", "national-guard", "all-branches"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "bas-allowance",
+    ana_baslik: "pay",
+    baslik: "Basic Allowance for Subsistence (BAS)",
+    ozet: "Basic Allowance for Subsistence (BAS) is a monthly allowance provided to enlisted members and officers to help offset the cost of food while on active duty. Enlisted members and officers receive different BAS rates, which are updated annually and published by the Defense Finance and Accounting Service (DFAS). Current BAS rates are available in the pay tables section of the DFAS website.",
+    resmi_link: "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/bas/",
+    kaynak_adi: "DFAS",
+    etiketler: ["active-duty", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "dodea-schools",
+    ana_baslik: "family",
+    baslik: "DoDEA Schools for Military Children",
+    ozet: "Department of Defense Education Activity (DoDEA) schools provide tuition-free K–12 education to dependents of active-duty service members living on or in the vicinity of military installations worldwide. A 2025 law expanded eligibility to include dependents of full-time active-duty members residing off the installation, subject to available space. Enrollment requires documentation confirming dependent status in DEERS and assignment orders to the installation.",
+    resmi_link: "https://www.dodea.edu/registration",
+    kaynak_adi: "DoDEA",
+    etiketler: ["family-member", "active-duty", "all-branches"],
+    son_kontrol: "2026-06"
   }
 ]};
 
@@ -470,7 +530,7 @@ function render() {
     const btn = document.getElementById("nb-" + id);
     if (!btn) return;
     const active = id === "home"
-      ? ["home","category","topic"].includes(S.screen)
+      ? ["home","category","topic","about"].includes(S.screen)
       : S.screen === id;
     btn.classList.toggle("active", active);
   });
@@ -481,13 +541,18 @@ function render() {
   const pb = document.getElementById("nb-profile");
   if (pb) pb.style.color = (PROFILE && S.screen !== "profile") ? "#2563eb" : "";
 
-  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile };
+  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile, about:renderAbout };
   (screens[S.screen] || renderHome)();
 }
 
 // ── HOME ──────────────────────────────────────────────────────────────────────
 function renderHome() {
-  $h(`<div class="hrow"><span class="htitle">Mil-Rights</span></div>
+  $h(`<div class="hrow" style="justify-content:space-between">
+        <span class="htitle">Mil-Rights</span>
+        <button onclick="go('about')" aria-label="About" style="background:none;border:none;color:rgba(255,255,255,.65);cursor:pointer;padding:4px;line-height:1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
+        </button>
+      </div>
       <div class="hsub">Know your rights — find the official source.</div>`);
 
   // For You section
@@ -669,6 +734,35 @@ function renderFavorites() {
         <div class="empty-title">No saved topics yet</div>
         <div class="empty-desc">Open any topic and tap "Save This Topic" to add it here.</div>
       </div>`
+  );
+}
+
+// ── ABOUT SCREEN ─────────────────────────────────────────────────────────────
+function renderAbout() {
+  $h(`<div class="hrow">
+        <button class="back-btn" onclick="go('home')" aria-label="Back">&#8249;</button>
+        <span class="htitle">About</span>
+      </div>`);
+
+  $c(`<div class="summary-card" style="margin-bottom:12px">
+        <p class="summary-text"><strong>Mil-Rights</strong> is a free, offline reference guide for U.S. military members, veterans, and their families. Every topic links to an official government source. This app does not give legal advice — it points you to the authority.</p>
+      </div>
+
+      <div class="summary-card" style="background:#fef2f2;border-color:#fca5a5;margin-bottom:16px">
+        <p class="summary-text" style="color:#991b1b;font-weight:600;font-size:14px">This is NOT an official government or military resource. We do not advise — we point you to the official source.</p>
+      </div>
+
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-bottom:10px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Privacy Policy
+      </a>
+
+      <a href="https://github.com/IROH36/mil-rights" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.16.58.67.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+        View on GitHub
+      </a>
+
+      <p style="font-size:12px;color:#94a3b8;text-align:center;margin-top:20px">Version 1.0 · ${new Date().getFullYear()}</p>`
   );
 }
 

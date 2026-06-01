@@ -5,6 +5,14 @@
 
 ---
 
+## Content expansion + App Store prep  — status: done ✓ (2026-06-01)
+6 new topics added (total: 18): VA Home Loan, VR&E, TRICARE Dental, Mental Health,
+BAS, DoDEA Schools. privacy.html created (GitHub Pages: /privacy.html). About screen
+added (info icon in home header): app description, disclaimer, privacy policy link,
+GitHub link. Pre-review checklist item "privacy policy URL" now fulfilled.
+
+---
+
 ## Phase 3 — Donation module + remote config  — status: done ✓
 Subtle "Support this project" link on home screen. Reads `donation_active` flag
 and `donation_link` from `uzak-ayarlar.json` via fetch() on GitHub Pages; falls

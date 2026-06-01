@@ -11,6 +11,16 @@
 
 ---
 
+## App Store prep tests
+| Date | Feature tested | Where | Result |
+|------|----------------|-------|--------|
+|      | privacy.html opens at /privacy.html and renders correctly | Browser desktop | |
+|      | privacy.html "Back to Mil-Rights" link works | Browser desktop | |
+|      | About screen: info icon (ⓘ) visible in home header | Browser desktop | |
+|      | About → Privacy Policy button opens privacy.html in new tab | Browser desktop | |
+|      | About → GitHub button opens correct repo | Browser desktop | |
+|      | 18 topics total render correctly (check each category count) | Browser desktop | |
+
 ## Phase 5 — Profile filter tests
 | Date | Feature tested | Where | Result |
 |------|----------------|-------|--------|

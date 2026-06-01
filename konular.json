@@ -120,5 +120,66 @@
       "etiketler": ["veteran", "retirement"],
       "son_kontrol": "2026-06"
     }
+  ,
+    {
+      "id": "va-home-loan",
+      "ana_baslik": "housing",
+      "baslik": "VA-Backed Home Loan",
+      "ozet": "The VA-backed home loan program allows eligible veterans, service members, and surviving spouses to purchase, build, or refinance a home — in many cases with no down payment required. To use the benefit, applicants must first obtain a Certificate of Eligibility (COE), which can be requested online, by mail, or through a lender. Standard credit and income requirements still apply through the private lender.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran", "active-duty", "all-branches"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-vocational-rehab",
+      "ana_baslik": "veterans",
+      "baslik": "Vocational Rehabilitation & Employment (VR&E)",
+      "ozet": "The VA Vocational Rehabilitation and Employment program helps service members and veterans with service-connected disabilities that limit their ability to work prepare for, find, and maintain suitable employment. The program offers multiple tracks: reemployment assistance, rapid access to employment, self-employment support, long-term services, and independent living. Eligible individuals can apply online at VA.gov using VA Form 28-1900.",
+      "resmi_link": "https://www.va.gov/careers-employment/vocational-rehabilitation/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran", "active-duty", "disability", "all-branches"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-dental",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Dental Program",
+      "ozet": "The TRICARE Dental Program (TDP) is a voluntary dental insurance plan administered by United Concordia, available to eligible family members of service members who are registered in DEERS. To enroll, the military sponsor must have at least 12 months of remaining service at the time of enrollment; enrollment is completed through milConnect. Active duty service members receive dental care through the military dental system rather than the TDP.",
+      "resmi_link": "https://tricare.mil/Plans/DentalPlans",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty", "family-member", "tricare", "all-branches"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mental-health-resources",
+      "ana_baslik": "healthcare",
+      "baslik": "Mental Health Support & Counseling",
+      "ozet": "Military OneSource provides free, confidential counseling and mental health support to service members, veterans, and their families — including individual, couple, and family counseling, the Military and Family Life Counseling program, and peer-to-peer support. Under the Brandon Act, service members may request a mental health evaluation at any time by notifying their chain of command. Support is available 24/7 at 800-342-9647, by secure online chat, or by dialing 988 and pressing 1 for the Veterans Crisis Line.",
+      "resmi_link": "https://www.militaryonesource.mil/health-wellness/mental-health/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": ["active-duty", "veteran", "family-member", "reservist", "national-guard", "all-branches"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "bas-allowance",
+      "ana_baslik": "pay",
+      "baslik": "Basic Allowance for Subsistence (BAS)",
+      "ozet": "Basic Allowance for Subsistence (BAS) is a monthly allowance provided to enlisted members and officers to help offset the cost of food while on active duty. Enlisted members and officers receive different BAS rates, which are updated annually and published by the Defense Finance and Accounting Service (DFAS). Current BAS rates are available in the pay tables section of the DFAS website.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/bas/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["active-duty", "all-branches", "all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dodea-schools",
+      "ana_baslik": "family",
+      "baslik": "DoDEA Schools for Military Children",
+      "ozet": "Department of Defense Education Activity (DoDEA) schools provide tuition-free K–12 education to dependents of active-duty service members living on or in the vicinity of military installations worldwide. A 2025 law expanded eligibility to include dependents of full-time active-duty members residing off the installation, subject to available space. Enrollment requires documentation confirming dependent status in DEERS and assignment orders to the installation.",
+      "resmi_link": "https://www.dodea.edu/registration",
+      "kaynak_adi": "DoDEA",
+      "etiketler": ["family-member", "active-duty", "all-branches"],
+      "son_kontrol": "2026-06"
+    }
   ]
 }
