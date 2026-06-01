@@ -31,8 +31,19 @@
 ## Phase 0 — Content tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
-|      | Links open the correct official page | Browser |  |
-|      | Summaries match the official source | Browser (friend) |  |
+|      | naturalization-military: link opens correct USCIS page | Browser | |
+|      | military-basic-pay: link opens correct DFAS page | Browser | |
+|      | basic-allowance-housing: link opens DTMO BAH page | Browser | |
+|      | tricare-plans: link opens TRICARE eligibility page | Browser | |
+|      | va-health-care: link opens VA health care page | Browser | |
+|      | gi-bill: link opens VA GI Bill page | Browser | |
+|      | dependent-id-deers: link opens Military OneSource ID page | Browser | |
+|      | scra-rights: link opens Military OneSource SCRA page | Browser | |
+|      | off-post-renting: link opens Military OneSource housing page | Browser | |
+|      | va-disability: link opens VA disability page | Browser | |
+|      | veterans-pension: link opens VA pension page | Browser | |
+|      | All summaries verified against live official pages | Browser (friend) | |
+|      | military-parole-in-place: human reads current USCIS page, writes summary | Browser (friend) | PENDING |
 
 ---
 

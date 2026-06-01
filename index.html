@@ -203,18 +203,18 @@
 
 <script>
 // ── DATA ─────────────────────────────────────────────────────────────────────
-// Mirrors konular.json — update both when adding topics (Phase 0).
+// Mirrors konular.json — update both when adding topics.
 const DATA = { konular: [
   // CITIZENSHIP & IMMIGRATION
   {
     id: "naturalization-military",
     ana_baslik: "citizenship",
     baslik: "Naturalization Through Military Service",
-    ozet: "",
+    ozet: "Service members and veterans who have served honorably may apply for U.S. citizenship using Form N-400, Application for Naturalization, together with Form N-426 if currently serving, or official discharge documentation such as a DD-214. The filing fee is waived for currently serving members and eligible veterans. Many military installations have a designated USCIS liaison who can assist with the application process.",
     resmi_link: "https://www.uscis.gov/military/naturalization-through-military-service",
     kaynak_adi: "USCIS",
-    etiketler: ["green-card", "active-duty", "all-branches", "all-ranks"],
-    son_kontrol: ""
+    etiketler: ["green-card", "naturalized", "active-duty", "veteran", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
   },
   {
     id: "military-parole-in-place",
@@ -231,105 +231,105 @@ const DATA = { konular: [
     id: "military-basic-pay",
     ana_baslik: "pay",
     baslik: "Military Basic Pay",
-    ozet: "",
-    resmi_link: "https://www.dfas.mil/militarymembers/payentitlements/militarypay/",
+    ozet: "Military basic pay is a monthly salary determined by a service member's pay grade (rank) and cumulative years of service, and applies uniformly across all branches of the armed forces. Annual pay tables for both enlisted members and officers are published and maintained by the Defense Finance and Accounting Service (DFAS). Current and historical pay tables are available on the DFAS website.",
+    resmi_link: "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/Basic-Pay/",
     kaynak_adi: "DFAS",
     etiketler: ["active-duty", "all-branches", "all-ranks"],
-    son_kontrol: ""
+    son_kontrol: "2026-06"
   },
   {
     id: "basic-allowance-housing",
     ana_baslik: "pay",
     baslik: "Basic Allowance for Housing (BAH)",
-    ozet: "",
+    ozet: "BAH is a monthly allowance provided to service members who are not living in government-furnished housing, calculated to offset the cost of civilian rental housing near the member's permanent duty station. The rate is determined by pay grade, dependency status, and local housing market data, and is updated annually. Service members can find their specific rate using the BAH Rate Lookup tool on the Defense Travel Management Office website.",
     resmi_link: "https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/",
     kaynak_adi: "Defense Travel Management Office",
-    etiketler: ["active-duty", "all-branches"],
-    son_kontrol: ""
+    etiketler: ["active-duty", "housing-allowance", "all-branches"],
+    son_kontrol: "2026-06"
   },
   // HEALTHCARE
   {
     id: "tricare-plans",
     ana_baslik: "healthcare",
     baslik: "TRICARE Health Plans",
-    ozet: "",
-    resmi_link: "https://www.tricare.mil/Plans",
+    ozet: "TRICARE provides health care coverage to active-duty service members, military retirees, National Guard and Reserve members, and their family members who are enrolled in the Defense Enrollment Eligibility Reporting System (DEERS), as well as eligible survivors and Medal of Honor recipients. Eligibility is determined by the service member's branch of service and reported through DEERS. Available plans and coverage options vary by beneficiary category and geographic location; use the TRICARE Plan Finder to identify plans available in your area.",
+    resmi_link: "https://www.tricare.mil/Plans/Eligibility",
     kaynak_adi: "TRICARE",
-    etiketler: ["active-duty", "veteran", "family-member", "all-branches"],
-    son_kontrol: ""
+    etiketler: ["active-duty", "veteran", "family-member", "reservist", "national-guard", "tricare", "all-branches"],
+    son_kontrol: "2026-06"
   },
   {
     id: "va-health-care",
     ana_baslik: "healthcare",
     baslik: "VA Health Care Benefits",
-    ozet: "",
+    ozet: "Veterans may be eligible for VA health care covering primary and specialty care, mental health services, prescriptions, home health, and more; income may affect eligibility and out-of-pocket costs. Eligible family members — including spouses, surviving spouses, dependent children, and caregivers — may also qualify for certain benefits. Applications can be submitted online, by phone, by mail, or in person; the VA health benefits hotline is 877-222-8387.",
     resmi_link: "https://www.va.gov/health-care/",
     kaynak_adi: "U.S. Department of Veterans Affairs",
-    etiketler: ["veteran"],
-    son_kontrol: ""
+    etiketler: ["veteran", "family-member", "va-health"],
+    son_kontrol: "2026-06"
   },
   // FAMILY & EDUCATION
   {
     id: "gi-bill",
     ana_baslik: "family",
     baslik: "GI Bill Education Benefits",
-    ozet: "",
+    ozet: "The GI Bill provides education and training benefits — including coverage for tuition, fees, books, and a monthly housing stipend — to eligible veterans, service members, and in some cases their dependents. Major programs include the Post-9/11 GI Bill (Chapter 33) for those who served after September 10, 2001, the Montgomery GI Bill Active Duty (Chapter 30), and the Montgomery GI Bill Selected Reserve (Chapter 1606) for Reserve and Guard members. The VA website provides a comparison tool to help eligible individuals determine which benefit applies to their situation.",
     resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/",
     kaynak_adi: "U.S. Department of Veterans Affairs",
-    etiketler: ["active-duty", "veteran", "all-branches"],
-    son_kontrol: ""
+    etiketler: ["active-duty", "veteran", "reservist", "national-guard", "education-benefit", "all-branches"],
+    son_kontrol: "2026-06"
   },
   {
     id: "dependent-id-deers",
     ana_baslik: "family",
-    baslik: "Dependent ID Cards (DEERS)",
-    ozet: "",
-    resmi_link: "https://www.militaryonesource.mil/military-life-cycle/new-to-the-military/benefits/id-cards/",
+    baslik: "Dependent ID Cards & DEERS Enrollment",
+    ozet: "Eligible family members of service members, retirees, and certain veterans who are registered in the Defense Enrollment Eligibility Reporting System (DEERS) may obtain a military dependent ID card granting access to TRICARE health coverage, commissary and exchange shopping, Morale Welfare and Recreation programs, and other installation services. Applications require DD Form 1172-2 signed by the military sponsor, two forms of identification, and proof of relationship; first-time applicants must be enrolled in DEERS before applying. Applications can be submitted online through the ID Card Office Online portal or in person at a RAPIDS site.",
+    resmi_link: "https://www.militaryonesource.mil/military-basics/new-to-the-military/military-id-and-cac-cards-for-military-community/",
     kaynak_adi: "Military OneSource",
     etiketler: ["family-member", "all-branches"],
-    son_kontrol: ""
+    son_kontrol: "2026-06"
   },
   // HOUSING
   {
     id: "scra-rights",
     ana_baslik: "housing",
     baslik: "Servicemembers Civil Relief Act (SCRA)",
-    ozet: "",
-    resmi_link: "https://www.militaryonesource.mil/financial-legal/legal-assistance/personal-legal-affairs/the-servicemembers-civil-relief-act/",
+    ozet: "The SCRA protects active-duty service members, National Guard and Reserve members called to active duty, and their families by capping interest rates on pre-service debts at 6%, allowing lease termination without penalty for qualifying PCS moves or deployments of 90 days or more, and protecting against mortgage foreclosure during and up to nine months after active-duty service. Additional protections cover eviction, civil court proceedings, automobile and phone service leases, and professional license portability for service members and their spouses. Free legal assistance is available through installation legal offices; contact Military OneSource at 800-342-9647 for a referral.",
+    resmi_link: "https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/",
     kaynak_adi: "Military OneSource",
-    etiketler: ["active-duty", "reservist", "all-branches"],
-    son_kontrol: ""
+    etiketler: ["active-duty", "reservist", "national-guard", "all-branches"],
+    son_kontrol: "2026-06"
   },
   {
     id: "off-post-renting",
     ana_baslik: "housing",
     baslik: "Off-Post Renting & Housing Rights",
-    ozet: "",
-    resmi_link: "https://www.militaryonesource.mil/housing-and-moving/housing/renting-or-buying-off-post/",
+    ozet: "Service members renting off-post should confirm that their lease includes a military clause permitting early termination for a PCS move or deployment; the SCRA independently grants this right for qualifying service members with proper written notice. The Fair Housing Act prohibits discrimination based on protected characteristics when renting or buying a home. For questions about a specific lease or tenant rights, free legal assistance is available through your installation's JAG (Judge Advocate General) office.",
+    resmi_link: "https://www.militaryonesource.mil/moving-pcs/housing/",
     kaynak_adi: "Military OneSource",
     etiketler: ["active-duty", "all-branches"],
-    son_kontrol: ""
+    son_kontrol: "2026-06"
   },
   // VETERANS & RETIREMENT
   {
     id: "va-disability",
     ana_baslik: "veterans",
     baslik: "VA Disability Compensation",
-    ozet: "",
+    ozet: "VA disability compensation provides a monthly tax-free payment to veterans whose illness, injury, or mental health condition — including PTSD — was caused or made worse by their military service; surviving spouses, dependent children, and parents may also qualify. Payment amounts are based on the disability rating assigned to the veteran and the number of dependents; current rate tables are available on the VA website. Claims can be filed online, by phone, mail, or fax, and a Veterans Service Organization (VSO) representative can assist at no cost; call 800-827-1000 for help.",
     resmi_link: "https://www.va.gov/disability/",
     kaynak_adi: "U.S. Department of Veterans Affairs",
-    etiketler: ["veteran"],
-    son_kontrol: ""
+    etiketler: ["veteran", "disability"],
+    son_kontrol: "2026-06"
   },
   {
     id: "veterans-pension",
     ana_baslik: "veterans",
     baslik: "Veterans Pension Program",
-    ozet: "",
+    ozet: "The VA Pension program provides financial benefits to eligible wartime veterans who have limited income and are no longer able to work due to a non-service-connected disability or are of qualifying age, and to certain surviving spouses and children of wartime veterans. Veterans who need help with daily activities or who are substantially confined may be eligible for additional Aid and Attendance or Housebound pension benefits. Applications can be filed at VA.gov or with help from an accredited VSO; call 800-827-1000 for assistance.",
     resmi_link: "https://www.va.gov/pension/",
     kaynak_adi: "U.S. Department of Veterans Affairs",
-    etiketler: ["veteran"],
-    son_kontrol: ""
+    etiketler: ["veteran", "retirement"],
+    son_kontrol: "2026-06"
   }
 ]};
 

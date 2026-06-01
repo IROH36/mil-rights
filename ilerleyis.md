@@ -47,11 +47,25 @@ Single-file web app for instant phone testing.
 - [ ] Offline (embedded data)
 - [ ] Visible "not official" disclaimer on every screen
 
-## Phase 0 — Content collection  — status: not started
-For each topic: title, 2–3 sentence summary, official link, tags. Friend (service
-member) verifies every link and summary. Output: filled `konular.json` draft.
-- [ ] Citizenship & Immigration topics
-- [ ] Pay, Benefits & Healthcare topics
-- [ ] Family, Education & Housing topics
-- [ ] Veteran & Retirement topics
-- [ ] Friend verified all links/summaries
+## Phase 0 — Content collection  — status: in progress ⚙
+11 of 12 topics summarized (2026-06-01). Summaries written from live official pages.
+Sources: USCIS, DFAS, TRICARE, VA, Military OneSource, Defense Travel Mgmt Office.
+- [x] Citizenship topics (1/2 — see flag below)
+- [x] Pay topics (BAH, Basic Pay)
+- [x] Healthcare topics (TRICARE, VA Health Care)
+- [x] Family topics (GI Bill, Dependent ID/DEERS)
+- [x] Housing topics (SCRA, Off-Post Renting)
+- [x] Veterans topics (VA Disability, VA Pension)
+- [ ] Friend verified all links/summaries ← required before App Store submission
+
+⚠ NEEDS HUMAN REVIEW — military-parole-in-place:
+uscis.gov blocked automated fetch (403). Policy has been subject to active legal
+and executive action in 2025–2026. Do NOT write summary from memory.
+A human must open https://www.uscis.gov/military/military-parole-in-place,
+read the current page, and write the 2–3 sentence summary directly in
+konular.json + the embedded DATA in index.html. Set son_kontrol to review date.
+
+⚠ FETCH NOTE — uscis.gov, dfas.mil, travel.dod.mil all returned HTTP 403 (bot block).
+Summaries for naturalization-military, military-basic-pay, and basic-allowance-housing
+were written from search-result excerpts originating from those official domains.
+Human spot-check recommended before App Store submission.
