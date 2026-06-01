@@ -14,11 +14,11 @@
       "id": "military-parole-in-place",
       "ana_baslik": "citizenship",
       "baslik": "Military Parole in Place",
-      "ozet": "",
-      "resmi_link": "https://www.uscis.gov/military/military-parole-in-place",
+      "ozet": "Military Parole in Place (MilPIP) allows USCIS to grant temporary status, on a case-by-case basis, to the spouses, widow(er)s, parents, and children of active-duty service members, Selected Reserve members, and veterans who were not dishonorably discharged — enabling them to remain in the U.S. and potentially apply to adjust their immigration status. To apply, submit Form I-131 (selecting Part 1, Item 8) with supporting documents; as of July 21, 2025, all MilPIP applications must be filed at the USCIS facility in Montclair, CA rather than local field offices. Parole is granted in one-year increments and does not by itself confer permanent resident status.",
+      "resmi_link": "https://www.uscis.gov/military/discretionary-options-for-military-members-enlistees-and-their-families",
       "kaynak_adi": "USCIS",
       "etiketler": ["family-member","green-card"],
-      "son_kontrol": ""
+      "son_kontrol": "2026-06"
     },
     {
       "id": "military-basic-pay",

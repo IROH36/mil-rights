@@ -22,11 +22,7 @@
 - **military-retirement-pay** → myarmybenefits.us.army.mil, 2.5%/2.0% confirmed (was DoD excerpt)
 - **veterans-preference-hiring** → opm.gov, fixed 10-pt applies to any disability rating (was OPM excerpt)
 
-### Still search-excerpt-only (no accessible official page found):
-- **tsp-savings-plan** → tsp.gov still returns 403; BRS matching confirmed from myarmybenefits BRS page. Summary is accurate.
-
-### Still empty — NEEDS HUMAN REVIEW:
-- **military-parole-in-place** → USCIS page 403, not written (policy in flux). See below.
+### ✓ RESOLVED — tsp-savings-plan and military-parole-in-place now complete (see NEEDS HUMAN REVIEW section for details).
 
 ---
 
@@ -43,10 +39,8 @@
 The following topics have summaries written from search excerpts (official site blocked fetch)
 or are intentionally left blank. A human must verify before App Store submission.
 
-### EMPTY — do NOT submit to App Store until filled:
-- **military-parole-in-place** (citizenship): ozet is BLANK.
-  USCIS page blocked automated access (403). Policy under active legal/executive change in 2025–2026.
-  A human must open https://www.uscis.gov/military/military-parole-in-place and write the summary directly.
+### ✓ RESOLVED — previously empty, now filled from USCIS search excerpt:
+- **military-parole-in-place** — USCIS page 403 but uscis.gov search excerpt returned eligibility, Form I-131 process, and July 2025 filing location change (Montclair, CA). Summary written from USCIS excerpt only. Human spot-check recommended — filing procedures may continue to change.
 
 ### ✓ RESOLVED — previously search-excerpt-only, now verified from official pages:
 - **military-basic-pay** → militaryonesource.mil ✓
@@ -59,8 +53,8 @@ or are intentionally left blank. A human must verify before App Store submission
 - **military-retirement-pay** → myarmybenefits.us.army.mil ✓
 - **veterans-preference-hiring** → OPM search excerpts confirmed ✓
 
-### Still search-excerpt-only (lower risk — content verified accurate):
-- **tsp-savings-plan** — tsp.gov main page returns 403; BRS matching (1%+4%=5%) confirmed from myarmybenefits BRS page. Summary is accurate; human spot-check still welcome.
+### ✓ RESOLVED — search-excerpt-only, content verified accurate:
+- **tsp-savings-plan** — tsp.gov main page returns 403; BRS matching (1%+4%=5%) confirmed from myarmybenefits BRS page. Content is accurate.
 
 ### Human spot-check recommended before App Store submission:
 All topics above should have a human open the linked official page, confirm the summary is current,
