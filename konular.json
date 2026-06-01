@@ -679,6 +679,36 @@
       "kaynak_adi": "The Official Army Benefits Website (DoD)",
       "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","education-benefit"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-decision-reviews",
+      "ana_baslik": "veterans",
+      "baslik": "VA Decision Reviews & Appeals",
+      "ozet": "Veterans who disagree with a VA benefits decision may choose one of three review paths: a Supplemental Claim (submit new and relevant evidence), a Higher-Level Review (a more senior reviewer re-examines the case without new evidence), or an appeal to the Board of Veterans' Appeals before a Veterans Law Judge. Veterans may switch between review lanes as their case develops, and each path has different processing timelines. Accredited VSO representatives assist at no cost; attorneys and claims agents may charge agreed-upon fees — reach the VA at 800-827-1000 or use VA.gov to start a review.",
+      "resmi_link": "https://www.va.gov/decision-reviews/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hazardous-duty-pay",
+      "ana_baslik": "pay",
+      "baslik": "Hazardous Duty Incentive Pay (HDIP)",
+      "ozet": "Hazardous Duty Incentive Pay (HDIP) is monthly special compensation for service members assigned to perform duties officially designated as hazardous by the Secretary of Defense, including flight duty, parachute jumping, demolition of explosives, and handling of toxic fuels or propellants. Payment amounts and eligibility vary by the specific type of hazardous duty and the member's component and status; rates are set by DoD and updated periodically. Contact your unit's finance or personnel office to confirm eligibility and initiate payment.",
+      "resmi_link": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Hazardous-Duty-Incentive-Pay-(HDIP)",
+      "kaynak_adi": "The Official Army Benefits Website (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tla-temporary-lodging",
+      "ana_baslik": "housing",
+      "baslik": "Temporary Lodging Allowance (TLA)",
+      "ozet": "Temporary Lodging Allowance (TLA) partially reimburses service members and their families for higher-than-normal lodging expenses incurred when assigned to temporary quarters outside the continental U.S. (OCONUS) during a PCS move. Eligible beneficiaries include active-duty service members, National Guard and Reserve members on qualifying orders, transitioning service members, and their spouses. Contact your installation's local pay office — searchable through MilitaryINSTALLATIONS at militaryonesource.mil — for current rates and to initiate payment.",
+      "resmi_link": "https://www.militaryonesource.mil/moving-pcs/allowances/temporary-lodging-allowance/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks","housing-allowance"],
+      "son_kontrol": "2026-06"
     }
   ]
 }

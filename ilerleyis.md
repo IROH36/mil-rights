@@ -5,8 +5,21 @@
 
 ---
 
+## Content expansion: 18 more topics — status: done ✓ (2026-06-01)
+71 topics total (was 53). Latest batch:
+- Veterans: VA Decision Reviews & Appeals (va.gov)
+- Pay: Hazardous Duty Incentive Pay / HDIP (myarmybenefits/DoD)
+- Housing: Temporary Lodging Allowance / TLA OCONUS (militaryonesource.mil)
+
+### ⚠ NEEDS HUMAN REVIEW — still inaccessible (403/404/SSL):
+- **commissary-exchange**: DeCA/commissaries.com patron eligibility pages all return 404. Human should open commissaries.com → Who Can Shop, copy eligibility text.
+- **skillbridge**: skillbridge.mil SSL error, dod.mil 403. Human should open https://www.skillbridge.mil and copy program description + eligibility.
+- **tle-domestic**: Temporary Lodging Expense (CONUS equivalent of TLA). travel.dod.mil and myarmybenefits both 403/404.
+
+---
+
 ## Content expansion: 15 more topics — status: done ✓ (2026-06-01)
-68 topics total (was 53). New topics sourced from official pages:
+71 topics total (was 53). New topics sourced from official pages:
 - Family: FSGLI (va.gov), MyCAA Scholarship (militaryonesource.mil), Tuition Assistance / TA (myarmybenefits/DoD)
 - Healthcare: TRICARE Select (tricare.mil), VA Vet Centers (vetcenter.va.gov)
 - Veterans: VGLI (va.gov), VA Aid & Attendance (va.gov), TAP (va.gov), USERRA (esgr.mil), DIC (va.gov), VA Survivors Pension (va.gov), MGIB-AD (va.gov)
