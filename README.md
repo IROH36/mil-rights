@@ -20,7 +20,7 @@ Open `index.html` in any browser — no server, no install, no dependencies.
 
 | Phase | Description | Status |
 |---|---|---|
-| 0 | Content collection (18 topics, official sources) | done ✓ |
+| 0 | Content collection (26 topics, official sources) | done ✓ |
 | 1 | Offline web MVP — search, favorites, 6 categories | done ✓ |
 | 3 | Donation module (remote config via uzak-ayarlar.json) | done ✓ |
 | 5 | Profile filter — For You section, tag-based matching | done ✓ |

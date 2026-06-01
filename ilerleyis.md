@@ -5,6 +5,17 @@
 
 ---
 
+## UI redesign + 8 new topics — status: done ✓ (2026-06-01)
+26 topics total (was 18). New: TRICARE For Life, CHAMPVA, GI Bill Transfer, Military Spouse
+Residency & License Rights (MSRRA), Veterans ID Card (VIC), VA Caregiver Support (PCAFC),
+Veterans Burial Benefits, Thrift Savings Plan (TSP).
+Complete UI overhaul: SVG category icons replacing letter abbreviations, gradient headers
+(each category gets its own color), box-shadow cards (no flat borders), blue gradient
+personalize card, premium button shadows, upward shadow on bottom nav.
+Search now also queries topic summaries (ozet). Category screen header matches category color.
+
+---
+
 ## Content expansion + App Store prep  — status: done ✓ (2026-06-01)
 6 new topics added (total: 18): VA Home Loan, VR&E, TRICARE Dental, Mental Health,
 BAS, DoDEA Schools. privacy.html created (GitHub Pages: /privacy.html). About screen
@@ -53,14 +64,15 @@ archive & upload via Mac + Xcode. Must pass the pre-review checklist in test.md.
 App is English-only. No per-language objects in `konular.json`.
 
 ## Phase 0 — Content collection  — status: in progress ⚙
-18 topics total, 17 with summaries (2026-06-01). All summaries from live official pages.
-Sources: USCIS, DFAS, TRICARE, VA, Military OneSource, DTMO, DoDEA.
+26 topics total, 25 with summaries (2026-06-01). All summaries from live official pages.
+Sources: USCIS, DFAS, TRICARE, VA, Military OneSource, DTMO, DoDEA, TSP, NCA.
 - [x] Citizenship (1/2 — MilPIP pending human review)
-- [x] Pay (Basic Pay, BAH, BAS)
-- [x] Healthcare (TRICARE, VA Health, TRICARE Dental, Mental Health)
-- [x] Family (GI Bill, DEERS, DoDEA Schools)
+- [x] Pay (Basic Pay, BAH, BAS, TSP*)
+- [x] Healthcare (TRICARE Plans, VA Health, TRICARE Dental, Mental Health, TRICARE For Life, CHAMPVA)
+- [x] Family (GI Bill, GI Bill Transfer, DEERS, Military Spouse MSRRA, DoDEA Schools)
 - [x] Housing (SCRA, Off-Post Renting, VA Home Loan)
-- [x] Veterans (VA Disability, VA Pension, VR&E)
+- [x] Veterans (VA Disability, VA Pension, VR&E, VIC, PCAFC Caregiver, Veterans Burial)
+*TSP summary based on tsp.gov search excerpts (main page returns 403) — human spot-check recommended
 - [ ] Friend verified all links/summaries ← required before App Store submission
 
 ⚠ NEEDS HUMAN REVIEW — military-parole-in-place:
