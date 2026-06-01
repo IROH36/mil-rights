@@ -5,6 +5,44 @@
 
 ---
 
+## Content expansion: 13 more topics — status: done ✓ (2026-06-01)
+53 topics total (was 40). New topics:
+- Healthcare: TRICARE Prime Remote, TAMP Transitional Coverage, TRICARE Pharmacy, VA Dental Care
+- Family: EFMP, MFLC Counseling, Military OneSource, Military Child Care
+- Veterans: Military Retirement Pay, VSO Representatives, Veterans' Preference in Federal Hiring, CRSC, CRDP
+
+---
+
+## ⚠ NEEDS HUMAN REVIEW — incomplete or unverified topics (2026-06-01)
+
+The following topics have summaries written from search excerpts (official site blocked fetch)
+or are intentionally left blank. A human must verify before App Store submission.
+
+### EMPTY — do NOT submit to App Store until filled:
+- **military-parole-in-place** (citizenship): ozet is BLANK.
+  USCIS page blocked automated access (403). Policy under active legal/executive change in 2025–2026.
+  A human must open https://www.uscis.gov/military/military-parole-in-place and write the summary directly.
+
+### Written from DFAS search excerpts (dfas.mil returns HTTP 403 on direct fetch):
+- **military-basic-pay** — summary from DFAS search results; rates may drift.
+- **basic-allowance-housing** — summary from DFAS/travel.dod.mil search results.
+- **hostile-fire-imminent-danger-pay** — $225/month rate from DFAS search excerpt; verify current rate.
+- **family-separation-allowance** — $250/month rate from DFAS search excerpt; verify current rate.
+- **survivor-benefit-plan** — 55% annuity figure from DFAS search excerpt; verify current terms.
+- **crsc** — eligibility details from DFAS search excerpt.
+- **crdp** — eligibility details from DFAS search excerpt.
+
+### Written from other search excerpts (page blocked or redirected):
+- **tsp-savings-plan** — tsp.gov main page returned 403; summary from tsp.gov subpage search results.
+- **military-retirement-pay** — militarypay.defense.gov returned 403; BRS/High-3 figures from search excerpts.
+- **veterans-preference-hiring** — OPM.gov page timed out; 5/10-point details from OPM search excerpts.
+
+### Human spot-check recommended before App Store submission:
+All topics above should have a human open the linked official page, confirm the summary is current,
+and update son_kontrol to the verification date in both konular.json and the embedded DATA in index.html.
+
+---
+
 ## Content expansion: 14 new topics — status: done ✓ (2026-06-01)
 40 topics total (was 26). New topics by category:
 - Pay: Combat Zone Tax Exclusion (IRS), Hostile Fire/Imminent Danger Pay (DFAS*), Family Separation Allowance (DFAS*)
