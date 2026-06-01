@@ -40,6 +40,21 @@ self-sufficient for day-to-day work.
 - MVP = single-file web app (HTML + embedded JSON), testable instantly in a browser.
 - iOS packaging via Capacitor (Phase 4). Final upload needs Mac + Xcode.
 - No server/API; static data + external links only.
+- No CDN, no npm, no build step. Open `index.html` directly in a browser — that's it.
+
+## Session protocol (two-PC workflow)
+- **Start of session:** `git pull origin master` before touching anything.
+- **End of session:** commit all changes + `git push origin master`. Never leave work only on one machine.
+- GitHub Pages URL for phone testing: `https://IROH36.github.io/mil-rights`
+
+## Valid ana_baslik values
+`citizenship` | `pay` | `healthcare` | `family` | `housing` | `veterans`
+
+## Valid etiketler values
+Statü: `active-duty` `veteran` `green-card` `naturalized` `family-member` `reservist` `national-guard`
+Kol: `all-branches` `army` `navy` `marines` `air-force` `space-force` `coast-guard`
+Rütbe: `all-ranks` `enlisted` `officer` `warrant-officer`
+Konu: `naturalization` `deployment` `disability` `education-benefit` `housing-allowance` `tricare` `va-health` `retirement` `survivor-benefit`
 
 ## Workflow rules
 - After any meaningful change, add one summary line to `ilerleyis.md`.
