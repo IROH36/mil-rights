@@ -5,6 +5,20 @@
 
 ---
 
+## AI Ask feature + 3 new topics — status: done ✓ (2026-06-01)
+82 topics total (was 79). New topics:
+- Veterans: Montgomery GI Bill – Selected Reserve / Chapter 1606 (va.gov)
+- Healthcare: VA Women's Health Care (va.gov), TRICARE Overseas Coverage (tricare.mil)
+
+AI Ask tab added (5th tab in bottom nav):
+- User types free-form description of their situation
+- 50-entry keyword→tag/category map scores all 82 topics offline
+- Top 8 results shown as tappable topic cards
+- Dark mode supported; "fully offline" label shown
+- No external requests — runs entirely on embedded DATA
+
+---
+
 ## Content expansion: 26 more topics — status: done ✓ (2026-06-01)
 79 topics total (was 53). Latest batch:
 - Family: Space-A Military Flights (amc.af.mil), Exchange/BX-PX Shopping (aafes.com)

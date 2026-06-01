@@ -789,6 +789,36 @@
       "kaynak_adi": "Army & Air Force Exchange Service (AAFES)",
       "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","retirement"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mgib-sr-chapter-1606",
+      "ana_baslik": "veterans",
+      "baslik": "Montgomery GI Bill – Selected Reserve (Chapter 1606)",
+      "ozet": "Selected Reserve and National Guard members who commit to a 6-year service obligation may receive up to 36 months of education and training benefits under MGIB-SR (Chapter 1606). To apply, obtain a Notice of Basic Eligibility (DD Form 2384-1) from your unit, then submit VA Form 22-1990; you must maintain good standing in an active Selected Reserve unit to retain eligibility. Members discharged due to a service-connected disability not caused by misconduct remain eligible.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/montgomery-selected-reserve/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-womens-health",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Women's Health Care",
+      "ozet": "Women Veterans enrolled in VA health care receive comprehensive services including primary care, cancer screenings (breast, cervical, colon, lung), reproductive health, mental health care, and free confidential treatment for military sexual trauma (MST). Women Veterans may access MST-related care even without a disability rating or minimum service length requirement. The Women Veterans Call Center is available at 855-829-6636.",
+      "resmi_link": "https://www.va.gov/health-care/health-needs-conditions/womens-health/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-overseas",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Overseas Coverage",
+      "ozet": "Active duty members and command-sponsored families stationed overseas use TRICARE Prime Overseas (managed care with no enrollment fees or copays for authorized care); retirees and their families use TRICARE Select Overseas (flexible, pay upfront then file claims for reimbursement). Both plans are administered by International SOS and require DEERS enrollment; TRICARE Prime Overseas is not available to retirees. Military ID serves as proof of coverage in place of a wallet card.",
+      "resmi_link": "https://tricare.mil/Plans/Overseas",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","veteran","family-member","reservist","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
