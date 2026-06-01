@@ -156,6 +156,41 @@
     .empty-title { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
     .empty-desc  { font-size: 14px; color: #64748b; line-height: 1.55; }
 
+    /* ── PROFILE ────────────────────────────────────── */
+    .profile-section { margin-bottom: 22px; }
+    .profile-label {
+      font-size: 12px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: .6px; color: #94a3b8; margin-bottom: 10px;
+    }
+    .pill-group { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill {
+      padding: 8px 14px; border-radius: 20px; border: 1.5px solid #e2e8f0;
+      background: #fff; font-size: 13px; font-weight: 500; color: #475569;
+      cursor: pointer; user-select: none;
+    }
+    .pill:active { background: #f1f5f9; }
+    .pill.sel { background: #1a2f5e; border-color: #1a2f5e; color: #fff; }
+
+    /* ── FOR YOU ─────────────────────────────────────── */
+    .fy-head {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .fy-edit {
+      font-size: 12px; color: #2563eb; background: none;
+      border: none; cursor: pointer; padding: 0;
+    }
+    .personalize-card {
+      background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px;
+      padding: 13px 14px; margin-bottom: 16px;
+      display: flex; align-items: center; justify-content: space-between;
+      cursor: pointer; user-select: none;
+    }
+    .personalize-card:active { background: #dbeafe; }
+    .fy-title { font-size: 14px; font-weight: 600; color: #1d4ed8; }
+    .fy-sub   { font-size: 12px; color: #3b82f6; margin-top: 2px; }
+    .divider-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .6px; color: #94a3b8; margin: 16px 0 10px; }
+
     /* ── SUPPORT LINK (Phase 3) ─────────────────────── */
     .support-wrap { text-align: center; margin-top: 20px; padding-bottom: 4px; }
     .support-link {
@@ -206,6 +241,12 @@
       <path d="M12 21C12 21 3 14.5 3 8.5a5 5 0 019-3 5 5 0 019 3c0 6-9 12.5-9 12.5z"/>
     </svg>
     Saved
+  </button>
+  <button id="nb-profile" class="nav-btn" onclick="go('profile')">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+    </svg>
+    Profile
   </button>
 </nav>
 
@@ -358,6 +399,36 @@ const saveFavs = () => localStorage.setItem("mil-favs", JSON.stringify(favs));
 // ── REMOTE CONFIG ─────────────────────────────────────────────────────────────
 let CONFIG = { donation_active: false, donation_link: "" };
 
+// ── PROFILE ───────────────────────────────────────────────────────────────────
+let PROFILE = JSON.parse(localStorage.getItem("mil-profile") || "null");
+// { status: "active-duty", branch: "all-branches", rankType: "all-ranks" }
+
+function setProfile(key, value) {
+  if (!PROFILE) PROFILE = { status: null, branch: "all-branches", rankType: "all-ranks" };
+  PROFILE[key] = (key === "status" && PROFILE.status === value) ? null : value;
+  if (!PROFILE.status) { PROFILE = null; localStorage.removeItem("mil-profile"); }
+  else localStorage.setItem("mil-profile", JSON.stringify(PROFILE));
+  if (S.screen === "profile") renderProfile();
+}
+
+function clearProfile() {
+  PROFILE = null;
+  localStorage.removeItem("mil-profile");
+  go("home");
+}
+
+function matchesProfile(t) {
+  if (!PROFILE || !PROFILE.status) return false;
+  if (!t.etiketler.includes(PROFILE.status)) return false;
+  const okBranch = t.etiketler.includes("all-branches") ||
+                   PROFILE.branch === "all-branches" ||
+                   t.etiketler.includes(PROFILE.branch);
+  if (!okBranch) return false;
+  return t.etiketler.includes("all-ranks") ||
+         PROFILE.rankType === "all-ranks" ||
+         t.etiketler.includes(PROFILE.rankType);
+}
+
 function toggleFav(id) {
   const i = favs.indexOf(id);
   i === -1 ? favs.push(id) : favs.splice(i, 1);
@@ -395,8 +466,9 @@ function topicRow(t) {
 // ── RENDER ────────────────────────────────────────────────────────────────────
 function render() {
   // Update nav active states
-  ["home","search","favorites"].forEach(id => {
+  ["home","search","favorites","profile"].forEach(id => {
     const btn = document.getElementById("nb-" + id);
+    if (!btn) return;
     const active = id === "home"
       ? ["home","category","topic"].includes(S.screen)
       : S.screen === id;
@@ -405,8 +477,11 @@ function render() {
   // Heart fill/outline
   const h = document.getElementById("heart-svg");
   if (h) { h.setAttribute("fill", favs.length ? "currentColor" : "none"); }
+  // Profile dot when profile is set
+  const pb = document.getElementById("nb-profile");
+  if (pb) pb.style.color = (PROFILE && S.screen !== "profile") ? "#2563eb" : "";
 
-  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites };
+  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile };
   (screens[S.screen] || renderHome)();
 }
 
@@ -414,6 +489,28 @@ function render() {
 function renderHome() {
   $h(`<div class="hrow"><span class="htitle">Mil-Rights</span></div>
       <div class="hsub">Know your rights — find the official source.</div>`);
+
+  // For You section
+  let topHtml = "";
+  if (PROFILE && PROFILE.status) {
+    const matched = DATA.konular.filter(matchesProfile);
+    if (matched.length) {
+      topHtml = `<div class="fy-head">
+          <span class="slabel" style="margin-bottom:0">For You</span>
+          <button class="fy-edit" onclick="go('profile')">Edit Profile</button>
+        </div>
+        ${matched.map(topicRow).join("")}
+        <div class="divider-label">All Categories</div>`;
+    }
+  } else {
+    topHtml = `<div class="personalize-card" onclick="go('profile')">
+        <div>
+          <div class="fy-title">Get topics for your situation</div>
+          <div class="fy-sub">Set up your profile →</div>
+        </div>
+        ${chevronSvg()}
+      </div>`;
+  }
 
   const cards = CATS.map(c => {
     const n = DATA.konular.filter(t => t.ana_baslik === c.id).length;
@@ -435,7 +532,7 @@ function renderHome() {
       </div>`
     : "";
 
-  $c(`<div class="grid">${cards}</div>${supportHtml}`);
+  $c(`${topHtml}<div class="grid">${cards}</div>${supportHtml}`);
 }
 
 // ── CATEGORY ──────────────────────────────────────────────────────────────────
@@ -573,6 +670,67 @@ function renderFavorites() {
         <div class="empty-desc">Open any topic and tap "Save This Topic" to add it here.</div>
       </div>`
   );
+}
+
+// ── PROFILE SCREEN ───────────────────────────────────────────────────────────
+function renderProfile() {
+  $h(`<div class="hrow">
+        <button class="back-btn" onclick="go('home')" aria-label="Back">&#8249;</button>
+        <span class="htitle">Your Profile</span>
+      </div>
+      <div class="hsub">Topics will be matched to your situation.</div>`);
+
+  const p = PROFILE || { status: null, branch: "all-branches", rankType: "all-ranks" };
+
+  const STATUSES = [
+    { id:"active-duty",    label:"Active Duty" },
+    { id:"veteran",        label:"Veteran" },
+    { id:"reservist",      label:"Reservist" },
+    { id:"national-guard", label:"National Guard" },
+    { id:"family-member",  label:"Family Member" },
+    { id:"green-card",     label:"Green-Card Service Member" },
+  ];
+  const BRANCHES = [
+    { id:"all-branches", label:"Any Branch" },
+    { id:"army",         label:"Army" },
+    { id:"navy",         label:"Navy" },
+    { id:"marines",      label:"Marines" },
+    { id:"air-force",    label:"Air Force" },
+    { id:"space-force",  label:"Space Force" },
+    { id:"coast-guard",  label:"Coast Guard" },
+  ];
+  const RANKS = [
+    { id:"all-ranks",      label:"Any Rank" },
+    { id:"enlisted",       label:"Enlisted" },
+    { id:"officer",        label:"Officer" },
+    { id:"warrant-officer",label:"Warrant Officer" },
+  ];
+
+  const pills = (list, key, current) => list.map(o =>
+    `<button class="pill ${current === o.id ? "sel" : ""}" onclick="setProfile('${key}','${o.id}')">${o.label}</button>`
+  ).join("");
+
+  const matchCount = PROFILE ? DATA.konular.filter(matchesProfile).length : 0;
+  const matchNote = PROFILE && PROFILE.status
+    ? `<p style="font-size:13px;color:#64748b;margin-bottom:20px">${matchCount} topic${matchCount!==1?"s":""} match your profile.</p>`
+    : `<p style="font-size:13px;color:#94a3b8;margin-bottom:20px">Select your status to see matched topics on the home screen.</p>`;
+
+  $c(`${matchNote}
+    <div class="profile-section">
+      <div class="profile-label">I am a…</div>
+      <div class="pill-group">${pills(STATUSES,"status",p.status)}</div>
+    </div>
+    <div class="profile-section">
+      <div class="profile-label">My branch <span style="font-weight:400;text-transform:none;color:#94a3b8;letter-spacing:0">(optional)</span></div>
+      <div class="pill-group">${pills(BRANCHES,"branch",p.branch||"all-branches")}</div>
+    </div>
+    <div class="profile-section">
+      <div class="profile-label">My rank type <span style="font-weight:400;text-transform:none;color:#94a3b8;letter-spacing:0">(optional)</span></div>
+      <div class="pill-group">${pills(RANKS,"rankType",p.rankType||"all-ranks")}</div>
+    </div>
+    <button class="btn btn-primary" onclick="go('home')" style="margin-top:4px">Done</button>
+    ${PROFILE ? `<button class="btn btn-secondary" onclick="clearProfile()">Clear Profile</button>` : ""}
+  `);
 }
 
 // ── INIT ──────────────────────────────────────────────────────────────────────

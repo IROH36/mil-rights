@@ -11,6 +11,21 @@
 
 ---
 
+## Phase 5 — Profile filter tests
+| Date | Feature tested | Where | Result |
+|------|----------------|-------|--------|
+|      | Profile screen opens via nav tab | Browser desktop | |
+|      | Tapping status pill selects it (highlights); tapping again deselects | Browser desktop | |
+|      | Branch + rank pills work independently | Browser desktop | |
+|      | Home: "Get topics for your situation" hint shown when no profile set | Browser desktop | |
+|      | Home → profile → select Active Duty → Done → "For You" section appears | Browser desktop | |
+|      | "For You" topics match selected status/branch/rank tags correctly | Browser desktop | |
+|      | "Edit Profile" link on home → opens profile screen | Browser desktop | |
+|      | Clear Profile → For You section disappears, hint card returns | Browser desktop | |
+|      | Profile persists after page refresh | Browser desktop | |
+|      | Profile tab icon turns blue when profile is active | Browser desktop | |
+|      | All above on real device | Friend's iPhone (US) | |
+
 ## Phase 3 — Donation module tests
 | Date | Feature tested | Where | Result |
 |------|----------------|-------|--------|

@@ -29,9 +29,13 @@ back-nav context-aware, empty states, SVG icons, iOS safe-area, Phase 3 support 
 
 ---
 
-## Phase 5 — Profile filter (Model A)  — status: not started
-User picks status/branch/rank; relevant topics surface via tags. Data is already
-tagged, so this is code-only.
+## Phase 5 — Profile filter  — status: done ✓
+4th nav tab "Profile": user selects status (required) + branch + rank type (optional).
+Selections saved to localStorage. Home screen shows "For You" section with tag-matched
+topics when profile is set; shows "Get topics for your situation" hint card when not.
+Profile icon turns blue when a profile is active. Clear Profile removes all selections.
+Matching logic: topic must have user's status tag AND (all-branches OR user's branch)
+AND (all-ranks OR user's rank type).
 
 ## Phase 4 — iOS packaging & App Store release  — status: not started
 Capacitor → iOS, Apple Developer ($99), privacy policy + privacy label,
