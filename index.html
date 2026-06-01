@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mil-Rights — U.S. Military Rights Guide</title>
+  <style>
+    /* ── RESET & BASE ───────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    html { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      height: 100dvh;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /* ── DISCLAIMER (always visible) ───────────────── */
+    .disclaimer {
+      flex-shrink: 0;
+      background: #991b1b;
+      color: #fff;
+      text-align: center;
+      padding: 6px 12px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+    }
+
+    /* ── HEADER ─────────────────────────────────────── */
+    .header {
+      flex-shrink: 0;
+      background: #1a2f5e;
+      color: #fff;
+      padding: 14px 16px 12px;
+    }
+    .hrow { display: flex; align-items: center; gap: 6px; }
+    .back-btn {
+      background: none; border: none; color: #fff;
+      font-size: 26px; line-height: 1; cursor: pointer;
+      padding: 0 4px 0 0; margin-left: -4px;
+    }
+    .htitle { font-size: 20px; font-weight: 700; }
+    .hsub   { font-size: 12px; color: rgba(255,255,255,.6); margin-top: 2px; }
+
+    /* ── CONTENT ────────────────────────────────────── */
+    .content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* ── CATEGORY GRID ──────────────────────────────── */
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .cat-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 18px 12px 16px;
+      border: 1px solid #e2e8f0;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .cat-card:active { background: #f8fafc; }
+    .cat-icon {
+      width: 48px; height: 48px; border-radius: 13px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 10px;
+      font-size: 22px; font-weight: 700;
+    }
+    .cat-name  { font-size: 13px; font-weight: 600; line-height: 1.3; color: #1e293b; }
+    .cat-count { font-size: 11px; color: #94a3b8; margin-top: 4px; }
+
+    /* ── TOPIC LIST ITEM ────────────────────────────── */
+    .topic-item {
+      background: #fff; border-radius: 12px;
+      padding: 14px 16px; margin-bottom: 8px;
+      border: 1px solid #e2e8f0;
+      display: flex; align-items: center; gap: 12px;
+      cursor: pointer; user-select: none;
+    }
+    .topic-item:active { background: #f8fafc; }
+    .tinfo  { flex: 1; min-width: 0; }
+    .ttitle { font-size: 15px; font-weight: 500; line-height: 1.3; }
+    .tmeta  { font-size: 12px; color: #64748b; margin-top: 3px; }
+    .fav-dot { width: 8px; height: 8px; background: #dc2626; border-radius: 50%; flex-shrink: 0; }
+    .chevron { color: #cbd5e1; flex-shrink: 0; }
+    .chevron svg { display: block; }
+
+    /* ── TOPIC DETAIL ───────────────────────────────── */
+    .detail-head {
+      background: #1a2f5e; color: #fff;
+      padding: 20px 16px 18px;
+      margin: -16px -16px 16px;
+    }
+    .detail-title  { font-size: 19px; font-weight: 700; line-height: 1.35; }
+    .source-badge  {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: rgba(255,255,255,.15); border-radius: 20px;
+      padding: 4px 11px; font-size: 12px; margin-top: 10px;
+    }
+    .summary-card {
+      background: #fff; border-radius: 14px;
+      padding: 16px; border: 1px solid #e2e8f0;
+      margin-bottom: 12px;
+    }
+    .summary-text  { font-size: 15px; line-height: 1.65; color: #334155; }
+    .summary-empty { font-size: 14px; color: #94a3b8; font-style: italic; }
+
+    .btn {
+      display: flex; align-items: center; justify-content: center;
+      gap: 8px; width: 100%; border-radius: 12px; padding: 15px;
+      font-size: 15px; font-weight: 600; cursor: pointer; border: none;
+      margin-bottom: 10px; text-decoration: none;
+    }
+    .btn-primary   { background: #2563eb; color: #fff; }
+    .btn-primary:active { background: #1d4ed8; }
+    .btn-secondary { background: #fff; color: #1e293b; border: 1px solid #e2e8f0; font-weight: 500; }
+    .btn-secondary:active { background: #f8fafc; }
+    .btn-fav       { color: #dc2626 !important; border-color: #fca5a5 !important; }
+
+    .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      background: #eff6ff; color: #2563eb;
+      border-radius: 20px; padding: 3px 10px;
+      font-size: 11px; font-weight: 500;
+    }
+    .verified-note { font-size: 11px; color: #94a3b8; text-align: center; margin-top: 16px; }
+
+    /* ── SEARCH ─────────────────────────────────────── */
+    .search-wrap { position: relative; margin-bottom: 16px; }
+    .search-input {
+      width: 100%; padding: 13px 16px 13px 44px;
+      border: 1px solid #e2e8f0; border-radius: 12px;
+      font-size: 15px; background: #fff; outline: none; color: #1e293b;
+    }
+    .search-input:focus { border-color: #2563eb; }
+    .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #94a3b8; pointer-events: none; }
+
+    /* ── SECTION LABEL ──────────────────────────────── */
+    .slabel {
+      font-size: 12px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: .6px; color: #94a3b8; margin-bottom: 10px;
+    }
+
+    /* ── EMPTY STATE ────────────────────────────────── */
+    .empty { text-align: center; padding: 52px 24px; }
+    .empty-icon  { margin-bottom: 14px; }
+    .empty-title { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+    .empty-desc  { font-size: 14px; color: #64748b; line-height: 1.55; }
+
+    /* ── BOTTOM NAV ─────────────────────────────────── */
+    .bottom-nav {
+      flex-shrink: 0;
+      display: flex;
+      background: #fff;
+      border-top: 1px solid #e2e8f0;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    .nav-btn {
+      flex: 1; background: none; border: none;
+      padding: 10px 0 11px;
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+      cursor: pointer; color: #94a3b8;
+      font-size: 10px; font-weight: 600; letter-spacing: .3px;
+    }
+    .nav-btn.active { color: #2563eb; }
+    .nav-btn svg { display: block; }
+  </style>
+</head>
+<body>
+
+<div class="disclaimer">This is NOT an official government or military resource</div>
+<div id="hd" class="header"></div>
+<div id="ct" class="content"></div>
+<nav class="bottom-nav">
+  <button id="nb-home" class="nav-btn" onclick="go('home')">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 12L12 3l9 9"/><path d="M9 21V12h6v9"/><path d="M3 12v9h18v-9"/>
+    </svg>
+    Home
+  </button>
+  <button id="nb-search" class="nav-btn" onclick="go('search')">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/>
+    </svg>
+    Search
+  </button>
+  <button id="nb-favorites" class="nav-btn" onclick="go('favorites')">
+    <svg id="heart-svg" width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21C12 21 3 14.5 3 8.5a5 5 0 019-3 5 5 0 019 3c0 6-9 12.5-9 12.5z"/>
+    </svg>
+    Saved
+  </button>
+</nav>
+
+<script>
+// ── DATA ─────────────────────────────────────────────────────────────────────
+// Mirrors konular.json — update both when adding topics (Phase 0).
+const DATA = { konular: [
+  // CITIZENSHIP & IMMIGRATION
+  {
+    id: "naturalization-military",
+    ana_baslik: "citizenship",
+    baslik: "Naturalization Through Military Service",
+    ozet: "",
+    resmi_link: "https://www.uscis.gov/military/naturalization-through-military-service",
+    kaynak_adi: "USCIS",
+    etiketler: ["green-card", "active-duty", "all-branches", "all-ranks"],
+    son_kontrol: ""
+  },
+  {
+    id: "military-parole-in-place",
+    ana_baslik: "citizenship",
+    baslik: "Military Parole in Place",
+    ozet: "",
+    resmi_link: "https://www.uscis.gov/military/military-parole-in-place",
+    kaynak_adi: "USCIS",
+    etiketler: ["family-member", "green-card"],
+    son_kontrol: ""
+  },
+  // PAY & BENEFITS
+  {
+    id: "military-basic-pay",
+    ana_baslik: "pay",
+    baslik: "Military Basic Pay",
+    ozet: "",
+    resmi_link: "https://www.dfas.mil/militarymembers/payentitlements/militarypay/",
+    kaynak_adi: "DFAS",
+    etiketler: ["active-duty", "all-branches", "all-ranks"],
+    son_kontrol: ""
+  },
+  {
+    id: "basic-allowance-housing",
+    ana_baslik: "pay",
+    baslik: "Basic Allowance for Housing (BAH)",
+    ozet: "",
+    resmi_link: "https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/",
+    kaynak_adi: "Defense Travel Management Office",
+    etiketler: ["active-duty", "all-branches"],
+    son_kontrol: ""
+  },
+  // HEALTHCARE
+  {
+    id: "tricare-plans",
+    ana_baslik: "healthcare",
+    baslik: "TRICARE Health Plans",
+    ozet: "",
+    resmi_link: "https://www.tricare.mil/Plans",
+    kaynak_adi: "TRICARE",
+    etiketler: ["active-duty", "veteran", "family-member", "all-branches"],
+    son_kontrol: ""
+  },
+  {
+    id: "va-health-care",
+    ana_baslik: "healthcare",
+    baslik: "VA Health Care Benefits",
+    ozet: "",
+    resmi_link: "https://www.va.gov/health-care/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["veteran"],
+    son_kontrol: ""
+  },
+  // FAMILY & EDUCATION
+  {
+    id: "gi-bill",
+    ana_baslik: "family",
+    baslik: "GI Bill Education Benefits",
+    ozet: "",
+    resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["active-duty", "veteran", "all-branches"],
+    son_kontrol: ""
+  },
+  {
+    id: "dependent-id-deers",
+    ana_baslik: "family",
+    baslik: "Dependent ID Cards (DEERS)",
+    ozet: "",
+    resmi_link: "https://www.militaryonesource.mil/military-life-cycle/new-to-the-military/benefits/id-cards/",
+    kaynak_adi: "Military OneSource",
+    etiketler: ["family-member", "all-branches"],
+    son_kontrol: ""
+  },
+  // HOUSING
+  {
+    id: "scra-rights",
+    ana_baslik: "housing",
+    baslik: "Servicemembers Civil Relief Act (SCRA)",
+    ozet: "",
+    resmi_link: "https://www.militaryonesource.mil/financial-legal/legal-assistance/personal-legal-affairs/the-servicemembers-civil-relief-act/",
+    kaynak_adi: "Military OneSource",
+    etiketler: ["active-duty", "reservist", "all-branches"],
+    son_kontrol: ""
+  },
+  {
+    id: "off-post-renting",
+    ana_baslik: "housing",
+    baslik: "Off-Post Renting & Housing Rights",
+    ozet: "",
+    resmi_link: "https://www.militaryonesource.mil/housing-and-moving/housing/renting-or-buying-off-post/",
+    kaynak_adi: "Military OneSource",
+    etiketler: ["active-duty", "all-branches"],
+    son_kontrol: ""
+  },
+  // VETERANS & RETIREMENT
+  {
+    id: "va-disability",
+    ana_baslik: "veterans",
+    baslik: "VA Disability Compensation",
+    ozet: "",
+    resmi_link: "https://www.va.gov/disability/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["veteran"],
+    son_kontrol: ""
+  },
+  {
+    id: "veterans-pension",
+    ana_baslik: "veterans",
+    baslik: "Veterans Pension Program",
+    ozet: "",
+    resmi_link: "https://www.va.gov/pension/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["veteran"],
+    son_kontrol: ""
+  }
+]};
+
+const CATS = [
+  { id:"citizenship", name:"Citizenship & Immigration", abbr:"§", color:"#2563eb", bg:"#dbeafe" },
+  { id:"pay",         name:"Pay & Benefits",            abbr:"$", color:"#059669", bg:"#d1fae5" },
+  { id:"healthcare",  name:"Healthcare",                abbr:"+", color:"#dc2626", bg:"#fee2e2" },
+  { id:"family",      name:"Family & Education",        abbr:"F", color:"#7c3aed", bg:"#ede9fe" },
+  { id:"housing",     name:"Housing",                   abbr:"H", color:"#d97706", bg:"#fef3c7" },
+  { id:"veterans",    name:"Veterans & Retirement",     abbr:"★", color:"#1a2f5e", bg:"#e0e7ff" },
+];
+
+// ── STATE ─────────────────────────────────────────────────────────────────────
+let S = { screen:"home", category:null, topicId:null, prev:"home", query:"" };
+let favs = JSON.parse(localStorage.getItem("mil-favs") || "[]");
+const saveFavs = () => localStorage.setItem("mil-favs", JSON.stringify(favs));
+
+function toggleFav(id) {
+  const i = favs.indexOf(id);
+  i === -1 ? favs.push(id) : favs.splice(i, 1);
+  saveFavs();
+  render();
+}
+
+// ── NAVIGATE ──────────────────────────────────────────────────────────────────
+function go(screen, params={}) {
+  S = { ...S, prev: S.screen, screen, ...params };
+  document.getElementById("ct").scrollTop = 0;
+  render();
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+const $h = html => { document.getElementById("hd").innerHTML = html; };
+const $c = html => { document.getElementById("ct").innerHTML = html; };
+
+function chevronSvg() {
+  return `<span class="chevron"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>`;
+}
+
+function topicRow(t) {
+  const isFav = favs.includes(t.id);
+  return `<div class="topic-item" onclick="go('topic',{topicId:'${t.id}',category:'${t.ana_baslik}'})">
+    <div class="tinfo">
+      <div class="ttitle">${t.baslik}</div>
+      <div class="tmeta">${t.kaynak_adi}</div>
+    </div>
+    ${isFav ? '<span class="fav-dot"></span>' : ''}
+    ${chevronSvg()}
+  </div>`;
+}
+
+// ── RENDER ────────────────────────────────────────────────────────────────────
+function render() {
+  // Update nav active states
+  ["home","search","favorites"].forEach(id => {
+    const btn = document.getElementById("nb-" + id);
+    const active = id === "home"
+      ? ["home","category","topic"].includes(S.screen)
+      : S.screen === id;
+    btn.classList.toggle("active", active);
+  });
+  // Heart fill/outline
+  const h = document.getElementById("heart-svg");
+  if (h) { h.setAttribute("fill", favs.length ? "currentColor" : "none"); }
+
+  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites };
+  (screens[S.screen] || renderHome)();
+}
+
+// ── HOME ──────────────────────────────────────────────────────────────────────
+function renderHome() {
+  $h(`<div class="hrow"><span class="htitle">Mil-Rights</span></div>
+      <div class="hsub">Know your rights — find the official source.</div>`);
+
+  const cards = CATS.map(c => {
+    const n = DATA.konular.filter(t => t.ana_baslik === c.id).length;
+    return `<div class="cat-card" onclick="go('category',{category:'${c.id}'})">
+      <div class="cat-icon" style="background:${c.bg};color:${c.color}">${c.abbr}</div>
+      <div class="cat-name">${c.name}</div>
+      <div class="cat-count">${n} topic${n!==1?"s":""}</div>
+    </div>`;
+  }).join("");
+
+  $c(`<div class="grid">${cards}</div>`);
+}
+
+// ── CATEGORY ──────────────────────────────────────────────────────────────────
+function renderCategory() {
+  const cat = CATS.find(c => c.id === S.category) || CATS[0];
+  const topics = DATA.konular.filter(t => t.ana_baslik === S.category);
+
+  $h(`<div class="hrow">
+        <button class="back-btn" onclick="go('home')" aria-label="Back">&#8249;</button>
+        <span class="htitle">${cat.name}</span>
+      </div>
+      <div class="hsub">${topics.length} topic${topics.length!==1?"s":""}</div>`);
+
+  $c(topics.length
+    ? topics.map(topicRow).join("")
+    : `<div class="empty">
+        <div class="empty-icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" stroke-width="1.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg></div>
+        <div class="empty-title">No topics yet</div>
+        <div class="empty-desc">Content for this section is being collected from official sources.</div>
+      </div>`
+  );
+}
+
+// ── TOPIC ─────────────────────────────────────────────────────────────────────
+function renderTopic() {
+  const t = DATA.konular.find(k => k.id === S.topicId);
+  if (!t) { go("home"); return; }
+  const isFav = favs.includes(t.id);
+
+  const backFn = S.prev === "search" ? "go('search')"
+               : S.prev === "favorites" ? "go('favorites')"
+               : `go('category',{category:'${t.ana_baslik}'})`;
+
+  $h(`<div class="hrow">
+        <button class="back-btn" onclick="${backFn}" aria-label="Back">&#8249;</button>
+        <span class="htitle">Know Your Rights</span>
+      </div>`);
+
+  const summaryHtml = t.ozet
+    ? `<p class="summary-text">${t.ozet}</p>`
+    : `<p class="summary-empty">Summary not yet available — content for this topic is being verified directly from the official source.</p>`;
+
+  const tags = t.etiketler.map(g => `<span class="tag">${g}</span>`).join("");
+
+  $c(`<div class="detail-head">
+        <div class="detail-title">${t.baslik}</div>
+        <span class="source-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          ${t.kaynak_adi}
+        </span>
+      </div>
+
+      <div class="summary-card">${summaryHtml}</div>
+
+      <a href="${t.resmi_link}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        Go to Official Page
+      </a>
+
+      <button class="btn btn-secondary ${isFav ? "btn-fav" : ""}" onclick="toggleFav('${t.id}')">
+        <svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="${isFav ? "currentColor" : "none"}">
+          <path d="M12 21C12 21 3 14.5 3 8.5a5 5 0 019-3 5 5 0 019 3c0 6-9 12.5-9 12.5z"/>
+        </svg>
+        ${isFav ? "Remove from Saved" : "Save This Topic"}
+      </button>
+
+      <div style="margin-top:8px">
+        <div class="slabel">Tags</div>
+        <div class="tag-list">${tags}</div>
+      </div>
+
+      ${t.son_kontrol ? `<p class="verified-note">Last verified: ${t.son_kontrol}</p>` : ""}`
+  );
+}
+
+// ── SEARCH ────────────────────────────────────────────────────────────────────
+function renderSearch() {
+  $h(`<div class="hrow"><span class="htitle">Search</span></div>`);
+  $c(`<div class="search-wrap">
+        <span class="search-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+        </span>
+        <input id="sq" class="search-input" type="search" placeholder="Topic, benefit, or tag…"
+          value="${S.query.replace(/"/g,'&quot;')}"
+          oninput="S.query=this.value;updateResults()">
+      </div>
+      <div id="results"></div>`);
+
+  const el = document.getElementById("sq");
+  if (el) { el.focus(); const l = el.value.length; el.setSelectionRange(l,l); }
+  updateResults();
+}
+
+function updateResults() {
+  const q = S.query.toLowerCase().trim();
+  const el = document.getElementById("results");
+  if (!el) return;
+
+  if (!q) {
+    el.innerHTML = `<div class="empty">
+      <div class="empty-icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></div>
+      <div class="empty-title">Search topics</div>
+      <div class="empty-desc">Type a keyword, benefit name, or tag like "veteran" or "tricare".</div>
+    </div>`;
+    return;
+  }
+
+  const hits = DATA.konular.filter(t =>
+    t.baslik.toLowerCase().includes(q) ||
+    t.kaynak_adi.toLowerCase().includes(q) ||
+    t.etiketler.some(g => g.includes(q)) ||
+    t.ana_baslik.includes(q)
+  );
+
+  el.innerHTML = hits.length
+    ? `<div class="slabel">${hits.length} result${hits.length!==1?"s":""}</div>` + hits.map(topicRow).join("")
+    : `<div class="empty">
+        <div class="empty-title">No results for "${q}"</div>
+        <div class="empty-desc">Try a different keyword or browse by category.</div>
+      </div>`;
+}
+
+// ── FAVORITES ─────────────────────────────────────────────────────────────────
+function renderFavorites() {
+  $h(`<div class="hrow"><span class="htitle">Saved Topics</span></div>`);
+
+  const saved = DATA.konular.filter(t => favs.includes(t.id));
+  $c(saved.length
+    ? `<div class="slabel">${saved.length} saved</div>` + saved.map(topicRow).join("")
+    : `<div class="empty">
+        <div class="empty-icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round">
+          <path d="M12 21C12 21 3 14.5 3 8.5a5 5 0 019-3 5 5 0 019 3c0 6-9 12.5-9 12.5z"/>
+        </svg></div>
+        <div class="empty-title">No saved topics yet</div>
+        <div class="empty-desc">Open any topic and tap "Save This Topic" to add it here.</div>
+      </div>`
+  );
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+render();
+</script>
+</body>
+</html>

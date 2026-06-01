@@ -14,7 +14,19 @@
 ## Phase 1 — MVP tests
 | Date | Feature tested | Where | Result |
 |------|----------------|-------|--------|
-|      |                |       |        |
+|      | Home: 6 category cards render, correct topic counts | Browser desktop | |
+|      | Home: tap category → opens topic list | Browser desktop | |
+|      | Topic detail: "Go to Official Page" opens correct URL in new tab | Browser desktop | |
+|      | Topic detail: Save/Remove toggles correctly, red dot appears in list | Browser desktop | |
+|      | Search: live filter works, correct results for "veteran", "tricare", "naturalization" | Browser desktop | |
+|      | Search: empty state shown when no query | Browser desktop | |
+|      | Favorites: saved topics appear, empty state shown when none | Browser desktop | |
+|      | Back navigation: from topic → returns to category | Browser desktop | |
+|      | Back navigation: from topic (via search) → returns to search | Browser desktop | |
+|      | Disclaimer banner: visible on every screen | Browser desktop | |
+|      | Layout: no overflow, no cut-off elements on iPhone size (375px) | Browser phone view (F12) | |
+|      | Favorites persist after page refresh | Browser desktop | |
+|      | All above on real device | Friend's iPhone (US) | |
 
 ## Phase 0 — Content tests
 | Date | What checked | Where | Result |

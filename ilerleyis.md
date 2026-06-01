@@ -5,6 +5,22 @@
 
 ---
 
+## Phase 1 — App Store-ready MVP  — status: in progress ⚙
+`index.html` built (2026-06-01): 6-category home grid, topic list, topic detail,
+live search, favorites (localStorage), "NOT OFFICIAL" banner on every screen,
+back-nav aware of previous screen (search/favorites), empty states, SVG icons,
+iOS safe-area padding. 12 placeholder topics across all 6 categories. Summaries
+empty pending Phase 0. No CDN, no build step — opens in any browser directly.
+- [x] 6 category cards + topic list screen
+- [x] Topic detail + "Go to official page" button
+- [x] Live search across all topics
+- [x] Favorites (save/remove, persisted in localStorage)
+- [x] Offline (data embedded in HTML)
+- [x] Visible "NOT OFFICIAL" disclaimer on every screen
+- [ ] Phase 0 summaries filled in (blocks App Store submission)
+
+---
+
 ## Phase 5 — Profile filter (Model A)  — status: not started
 User picks status/branch/rank; relevant topics surface via tags. Data is already
 tagged, so this is code-only.
