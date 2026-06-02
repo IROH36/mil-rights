@@ -2,6 +2,10 @@
 
 ---
 
+## Content expansion: 36 new topics — status: done ✓ (2026-06-02)
+181 topics total (was 145). All summaries fetched from live official pages.
+Notable additions: Camp Lejeune, VA vision care, VA long-term care, BRS, NADL, spina bifida, CWVV birth defects, VA copay hardship, STEM scholarship, VET TEC 2.0, VA Whole Health, Project 112/SHAD, GI Bill licensing tests, GI Bill OJT, GI Bill flight training, GI Bill foreign schools, GI Bill correspondence, VA travel pay, VADIP dental insurance, VA prescription refills, VA debt management, VA radiation exposure, IBM SkillsBuild, VA mustard gas exposure, Gulf War illness (Afghanistan), VA automobile allowance, 1151 claims, prestabilization rating, temporary 100% rating (surgery/hospital), TRICARE USFHP, TRICARE Prime Overseas, TRICARE Prime Remote Overseas, VA clothing allowance (disability), VA asbestos exposure, VA Gulf War illness Afghanistan.
+
 ## Content expansion: 8 new topics — status: done ✓ (2026-06-02)
 153 topics total (was 145). All summaries fetched from live official pages.
 - Veterans: Camp Lejeune water contamination health care (publichealth.va.gov)
