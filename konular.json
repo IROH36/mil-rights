@@ -1529,6 +1529,36 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-travel-pay",
+      "ana_baslik": "veterans",
+      "baslik": "VA Beneficiary Travel Pay Reimbursement",
+      "ozet": "VA beneficiary travel pay reimburses eligible veterans and caregivers for transportation costs — including mileage, parking, tolls, and preapproved meals or lodging — when traveling to and from approved VA health care appointments. Veterans qualify if they have a 30% or higher disability rating, receive a VA pension, have income below pension limits, are traveling for service-connected treatment, or face financial hardship. Claims must be filed within 30 days of the appointment through the Beneficiary Travel Self-Service System (BTSSS) online, or via VA Form 10-3542 in person or by mail.",
+      "resmi_link": "https://www.va.gov/health-care/file-travel-pay-reimbursement/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vadip-dental-insurance",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Dental Insurance Program (VADIP)",
+      "ozet": "The VA Dental Insurance Program (VADIP) offers discounted private dental insurance to veterans enrolled in VA health care and CHAMPVA beneficiaries who are not eligible for free VA dental coverage or who want supplemental coverage. VADIP plans — offered through Delta Dental and MetLife — cover a full range of services including diagnostics, preventive care, root canals, surgery, and emergency dental care. Veterans and eligible family members enroll directly through the chosen insurer's website.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/dental-care/dental-insurance/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-prescription-refills",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Prescription Refills and Medication Management",
+      "ozet": "Veterans enrolled in VA health care can refill and track VA prescriptions online through My HealtheVet on VA.gov, and view their complete medication list in one place. Eligibility for online prescription management requires an active VA health care enrollment and at least one prescription filled through a VA pharmacy. Support is available Monday–Friday, 8 a.m.–8 p.m. ET by phone, or 24/7 for general VA.gov account questions.",
+      "resmi_link": "https://www.va.gov/health-care/refill-track-prescriptions/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
