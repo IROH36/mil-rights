@@ -531,23 +531,293 @@
       "son_kontrol": "2026-06"
     },
     {
-      "id": "dic-compensation",
-      "ana_baslik": "veterans",
-      "baslik": "Dependency and Indemnity Compensation (DIC)",
-      "ozet": "DIC is a tax-free monthly benefit paid to eligible surviving spouses, dependent children, and parents of service members who died on active duty, or veterans whose death resulted from a service-connected condition. Surviving spouses must meet residency and marriage requirements; surviving children must be unmarried and under age 18 (or 23 if a full-time student); surviving parents must have income below established limits. Applications are submitted using VA Form 21P-534EZ (for veterans' survivors) or 21P-534a (for active-duty deaths) online via AccessVA, by mail to the VA Pension Intake Center, or through an accredited VSO representative.",
-      "resmi_link": "https://www.va.gov/disability/dependency-indemnity-compensation/",
-      "kaynak_adi": "U.S. Department of Veterans Affairs",
-      "etiketler": ["family-member","veteran","all-branches","all-ranks","survivor-benefit"],
+      "id": "fsgli",
+      "ana_baslik": "family",
+      "baslik": "FSGLI — Family Servicemembers' Group Life Insurance",
+      "ozet": "Family Servicemembers' Group Life Insurance (FSGLI) provides automatic term life coverage of up to $100,000 — but not exceeding the service member's own SGLI amount — for spouses of SGLI-covered service members, and $10,000 at no cost for each dependent child until age 18 (extending to age 22 for full-time college students, or indefinitely for children who became disabled before age 18). Spouses married after January 2, 2013 must enroll through the SGLI Online Enrollment System via milConnect; those married before that date were automatically enrolled. Monthly premiums vary by the spouse's age.",
+      "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/fsgli/",
+      "kaynak_adi": "VA",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
       "son_kontrol": "2026-06"
     },
     {
-      "id": "vgli-insurance",
+      "id": "mycaa-scholarship",
+      "ana_baslik": "family",
+      "baslik": "MyCAA Military Spouse Scholarship",
+      "ozet": "The My Career Advancement Account (MyCAA) Scholarship provides eligible military spouses with up to $4,000 in financial assistance (up to $2,000 per fiscal year) to pursue portable career credentials, including licenses, certifications, associate degrees, or continuing education courses at approved institutions. Eligibility requires the military sponsor to be on active Title 10 orders in pay grades E-1 through O-3, or Warrant Officers W-1 and W-2, including activated National Guard and Reserve members in those grades. Spouses apply through the MyCAA program website, and free 24/7 career coaching is available through Military OneSource at 800-342-9647.",
+      "resmi_link": "https://www.militaryonesource.mil/education-employment/for-spouses/mycaa-scholarship/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vgli",
       "ana_baslik": "veterans",
-      "baslik": "Veterans' Group Life Insurance (VGLI)",
-      "ozet": "VGLI allows service members to convert their SGLI coverage into term life insurance after leaving the military, for amounts from $10,000 up to $500,000 matching the SGLI coverage held at separation. Members must apply within 1 year and 120 days of leaving service; those who apply within the first 240 days are not required to provide evidence of good health. After the initial year, coverage can be increased in $25,000 increments every five years until age 60.",
+      "baslik": "VGLI — Veterans' Group Life Insurance",
+      "ozet": "Veterans' Group Life Insurance (VGLI) allows service members to convert their SGLI coverage to a renewable civilian term life insurance policy after separation, in an amount matching their final SGLI coverage and ranging from $10,000 to $500,000. Applications must be submitted within 1 year and 120 days of separation; applying within the first 240 days requires no proof of good health, while later applications require health verification. Coverage may be increased by $25,000 every five years up to the program maximum until age 60.",
       "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/vgli/",
-      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "kaynak_adi": "VA",
       "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-irrrl",
+      "ana_baslik": "housing",
+      "baslik": "VA Streamline Refinance (IRRRL)",
+      "ozet": "The VA Interest Rate Reduction Refinance Loan (IRRRL), commonly called a VA streamline refinance, allows veterans with an existing VA-backed home loan to refinance at a lower interest rate or to convert from an adjustable-rate to a fixed-rate mortgage — in most cases without a new appraisal or full credit underwriting. The VA funding fee and closing costs can be rolled into the new loan balance, making it possible to refinance with little to no upfront expense. To apply, contact any VA-approved private lender.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/loan-types/interest-rate-reduction-loan/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-aid-attendance",
+      "ana_baslik": "veterans",
+      "baslik": "VA Aid and Attendance / Housebound Benefits",
+      "ozet": "Aid and Attendance is a supplemental monthly pension payment for veterans or surviving spouses who require help with daily activities such as bathing, dressing, or eating; are bedridden; live in a nursing home due to mental or physical incapacity; or have severely limited vision. Housebound is a similar benefit for veterans substantially confined to their home due to a permanent disability — a beneficiary may receive one or the other, but not both simultaneously. Applications are submitted online at VA.gov, by mail using VA Form 21-2680 to the Pension Intake Center in Janesville, WI, or in person at the nearest VA regional office.",
+      "resmi_link": "https://www.va.gov/pension/aid-attendance-housebound/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tap-transition",
+      "ana_baslik": "veterans",
+      "baslik": "Transition Assistance Program (TAP)",
+      "ozet": "The Transition Assistance Program (TAP) is a mandatory DoD, VA, and Department of Labor program that prepares separating and retiring service members for civilian life, covering VA benefits, employment, education, financial management, and entrepreneurship. Service members with at least 180 continuous days on active duty begin TAP one year before separation or two years before retirement; spouses are eligible for certain components. The VA Benefits and Services TAP module is also available online at TAPevents.mil.",
+      "resmi_link": "https://www.benefits.va.gov/tap/",
+      "kaynak_adi": "VA / DoD",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "userra-employment",
+      "ana_baslik": "veterans",
+      "baslik": "USERRA — Civilian Employment Rights",
+      "ozet": "The Uniformed Services Employment and Reemployment Rights Act (USERRA) requires all public and private employers to promptly reemploy service members returning from military service in the same or a comparable position with the same seniority, pay, and benefits — provided cumulative military absences do not exceed five years. USERRA also prohibits discrimination in hiring, promotion, or other employment actions against anyone based on past, present, or future military service. Employees who believe their USERRA rights were violated can file a complaint with the Department of Labor's Veterans' Employment and Training Service (VETS) at dol.gov/vets.",
+      "resmi_link": "https://www.esgr.mil/USERRA/What-is-USERRA",
+      "kaynak_adi": "DoD / ESGR",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "overseas-housing-allowance",
+      "ana_baslik": "housing",
+      "baslik": "Overseas Housing Allowance (OHA)",
+      "ozet": "The Overseas Housing Allowance (OHA) is a reimbursement-based program that enables service members assigned to permanent duty overseas to privately lease civilian housing on the local economy when on-base quarters are unavailable or not assigned. Unlike the domestic BAH fixed-payment model, OHA reimburses the actual amounts service members spend on rent, utilities, and associated move-in costs, up to established rate ceilings that vary by pay grade and duty location. Service members initiate OHA by submitting DD Form 2367 with their lease agreement through their installation's housing or finance office.",
+      "resmi_link": "https://www.travel.dod.mil/Allowances/Overseas-Housing-Allowance/",
+      "kaynak_adi": "DTMO / DoD",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","housing-allowance"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dislocation-allowance",
+      "ana_baslik": "pay",
+      "baslik": "Dislocation Allowance (DLA)",
+      "ozet": "The Dislocation Allowance (DLA) partially reimburses service members for household relocation expenses incurred during a Permanent Change of Station (PCS) move, evacuation, or government-ordered housing change; it is generally authorized once per fiscal year. DLA is not available for a first PCS without dependents, for active duty entry without dependents, or for separation and retirement travel. Two rates apply — with or without dependents — based on whether authorized dependents also relocated; current rates are published by the Defense Travel Management Office and reimbursement is filed at the installation finance office.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/travelpay/armypcs/dislocationallowance/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-select",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Select",
+      "ozet": "TRICARE Select is a self-managed preferred provider organization (PPO) health plan available in the U.S. that allows eligible beneficiaries to see any TRICARE-authorized provider without a referral in most cases. Eligible beneficiaries include active-duty family members, retired service members and their families, activated National Guard and Reserve families, retirees age 60 and older, survivors, Medal of Honor recipients, and qualified former spouses — active-duty service members themselves are not eligible for this plan. Enrollment is required and costs include an annual enrollment fee, an outpatient deductible, and copayments that vary based on the military sponsor's status.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TS",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["veteran","family-member","reservist","national-guard","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vet-centers",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Vet Centers",
+      "ozet": "VA Vet Centers are community-based counseling centers that provide individual, group, marriage, and family counseling — including treatment for PTSD, depression, and military sexual trauma — at no cost to veterans, active-duty service members, National Guard, Reserve members, and their family members, in a non-clinical setting separate from the VA medical system. No VA enrollment or benefits eligibility is required to access Vet Center services. Reach the confidential 24/7 Vet Center Call Center at 1-877-927-8387 or find the nearest location using the VA.gov locator.",
+      "resmi_link": "https://www.vetcenter.va.gov/",
+      "kaynak_adi": "VA Vet Centers",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","family-member","all-branches","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dic",
+      "ana_baslik": "veterans",
+      "baslik": "Dependency and Indemnity Compensation (DIC)",
+      "ozet": "Dependency and Indemnity Compensation (DIC) is a tax-free monthly benefit paid to the surviving spouse, children, and parents of a service member or veteran who died on active duty or from a service-connected illness or injury — or who had a totally disabling service-connected rating for a specified period before death. Eligible surviving spouses must have been married to the veteran for at least one year, or have a child together, or have married within 15 years of the veteran's discharge. Apply using VA Form 21P-534EZ (spouse or child) or 21P-535 (parent) online at VA.gov, by mail to the VA Pension Intake Center in Janesville, WI, or through an accredited VSO representative.",
+      "resmi_link": "https://www.va.gov/disability/dependency-indemnity-compensation/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks","survivor-benefit","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-survivors-pension",
+      "ana_baslik": "veterans",
+      "baslik": "VA Survivors Pension",
+      "ozet": "The VA Survivors Pension provides monthly payments to eligible surviving spouses and unmarried dependent children of deceased wartime veterans whose income and net worth fall below limits set annually by Congress. Surviving spouses must not have remarried after the veteran's death, and the veteran must have served at least one day during a recognized wartime period without a dishonorable discharge; enlistees after September 7, 1980 generally require at least 24 months of active duty including wartime service. Applications are submitted online at VA.gov, by mail using VA Form 21P-534EZ to the Pension Intake Center in Janesville, WI, or in person at a VA regional office.",
+      "resmi_link": "https://www.va.gov/pension/survivors-pension/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks","retirement","survivor-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mgib-ad",
+      "ana_baslik": "veterans",
+      "baslik": "Montgomery GI Bill — Active Duty (MGIB-AD)",
+      "ozet": "The Montgomery GI Bill Active Duty (MGIB-AD, Chapter 30) provides education benefits for eligible veterans who contributed $1,200 during their service; benefits cover up to 36 months of payments for degree programs, vocational training, flight training, apprenticeships, licensing and certification exams, and online learning. Eligibility requires an honorable discharge, at least a high school diploma or GED, and continuous active duty service — typically two to four years depending on the enlistment agreement. Apply using VA Form 22-1990 at VA.gov and use the GI Bill Comparison Tool to find participating schools.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/montgomery-active-duty/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tuition-assistance",
+      "ana_baslik": "family",
+      "baslik": "Military Tuition Assistance (TA)",
+      "ozet": "Military Tuition Assistance (TA) is a DoD program that covers civilian education expenses for eligible active-duty service members — including National Guard and Reserve members on qualifying orders — to pursue degrees, certifications, and coursework while serving, with a government-wide annual cap of $4,500 and up to 18 semester hours per year. Participation requires supervisor or commander approval prior to enrollment; the approval and application process is managed through each branch's education portal (the Army uses ArmyIgnitED; other branches have equivalent platforms). TA can be combined with the GI Bill for the same period of service to help offset remaining education costs.",
+      "resmi_link": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Tuition-Assistance-(TA)",
+      "kaynak_adi": "The Official Army Benefits Website (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-decision-reviews",
+      "ana_baslik": "veterans",
+      "baslik": "VA Decision Reviews & Appeals",
+      "ozet": "Veterans who disagree with a VA benefits decision may choose one of three review paths: a Supplemental Claim (submit new and relevant evidence), a Higher-Level Review (a more senior reviewer re-examines the case without new evidence), or an appeal to the Board of Veterans' Appeals before a Veterans Law Judge. Veterans may switch between review lanes as their case develops, and each path has different processing timelines. Accredited VSO representatives assist at no cost; attorneys and claims agents may charge agreed-upon fees — reach the VA at 800-827-1000 or use VA.gov to start a review.",
+      "resmi_link": "https://www.va.gov/decision-reviews/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hazardous-duty-pay",
+      "ana_baslik": "pay",
+      "baslik": "Hazardous Duty Incentive Pay (HDIP)",
+      "ozet": "Hazardous Duty Incentive Pay (HDIP) is monthly special compensation for service members assigned to perform duties officially designated as hazardous by the Secretary of Defense, including flight duty, parachute jumping, demolition of explosives, and handling of toxic fuels or propellants. Payment amounts and eligibility vary by the specific type of hazardous duty and the member's component and status; rates are set by DoD and updated periodically. Contact your unit's finance or personnel office to confirm eligibility and initiate payment.",
+      "resmi_link": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Hazardous-Duty-Incentive-Pay-(HDIP)",
+      "kaynak_adi": "The Official Army Benefits Website (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tla-temporary-lodging",
+      "ana_baslik": "housing",
+      "baslik": "Temporary Lodging Allowance (TLA)",
+      "ozet": "Temporary Lodging Allowance (TLA) partially reimburses service members and their families for higher-than-normal lodging expenses incurred when assigned to temporary quarters outside the continental U.S. (OCONUS) during a PCS move. Eligible beneficiaries include active-duty service members, National Guard and Reserve members on qualifying orders, transitioning service members, and their spouses. Contact your installation's local pay office — searchable through MilitaryINSTALLATIONS at militaryonesource.mil — for current rates and to initiate payment.",
+      "resmi_link": "https://www.militaryonesource.mil/moving-pcs/allowances/temporary-lodging-allowance/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks","housing-allowance"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dod-skillbridge",
+      "ana_baslik": "veterans",
+      "baslik": "DoD SkillBridge — Civilian Career Training",
+      "ozet": "DoD SkillBridge allows transitioning service members to gain civilian work experience through industry training, apprenticeships, or internships during their last 180 days of service, while continuing to receive full military pay and benefits — at no cost to the employer. Participation requires written authorization from a field grade commander; once approved, service members may spend up to 180 days training full-time with approved industry providers who can evaluate them for future employment. SkillBridge bridges the gap between military service and civilian employment by offering real-world, in-demand job experience before separation.",
+      "resmi_link": "https://skillbridge.osd.mil/",
+      "kaynak_adi": "DoD SkillBridge",
+      "etiketler": ["active-duty","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "commissary-benefits",
+      "ana_baslik": "family",
+      "baslik": "Commissary Shopping Privileges",
+      "ozet": "Defense Commissary Agency (DeCA) stores offer tax-free grocery and household shopping at reduced prices to active-duty service members, Guard and Reserve members, military retirees, veterans with any VA service-connected disability rating, Medal of Honor and Purple Heart recipients, former POWs, primary family caregivers enrolled in the VA's PCAFC program, and their authorized family members. Veterans and caregivers must present a current Veteran Health Identification Card (VHIC) or other VA-issued eligibility documentation, and must enroll for recurring installation access at the local visitor center (includes identity verification and background screening). Commissary privileges were expanded to service-connected disabled veterans effective January 1, 2020.",
+      "resmi_link": "https://corp.commissaries.com/extended-eligibility",
+      "kaynak_adi": "Defense Commissary Agency (DeCA)",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","retirement"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-prime",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Prime",
+      "ozet": "TRICARE Prime is a managed care plan that assigns each enrolled beneficiary a Primary Care Manager (PCM) — at a military treatment facility or civilian network provider — who coordinates all routine care and specialist referrals; active-duty service members and their families pay no out-of-pocket costs, while retirees and other beneficiaries pay annual enrollment fees and copayments. The plan is only available in designated Prime Service Areas, so beneficiaries outside those areas should consider TRICARE Prime Remote or TRICARE Select instead. Enrollment is required and can be completed through the TRICARE Plan Finder tool at tricare.mil.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TP",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-telehealth",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Telehealth Services",
+      "ozet": "VA telehealth allows enrolled veterans to consult with VA health care providers by video from home or from a community ATLAS (Accessing Telehealth through Local Area Stations) location, using the free VA Video Connect app on any internet-connected device — smartphone, tablet, or computer. Standard telehealth visits carry no copay, and the VA can provide an iPad to eligible veterans who lack a video-capable device or internet access at home. Ask your VA care team to set up a telehealth appointment, or visit telehealth.va.gov for more information.",
+      "resmi_link": "https://telehealth.va.gov/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vet-tec",
+      "ana_baslik": "veterans",
+      "baslik": "VET TEC 2.0 — High-Tech Training",
+      "ozet": "VET TEC 2.0 (Veterans Employment Through Technology Education Courses) pays tuition and fees directly to approved training providers for veterans pursuing high-demand technology careers — including computer programming, software development, data processing, and information sciences — plus a monthly housing allowance equal to the Post-9/11 GI Bill rate and a books and supplies stipend. Eligibility requires an honorable or other-than-dishonorable discharge (or active-duty status within 180 days of separation), at least 36 months of active duty service, and being under age 62; up to 4,000 participants are accepted per fiscal year and the program is funded through September 30, 2027. Apply through VA.gov and use the GI Bill Comparison Tool to find approved high-tech training providers.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/vettec-high-tech-program/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-funeral-honors",
+      "ana_baslik": "veterans",
+      "baslik": "Military Funeral Honors",
+      "ozet": "Under federal law (Public Law 106-65), any eligible veteran or active-duty service member is entitled to a military funeral honors ceremony upon family request at no cost, consisting of at minimum the playing of Taps and the folding and presentation of the American flag to the next of kin. Eligibility requires an honorable or general (under honorable conditions) discharge from active military service, or qualifying service in the Selected Reserve; veterans with dishonorable or bad-conduct discharges are not eligible. Families request the ceremony by providing the veteran's DD-214 or other discharge documentation to the funeral home, which coordinates directly with the appropriate military branch.",
+      "resmi_link": "https://www.cem.va.gov/military_funeral_honors.asp",
+      "kaynak_adi": "National Cemetery Administration / VA",
+      "etiketler": ["veteran","active-duty","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "space-a-travel",
+      "ana_baslik": "family",
+      "baslik": "Space-A Military Flights",
+      "ozet": "Space Available (Space-A) travel allows eligible military personnel and their families to fly on U.S. military aircraft at no cost when seats are available after mission passengers are accommodated, with six priority categories (Cat I–VI) determining boarding order — active-duty members on emergency or ordinary leave board before retirees and Reserve members. Passengers register by submitting AMC Form 140 online or in person at a military passenger terminal up to 60 days in advance; within each priority category, seats are assigned in first-in, first-out order by sign-up date. Valid military ID and all required travel documents (including a passport for international flights) are required.",
+      "resmi_link": "https://www.amc.af.mil/AMC-Travel-Site/AMC-Space-Available-Travel-Page/",
+      "kaynak_adi": "Air Mobility Command (AMC)",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","retirement"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "exchange-shopping",
+      "ana_baslik": "family",
+      "baslik": "Exchange (BX/PX) Shopping Privileges",
+      "ozet": "Army & Air Force Exchange Service (AAFES) exchanges — known as BX, PX, or PXtra — are open to active-duty service members and their families, military retirees, 100% disabled veterans, Medal of Honor recipients, and foreign military members on duty with U.S. forces. Honorably discharged veterans (including general under honorable conditions discharges) have online shopping access at shopmyexchange.com after verifying eligibility through VetVerify.org — but online access excludes alcohol, tobacco, and military uniforms, and does not grant physical store entry. Valid military ID or dependent ID is required for in-store purchases.",
+      "resmi_link": "https://www.shopmyexchange.com/exchange-stores/who-can-shop",
+      "kaynak_adi": "Army & Air Force Exchange Service (AAFES)",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","family-member","all-branches","all-ranks","retirement"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mgib-sr-chapter-1606",
+      "ana_baslik": "veterans",
+      "baslik": "Montgomery GI Bill – Selected Reserve (Chapter 1606)",
+      "ozet": "Selected Reserve and National Guard members who commit to a 6-year service obligation may receive up to 36 months of education and training benefits under MGIB-SR (Chapter 1606). To apply, obtain a Notice of Basic Eligibility (DD Form 2384-1) from your unit, then submit VA Form 22-1990; you must maintain good standing in an active Selected Reserve unit to retain eligibility. Members discharged due to a service-connected disability not caused by misconduct remain eligible.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/montgomery-selected-reserve/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-womens-health",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Women's Health Care",
+      "ozet": "Women Veterans enrolled in VA health care receive comprehensive services including primary care, cancer screenings (breast, cervical, colon, lung), reproductive health, mental health care, and free confidential treatment for military sexual trauma (MST). Women Veterans may access MST-related care even without a disability rating or minimum service length requirement. The Women Veterans Call Center is available at 855-829-6636.",
+      "resmi_link": "https://www.va.gov/health-care/health-needs-conditions/womens-health/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-overseas",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Overseas Coverage",
+      "ozet": "Active duty members and command-sponsored families stationed overseas use TRICARE Prime Overseas (managed care with no enrollment fees or copays for authorized care); retirees and their families use TRICARE Select Overseas (flexible, pay upfront then file claims for reimbursement). Both plans are administered by International SOS and require DEERS enrollment; TRICARE Prime Overseas is not available to retirees. Military ID serves as proof of coverage in place of a wallet card.",
+      "resmi_link": "https://tricare.mil/Plans/Overseas",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","veteran","family-member","reservist","all-branches","all-ranks","tricare"],
       "son_kontrol": "2026-06"
     },
     {
@@ -568,16 +838,6 @@
       "resmi_link": "https://www.va.gov/health-care/health-needs-conditions/military-sexual-trauma/",
       "kaynak_adi": "U.S. Department of Veterans Affairs",
       "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks","va-health"],
-      "son_kontrol": "2026-06"
-    },
-    {
-      "id": "va-decision-reviews",
-      "ana_baslik": "veterans",
-      "baslik": "VA Decision Reviews & Appeals",
-      "ozet": "Veterans and their surviving family members who disagree with a VA benefit decision can choose from three review lanes: a Supplemental Claim (to submit new and relevant evidence), a Higher-Level Review (a senior reviewer re-examines the existing record without new submissions), or a Board of Veterans' Appeals (a Veterans Law Judge reviews the case, with or without a hearing). Free assistance from an accredited attorney, claims agent, or VSO representative is available; call 800-827-1000 or visit VA.gov to check the status of an existing review.",
-      "resmi_link": "https://www.va.gov/decision-reviews/",
-      "kaynak_adi": "U.S. Department of Veterans Affairs",
-      "etiketler": ["veteran","family-member","all-branches","all-ranks","disability"],
       "son_kontrol": "2026-06"
     },
     {

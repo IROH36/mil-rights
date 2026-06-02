@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mil-Rights — U.S. Military Rights Guide</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a2f5e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Mil-Rights">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
     html { height: 100%; }
@@ -236,6 +242,130 @@
     }
     .nav-btn.active { color: #2563eb; }
     .nav-btn svg { display: block; }
+
+    /* ── PAGE TRANSITION ─────────────────────────────────── */
+    @keyframes pageIn {
+      from { opacity: 0; transform: translateY(7px); }
+      to   { opacity: 1; transform: none; }
+    }
+    .content.page-in { animation: pageIn 0.2s ease-out both; }
+
+    /* ── SEARCH CATEGORY CHIPS ───────────────────────────── */
+    .cat-chips {
+      display: flex; gap: 6px; flex-wrap: nowrap;
+      overflow-x: auto; margin-bottom: 14px; padding-bottom: 2px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .cat-chips::-webkit-scrollbar { display: none; }
+    .cat-chip {
+      padding: 7px 13px; border-radius: 20px; font-size: 12px; font-weight: 600;
+      border: 1.5px solid #e2e8f0; background: #fff; color: #64748b;
+      cursor: pointer; user-select: none; white-space: nowrap; flex-shrink: 0;
+      transition: transform 0.1s, box-shadow 0.1s;
+    }
+    .cat-chip:active { transform: scale(0.95); }
+
+    /* ── SEARCH HIGHLIGHT ────────────────────────────────── */
+    mark {
+      background: rgba(37,99,235,0.12);
+      color: #1d4ed8;
+      border-radius: 2px;
+      padding: 0 1px;
+      font-style: normal;
+    }
+
+    /* ── WARNING CARD ────────────────────────────────────── */
+    .warning-card {
+      background: #fef2f2 !important;
+      box-shadow: 0 0 0 1px #fca5a5 !important;
+    }
+
+    /* ── DARK MODE ───────────────────────────────────────── */
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1729; color: #f1f5f9; }
+
+      .cat-card {
+        background: #1e293b;
+        box-shadow: 0 2px 14px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.06);
+      }
+      .cat-card:active { background: #263348; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+      .cat-name  { color: #f1f5f9; }
+      .cat-count { color: #64748b; }
+
+      .topic-item {
+        background: #1e293b;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.05);
+      }
+      .topic-item:active { background: #263348; }
+      .ttitle { color: #f1f5f9; }
+      .tmeta  { color: #64748b; }
+      .chevron { color: #475569; }
+
+      .summary-card {
+        background: #1e293b;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.05);
+      }
+      .summary-text  { color: #cbd5e1; }
+      .summary-empty { color: #64748b; }
+
+      .btn-secondary {
+        background: #1e293b; color: #f1f5f9;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.1);
+      }
+      .btn-secondary:active { background: #263348; }
+
+      .tag { background: rgba(37,99,235,0.2); color: #60a5fa; }
+
+      .search-input {
+        background: #1e293b; color: #f1f5f9;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.08);
+      }
+      .search-input::placeholder { color: #475569; }
+      .search-input:focus { box-shadow: 0 0 0 2px #2563eb, 0 1px 12px rgba(37,99,235,0.15); }
+      .search-icon { color: #475569; }
+
+      .pill {
+        background: #1e293b; color: #94a3b8;
+        box-shadow: 0 0 0 1.5px #334155;
+      }
+      .pill:active { background: #263348; }
+      .pill.sel { background: #2563eb; box-shadow: 0 0 0 1.5px #2563eb; color: #fff; }
+
+      .bottom-nav {
+        background: #1a2535;
+        box-shadow: 0 -1px 0 rgba(255,255,255,0.06), 0 -4px 24px rgba(0,0,0,0.35);
+      }
+      .nav-btn { color: #475569; }
+      .nav-btn.active { color: #60a5fa; }
+
+      .slabel, .divider-label, .profile-label, .verified-note { color: #475569; }
+      .support-link { color: #475569; }
+      .support-link:hover { color: #64748b; }
+      .empty-desc  { color: #64748b; }
+      .empty-title { color: #f1f5f9; }
+      .fy-edit { color: #60a5fa; }
+      .fav-dot { background: #f87171; }
+
+      .personalize-card { box-shadow: 0 6px 20px rgba(37,99,235,0.2); }
+
+      mark { background: rgba(96,165,250,0.2); color: #60a5fa; }
+
+      .cat-chip { background: #1e293b; border-color: #334155; color: #64748b; }
+
+      .warning-card {
+        background: #3b0f0f !important;
+        box-shadow: 0 0 0 1px #7f1d1d !important;
+      }
+      .warning-card p { color: #fca5a5 !important; }
+
+      #ask-input {
+        background: #1e293b !important;
+        color: #f1f5f9 !important;
+        border-color: #334155 !important;
+      }
+      #ask-input::placeholder { color: #475569; }
+    }
   </style>
 </head>
 <body>
@@ -267,6 +397,12 @@
       <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
     </svg>
     Profile
+  </button>
+  <button id="nb-ask" class="nav-btn" onclick="go('ask')">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3a9 9 0 100 18 9 9 0 000-18z"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+    </svg>
+    Ask
   </button>
 </nav>
 
@@ -818,24 +954,310 @@ const DATA = { konular: [
     etiketler: ["veteran", "all-branches", "all-ranks", "disability", "retirement"],
     son_kontrol: "2026-06"
   },
+  // FAMILY — COMMISSARY, EXCHANGE & TRAVEL
   {
-    id: "dic-compensation",
-    ana_baslik: "veterans",
-    baslik: "Dependency and Indemnity Compensation (DIC)",
-    ozet: "DIC is a tax-free monthly benefit paid to eligible surviving spouses, dependent children, and parents of service members who died on active duty, or veterans whose death resulted from a service-connected condition. Surviving spouses must meet residency and marriage requirements; surviving children must be unmarried and under age 18 (or 23 if a full-time student); surviving parents must have income below established limits. Applications are submitted using VA Form 21P-534EZ (for veterans' survivors) or 21P-534a (for active-duty deaths) online via AccessVA, by mail to the VA Pension Intake Center, or through an accredited VSO representative.",
-    resmi_link: "https://www.va.gov/disability/dependency-indemnity-compensation/",
-    kaynak_adi: "U.S. Department of Veterans Affairs",
-    etiketler: ["family-member", "veteran", "all-branches", "all-ranks", "survivor-benefit"],
+    id: "space-a-travel",
+    ana_baslik: "family",
+    baslik: "Space-A Military Flights",
+    ozet: "Space Available (Space-A) travel allows eligible military personnel and their families to fly on U.S. military aircraft at no cost when seats are available after mission passengers are accommodated, with six priority categories (Cat I–VI) determining boarding order — active-duty members on emergency or ordinary leave board before retirees and Reserve members. Passengers register by submitting AMC Form 140 online or in person at a military passenger terminal up to 60 days in advance; within each priority category, seats are assigned in first-in, first-out order by sign-up date. Valid military ID and all required travel documents (including a passport for international flights) are required.",
+    resmi_link: "https://www.amc.af.mil/AMC-Travel-Site/AMC-Space-Available-Travel-Page/",
+    kaynak_adi: "Air Mobility Command (AMC)",
+    etiketler: ["active-duty", "veteran", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "retirement"],
     son_kontrol: "2026-06"
   },
   {
-    id: "vgli-insurance",
+    id: "exchange-shopping",
+    ana_baslik: "family",
+    baslik: "Exchange (BX/PX) Shopping Privileges",
+    ozet: "Army & Air Force Exchange Service (AAFES) exchanges — known as BX, PX, or PXtra — are open to active-duty service members and their families, military retirees, 100% disabled veterans, Medal of Honor recipients, and foreign military members on duty with U.S. forces. Honorably discharged veterans (including general under honorable conditions discharges) have online shopping access at shopmyexchange.com after verifying eligibility through VetVerify.org — but online access excludes alcohol, tobacco, and military uniforms, and does not grant physical store entry. Valid military ID or dependent ID is required for in-store purchases.",
+    resmi_link: "https://www.shopmyexchange.com/exchange-stores/who-can-shop",
+    kaynak_adi: "Army & Air Force Exchange Service (AAFES)",
+    etiketler: ["active-duty", "veteran", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "retirement"],
+    son_kontrol: "2026-06"
+  },
+  // FAMILY — COMMISSARY & BENEFITS
+  {
+    id: "commissary-benefits",
+    ana_baslik: "family",
+    baslik: "Commissary Shopping Privileges",
+    ozet: "Defense Commissary Agency (DeCA) stores offer tax-free grocery and household shopping at reduced prices to active-duty service members, Guard and Reserve members, military retirees, veterans with any VA service-connected disability rating, Medal of Honor and Purple Heart recipients, former POWs, primary family caregivers enrolled in the VA's PCAFC program, and their authorized family members. Veterans and caregivers must present a current Veteran Health Identification Card (VHIC) or other VA-issued eligibility documentation, and must enroll for recurring installation access at the local visitor center (includes identity verification and background screening). Commissary privileges were expanded to service-connected disabled veterans effective January 1, 2020.",
+    resmi_link: "https://corp.commissaries.com/extended-eligibility",
+    kaynak_adi: "Defense Commissary Agency (DeCA)",
+    etiketler: ["active-duty", "veteran", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "retirement"],
+    son_kontrol: "2026-06"
+  },
+  // FAMILY — INSURANCE & SCHOLARSHIPS
+  {
+    id: "fsgli",
+    ana_baslik: "family",
+    baslik: "FSGLI — Family Servicemembers' Group Life Insurance",
+    ozet: "Family Servicemembers' Group Life Insurance (FSGLI) provides automatic term life coverage of up to $100,000 — but not exceeding the service member's own SGLI amount — for spouses of SGLI-covered service members, and $10,000 at no cost for each dependent child until age 18 (extending to age 22 for full-time college students, or indefinitely for children who became disabled before age 18). Spouses married after January 2, 2013 must enroll through the SGLI Online Enrollment System via milConnect; those married before that date were automatically enrolled. Monthly premiums vary by the spouse's age.",
+    resmi_link: "https://www.va.gov/life-insurance/options-eligibility/fsgli/",
+    kaynak_adi: "VA",
+    etiketler: ["active-duty", "reservist", "national-guard", "family-member", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "mycaa-scholarship",
+    ana_baslik: "family",
+    baslik: "MyCAA Military Spouse Scholarship",
+    ozet: "The My Career Advancement Account (MyCAA) Scholarship provides eligible military spouses with up to $4,000 in financial assistance (up to $2,000 per fiscal year) to pursue portable career credentials, including licenses, certifications, associate degrees, or continuing education courses at approved institutions. Eligibility requires the military sponsor to be on active Title 10 orders in pay grades E-1 through O-3, or Warrant Officers W-1 and W-2, including activated National Guard and Reserve members in those grades. Spouses apply through the MyCAA program website, and free 24/7 career coaching is available through Military OneSource at 800-342-9647.",
+    resmi_link: "https://www.militaryonesource.mil/education-employment/for-spouses/mycaa-scholarship/",
+    kaynak_adi: "Military OneSource",
+    etiketler: ["active-duty", "reservist", "national-guard", "family-member", "all-branches", "education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  // HEALTHCARE — TRICARE PRIME, SELECT, VET CENTERS & TELEHEALTH
+  {
+    id: "tricare-prime",
+    ana_baslik: "healthcare",
+    baslik: "TRICARE Prime",
+    ozet: "TRICARE Prime is a managed care plan that assigns each enrolled beneficiary a Primary Care Manager (PCM) — at a military treatment facility or civilian network provider — who coordinates all routine care and specialist referrals; active-duty service members and their families pay no out-of-pocket costs, while retirees and other beneficiaries pay annual enrollment fees and copayments. The plan is only available in designated Prime Service Areas, so beneficiaries outside those areas should consider TRICARE Prime Remote or TRICARE Select instead. Enrollment is required and can be completed through the TRICARE Plan Finder tool at tricare.mil.",
+    resmi_link: "https://tricare.mil/Plans/HealthPlans/TP",
+    kaynak_adi: "TRICARE",
+    etiketler: ["active-duty", "veteran", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "tricare"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "va-telehealth",
+    ana_baslik: "healthcare",
+    baslik: "VA Telehealth Services",
+    ozet: "VA telehealth allows enrolled veterans to consult with VA health care providers by video from home or from a community ATLAS (Accessing Telehealth through Local Area Stations) location, using the free VA Video Connect app on any internet-connected device — smartphone, tablet, or computer. Standard telehealth visits carry no copay, and the VA can provide an iPad to eligible veterans who lack a video-capable device or internet access at home. Ask your VA care team to set up a telehealth appointment, or visit telehealth.va.gov for more information.",
+    resmi_link: "https://telehealth.va.gov/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "all-branches", "all-ranks", "va-health"],
+    son_kontrol: "2026-06"
+  },
+  // HEALTHCARE — TRICARE SELECT & VET CENTERS
+  {
+    id: "tricare-select",
+    ana_baslik: "healthcare",
+    baslik: "TRICARE Select",
+    ozet: "TRICARE Select is a self-managed preferred provider organization (PPO) health plan available in the U.S. that allows eligible beneficiaries to see any TRICARE-authorized provider without a referral in most cases. Eligible beneficiaries include active-duty family members, retired service members and their families, activated National Guard and Reserve families, retirees age 60 and older, survivors, Medal of Honor recipients, and qualified former spouses — active-duty service members themselves are not eligible for this plan. Enrollment is required and costs include an annual enrollment fee, an outpatient deductible, and copayments that vary based on the military sponsor's status.",
+    resmi_link: "https://tricare.mil/Plans/HealthPlans/TS",
+    kaynak_adi: "TRICARE",
+    etiketler: ["veteran", "family-member", "reservist", "national-guard", "all-branches", "all-ranks", "tricare"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "vet-centers",
+    ana_baslik: "healthcare",
+    baslik: "VA Vet Centers",
+    ozet: "VA Vet Centers are community-based counseling centers that provide individual, group, marriage, and family counseling — including treatment for PTSD, depression, and military sexual trauma — at no cost to veterans, active-duty service members, National Guard, Reserve members, and their family members, in a non-clinical setting separate from the VA medical system. No VA enrollment or benefits eligibility is required to access Vet Center services. Reach the confidential 24/7 Vet Center Call Center at 1-877-927-8387 or find the nearest location using the VA.gov locator.",
+    resmi_link: "https://www.vetcenter.va.gov/",
+    kaynak_adi: "VA Vet Centers",
+    etiketler: ["veteran", "active-duty", "reservist", "national-guard", "family-member", "all-branches", "va-health"],
+    son_kontrol: "2026-06"
+  },
+  // FAMILY — EDUCATION & TUITION
+  {
+    id: "tuition-assistance",
+    ana_baslik: "family",
+    baslik: "Military Tuition Assistance (TA)",
+    ozet: "Military Tuition Assistance (TA) is a DoD program that covers civilian education expenses for eligible active-duty service members — including National Guard and Reserve members on qualifying orders — to pursue degrees, certifications, and coursework while serving, with a government-wide annual cap of $4,500 and up to 18 semester hours per year. Participation requires supervisor or commander approval prior to enrollment; the approval and application process is managed through each branch's education portal (the Army uses ArmyIgnitED; other branches have equivalent platforms). TA can be combined with the GI Bill for the same period of service to help offset remaining education costs.",
+    resmi_link: "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Tuition-Assistance-(TA)",
+    kaynak_adi: "The Official Army Benefits Website (DoD)",
+    etiketler: ["active-duty", "reservist", "national-guard", "all-branches", "all-ranks", "education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — INSURANCE, TRANSITION & EMPLOYMENT
+  {
+    id: "vgli",
     ana_baslik: "veterans",
-    baslik: "Veterans' Group Life Insurance (VGLI)",
-    ozet: "VGLI allows service members to convert their SGLI coverage into term life insurance after leaving the military, for amounts from $10,000 up to $500,000 matching the SGLI coverage held at separation. Members must apply within 1 year and 120 days of leaving service; those who apply within the first 240 days are not required to provide evidence of good health. After the initial year, coverage can be increased in $25,000 increments every five years until age 60.",
+    baslik: "VGLI — Veterans' Group Life Insurance",
+    ozet: "Veterans' Group Life Insurance (VGLI) allows service members to convert their SGLI coverage to a renewable civilian term life insurance policy after separation, in an amount matching their final SGLI coverage and ranging from $10,000 to $500,000. Applications must be submitted within 1 year and 120 days of separation; applying within the first 240 days requires no proof of good health, while later applications require health verification. Coverage may be increased by $25,000 every five years up to the program maximum until age 60.",
     resmi_link: "https://www.va.gov/life-insurance/options-eligibility/vgli/",
-    kaynak_adi: "U.S. Department of Veterans Affairs",
+    kaynak_adi: "VA",
     etiketler: ["veteran", "reservist", "national-guard", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "va-aid-attendance",
+    ana_baslik: "veterans",
+    baslik: "VA Aid and Attendance / Housebound Benefits",
+    ozet: "Aid and Attendance is a supplemental monthly pension payment for veterans or surviving spouses who require help with daily activities such as bathing, dressing, or eating; are bedridden; live in a nursing home due to mental or physical incapacity; or have severely limited vision. Housebound is a similar benefit for veterans substantially confined to their home due to a permanent disability — a beneficiary may receive one or the other, but not both simultaneously. Applications are submitted online at VA.gov, by mail using VA Form 21-2680 to the Pension Intake Center in Janesville, WI, or in person at the nearest VA regional office.",
+    resmi_link: "https://www.va.gov/pension/aid-attendance-housebound/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "family-member", "all-branches", "all-ranks", "disability", "va-health"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "tap-transition",
+    ana_baslik: "veterans",
+    baslik: "Transition Assistance Program (TAP)",
+    ozet: "The Transition Assistance Program (TAP) is a mandatory DoD, VA, and Department of Labor program that prepares separating and retiring service members for civilian life, covering VA benefits, employment, education, financial management, and entrepreneurship. Service members with at least 180 continuous days on active duty begin TAP one year before separation or two years before retirement; spouses are eligible for certain components. The VA Benefits and Services TAP module is also available online at TAPevents.mil.",
+    resmi_link: "https://www.benefits.va.gov/tap/",
+    kaynak_adi: "VA / DoD",
+    etiketler: ["veteran", "active-duty", "reservist", "national-guard", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "userra-employment",
+    ana_baslik: "veterans",
+    baslik: "USERRA — Civilian Employment Rights",
+    ozet: "The Uniformed Services Employment and Reemployment Rights Act (USERRA) requires all public and private employers to promptly reemploy service members returning from military service in the same or a comparable position with the same seniority, pay, and benefits — provided cumulative military absences do not exceed five years. USERRA also prohibits discrimination in hiring, promotion, or other employment actions against anyone based on past, present, or future military service. Employees who believe their USERRA rights were violated can file a complaint with the Department of Labor's Veterans' Employment and Training Service (VETS) at dol.gov/vets.",
+    resmi_link: "https://www.esgr.mil/USERRA/What-is-USERRA",
+    kaynak_adi: "DoD / ESGR",
+    etiketler: ["veteran", "active-duty", "reservist", "national-guard", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  // PAY — PCS ALLOWANCES
+  {
+    id: "dislocation-allowance",
+    ana_baslik: "pay",
+    baslik: "Dislocation Allowance (DLA)",
+    ozet: "The Dislocation Allowance (DLA) partially reimburses service members for household relocation expenses incurred during a Permanent Change of Station (PCS) move, evacuation, or government-ordered housing change; it is generally authorized once per fiscal year. DLA is not available for a first PCS without dependents, for active duty entry without dependents, or for separation and retirement travel. Two rates apply — with or without dependents — based on whether authorized dependents also relocated; current rates are published by the Defense Travel Management Office and reimbursement is filed at the installation finance office.",
+    resmi_link: "https://www.dfas.mil/MilitaryMembers/travelpay/armypcs/dislocationallowance/",
+    kaynak_adi: "DFAS",
+    etiketler: ["active-duty", "reservist", "national-guard", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — SURVIVORS & EDUCATION
+  {
+    id: "dic",
+    ana_baslik: "veterans",
+    baslik: "Dependency and Indemnity Compensation (DIC)",
+    ozet: "Dependency and Indemnity Compensation (DIC) is a tax-free monthly benefit paid to the surviving spouse, children, and parents of a service member or veteran who died on active duty or from a service-connected illness or injury — or who had a totally disabling service-connected rating for a specified period before death. Eligible surviving spouses must have been married to the veteran for at least one year, or have a child together, or have married within 15 years of the veteran's discharge. Apply using VA Form 21P-534EZ (spouse or child) or 21P-535 (parent) online at VA.gov, by mail to the VA Pension Intake Center in Janesville, WI, or through an accredited VSO representative.",
+    resmi_link: "https://www.va.gov/disability/dependency-indemnity-compensation/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "family-member", "all-branches", "all-ranks", "survivor-benefit", "disability"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "va-survivors-pension",
+    ana_baslik: "veterans",
+    baslik: "VA Survivors Pension",
+    ozet: "The VA Survivors Pension provides monthly payments to eligible surviving spouses and unmarried dependent children of deceased wartime veterans whose income and net worth fall below limits set annually by Congress. Surviving spouses must not have remarried after the veteran's death, and the veteran must have served at least one day during a recognized wartime period without a dishonorable discharge; enlistees after September 7, 1980 generally require at least 24 months of active duty including wartime service. Applications are submitted online at VA.gov, by mail using VA Form 21P-534EZ to the Pension Intake Center in Janesville, WI, or in person at a VA regional office.",
+    resmi_link: "https://www.va.gov/pension/survivors-pension/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "family-member", "all-branches", "all-ranks", "retirement", "survivor-benefit"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "mgib-ad",
+    ana_baslik: "veterans",
+    baslik: "Montgomery GI Bill — Active Duty (MGIB-AD)",
+    ozet: "The Montgomery GI Bill Active Duty (MGIB-AD, Chapter 30) provides education benefits for eligible veterans who contributed $1,200 during their service; benefits cover up to 36 months of payments for degree programs, vocational training, flight training, apprenticeships, licensing and certification exams, and online learning. Eligibility requires an honorable discharge, at least a high school diploma or GED, and continuous active duty service — typically two to four years depending on the enlistment agreement. Apply using VA Form 22-1990 at VA.gov and use the GI Bill Comparison Tool to find participating schools.",
+    resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/montgomery-active-duty/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "active-duty", "all-branches", "all-ranks", "education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — HIGH-TECH TRAINING, SKILLBRIDGE & APPEALS
+  {
+    id: "vet-tec",
+    ana_baslik: "veterans",
+    baslik: "VET TEC 2.0 — High-Tech Training",
+    ozet: "VET TEC 2.0 (Veterans Employment Through Technology Education Courses) pays tuition and fees directly to approved training providers for veterans pursuing high-demand technology careers — including computer programming, software development, data processing, and information sciences — plus a monthly housing allowance equal to the Post-9/11 GI Bill rate and a books and supplies stipend. Eligibility requires an honorable or other-than-dishonorable discharge (or active-duty status within 180 days of separation), at least 36 months of active duty service, and being under age 62; up to 4,000 participants are accepted per fiscal year and the program is funded through September 30, 2027. Apply through VA.gov and use the GI Bill Comparison Tool to find approved high-tech training providers.",
+    resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/vettec-high-tech-program/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "active-duty", "all-branches", "all-ranks", "education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "military-funeral-honors",
+    ana_baslik: "veterans",
+    baslik: "Military Funeral Honors",
+    ozet: "Under federal law (Public Law 106-65), any eligible veteran or active-duty service member is entitled to a military funeral honors ceremony upon family request at no cost, consisting of at minimum the playing of Taps and the folding and presentation of the American flag to the next of kin. Eligibility requires an honorable or general (under honorable conditions) discharge from active military service, or qualifying service in the Selected Reserve; veterans with dishonorable or bad-conduct discharges are not eligible. Families request the ceremony by providing the veteran's DD-214 or other discharge documentation to the funeral home, which coordinates directly with the appropriate military branch.",
+    resmi_link: "https://www.cem.va.gov/military_funeral_honors.asp",
+    kaynak_adi: "National Cemetery Administration / VA",
+    etiketler: ["veteran", "active-duty", "family-member", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — SKILLBRIDGE & APPEALS
+  {
+    id: "dod-skillbridge",
+    ana_baslik: "veterans",
+    baslik: "DoD SkillBridge — Civilian Career Training",
+    ozet: "DoD SkillBridge allows transitioning service members to gain civilian work experience through industry training, apprenticeships, or internships during their last 180 days of service, while continuing to receive full military pay and benefits — at no cost to the employer. Participation requires written authorization from a field grade commander; once approved, service members may spend up to 180 days training full-time with approved industry providers who can evaluate them for future employment. SkillBridge bridges the gap between military service and civilian employment by offering real-world, in-demand job experience before separation.",
+    resmi_link: "https://skillbridge.osd.mil/",
+    kaynak_adi: "DoD SkillBridge",
+    etiketler: ["active-duty", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — APPEALS
+  {
+    id: "va-decision-reviews",
+    ana_baslik: "veterans",
+    baslik: "VA Decision Reviews & Appeals",
+    ozet: "Veterans who disagree with a VA benefits decision may choose one of three review paths: a Supplemental Claim (submit new and relevant evidence), a Higher-Level Review (a more senior reviewer re-examines the case without new evidence), or an appeal to the Board of Veterans' Appeals before a Veterans Law Judge. Veterans may switch between review lanes as their case develops, and each path has different processing timelines. Accredited VSO representatives assist at no cost; attorneys and claims agents may charge agreed-upon fees — reach the VA at 800-827-1000 or use VA.gov to start a review.",
+    resmi_link: "https://www.va.gov/decision-reviews/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "all-branches", "all-ranks", "disability"],
+    son_kontrol: "2026-06"
+  },
+  // PAY — HAZARDOUS DUTY
+  {
+    id: "hazardous-duty-pay",
+    ana_baslik: "pay",
+    baslik: "Hazardous Duty Incentive Pay (HDIP)",
+    ozet: "Hazardous Duty Incentive Pay (HDIP) is monthly special compensation for service members assigned to perform duties officially designated as hazardous by the Secretary of Defense, including flight duty, parachute jumping, demolition of explosives, and handling of toxic fuels or propellants. Payment amounts and eligibility vary by the specific type of hazardous duty and the member's component and status; rates are set by DoD and updated periodically. Contact your unit's finance or personnel office to confirm eligibility and initiate payment.",
+    resmi_link: "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Hazardous-Duty-Incentive-Pay-(HDIP)",
+    kaynak_adi: "The Official Army Benefits Website (DoD)",
+    etiketler: ["active-duty", "reservist", "national-guard", "all-branches", "deployment"],
+    son_kontrol: "2026-06"
+  },
+  // HOUSING — TEMPORARY LODGING, REFINANCE & OVERSEAS
+  {
+    id: "tla-temporary-lodging",
+    ana_baslik: "housing",
+    baslik: "Temporary Lodging Allowance (TLA)",
+    ozet: "Temporary Lodging Allowance (TLA) partially reimburses service members and their families for higher-than-normal lodging expenses incurred when assigned to temporary quarters outside the continental U.S. (OCONUS) during a PCS move. Eligible beneficiaries include active-duty service members, National Guard and Reserve members on qualifying orders, transitioning service members, and their spouses. Contact your installation's local pay office — searchable through MilitaryINSTALLATIONS at militaryonesource.mil — for current rates and to initiate payment.",
+    resmi_link: "https://www.militaryonesource.mil/moving-pcs/allowances/temporary-lodging-allowance/",
+    kaynak_adi: "Military OneSource",
+    etiketler: ["active-duty", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "housing-allowance"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "overseas-housing-allowance",
+    ana_baslik: "housing",
+    baslik: "Overseas Housing Allowance (OHA)",
+    ozet: "The Overseas Housing Allowance (OHA) is a reimbursement-based program that enables service members assigned to permanent duty overseas to privately lease civilian housing on the local economy when on-base quarters are unavailable or not assigned. Unlike the domestic BAH fixed-payment model, OHA reimburses the actual amounts service members spend on rent, utilities, and associated move-in costs, up to established rate ceilings that vary by pay grade and duty location. Service members initiate OHA by submitting DD Form 2367 with their lease agreement through their installation's housing or finance office.",
+    resmi_link: "https://www.travel.dod.mil/Allowances/Overseas-Housing-Allowance/",
+    kaynak_adi: "DTMO / DoD",
+    etiketler: ["active-duty", "reservist", "national-guard", "all-branches", "all-ranks", "housing-allowance"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "va-irrrl",
+    ana_baslik: "housing",
+    baslik: "VA Streamline Refinance (IRRRL)",
+    ozet: "The VA Interest Rate Reduction Refinance Loan (IRRRL), commonly called a VA streamline refinance, allows veterans with an existing VA-backed home loan to refinance at a lower interest rate or to convert from an adjustable-rate to a fixed-rate mortgage — in most cases without a new appraisal or full credit underwriting. The VA funding fee and closing costs can be rolled into the new loan balance, making it possible to refinance with little to no upfront expense. To apply, contact any VA-approved private lender.",
+    resmi_link: "https://www.va.gov/housing-assistance/home-loans/loan-types/interest-rate-reduction-loan/",
+    kaynak_adi: "VA",
+    etiketler: ["veteran", "all-branches", "all-ranks"],
+    son_kontrol: "2026-06"
+  },
+  // VETERANS — RESERVE GI BILL
+  {
+    id: "mgib-sr-chapter-1606",
+    ana_baslik: "veterans",
+    baslik: "Montgomery GI Bill – Selected Reserve (Chapter 1606)",
+    ozet: "Selected Reserve and National Guard members who commit to a 6-year service obligation may receive up to 36 months of education and training benefits under MGIB-SR (Chapter 1606). To apply, obtain a Notice of Basic Eligibility (DD Form 2384-1) from your unit, then submit VA Form 22-1990; you must maintain good standing in an active Selected Reserve unit to retain eligibility. Members discharged due to a service-connected disability not caused by misconduct remain eligible.",
+    resmi_link: "https://www.va.gov/education/about-gi-bill-benefits/montgomery-selected-reserve/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["reservist","national-guard","all-branches","all-ranks","education-benefit"],
+    son_kontrol: "2026-06"
+  },
+  // HEALTHCARE — WOMEN'S HEALTH & OVERSEAS
+  {
+    id: "va-womens-health",
+    ana_baslik: "healthcare",
+    baslik: "VA Women’s Health Care",
+    ozet: "Women Veterans enrolled in VA health care receive comprehensive services including primary care, cancer screenings (breast, cervical, colon, lung), reproductive health, mental health care, and free confidential treatment for military sexual trauma (MST). Women Veterans may access MST-related care even without a disability rating or minimum service length requirement. The Women Veterans Call Center is available at 855-829-6636.",
+    resmi_link: "https://www.va.gov/health-care/health-needs-conditions/womens-health/",
+    kaynak_adi: "U.S. Department of Veterans Affairs",
+    etiketler: ["veteran","active-duty","all-branches","all-ranks","va-health"],
+    son_kontrol: "2026-06"
+  },
+  {
+    id: "tricare-overseas",
+    ana_baslik: "healthcare",
+    baslik: "TRICARE Overseas Coverage",
+    ozet: "Active duty members and command-sponsored families stationed overseas use TRICARE Prime Overseas (managed care with no enrollment fees or copays for authorized care); retirees and their families use TRICARE Select Overseas (flexible, pay upfront then file claims for reimbursement). Both plans are administered by International SOS and require DEERS enrollment; TRICARE Prime Overseas is not available to retirees. Military ID serves as proof of coverage in place of a wallet card.",
+    resmi_link: "https://tricare.mil/Plans/Overseas",
+    kaynak_adi: "TRICARE",
+    etiketler: ["active-duty","veteran","family-member","reservist","all-branches","all-ranks","tricare"],
     son_kontrol: "2026-06"
   },
   {
@@ -856,16 +1278,6 @@ const DATA = { konular: [
     resmi_link: "https://www.va.gov/health-care/health-needs-conditions/military-sexual-trauma/",
     kaynak_adi: "U.S. Department of Veterans Affairs",
     etiketler: ["veteran", "active-duty", "reservist", "national-guard", "all-branches", "all-ranks", "va-health"],
-    son_kontrol: "2026-06"
-  },
-  {
-    id: "va-decision-reviews",
-    ana_baslik: "veterans",
-    baslik: "VA Decision Reviews & Appeals",
-    ozet: "Veterans and their surviving family members who disagree with a VA benefit decision can choose from three review lanes: a Supplemental Claim (to submit new and relevant evidence), a Higher-Level Review (a senior reviewer re-examines the existing record without new submissions), or a Board of Veterans' Appeals (a Veterans Law Judge reviews the case, with or without a hearing). Free assistance from an accredited attorney, claims agent, or VSO representative is available; call 800-827-1000 or visit VA.gov to check the status of an existing review.",
-    resmi_link: "https://www.va.gov/decision-reviews/",
-    kaynak_adi: "U.S. Department of Veterans Affairs",
-    etiketler: ["veteran", "family-member", "all-branches", "all-ranks", "disability"],
     son_kontrol: "2026-06"
   },
   {
@@ -906,7 +1318,7 @@ function catIcon(id) {
 }
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
-let S = { screen:"home", category:null, topicId:null, prev:"home", query:"" };
+let S = { screen:"home", category:null, topicId:null, prev:"home", query:"", searchCat:null };
 let favs = JSON.parse(localStorage.getItem("mil-favs") || "[]");
 const saveFavs = () => localStorage.setItem("mil-favs", JSON.stringify(favs));
 
@@ -982,7 +1394,7 @@ function topicRow(t) {
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
 function render() {
-  ["home","search","favorites","profile"].forEach(id => {
+  ["home","search","favorites","profile","ask"].forEach(id => {
     const btn = document.getElementById("nb-" + id);
     if (!btn) return;
     const active = id === "home"
@@ -995,7 +1407,12 @@ function render() {
   const pb = document.getElementById("nb-profile");
   if (pb) pb.style.color = (PROFILE && S.screen !== "profile") ? "#2563eb" : "";
 
-  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile, about:renderAbout };
+  const ct = document.getElementById("ct");
+  ct.classList.remove("page-in");
+  void ct.offsetWidth;
+  ct.classList.add("page-in");
+
+  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile, about:renderAbout, ask:renderAsk };
   (screens[S.screen] || renderHome)();
 }
 
@@ -1132,6 +1549,20 @@ function renderTopic() {
 // ── SEARCH ────────────────────────────────────────────────────────────────────
 function renderSearch() {
   $h(`<div class="hrow"><span class="htitle">Search</span></div>`);
+
+  const chips = [{ id: null, name: "All" }, ...CATS].map(c => {
+    const active = S.searchCat === c.id;
+    let style = '';
+    if (active && c.id) {
+      const cat = CATS.find(x => x.id === c.id);
+      style = `background:${cat.color};color:#fff;border-color:transparent;box-shadow:0 2px 8px ${cat.color}55`;
+    } else if (active) {
+      style = 'background:#1a2f5e;color:#fff;border-color:transparent';
+    }
+    const catArg = c.id ? `'${c.id}'` : 'null';
+    return `<button class="cat-chip${active ? ' sel' : ''}" data-cat="${c.id || 'all'}" style="${style}" onclick="setSearchCat(${catArg})">${c.name}</button>`;
+  }).join('');
+
   $c(`<div class="search-wrap">
         <span class="search-icon">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
@@ -1140,6 +1571,7 @@ function renderSearch() {
           value="${S.query.replace(/"/g,'&quot;')}"
           oninput="S.query=this.value;updateResults()">
       </div>
+      <div class="cat-chips">${chips}</div>
       <div id="results"></div>`);
 
   const el = document.getElementById("sq");
@@ -1147,33 +1579,96 @@ function renderSearch() {
   updateResults();
 }
 
+function setSearchCat(id) {
+  S.searchCat = (S.searchCat === id) ? null : id;
+  document.querySelectorAll('.cat-chip').forEach(btn => {
+    const btnCat = btn.dataset.cat;
+    const isAll  = btnCat === 'all';
+    const active = isAll ? S.searchCat === null : btnCat === S.searchCat;
+    btn.classList.toggle('sel', active);
+    if (active && !isAll) {
+      const cat = CATS.find(c => c.id === btnCat);
+      btn.style.cssText = cat
+        ? `background:${cat.color};color:#fff;border-color:transparent;box-shadow:0 2px 8px ${cat.color}55`
+        : '';
+    } else if (active && isAll) {
+      btn.style.cssText = 'background:#1a2f5e;color:#fff;border-color:transparent';
+    } else {
+      btn.style.cssText = '';
+    }
+  });
+  updateResults();
+}
+
+function hl(text, q) {
+  if (!q || !text) return text || '';
+  const esc = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return text.replace(new RegExp(`(${esc})`, 'gi'), '<mark>$1</mark>');
+}
+
+function scoreMatch(t, q) {
+  const title   = t.baslik.toLowerCase();
+  const summary = (t.ozet || '').toLowerCase();
+  const source  = t.kaynak_adi.toLowerCase();
+  if (title === q)               return 100;
+  if (title.startsWith(q))      return 70;
+  if (title.includes(q))        return 50;
+  if (t.etiketler.some(g => g.includes(q))) return 30;
+  if (source.includes(q))       return 20;
+  if (t.ana_baslik.includes(q)) return 20;
+  if (summary.includes(q))      return 8;
+  return 0;
+}
+
+function topicRowHL(t, q) {
+  const isFav = favs.includes(t.id);
+  const title = q ? hl(t.baslik, q) : t.baslik;
+  const meta  = q ? hl(t.kaynak_adi, q) : t.kaynak_adi;
+  return `<div class="topic-item" onclick="go('topic',{topicId:'${t.id}',category:'${t.ana_baslik}'})">
+    <div class="tinfo">
+      <div class="ttitle">${title}</div>
+      <div class="tmeta">${meta}</div>
+    </div>
+    ${isFav ? '<span class="fav-dot"></span>' : ''}
+    ${chevronSvg()}
+  </div>`;
+}
+
 function updateResults() {
-  const q = S.query.toLowerCase().trim();
+  const q  = S.query.toLowerCase().trim();
   const el = document.getElementById("results");
   if (!el) return;
 
-  if (!q) {
+  if (!q && !S.searchCat) {
     el.innerHTML = `<div class="empty">
       <div class="empty-icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></div>
       <div class="empty-title">Search topics</div>
-      <div class="empty-desc">Type a keyword, benefit name, or tag like "veteran" or "tricare".</div>
+      <div class="empty-desc">Type a keyword, or filter by category above.</div>
     </div>`;
     return;
   }
 
-  const hits = DATA.konular.filter(t =>
-    t.baslik.toLowerCase().includes(q) ||
-    t.kaynak_adi.toLowerCase().includes(q) ||
-    t.etiketler.some(g => g.includes(q)) ||
-    t.ana_baslik.includes(q) ||
-    t.ozet.toLowerCase().includes(q)
-  );
+  let pool = S.searchCat ? DATA.konular.filter(t => t.ana_baslik === S.searchCat) : DATA.konular;
+
+  let hits;
+  if (q) {
+    hits = pool
+      .map(t => ({ t, s: scoreMatch(t, q) }))
+      .filter(x => x.s > 0)
+      .sort((a, b) => b.s - a.s)
+      .map(x => x.t);
+  } else {
+    hits = pool;
+  }
+
+  const catName = S.searchCat ? CATS.find(c => c.id === S.searchCat)?.name : null;
+  const scope   = catName ? ` in ${catName}` : '';
 
   el.innerHTML = hits.length
-    ? `<div class="slabel">${hits.length} result${hits.length!==1?"s":""}</div>` + hits.map(topicRow).join("")
+    ? `<div class="slabel">${hits.length} result${hits.length!==1?"s":""}${scope}</div>` + hits.map(t => topicRowHL(t, q)).join("")
     : `<div class="empty">
-        <div class="empty-title">No results for "${q}"</div>
-        <div class="empty-desc">Try a different keyword or browse by category.</div>
+        <div class="empty-title">No results${q ? ` for "${q}"` : ''}${scope}</div>
+        <div class="empty-desc">${q ? 'Try a different keyword or clear the category filter.' : 'No topics in this category yet.'}</div>
       </div>`;
 }
 
@@ -1205,7 +1700,7 @@ function renderAbout() {
         <p class="summary-text"><strong>Mil-Rights</strong> is a free, offline reference guide for U.S. military members, veterans, and their families. Every topic links to an official government source. This app does not give legal advice — it points you to the authority.</p>
       </div>
 
-      <div class="summary-card" style="background:#fef2f2;box-shadow:0 0 0 1px #fca5a5;margin-bottom:16px">
+      <div class="summary-card warning-card" style="margin-bottom:16px">
         <p class="summary-text" style="color:#991b1b;font-weight:600;font-size:14px">This is NOT an official government or military resource. We do not advise — we point you to the official source.</p>
       </div>
 
@@ -1284,12 +1779,130 @@ function renderProfile() {
   `);
 }
 
+// ── ASK ───────────────────────────────────────────────────────────────────────
+const ASK_MAP = [
+  { words:["active duty","active-duty","on duty","currently serving","still serving","active military"], tags:["active-duty"] },
+  { words:["veteran","vet","former military","separated from","discharged from","ex-military"], tags:["veteran"] },
+  { words:["reserve","reservist","part-time service","weekend warrior","selected reserve"], tags:["reservist"] },
+  { words:["national guard","guard member","guardsman","guard service"], tags:["national-guard"] },
+  { words:["green card","permanent resident","non-citizen","lpr"], tags:["green-card"] },
+  { words:["citizenship","citizen","naturalization","become a citizen","naturalized"], tags:["naturalized","naturalization"], cats:["citizenship"] },
+  { words:["family","spouse","wife","husband","dependent","children","kids","my family"], tags:["family-member"] },
+  { words:["pay","salary","paycheck","income","wages","stipend"], cats:["pay"] },
+  { words:["allowance","bah","bas","housing allowance","living allowance"], cats:["pay"], tags:["housing-allowance"] },
+  { words:["housing","house","home","rent","apartment","lodging"], cats:["housing"], tags:["housing-allowance"] },
+  { words:["buy a home","buying a house","home loan","mortgage","va loan","irrrl","refinance"], cats:["housing"] },
+  { words:["health","medical","doctor","care","hospital","clinic","sick","illness","injury","treatment"], cats:["healthcare"] },
+  { words:["dental","teeth","dentist"], tags:["tricare"] },
+  { words:["tricare","insurance","coverage","health plan","beneficiary"], tags:["tricare"] },
+  { words:["va health","va doctor","va medical","va hospital","va care"], tags:["va-health"] },
+  { words:["education","school","college","university","degree","gi bill","tuition","scholarship","study","learning"], tags:["education-benefit"] },
+  { words:["training program","tech training","vet tec","coding bootcamp","it training"], tags:["education-benefit"] },
+  { words:["disability","disabled","disability rating","service-connected","service connected","injured in service"], tags:["disability"] },
+  { words:["deploy","deployment","combat","combat zone","overseas","oconus","abroad","stationed overseas","foreign country"], tags:["deployment","tricare"] },
+  { words:["retire","retirement","pension","annuity","retired from service"], tags:["retirement"] },
+  { words:["survivor","widow","widower","death benefit","sbp","surviving spouse","my spouse died"], tags:["survivor-benefit"] },
+  { words:["life insurance","sgli","vgli","servicemembers insurance"], tags:["survivor-benefit"] },
+  { words:["job","work","employment","civilian job","career transition","skillbridge","transition assistance"], cats:["veterans"] },
+  { words:["mental health","ptsd","counseling","depression","anxiety","crisis","suicide","trauma"], cats:["healthcare"] },
+  { words:["military sexual trauma","mst","sexual assault"], tags:["va-health"] },
+  { words:["tax","taxes","tax exclusion","combat pay tax","irs"], cats:["pay"] },
+  { words:["caregiver","caring for veteran","taking care of","caregiver program"], cats:["veterans"] },
+  { words:["funeral","burial","cemetery","burial benefits","national cemetery"], cats:["veterans"] },
+  { words:["legal","lawyer","attorney","jag","legal advice","legal assistance"], cats:["veterans"] },
+  { words:["commissary","grocery","food shopping","commissary store"], cats:["family"] },
+  { words:["px","bx","exchange store","aafes","shopping privileges"], cats:["family"] },
+  { words:["childcare","child care","daycare","kids care","military childcare"], cats:["family"] },
+  { words:["spouse scholarship","mycaa","military spouse career","spouse education"], cats:["family"] },
+  { words:["military flights","space available","space-a","space a travel","fly free"], cats:["family"] },
+  { words:["scra","rent protection","lease termination","deployment lease","loan interest rate cap"], cats:["housing"] },
+  { words:["tsp","thrift savings","retirement savings","401k","retirement account"], cats:["pay"] },
+  { words:["appeals","va appeal","decision review","disability appeal","board of veterans"], cats:["veterans"] },
+  { words:["women","female veteran","womens health","women veteran"], tags:["va-health"] },
+  { words:["army"], tags:["army"] },
+  { words:["navy","naval","sailor"], tags:["navy"] },
+  { words:["marine","marines","usmc","marine corps"], tags:["marines"] },
+  { words:["air force","airman"], tags:["air-force"] },
+  { words:["space force","ussf"], tags:["space-force"] },
+  { words:["coast guard"], tags:["coast-guard"] },
+  { words:["officer","commissioned officer"], tags:["officer"] },
+  { words:["enlisted","nco","sergeant","private","specialist","airman basic","seaman recruit"], tags:["enlisted"] },
+  { words:["warrant officer"], tags:["warrant-officer"] },
+];
+
+function askScore(topic, qLower) {
+  let score = 0;
+  const topicTags = topic.etiketler || [];
+  const topicCat = topic.ana_baslik;
+  for (const rule of ASK_MAP) {
+    if (!rule.words.some(w => qLower.includes(w))) continue;
+    if (rule.tags) score += rule.tags.filter(t => topicTags.includes(t)).length * 12;
+    if (rule.cats && rule.cats.includes(topicCat)) score += 8;
+  }
+  const words = qLower.split(/\W+/).filter(w => w.length > 3);
+  const hay = (topic.baslik + " " + topic.ozet).toLowerCase();
+  words.forEach(w => { if (hay.includes(w)) score += 2; });
+  return score;
+}
+
+function handleAsk() {
+  const input = document.getElementById("ask-input");
+  if (!input) return;
+  const q = input.value.trim();
+  if (!q) return;
+  const qLower = q.toLowerCase();
+  const scored = DATA.konular
+    .map(t => ({ t, score: askScore(t, qLower) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8);
+
+  const container = document.getElementById("ask-results");
+  if (!container) return;
+  if (!scored.length) {
+    container.innerHTML = `<div style="text-align:center;padding:40px 16px;color:#94a3b8">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin:0 auto 12px;display:block"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+      <div style="font-size:15px;font-weight:600;color:#64748b;margin-bottom:6px">No matches found</div>
+      <div style="font-size:13px">Try different words — for example: "health care for my family" or "education after leaving the army"</div>
+    </div>`;
+    return;
+  }
+  container.innerHTML = `<div class="slabel" style="margin-bottom:10px">Top matches for your situation</div>` +
+    scored.map(x => topicRow(x.t)).join("");
+}
+
+function renderAsk() {
+  $h(`<div class="hrow">
+        <span class="htitle">Ask</span>
+      </div>
+      <div class="hsub">Describe your situation — we find the relevant topics.</div>`);
+
+  $c(`<div style="margin-bottom:16px">
+      <textarea id="ask-input" rows="4"
+        placeholder="e.g. I'm a reservist and need dental coverage for my family while deployed overseas"
+        style="width:100%;box-sizing:border-box;padding:14px;border-radius:14px;border:1.5px solid #e2e8f0;font-size:15px;font-family:inherit;resize:none;line-height:1.5;outline:none"
+        onkeydown="if(event.key==='Enter'&&(event.metaKey||event.ctrlKey))handleAsk()"
+      ></textarea>
+      <button class="btn btn-primary" onclick="handleAsk()" style="width:100%;margin-top:10px">
+        Find Relevant Topics
+      </button>
+      <p style="font-size:12px;color:#94a3b8;text-align:center;margin-top:8px">Fully offline — your question never leaves your device.</p>
+    </div>
+    <div id="ask-results"></div>`);
+}
+
 // ── INIT ──────────────────────────────────────────────────────────────────────
 render();
 fetch("uzak-ayarlar.json")
   .then(r => r.ok ? r.json() : Promise.reject())
   .then(cfg => { CONFIG = cfg; if (S.screen === "home") renderHome(); })
   .catch(() => {});
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
 </script>
 </body>
 </html>

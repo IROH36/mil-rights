@@ -25,6 +25,95 @@ A human must open each link, read the current page, and fill konular.json + inde
 
 ---
 
+## AI Ask feature + 3 new topics — status: done ✓ (2026-06-01)
+82 topics total (was 79). New topics:
+- Veterans: Montgomery GI Bill – Selected Reserve / Chapter 1606 (va.gov)
+- Healthcare: VA Women's Health Care (va.gov), TRICARE Overseas Coverage (tricare.mil)
+
+AI Ask tab added (5th tab in bottom nav):
+- User types free-form description of their situation
+- 50-entry keyword→tag/category map scores all 82 topics offline
+- Top 8 results shown as tappable topic cards
+- Dark mode supported; "fully offline" label shown
+- No external requests — runs entirely on embedded DATA
+
+---
+
+## Content expansion: 26 more topics — status: done ✓ (2026-06-01)
+79 topics total (was 53). Latest batch:
+- Family: Space-A Military Flights (amc.af.mil), Exchange/BX-PX Shopping (aafes.com)
+- Healthcare: TRICARE Prime (tricare.mil), VA Telehealth (telehealth.va.gov)
+- Veterans: VET TEC 2.0 (va.gov), Military Funeral Honors (cem.va.gov)
+
+### ⚠ NEEDS HUMAN REVIEW — clothing-allowance:
+dfas.mil CMA pages return HTTP 403 for automated fetch. Official DFAS pages:
+https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/CMA1/ (initial)
+https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/CMA2/ (replacement)
+Human should open these, copy eligibility + rate structure, paste here for topic creation.
+
+Previous batches:
+- Family: Commissary Shopping Privileges (corp.commissaries.com/DeCA)
+- Veterans: VA Decision Reviews & Appeals (va.gov), DoD SkillBridge (skillbridge.osd.mil — human verified)
+- Pay: Hazardous Duty Incentive Pay / HDIP (myarmybenefits/DoD)
+- Housing: Temporary Lodging Allowance / TLA OCONUS (militaryonesource.mil)
+
+### ⚠ NEEDS HUMAN REVIEW — still inaccessible (403/404/SSL):
+- **commissary-exchange**: DeCA/commissaries.com patron eligibility pages all return 404. Human should open commissaries.com → Who Can Shop, copy eligibility text.
+- **skillbridge**: skillbridge.mil SSL error, dod.mil 403. Human should open https://www.skillbridge.mil and copy program description + eligibility.
+- **tle-domestic**: Temporary Lodging Expense (CONUS equivalent of TLA). travel.dod.mil and myarmybenefits both 403/404.
+
+---
+
+## Content expansion: 15 more topics — status: done ✓ (2026-06-01)
+71 topics total (was 53). New topics sourced from official pages:
+- Family: FSGLI (va.gov), MyCAA Scholarship (militaryonesource.mil), Tuition Assistance / TA (myarmybenefits/DoD)
+- Healthcare: TRICARE Select (tricare.mil), VA Vet Centers (vetcenter.va.gov)
+- Veterans: VGLI (va.gov), VA Aid & Attendance (va.gov), TAP (va.gov), USERRA (esgr.mil), DIC (va.gov), VA Survivors Pension (va.gov), MGIB-AD (va.gov)
+- Housing: VA IRRRL (va.gov), OHA (myarmybenefits/DTMO)
+- Pay: DLA (dfas.mil — human verified)
+
+### ✓ RESOLVED — dislocation-allowance (DLA):
+Content provided by human from DFAS official page. Topic added to konular.json + index.html DATA (son_kontrol: 2026-06).
+
+---
+
+## Content expansion: 7 more topics — status: done ✓ (2026-06-01)
+60 topics total (was 53). New topics sourced from official pages:
+- Family: FSGLI (va.gov), MyCAA Military Spouse Scholarship (militaryonesource.mil)
+- Veterans: VGLI (va.gov), VA Aid & Attendance / Housebound (va.gov), TAP Transition Assistance (va.gov), USERRA Employment Rights (esgr.mil/DoD)
+- Housing: VA IRRRL / Streamline Refinance (va.gov)
+
+---
+
+## PWA + Dark Mode + Search Upgrade + UI Polish — status: done ✓ (2026-06-01)
+
+### 1. Military Parole content — HUMAN REVIEW COMPLETE ✓
+- `military-parole-in-place` content reviewed and confirmed against current USCIS page. Summary accurate as of 2026-06. No changes needed to content; topic cleared for App Store submission.
+
+### 2. UI/UX Polish
+- Page transition animation added (smooth fade + slide-up on every screen change)
+- Dark mode: full `@media (prefers-color-scheme: dark)` implementation — cards, backgrounds, text, tags, chips, nav, inputs, warning card
+- About page warning card uses `.warning-card` CSS class for proper dark mode rendering
+
+### 3. PWA (Progressive Web App)
+- `manifest.json` added — app name, theme color, standalone display, orientation lock
+- `sw.js` added — Service Worker with cache-first strategy; caches all static assets on install
+- `icons/icon.svg` added — shield + star app icon
+- PWA meta tags in `<head>`: manifest link, theme-color, Apple mobile web app capable, apple-touch-icon
+- Service worker registered on page load via `navigator.serviceWorker.register('./sw.js')`
+
+### 4. Search Improvements
+- Category filter chips added below search input (scrollable row: All + 6 categories)
+- Chips are color-coded with each category's brand color when active
+- Weighted search scoring: title exact match (100) > starts-with (70) > contains (50) > tag (30) > source (20) > summary (8)
+- Results sorted by relevance score descending
+- Text highlight: matched terms wrapped in `<mark>` with colored highlight in both light and dark mode
+- `setSearchCat()` function updates chip states without full re-render
+- Combined search: category filter + keyword search work together
+- Empty state message adapts based on active filters
+
+---
+
 ## Source verification & rate corrections — status: done ✓ (2026-06-01)
 
 10 previously search-excerpt-sourced topics now verified and updated from accessible official .mil pages.
