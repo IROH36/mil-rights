@@ -849,6 +849,56 @@
       "kaynak_adi": "Military OneSource (DoD)",
       "etiketler": ["family-member","veteran","all-branches","all-ranks","retirement"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dd214-records",
+      "ana_baslik": "veterans",
+      "baslik": "Requesting Military Records (DD-214)",
+      "ozet": "Veterans and their next of kin can request a DD-214 or other military service records online through the eVetRecs system at the National Archives, requiring identity verification through ID.me; Standard Form 180 may also be submitted by mail or fax to the National Personnel Records Center (NPRC) in St. Louis, MO — email requests are not accepted. Most basic requests are free; processing typically takes 90 or more days due to high request volume, and status can be checked by calling 314-801-0800 on weekdays. Next of kin eligible to request includes surviving spouses, parents, children, and siblings of deceased veterans.",
+      "resmi_link": "https://www.archives.gov/veterans/military-service-records",
+      "kaynak_adi": "National Archives (NPRC)",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-community-care",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Community Care (MISSION Act)",
+      "ozet": "Under the MISSION Act, VA Community Care allows eligible veterans to receive health care from non-VA providers in the community when VA cannot provide the needed care — such as when an appointment is not available within access standards or the required service is not offered at a VA facility. Veterans must obtain VA authorization before seeking community care; emergency care is an exception. Covered services include general care, urgent care, home health, hospice, and in vitro fertilization for eligible veterans; copayments may apply for non-service-connected conditions.",
+      "resmi_link": "https://www.va.gov/communitycare/programs/veterans/index.asp",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "blue-water-navy",
+      "ana_baslik": "veterans",
+      "baslik": "Blue Water Navy — Agent Orange Benefits",
+      "ozet": "The Blue Water Navy Vietnam Veterans Act of 2019 extended Agent Orange presumptive exposure to veterans who served on U.S. military vessels operating within 12 nautical miles of the Vietnamese and Cambodian coastline between January 9, 1962, and May 7, 1975. Eligible veterans may receive VA disability compensation for a wide range of presumptive conditions including certain cancers (bladder, prostate, non-Hodgkin's lymphoma), Type 2 diabetes, heart disease, Parkinson's disease, and high blood pressure, among others. Veterans whose prior claims were denied may file a Supplemental Claim for reconsideration with potential retroactive payments to the original claim date.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/navy-coast-guard-ships-vietnam/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","navy","coast-guard","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tle-domestic",
+      "ana_baslik": "housing",
+      "baslik": "Temporary Lodging Expense (TLE) — CONUS PCS",
+      "ozet": "Temporary Lodging Expense (TLE) partially reimburses service members for lodging and meal costs while staying in temporary quarters during a Permanent Change of Station (PCS) move within the continental United States (CONUS). TLE may be paid for any day that per diem for PCS travel is not paid — both benefits cannot be claimed on the same day. To initiate TLE, contact your installation's local pay office; full rate details and FAQs are available at travel.dod.mil.",
+      "resmi_link": "https://www.militaryonesource.mil/moving-pcs/allowances/temporary-lodging-expense/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks","housing-allowance"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "veterans-justice-outreach",
+      "ana_baslik": "veterans",
+      "baslik": "Veterans Justice Outreach (VJO) & Treatment Courts",
+      "ozet": "The VA's Veterans Justice Outreach (VJO) program places specialists at VA medical centers to identify veterans involved in the criminal justice system — through courts, jails, and prisons — and connect them with VA mental health treatment, substance abuse services, housing assistance, and case management as an alternative to or in parallel with incarceration. VJO works closely with Veterans Treatment Courts, which provide specialized judicial oversight and treatment-focused alternatives for eligible veterans. Contact your local VA medical center's VJO specialist, or call the National Call Center for Homeless Veterans at 877-424-3838 (24/7).",
+      "resmi_link": "https://department.va.gov/homeless/vjp/vjo/",
+      "kaynak_adi": "VA Homeless Programs",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
     }
   ]
 }

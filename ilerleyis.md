@@ -2,6 +2,23 @@
 
 ---
 
+## Content expansion: 5 new topics — status: done ✓ (2026-06-02)
+90 topics total (was 85). All summaries fetched from live official pages.
+- Veterans: DD-214 Records (archives.gov), Blue Water Navy Agent Orange (va.gov), Veterans Justice Outreach (department.va.gov)
+- Healthcare: VA Community Care / MISSION Act (va.gov)
+- Housing: TLE Domestic / CONUS PCS (militaryonesource.mil)
+
+## ⚠ NEEDS HUMAN REVIEW — 5 topics blocked (2026-06-02)
+Official pages unreachable via automated fetch. Do NOT write summaries from memory.
+
+- **reserve-retirement** → https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Reserve-Component-Retirement (404) / https://www.dfas.mil/RetiredMilitary/plan/reserve-retirement/ (403)
+- **clothing-allowance** → https://www.dfas.mil/MilitaryMembers/payentitlements/clothingallowances/ (403) / myarmybenefits paths return 404
+- **sdap** → Special Duty Assignment Pay; myarmybenefits paths return 404
+- **military-protective-order** → militaryonesource.mil domestic abuse pages return 404 or empty content
+- **military-aid-societies** → AER (aerhq.org 403), AFAS (afas.org 404), NMCRS (nmcrs.org partial — no eligibility details). Human should open each and create one entry per society or a combined entry.
+
+---
+
 ## Content expansion: 6 new topics — status: done ✓ (2026-06-02)
 59 topics total (was 53). All 6 summaries fetched from live official pages.
 - Veterans: DIC (va.gov), VGLI (va.gov), VA Decision Reviews (va.gov)
