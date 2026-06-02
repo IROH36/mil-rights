@@ -1779,6 +1779,16 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","all-branches","all-ranks","disability"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-special-monthly-compensation",
+      "ana_baslik": "veterans",
+      "baslik": "VA Special Monthly Compensation (SMC)",
+      "ozet": "Special Monthly Compensation (SMC) is a higher rate of VA disability compensation paid to veterans — and in some cases their spouses, surviving spouses, or parents — who have certain severe disabilities such as loss or loss of use of a limb, total blindness, being permanently bedridden, or needing daily help with basic activities like eating, dressing, and bathing. SMC is organized into tiers (K through T, plus SMC-S) with monthly rates that range from a small supplement at the K level to over $11,000 per month at the highest tier for a veteran alone. SMC is often paid in addition to standard disability compensation — veterans do not need to file a separate claim, as VA evaluates SMC eligibility when reviewing disability claims.",
+      "resmi_link": "https://www.va.gov/disability/compensation-rates/special-monthly-compensation-rates/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
