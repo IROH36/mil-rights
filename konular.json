@@ -1479,6 +1479,36 @@
       "kaynak_adi": "Military OneSource",
       "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","retirement"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-loan-trouble-payments",
+      "ana_baslik": "housing",
+      "baslik": "VA Home Loan — Trouble Making Payments",
+      "ozet": "Veterans and surviving spouses with any loan type can receive free VA counseling to avoid foreclosure, and those with VA-guaranteed loans 61 or more days past due are automatically assigned a VA loan technician. The VA offers seven foreclosure avoidance options including repayment plans, special forbearance, loan modification, partial claims, private sales, short sales, and deed in lieu of foreclosure. Contact VA loan technicians at 877-827-3702 Monday through Friday, 8 a.m.–6 p.m. ET.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","housing-allowance"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-licensing-tests",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill — Licensing and Certification Test Fees",
+      "ozet": "Eligible GI Bill recipients under Chapters 33, 30, 1606, and 35 can receive reimbursement for licensing and certification test fees — including registration and administrative fees — up to $2,000 per test, with no limit on how many tests are covered as long as entitlement remains. Retakes of failed exams are also covered. Veterans submit a reimbursement request using VA Form 22-0803 with receipts and test results via QuickSubmit or mail to their VA regional processing office.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/licensing-and-certification-tests/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-ojt-apprenticeships",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill — On-the-Job Training and Apprenticeships",
+      "ozet": "Eligible GI Bill recipients can use education benefits to cover living expenses and a books-and-supplies stipend while completing on-the-job training or apprenticeships in trades such as plumbing, electrical work, law enforcement, or firefighting. The program is available to veterans, reservists, and eligible dependents using the Fry Scholarship, DEA (Chapter 35), or transferred Post-9/11 benefits. Active-duty service members and spouses using transferred benefits are excluded from this option.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/on-the-job-training-apprenticeships/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
