@@ -1729,6 +1729,36 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-usfhp",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Prime Option — US Family Health Plan (USFHP)",
+      "ozet": "The US Family Health Plan (USFHP) is a TRICARE Prime option offered through six regional not-for-profit health systems, providing comprehensive care — including prescriptions — through assigned primary care providers in their affiliated networks. Eligible beneficiaries include active duty family members, retirees and their families, activated National Guard and Reserve members and families, survivors, and Medal of Honor recipients living in designated service areas in the Northeast, Upper Midwest, Texas/Louisiana, and the Pacific Northwest/California. Active duty family members pay no out-of-pocket costs for authorized care.",
+      "resmi_link": "https://www.tricare.mil/Plans/HealthPlans/USFHP",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-prime-overseas",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Prime Overseas",
+      "ozet": "TRICARE Prime Overseas is a managed care option available in overseas areas near military hospitals and clinics, providing care through an assigned primary care manager at military facilities with specialist referrals coordinated through International SOS. Eligible enrollees include active duty service members, command-sponsored family members, and activated National Guard and Reserve members with command-sponsored dependents; retirees are not eligible to enroll. There are no enrollment fees or copayments for care authorized through referral from a primary care manager.",
+      "resmi_link": "https://www.tricare.mil/Plans/HealthPlans/Prime-Overseas",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-prime-remote-overseas",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Prime Remote Overseas",
+      "ozet": "TRICARE Prime Remote Overseas is a managed care option for active duty service members, command-sponsored family members, and activated National Guard and Reserve members living in designated remote overseas locations across three regions: Eurasia-Africa, Latin America and Canada, and the Pacific. Like TRICARE Prime Overseas, care is coordinated through a primary care manager and International SOS, but this plan specifically serves the most remote overseas assignments where standard Prime Overseas is not available. Retirees and their families are not eligible.",
+      "resmi_link": "https://www.tricare.mil/Plans/HealthPlans/TPRO",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
