@@ -1619,6 +1619,16 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-foreign-schools",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill — Studying at Foreign Schools",
+      "ozet": "Eligible veterans, service members, reservists, and qualified dependents can use VA education benefits to attend approved foreign institutions offering degrees equivalent to accredited U.S. colleges. Post-9/11 GI Bill users can receive tuition, fees, housing allowance, and a books-and-supplies stipend; MGIB-AD, MGIB-SR, and DEA recipients receive monthly payments. Before enrolling, verify the specific program is VA-approved using the GI Bill Comparison Tool — unapproved programs are not covered.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/study-at-foreign-schools/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
