@@ -1399,6 +1399,86 @@
       "kaynak_adi": "VA Public Health",
       "etiketler": ["veteran","army","marines","air-force","navy","coast-guard","all-ranks","disability","va-health"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "camp-lejeune",
+      "ana_baslik": "veterans",
+      "baslik": "Camp Lejeune Water Contamination — VA Benefits",
+      "ozet": "Veterans who served at least 30 days of active duty at Camp Lejeune between August 1, 1953 and December 31, 1987, when the water supply was contaminated with industrial solvents and benzene, are eligible for cost-free VA health care for 16 presumptive conditions including several cancers and Parkinson's disease. Family members who resided at Camp Lejeune during the same period may receive reimbursement for out-of-pocket medical expenses related to those conditions. Veterans can enroll by calling 1-877-222-8387; family members should call 1-866-372-1144.",
+      "resmi_link": "https://www.publichealth.va.gov/exposures/camp-lejeune/index.asp",
+      "kaynak_adi": "VA Public Health",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-vision-care",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Vision Care",
+      "ozet": "Veterans enrolled in VA health care receive routine eye exams and preventive vision testing at no cost. Eyeglasses and other visual aids are covered for veterans with a compensable service-connected disability, former POW status, or a vision condition resulting from a VA-treated illness or injury. Veterans who are blind or have low vision may access enhanced rehabilitation services through VA's Visual Impairment Services program.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/vision-care/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-long-term-care",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Long-Term Care Services",
+      "ozet": "The VA provides long-term care for eligible veterans in multiple settings: 24/7 nursing care in Community Living Centers, assisted living facilities, adult day programs, and home-based care including Home Health Aide and Homemaker services. Veterans must be enrolled in VA health care and require the service as part of ongoing treatment; eligibility may also depend on service-connected disability status and other insurance. Availability varies by location — some services are provided directly by VA facilities and others through contracted community providers.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/long-term-care/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "spina-bifida-birth-defects",
+      "ana_baslik": "family",
+      "baslik": "VA Benefits for Children with Spina Bifida (Agent Orange)",
+      "ozet": "Children of veterans who served in Vietnam, Thailand, or near the Korean DMZ during specified periods who were born with spina bifida may qualify for VA disability compensation, the Spina Bifida Health Care Benefits Program, and vocational rehabilitation. To apply, submit VA Form 21-0304 along with birth certificates, proof of the veteran's qualifying service, and a medical diagnosis. Children of women veterans who served in qualifying areas may also be eligible for a separate VA benefits program covering other birth defects.",
+      "resmi_link": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/spina-bifida-agent-orange/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-copay-financial-hardship",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Copay Financial Hardship Assistance",
+      "ozet": "Veterans who cannot afford VA health care copay bills may apply for a debt waiver, compromise offer, or extended monthly repayment plan through VA's financial hardship programs. Veterans with reduced income may also qualify for a hardship determination that grants a copay exemption and reassignment to a higher VA priority group. To request relief, submit VA Form 5655 (Financial Status Report) or VA Form 10-10HS (Request for Hardship Determination), ideally within 30 days of receiving a bill.",
+      "resmi_link": "https://www.va.gov/health-care/pay-copay-bill/financial-hardship/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "cwvv-birth-defects",
+      "ana_baslik": "family",
+      "baslik": "VA Benefits — Children of Women Vietnam Veterans (Birth Defects)",
+      "ozet": "Children of women who served in Vietnam between February 28, 1961 and May 7, 1975 who have covered birth defects causing permanent physical or mental impairment may qualify for monthly VA compensation, health care through the CWVV Health Care Benefits Program, and vocational rehabilitation services (ages 14–31). Covered conditions include cleft lip and palate, neural tube defects, congenital heart disease, hip dysplasia, and over a dozen other diagnoses. Eligibility requires proof of the biological mother's qualifying service and a confirmed diagnosis of a covered birth defect.",
+      "resmi_link": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/children-of-women-vietnam-veterans/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "nadl-native-american-direct-loan",
+      "ana_baslik": "housing",
+      "baslik": "Native American Direct Loan (NADL)",
+      "ozet": "The VA's Native American Direct Loan program enables eligible Native American veterans — and non-Native American veterans married to a Native American — to buy, build, or improve a home on federal trust land with no down payment in most cases, no private mortgage insurance, limited closing costs, and a low-interest 30-year fixed mortgage. Eligible tribal governments must have a Memorandum of Understanding with VA, and veterans must obtain a Certificate of Eligibility. The program is distinct from the standard VA home loan guaranty and applies specifically to federally recognized trust lands.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/loan-types/native-american-direct-loan/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","housing-allowance"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "brs-blended-retirement",
+      "ana_baslik": "pay",
+      "baslik": "Blended Retirement System (BRS)",
+      "ozet": "The Blended Retirement System (BRS) covers service members who joined on or after January 1, 2018, and eligible members who opted in during the 2018 window; it combines a monthly pension at 2.0% per year of service with government TSP contributions of 1% automatically plus up to 4% matching for the first 26 years of service. A Continuation Pay cash bonus is also paid at around 12 years of service in exchange for committing to additional service. BRS ensures that service members who separate before 20 years still receive TSP contributions and matching, giving approximately 85% of members some form of retirement benefit.",
+      "resmi_link": "https://www.militaryonesource.mil/resources/millife-guides/blended-retirement-system/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","retirement"],
+      "son_kontrol": "2026-06"
     }
   ]
 }

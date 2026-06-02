@@ -2,6 +2,25 @@
 
 ---
 
+## Content expansion: 8 new topics — status: done ✓ (2026-06-02)
+153 topics total (was 145). All summaries fetched from live official pages.
+- Veterans: Camp Lejeune water contamination health care (publichealth.va.gov)
+- Healthcare: VA Vision Care (va.gov), VA Long-Term Care (va.gov), VA Copay Financial Hardship (va.gov)
+- Family: Spina Bifida / Agent Orange birth defects (va.gov), Children of Women Vietnam Veterans birth defects (va.gov)
+- Housing: Native American Direct Loan / NADL (va.gov)
+- Pay: Blended Retirement System / BRS (militaryonesource.mil)
+
+## ⚠ STILL BLOCKED — human review needed (2026-06-02)
+- **military-lending-act** → militaryonesource.mil, dol.gov, consumerfinance.gov all 404/403
+- **parole-in-place** → uscis.gov returns 403
+- **gi-bill-transfer-teb** → va.gov TEB pages return 404
+- **deers-enrollment** → tricare.mil/registration returns 404
+- **tamp** → tricare.mil/Plans/HealthPlans/TAMP returns 404
+- **discharge-upgrade** → va.gov discharge upgrade pages return 404
+- **userra** → dol.gov 403, esgr.mil SSL error
+
+---
+
 ## Content expansion: 53 new topics — status: done ✓ (2026-06-02)
 145 topics total (was 92). All summaries fetched from live official pages (multi-session).
 Notable additions this session: SGLI, Gulf War illness, TRICARE (TRS/TRR/TPR/TFL/ECHO/vision/dental), TDIU, SCRA, TSP, SBP, VR&E, PACT Act, Post-9/11 GI Bill, DEA, Fry Scholarship, VA caregiver, VA disability rating, PTSD, SAH/SHA, Fry, and many more. All summaries fetched from live official pages.
