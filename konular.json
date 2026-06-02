@@ -1649,6 +1649,36 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "ibm-skillsbuild",
+      "ana_baslik": "veterans",
+      "baslik": "IBM SkillsBuild — Free Career Courses for Veterans",
+      "ozet": "The IBM SkillsBuild program offers more than 1,000 free online courses to eligible veterans, active-duty service members, National Guard and Reserve members, and their spouses, children, and caregivers (age 18+) in fields including data analytics, cybersecurity, AI, and more. Courses are available as guided learning experiences with live sessions or as flexible self-paced programs, and both formats award industry-recognized credentials upon completion. Access the program and enroll through VA.gov.",
+      "resmi_link": "https://www.va.gov/education/other-va-education-benefits/ibm-skillsbuild-program/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-mustard-gas-lewisite",
+      "ana_baslik": "veterans",
+      "baslik": "VA Disability — Mustard Gas or Lewisite Exposure",
+      "ozet": "Veterans exposed to mustard gas or Lewisite at documented locations such as Bari, Italy on December 2, 1943, or at U.S. military testing facilities during the WWII era may qualify for tax-free monthly VA disability compensation. Eligibility requires military records documenting the exposure and a diagnosed health condition believed to have been caused by contact with those agents. For veterans who served at specified locations during designated timeframes, VA presumes the exposure occurred, eliminating the need to independently prove the service connection.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/hazardous-materials-exposure/mustard-gas-lewisite/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-gulf-war-afghanistan",
+      "ana_baslik": "veterans",
+      "baslik": "VA Disability — Gulf War Illness (Afghanistan Veterans)",
+      "ozet": "Veterans who served in Afghanistan since August 2, 1990, received an honorable discharge, and have a qualifying illness may receive tax-free monthly VA disability compensation for Gulf War illness presumptive conditions including chronic fatigue syndrome, fibromyalgia, functional gastrointestinal disorders, and certain infectious diseases such as malaria and Q fever. For presumptive conditions, veterans do not need to prove that service caused the illness — only that they meet the service requirements. File a claim at VA.gov.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/hazardous-materials-exposure/gulf-war-illness-afghanistan/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","army","marines","air-force","navy","coast-guard","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
