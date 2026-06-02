@@ -1709,6 +1709,26 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","all-branches","all-ranks","disability"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-temporary-disability-surgery",
+      "ana_baslik": "veterans",
+      "baslik": "VA Temporary 100% Rating After Surgery or Immobilization",
+      "ozet": "Veterans who undergo surgery or receive other treatment at a VA facility for a service-connected disability and experience severe recovery issues — such as unhealed surgical wounds, amputations, or major joint immobilization — may qualify for a temporary 100% VA disability rating lasting one to three months, with possible extension to six months for severe cases. Eligibility requires at least one month of expected recovery time or the presence of qualifying post-surgical complications. Apply online at VA.gov or call 800-827-1000 to file a claim for the temporary increase.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/special-claims/temporary-increase-after-surgery-or-cast/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-temporary-disability-hospital",
+      "ana_baslik": "veterans",
+      "baslik": "VA Temporary 100% Rating During Hospitalization",
+      "ozet": "Veterans with service-connected disabilities who spend more than 21 days in a VA hospital or a VA-approved facility receive a temporary 100% disability rating with correspondingly higher compensation for the duration of their stay. The rating reverts to the veteran's standard service-connected rating upon discharge. File a claim for this temporary increase online at VA.gov, by mail, or with the assistance of an accredited representative.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/special-claims/temporary-increase-for-time-in-hospital/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
