@@ -1769,6 +1769,16 @@
       "kaynak_adi": "DoD Safe Helpline",
       "etiketler": ["active-duty","veteran","reservist","national-guard","all-branches","all-ranks"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-disability-compensation-rates",
+      "ana_baslik": "veterans",
+      "baslik": "VA Disability Compensation Rates",
+      "ozet": "VA publishes current monthly disability compensation payment amounts for each disability percentage (10% through 100%), with separate tables for veterans with no dependents, with a spouse, and with children, adjusted annually for cost-of-living (COLA) to match Social Security benefit adjustments. Effective December 1, 2025, rates range from $180.42 at 10% to $3,938.58 at 100% for a veteran with no dependents. Check the official VA rates page for the most current figures, as amounts update each December 1.",
+      "resmi_link": "https://www.va.gov/disability/compensation-rates/veteran-rates/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
