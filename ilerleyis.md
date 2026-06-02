@@ -1,5 +1,25 @@
 # Progress Log
 
+---
+
+## Content expansion: 6 new topics — status: done ✓ (2026-06-02)
+59 topics total (was 53). All 6 summaries fetched from live official pages.
+- Veterans: DIC (va.gov), VGLI (va.gov), VA Decision Reviews (va.gov)
+- Pay: MilTax (militaryonesource.mil)
+- Healthcare: Military Sexual Trauma / MST (va.gov)
+- Family: USFSPA / Military Divorce (militaryonesource.mil)
+
+## ⚠ NEEDS HUMAN REVIEW — 4 topics blocked (2026-06-02)
+Official pages unreachable via automated fetch. Do NOT write summaries from memory.
+A human must open each link, read the current page, and fill konular.json + index.html DATA.
+
+- **userra** → https://www.dol.gov/agencies/vets/programs/userra (dol.gov returns HTTP 403)
+- **skillbridge** → https://www.skillbridge.mil/ (SSL certificate error / connection refused)
+- **pcs-moving-benefits** → https://www.militaryonesource.mil/moving-pcs/ (portal page only, no entitlement details)
+- **commissary-exchange** → https://www.commissaries.com/about/ (URL structure changed, eligibility page not accessible)
+
+---
+
 > Newest entry on top. Claude Code appends here automatically after each
 > finished phase or feature. Status: `not started` / `in progress` / `done ✓`.
 

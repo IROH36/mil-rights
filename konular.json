@@ -529,6 +529,66 @@
       "kaynak_adi": "The Official Army Benefits Website (DoD)",
       "etiketler": ["veteran","all-branches","all-ranks","disability","retirement"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dic-compensation",
+      "ana_baslik": "veterans",
+      "baslik": "Dependency and Indemnity Compensation (DIC)",
+      "ozet": "DIC is a tax-free monthly benefit paid to eligible surviving spouses, dependent children, and parents of service members who died on active duty, or veterans whose death resulted from a service-connected condition. Surviving spouses must meet residency and marriage requirements; surviving children must be unmarried and under age 18 (or 23 if a full-time student); surviving parents must have income below established limits. Applications are submitted using VA Form 21P-534EZ (for veterans' survivors) or 21P-534a (for active-duty deaths) online via AccessVA, by mail to the VA Pension Intake Center, or through an accredited VSO representative.",
+      "resmi_link": "https://www.va.gov/disability/dependency-indemnity-compensation/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["family-member","veteran","all-branches","all-ranks","survivor-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vgli-insurance",
+      "ana_baslik": "veterans",
+      "baslik": "Veterans' Group Life Insurance (VGLI)",
+      "ozet": "VGLI allows service members to convert their SGLI coverage into term life insurance after leaving the military, for amounts from $10,000 up to $500,000 matching the SGLI coverage held at separation. Members must apply within 1 year and 120 days of leaving service; those who apply within the first 240 days are not required to provide evidence of good health. After the initial year, coverage can be increased in $25,000 increments every five years until age 60.",
+      "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/vgli/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "miltax-free-filing",
+      "ana_baslik": "pay",
+      "baslik": "MilTax — Free Military Tax Filing",
+      "ozet": "MilTax is a free DoD tax preparation service available through Military OneSource, providing specialized software and one-on-one consultations with tax professionals trained in military-specific issues such as PCS moves, combat pay exclusions, and military spouse residency rules. Eligible users can file a federal return and up to five state returns at no cost, with a 100% accuracy guarantee and maximum refund guarantee. Available to active-duty members, eligible family members, survivors, and veterans up to 365 days after separation or retirement; access begins at MilitaryOneSource.mil or by calling 800-342-9647.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/taxes/miltax-military-tax-service/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","veteran","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-sexual-trauma",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Military Sexual Trauma (MST) Care",
+      "ozet": "The VA provides free, confidential health care for physical and mental health conditions related to military sexual trauma (MST) — defined as sexual assault or threatening sexual harassment experienced during military service. Eligibility is broad: veterans with Other Than Honorable discharges, those with less than two years of service, current service members, and National Guard and Reserve members with federal active duty may qualify; no disability rating or prior reporting of the incident is required. Every VA medical facility has a designated MST coordinator; support is also available through Vet Centers, by calling 988 and pressing 1 (Veterans Crisis Line), or by texting 838255.",
+      "resmi_link": "https://www.va.gov/health-care/health-needs-conditions/military-sexual-trauma/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-decision-reviews",
+      "ana_baslik": "veterans",
+      "baslik": "VA Decision Reviews & Appeals",
+      "ozet": "Veterans and their surviving family members who disagree with a VA benefit decision can choose from three review lanes: a Supplemental Claim (to submit new and relevant evidence), a Higher-Level Review (a senior reviewer re-examines the existing record without new submissions), or a Board of Veterans' Appeals (a Veterans Law Judge reviews the case, with or without a hearing). Free assistance from an accredited attorney, claims agent, or VSO representative is available; call 800-827-1000 or visit VA.gov to check the status of an existing review.",
+      "resmi_link": "https://www.va.gov/decision-reviews/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "usfspa-divorce",
+      "ana_baslik": "family",
+      "baslik": "Military Divorce & Retired Pay Division (USFSPA)",
+      "ozet": "The Uniformed Services Former Spouses' Protection Act (USFSPA) authorizes state courts to treat military retired pay as divisible marital property and award a portion to a former spouse; it also provides a mechanism for enforcing court-ordered child support and alimony against military pay. A former spouse must first obtain a qualifying court order specifically awarding them a share of the retired pay before the Defense Finance and Accounting Service (DFAS) can issue direct payments. For application procedures and USFSPA FAQs, contact DFAS through the AskDFAS system at DFAS.mil.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/legal/divorce-and-separation/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": ["family-member","veteran","all-branches","all-ranks","retirement"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
