@@ -1819,6 +1819,106 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tsgli",
+      "ana_baslik": "pay",
+      "baslik": "Traumatic Servicemembers' Group Life Insurance (TSGLI)",
+      "ozet": "TSGLI provides short-term financial support of $25,000 to $100,000 to service members who experience qualifying traumatic injuries while covered by SGLI. Eligible members must have suffered the injury before leaving military service and experienced a scheduled loss — such as loss of a limb, sight, hearing, or the inability to perform daily activities — within two years of that injury. Benefits are paid directly to the service member or their fiduciary to help cover expenses during recovery.",
+      "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/tsgli/",
+      "kaynak_adi": "VA",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-foreign-medical-program",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Foreign Medical Program (FMP)",
+      "ozet": "The VA Foreign Medical Program provides coverage for eligible veterans receiving medical care outside the United States for service-connected conditions. Veterans can use any licensed foreign healthcare provider, and coverage extends to medically necessary services for VA-rated disabilities or conditions associated with those disabilities. To access benefits, veterans should obtain their FMP benefits letter and share it with their provider for claim submission.",
+      "resmi_link": "https://www.va.gov/health-care/foreign-medical-program/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-headstones-markers",
+      "ana_baslik": "veterans",
+      "baslik": "VA Headstones, Markers, and Medallions",
+      "ozet": "The Department of Veterans Affairs provides headstones, grave markers, and medallions at no cost to honor deceased veterans, service members, and eligible family members buried in private cemeteries who meet specific service requirements. Eligibility depends on discharge status, length of service, and burial location. Applications are submitted using VA Form 40-1330 online, by mail, or by fax, along with supporting discharge documents such as the DD-214.",
+      "resmi_link": "https://www.va.gov/burials-memorials/memorial-items/headstones-markers-medallions/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-priority-groups",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Health Care Priority Groups",
+      "ozet": "The VA assigns enrolled veterans to one of eight priority groups based on factors including military service history, disability rating, income level, and Medicaid eligibility. These priority groups determine how much, if anything, a veteran pays toward the cost of VA care — with veterans having service-connected disabilities receiving the highest priorities and lower cost-sharing, and higher-income veterans without disabilities receiving the lowest priority. Priority group assignment affects copay requirements and influences enrollment.",
+      "resmi_link": "https://www.va.gov/health-care/eligibility/priority-groups/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "sba-veteran-businesses",
+      "ana_baslik": "veterans",
+      "baslik": "SBA Programs for Veteran-Owned Businesses",
+      "ozet": "The Small Business Administration offers specialized support for veteran entrepreneurs including training programs (Boots to Business, Women Veteran Entrepreneurship Training, Service-Disabled Veteran Entrepreneurship Training), access to SBA loan programs, and federal contracting opportunities that reserve an annual portion of contracting dollars for veteran-owned businesses. Veterans Business Outreach Centers nationwide provide mentorship, business plan workshops, and guidance at no cost. Service-disabled veteran-owned businesses may separately qualify for the SDVOSB set-aside contracting program.",
+      "resmi_link": "https://www.sba.gov/business-guide/grow-your-business/veteran-owned-businesses",
+      "kaynak_adi": "SBA",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-fiduciary-program",
+      "ana_baslik": "veterans",
+      "baslik": "VA Fiduciary Program",
+      "ozet": "The VA Fiduciary Program protects veterans and beneficiaries who are unable to manage their VA benefit payments due to injury, disease, or age by appointing a fiduciary — typically a family member or a qualified professional — to oversee their finances responsibly. A field examination is conducted to assess the veteran's needs and identify an appropriate fiduciary, who is then monitored through periodic accountings and field visits. Veterans in this program continue to receive their VA benefits, which are paid to or managed by the fiduciary on their behalf.",
+      "resmi_link": "https://www.benefits.va.gov/fiduciary/index.asp",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-copay-rates",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Health Care Copay Rates",
+      "ozet": "VA copays are charges some veterans must pay for certain health care services, with amounts determined by their priority group, disability rating, and income level. Some veterans — including those with service-connected disabilities rated at 10% or higher, Medal of Honor recipients, and those below VA income thresholds — are fully exempt from copays. For veterans who do owe copays, rates vary by service type, covering medication copays, inpatient stays, and specialty visits.",
+      "resmi_link": "https://www.va.gov/health-care/copay-rates/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-supplemental-claim",
+      "ana_baslik": "veterans",
+      "baslik": "VA Supplemental Claim (Decision Review)",
+      "ozet": "A VA Supplemental Claim allows veterans and beneficiaries to request reconsideration of a past benefit decision by submitting new and relevant evidence — such as medical records not previously reviewed — or by requesting review based on a change in law such as newly recognized presumptive conditions. This is one of three decision review options under the Appeals Modernization Act, and there is no filing deadline as long as new and relevant evidence exists. Veterans can file online for disability compensation or by mail for other benefit types using VA Form 20-0995.",
+      "resmi_link": "https://www.va.gov/decision-reviews/supplemental-claim/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-higher-level-review",
+      "ana_baslik": "veterans",
+      "baslik": "VA Higher-Level Review (Decision Review)",
+      "ozet": "A VA Higher-Level Review is a reconsideration of an existing VA decision by a more senior claims adjudicator, who assesses whether errors in fact or law warrant changing the original determination. No new evidence may be submitted; the reviewer works only from the existing record and may identify duty-to-assist errors that require additional information gathering. Claims must be filed within one year of the initial decision, and an optional informal conference with the reviewer can be requested.",
+      "resmi_link": "https://www.va.gov/decision-reviews/higher-level-review/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-urgent-care",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Urgent Care Coverage",
+      "ozet": "TRICARE covers urgent care for nonemergency conditions — such as high fevers, sprains, or minor injuries — that need attention before the situation becomes a serious health risk. Eligibility and cost-sharing depend on the specific TRICARE plan: TRICARE Prime members generally need a referral or must use a military facility, while TRICARE Select beneficiaries can use any authorized urgent care center with point-of-service fees applying for non-network providers. Using urgent care without a referral under TRICARE Prime may result in higher cost-sharing.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/UrgentCare",
+      "kaynak_adi": "Defense Health Agency",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
