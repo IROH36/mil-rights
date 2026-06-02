@@ -2,6 +2,25 @@
 
 ---
 
+## Content expansion: 17 new topics — status: done ✓ (2026-06-02)
+115 topics total (was 98). All summaries fetched from live official pages.
+- Pay: SCRA (militaryonesource.mil), TSP (myarmybenefits.us.army.mil)
+- Housing: VA Home Loan Eligibility (va.gov), VA COE (va.gov), VA Caregiver PCAFC (va.gov)
+- Veterans: SBP (myarmybenefits), VR&E Chapter 31 (va.gov), VALife (va.gov), VA Disability Rating (va.gov), VA Pension wartime (va.gov), VA C&P Exam (va.gov), In-State Tuition §702 (va.gov)
+- Family: FAP (militaryonesource.mil), Military Legal Assistance (militaryonesource.mil)
+- Healthcare: Veterans Crisis Line (veteranscrisisline.net), TRICARE Dental (tricare.mil)
+
+## ⚠ NEEDS HUMAN REVIEW — 6 topics blocked (2026-06-02)
+Official pages unreachable. Do NOT write summaries from memory.
+- **camp-lejeune** → va.gov Camp Lejeune health care page returns 404
+- **military-lending-act** → militaryonesource.mil MLA page returns 404
+- **parole-in-place** → uscis.gov/military/parole-in-place-for-military-families returns 403
+- **gi-bill-transfer-teb** → va.gov and myarmybenefits TEB pages return 404
+- **hud-vash** → va.gov/homeless/hud-vash.asp returns 404; try va.gov/homelessness/
+- **deers-enrollment** → tricare.mil and militaryonesource.mil DEERS pages return 404
+
+---
+
 ## Content expansion: 6 new topics — status: done ✓ (2026-06-02)
 98 topics total (was 92). All 6 summaries fetched from live official pages.
 - Family: UOCAVA Military Absentee Voting (fvap.gov)
