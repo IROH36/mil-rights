@@ -1759,6 +1759,16 @@
       "kaynak_adi": "TRICARE",
       "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","tricare"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dod-safe-helpline",
+      "ana_baslik": "family",
+      "baslik": "DoD Safe Helpline — Sexual Assault Support",
+      "ozet": "The DoD Safe Helpline is the Department of Defense's sole secure, confidential, and anonymous crisis support service for members of the military community affected by sexual assault, including active-duty service members, veterans, and their loved ones. It provides 24/7 phone support at 877-995-5247, online chat, and referrals to local responders and resources tailored to the military community. The service is designed to give survivors the information and support they need while maintaining complete anonymity.",
+      "resmi_link": "https://www.safehelpline.org/",
+      "kaynak_adi": "DoD Safe Helpline",
+      "etiketler": ["active-duty","veteran","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
