@@ -1299,6 +1299,46 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tdiu",
+      "ana_baslik": "veterans",
+      "baslik": "Total Disability Individual Unemployability (TDIU)",
+      "ozet": "TDIU is a VA benefit that allows veterans who cannot work due to a service-connected disability to receive monthly compensation at the 100% disability rate — even if their actual combined rating is lower. To qualify, a veteran generally needs either a single service-connected disability rated at 60% or higher, or multiple disabilities totaling 70% or higher with at least one rated at 40%. Apply at VA.gov by submitting VA Form 21-8940 along with your existing disability claim or as a new claim.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/special-claims/unemployability/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-reserve-select",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Reserve Select (TRS)",
+      "ozet": "TRICARE Reserve Select (TRS) is a premium-based health plan available worldwide to qualified Selected Reserve members and their families who are not on active duty for more than 30 days, are not eligible for Federal Employees Health Benefits (FEHB), and are not covered under the Transitional Assistance Management Program (TAMP). Members pay monthly premiums, annual deductibles, and cost-shares when using TRICARE-authorized providers, with lower out-of-pocket costs at network providers; no primary care manager assignment is required. Enroll through the TRICARE Plan Finder at tricare.mil.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TRS",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["reservist","national-guard","family-member","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "veteran-id-card",
+      "ana_baslik": "veterans",
+      "baslik": "Veteran ID Card (VIC)",
+      "ozet": "The Veteran ID Card (VIC) is a digital photo identification card that veterans can use to access discounts at participating restaurants, hotels, stores, and other businesses that offer veteran benefits. Eligibility requires active duty military service ending in an honorable or general (under honorable conditions) discharge. Veterans apply online at VA.gov by submitting discharge papers, a government-issued ID, and a photo meeting specified requirements.",
+      "resmi_link": "https://www.va.gov/records/get-veteran-id-cards/vic/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-funding-fee-exemption",
+      "ana_baslik": "housing",
+      "baslik": "VA Home Loan Funding Fee & Disability Exemption",
+      "ozet": "The VA funding fee is a one-time payment required on VA-backed home loans, ranging from 0.5% to 3.3% of the loan amount depending on the loan type, down payment, and whether it is the borrower's first VA loan use — it can be rolled into the loan balance. Veterans who receive VA disability compensation for a service-connected condition are exempt from paying the funding fee, as are surviving spouses of veterans who died in service or from a service-connected disability. Confirm your exemption status through your lender or at VA.gov.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","family-member","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
