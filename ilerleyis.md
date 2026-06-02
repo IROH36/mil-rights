@@ -2,6 +2,10 @@
 
 ---
 
+## Content expansion: 13 new topics — status: done ✓ (2026-06-02)
+200 topics total (was 187). Fetched from live official pages.
+Added: TSGLI, VA Foreign Medical Program, VA headstones/markers, VA priority groups, SBA veteran businesses, VA fiduciary program, VA copay rates, VA supplemental claim, VA higher-level review, TRICARE urgent care, VA Board of Veterans' Appeals, VA pre-discharge/BDD claims, Airborne Hazards & Burn Pit Registry.
+
 ## Content expansion: 36 new topics — status: done ✓ (2026-06-02)
 181 topics total (was 145). All summaries fetched from live official pages.
 Notable additions: Camp Lejeune, VA vision care, VA long-term care, BRS, NADL, spina bifida, CWVV birth defects, VA copay hardship, STEM scholarship, VET TEC 2.0, VA Whole Health, Project 112/SHAD, GI Bill licensing tests, GI Bill OJT, GI Bill flight training, GI Bill foreign schools, GI Bill correspondence, VA travel pay, VADIP dental insurance, VA prescription refills, VA debt management, VA radiation exposure, IBM SkillsBuild, VA mustard gas exposure, Gulf War illness (Afghanistan), VA automobile allowance, 1151 claims, prestabilization rating, temporary 100% rating (surgery/hospital), TRICARE USFHP, TRICARE Prime Overseas, TRICARE Prime Remote Overseas, VA clothing allowance (disability), VA asbestos exposure, VA Gulf War illness Afghanistan.
