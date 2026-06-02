@@ -1179,6 +1179,76 @@
       "kaynak_adi": "VA Homeless Programs",
       "etiketler": ["veteran","all-branches","all-ranks","va-health","housing-allowance"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-for-life",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE For Life (TFL)",
+      "ozet": "TRICARE For Life (TFL) is Medicare-wraparound coverage available to TRICARE-eligible military retirees and their family members who hold both Medicare Part A and Part B, regardless of age or where they live. TFL acts as a secondary payer after Medicare, covering most Medicare cost-sharing so that beneficiaries typically have little or no out-of-pocket expense for covered services. Enrollment is automatic once a beneficiary obtains Medicare Part A and Part B — no separate application is required and there are no TFL enrollment fees.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TFL",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks","tricare","retirement"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-burial-allowance",
+      "ana_baslik": "veterans",
+      "baslik": "VA Burial Allowance",
+      "ozet": "The VA provides a burial allowance to help cover funeral and burial costs for eligible veterans who did not receive a dishonorable discharge and died under qualifying circumstances; as of October 1, 2025, the maximum allowance is $1,002 for burial costs plus an additional $1,002 for plot or interment expenses. Eligible applicants include the surviving spouse, children, parents, executor of the estate, or the funeral home — they must apply within two years of the veteran's burial. Submit VA Form 21P-530EZ online at VA.gov or by mail.",
+      "resmi_link": "https://www.va.gov/burials-memorials/veterans-burial-allowance/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-dental-care",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Dental Care Benefits",
+      "ozet": "The VA offers dental care through multiple eligibility classes based on service history and health status: veterans with service-connected dental disabilities, those rated 100% disabled (permanent and total), former prisoners of war, and veterans experiencing homelessness may qualify for comprehensive dental treatment. Veterans who do not meet an eligibility class for direct VA dental care can purchase reduced-cost dental coverage through the VA Dental Insurance Program (VADIP). Check your eligibility and find a VA dental clinic at VA.gov under Health Care.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/dental-care/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "efmp",
+      "ana_baslik": "family",
+      "baslik": "Exceptional Family Member Program (EFMP)",
+      "ozet": "The Exceptional Family Member Program (EFMP) supports military families with a member — whether a spouse, child, or dependent adult — who has special medical or educational needs, providing access to specialized consultations, caregiver support, counseling, and other family support services. EFMP enrollment is a critical step for PCS moves, ensuring that the receiving installation has the medical and educational resources required before orders are issued. Contact your installation's EFMP coordinator or call Military OneSource at 800-342-9647 for enrollment assistance.",
+      "resmi_link": "https://www.militaryonesource.mil/special-needs/efmp/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-ptsd-disability",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Disability Benefits for PTSD",
+      "ozet": "Veterans diagnosed with PTSD related to a traumatic event during military service may qualify for tax-free monthly VA disability compensation. To file a PTSD claim, veterans submit a disability application along with VA Form 21-0781 documenting the in-service traumatic event that caused or contributed to the condition. Approved veterans become eligible for both monthly disability payments and VA health care benefits for PTSD treatment.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/ptsd/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-national-cemetery",
+      "ana_baslik": "veterans",
+      "baslik": "Burial in a VA National Cemetery",
+      "ozet": "Eligible veterans, active-duty service members, and certain family members may be buried in a VA national cemetery at no cost — eligible veterans include those discharged under honorable conditions, with enlisted service after September 7, 1980 or officer service after October 16, 1981 generally requiring 24 continuous months of active duty. Eligible dependents (spouses and dependent children) of qualifying veterans may also be interred in a national cemetery. To request burial, the next of kin contacts the National Cemetery Scheduling Office at 800-535-1117.",
+      "resmi_link": "https://www.cem.va.gov/cem/burial_benefits/eligible.asp",
+      "kaynak_adi": "National Cemetery Administration / VA",
+      "etiketler": ["veteran","active-duty","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "fsa",
+      "ana_baslik": "pay",
+      "baslik": "Family Separation Allowance (FSA)",
+      "ozet": "Family Separation Allowance (FSA) is additional monthly pay provided to service members — including National Guard and Reserve members — whose family members are unable to live with or near them at their permanent duty station due to military requirements. FSA applies in situations both within the U.S. and overseas where families cannot reside together, helping offset the added costs of maintaining separate households. Contact your installation's finance office to initiate or verify FSA entitlement.",
+      "resmi_link": "https://www.militaryonesource.mil/military-life-cycle/pcs-deployment/deployment/family-separation-allowance/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
