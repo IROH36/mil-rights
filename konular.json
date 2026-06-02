@@ -1579,6 +1579,26 @@
       "kaynak_adi": "VA Public Health",
       "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "stem-scholarship",
+      "ana_baslik": "veterans",
+      "baslik": "Edith Nourse Rogers STEM Scholarship",
+      "ozet": "The Edith Nourse Rogers STEM Scholarship provides eligible veterans and dependents with up to 9 months of additional GI Bill benefits — or up to $30,000, whichever is less — to help complete undergraduate STEM degrees or healthcare training programs. Applicants must be using the Post-9/11 GI Bill or Fry Scholarship and have 6 months or fewer of GI Bill entitlement remaining. Apply online through VA.gov while still enrolled in an approved STEM program.",
+      "resmi_link": "https://www.va.gov/education/other-va-education-benefits/stem-scholarship/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vet-tec-2",
+      "ana_baslik": "veterans",
+      "baslik": "VET TEC 2.0 — High-Tech Training for Veterans",
+      "ozet": "VET TEC 2.0 helps eligible veterans and active-duty service members build skills for careers in technology fields including computer programming, software development, data processing, information sciences, and media applications, with VA covering tuition, a housing allowance, and books and supplies. Unlike the original VET TEC, this program requires at least 36 months of active-duty service and applicants must be under age 62. Enrollment is limited to 4,000 participants per year; apply through VA.gov.",
+      "resmi_link": "https://www.va.gov/education/other-va-education-benefits/vet-tec-2/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
