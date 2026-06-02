@@ -1359,6 +1359,46 @@
       "kaynak_adi": "TRICARE",
       "etiketler": ["reservist","national-guard","family-member","all-branches","all-ranks","tricare","retirement"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-mental-health",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Mental Health Services",
+      "ozet": "The VA provides free, comprehensive mental health services — including counseling, therapy, medication, and peer support — for conditions such as PTSD, depression, anxiety, bipolar disorder, and substance use problems, available to veterans regardless of VA enrollment status or discharge history. Veterans can access same-day services at any VA medical center, call 877-222-8387, or visit a Vet Center; no appointment or prior enrollment is required for urgent mental health needs. Veterans in crisis can also call 988 and press 1, or text 838255.",
+      "resmi_link": "https://www.va.gov/health-care/health-needs-conditions/mental-health/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-prime-remote",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Prime Remote (TPR)",
+      "ozet": "TRICARE Prime Remote is a managed care option for active-duty service members, activated National Guard and Reserve members, and their families whose home and duty addresses are more than 50 miles or a one-hour drive from a military treatment facility. Like standard TRICARE Prime, there are no out-of-pocket costs when using the assigned primary care manager; travel expense reimbursement may be available for required appointments. Enroll through the TRICARE Plan Finder at tricare.mil.",
+      "resmi_link": "https://tricare.mil/Plans/HealthPlans/TPR",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "sgli",
+      "ana_baslik": "family",
+      "baslik": "Servicemembers' Group Life Insurance (SGLI)",
+      "ozet": "Servicemembers' Group Life Insurance (SGLI) is a low-cost term life insurance program that automatically enrolls eligible active-duty service members, Ready Reserve members, and others; coverage is available up to $500,000 in $50,000 increments at a rate of 5 cents per $1,000 of coverage per month. Members may reduce their coverage level in $50,000 increments or decline coverage entirely by submitting a form through their personnel office. Service members should also designate beneficiaries through the SGLI Online Enrollment System (SOES) on milConnect.",
+      "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/sgli/",
+      "kaynak_adi": "VA",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gulf-war-illness",
+      "ana_baslik": "veterans",
+      "baslik": "Gulf War Illness — VA Benefits",
+      "ozet": "Veterans who served in Southwest Asia from August 2, 1990 to the present may qualify for VA disability compensation for medically unexplained illnesses or certain infectious diseases — known as Gulf War illness — as presumptive service-connected conditions without requiring proof of a direct link to service. The VA also provides a free Gulf War Registry health exam to identify long-term health effects of Gulf War service. File a claim at VA.gov and request a Gulf War Registry exam through your local VA facility.",
+      "resmi_link": "https://www.publichealth.va.gov/exposures/gulfwar/",
+      "kaynak_adi": "VA Public Health",
+      "etiketler": ["veteran","army","marines","air-force","navy","coast-guard","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
     }
   ]
 }

@@ -2,8 +2,9 @@
 
 ---
 
-## Content expansion: 37 new topics — status: done ✓ (2026-06-02)
-135 topics total (was 98). All summaries fetched from live official pages (2 sessions combined). All summaries fetched from live official pages.
+## Content expansion: 53 new topics — status: done ✓ (2026-06-02)
+145 topics total (was 92). All summaries fetched from live official pages (multi-session).
+Notable additions this session: SGLI, Gulf War illness, TRICARE (TRS/TRR/TPR/TFL/ECHO/vision/dental), TDIU, SCRA, TSP, SBP, VR&E, PACT Act, Post-9/11 GI Bill, DEA, Fry Scholarship, VA caregiver, VA disability rating, PTSD, SAH/SHA, Fry, and many more. All summaries fetched from live official pages.
 - Pay: SCRA (militaryonesource.mil), TSP (myarmybenefits.us.army.mil)
 - Housing: VA Home Loan Eligibility (va.gov), VA COE (va.gov), VA Caregiver PCAFC (va.gov)
 - Veterans: SBP (myarmybenefits), VR&E Chapter 31 (va.gov), VALife (va.gov), VA Disability Rating (va.gov), VA Pension wartime (va.gov), VA C&P Exam (va.gov), In-State Tuition §702 (va.gov)
