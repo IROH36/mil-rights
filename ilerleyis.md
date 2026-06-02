@@ -2,6 +2,20 @@
 
 ---
 
+## Content expansion: 6 new topics — status: done ✓ (2026-06-02)
+98 topics total (was 92). All 6 summaries fetched from live official pages.
+- Family: UOCAVA Military Absentee Voting (fvap.gov)
+- Veterans: Presidential Memorial Certificate (va.gov), PACT Act Toxic Exposure (va.gov), Agent Orange VA Benefits (va.gov), Post-9/11 GI Bill Chapter 33 (va.gov)
+- Healthcare: TRICARE ECHO Extended Care Health Option (tricare.mil)
+
+## ⚠ NEEDS HUMAN REVIEW — 3 topics blocked (2026-06-02)
+Official pages unreachable. Do NOT write summaries from memory.
+- **camp-lejeune** → va.gov/health-care/health-needs-conditions/camp-lejeune-water-contamination/ (404); try va.gov PACT Act page directly
+- **military-lending-act** → militaryonesource.mil/financial-legal/personal-finance/military-lending-act/ (404)
+- **parole-in-place** → uscis.gov/military/parole-in-place-for-military-families (403)
+
+---
+
 ## Content expansion: 5 new topics — status: done ✓ (2026-06-02)
 90 topics total (was 85). All summaries fetched from live official pages.
 - Veterans: DD-214 Records (archives.gov), Blue Water Navy Agent Orange (va.gov), Veterans Justice Outreach (department.va.gov)

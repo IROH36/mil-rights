@@ -919,6 +919,66 @@
       "kaynak_adi": "Navy-Marine Corps Relief Society",
       "etiketler": ["active-duty","veteran","family-member","navy","marines","all-ranks"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "uocava-voting",
+      "ana_baslik": "family",
+      "baslik": "UOCAVA — Military Absentee Voting",
+      "ozet": "The Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA) is the federal law that guarantees the right to register and vote absentee in federal elections for active-duty military members, the Merchant Marine, commissioned USPHS and NOAA officers, and their eligible family members overseas. The MOVE Act further requires states to send absentee ballots at least 45 days before a federal election. Service members and family members can register, request a ballot, and track submissions for free through the Federal Voting Assistance Program at fvap.gov.",
+      "resmi_link": "https://www.fvap.gov/info/laws/uocava",
+      "kaynak_adi": "Federal Voting Assistance Program (DoD)",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "presidential-memorial-cert",
+      "ana_baslik": "veterans",
+      "baslik": "Presidential Memorial Certificate",
+      "ozet": "A Presidential Memorial Certificate is an engraved paper certificate signed by the incumbent president, honoring the military service of a deceased veteran or reservist who qualifies for national cemetery burial. The requestor must be the veteran's next of kin, a family member, a close friend, or an authorized representative. Requests can be submitted at no cost online at VA.gov, by mail, in person at a VA regional office, or by fax using VA Form 40-0247.",
+      "resmi_link": "https://www.va.gov/burials-memorials/memorial-items/presidential-memorial-certificates/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "pact-act",
+      "ana_baslik": "veterans",
+      "baslik": "PACT Act — Toxic Exposure Benefits",
+      "ozet": "The PACT Act (2022) expands VA health care and disability compensation to veterans exposed to burn pits, Agent Orange, and other toxic substances across Vietnam War, Gulf War, and post-9/11 eras of service. The law adds over 20 presumptive conditions — including various cancers and respiratory illnesses — that are automatically service-connected, so veterans no longer need to prove a direct link between their condition and military service. Veterans in covered service eras can enroll in VA health care and file disability claims at VA.gov without first needing an existing service-connected disability rating.",
+      "resmi_link": "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "agent-orange-benefits",
+      "ana_baslik": "veterans",
+      "baslik": "Agent Orange VA Disability Benefits",
+      "ozet": "Veterans who served in Vietnam, Thailand, Laos, Cambodia, Guam, American Samoa, Johnston Atoll, or near the Korean DMZ during specified periods may qualify for VA disability compensation if diagnosed with a presumptive condition linked to Agent Orange exposure. Presumptive conditions include certain cancers, Type 2 diabetes, heart disease, Parkinson's disease, and hypertension — no direct proof of herbicide contact is required when qualifying service is documented. File a claim online at VA.gov; veterans with previously denied claims may file a Supplemental Claim for reconsideration.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","army","marines","air-force","navy","coast-guard","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "post-9-11-gi-bill",
+      "ana_baslik": "veterans",
+      "baslik": "Post-9/11 GI Bill (Chapter 33)",
+      "ozet": "The Post-9/11 GI Bill provides education benefits to veterans who served on active duty after September 10, 2001, covering tuition and fees, a monthly housing allowance, and a books and supplies stipend for up to 36 months (or 48 months combined with other service periods). Eligibility requires at least 90 days of active duty after 9/11, a service-connected disability discharge after 30 continuous days, or receipt of a Purple Heart; the Yellow Ribbon Program supplements coverage for 100%-eligible beneficiaries attending private or graduate institutions. Apply using VA Form 22-1990 at VA.gov and use the GI Bill Comparison Tool to find approved schools.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "echo-tricare",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE ECHO — Extended Care Health Option",
+      "ozet": "ECHO (Extended Care Health Option) is a TRICARE supplemental program providing additional services and supplies to eligible beneficiaries with special needs — including autism spectrum disorder, serious physical disabilities, and complex homebound conditions — who are enrolled in the Exceptional Family Member Program (EFMP). Beneficiaries must also be enrolled in TRICARE Prime or TRICARE Select, and all ECHO services require pre-authorization from the regional TRICARE contractor. Contact your TRICARE regional contractor or visit tricare.mil/Plans/SpecialPrograms/ECHO for coverage details and enrollment.",
+      "resmi_link": "https://www.tricare.mil/Plans/SpecialPrograms/ECHO",
+      "kaynak_adi": "TRICARE",
+      "etiketler": ["active-duty","family-member","all-branches","all-ranks","tricare"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
