@@ -1809,6 +1809,16 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-national-tests",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill — National Test Reimbursement (SAT, GRE, LSAT, etc.)",
+      "ozet": "Eligible GI Bill recipients under Post-9/11, Montgomery GI Bill Active Duty, Montgomery GI Bill Selected Reserve, or Chapter 35 can receive reimbursement for approved national standardized test fees including college admissions tests (SAT, ACT, TOEFL), graduate school tests (GRE, GMAT, LSAT, MAT), pre-health exams (MCAT, DAT), and advanced credit tests (AP, CLEP, DSST). Veterans may submit unlimited reimbursement requests and receive the full test cost back, with a corresponding deduction from remaining GI Bill entitlement. Submit VA Form 22-0810 along with receipts and test results.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/national-tests/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
