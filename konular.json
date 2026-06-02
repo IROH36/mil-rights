@@ -1509,6 +1509,26 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-clothing-allowance-disability",
+      "ana_baslik": "veterans",
+      "baslik": "VA Clothing Allowance (Service-Connected Disability)",
+      "ozet": "Veterans whose clothing is damaged or worn out by a prosthetic device, orthopedic equipment, or prescribed skin medication for a service-connected condition may qualify for an annual VA clothing allowance paid each fall. Eligibility requires a service-connected disability and documented damage to multiple clothing items by the qualifying device or medicine. Veterans apply using VA Form 10-8678 submitted to their local VA medical center's prosthetic representative or by mail; those who received payments in 2022 or later no longer need to reapply annually.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/special-claims/clothing-allowance/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-flight-training",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill — Flight Training Benefits",
+      "ozet": "Veterans with Post-9/11 GI Bill, Montgomery GI Bill Active Duty, or Montgomery GI Bill Selected Reserve benefits can apply them toward flight training at FAA-approved pilot schools. Eligibility requires a private pilot's license and a valid medical certificate before enrollment. Post-9/11 GI Bill covers approved fees up to a published cap; both Montgomery programs reimburse 60% of approved flight school fees.",
+      "resmi_link": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/flight-training/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
