@@ -2,8 +2,8 @@
 
 ---
 
-## Content expansion: 21 new topics — status: done ✓ (2026-06-02)
-119 topics total (was 98). All summaries fetched from live official pages.
+## Content expansion: 37 new topics — status: done ✓ (2026-06-02)
+135 topics total (was 98). All summaries fetched from live official pages (2 sessions combined). All summaries fetched from live official pages.
 - Pay: SCRA (militaryonesource.mil), TSP (myarmybenefits.us.army.mil)
 - Housing: VA Home Loan Eligibility (va.gov), VA COE (va.gov), VA Caregiver PCAFC (va.gov)
 - Veterans: SBP (myarmybenefits), VR&E Chapter 31 (va.gov), VALife (va.gov), VA Disability Rating (va.gov), VA Pension wartime (va.gov), VA C&P Exam (va.gov), In-State Tuition §702 (va.gov)

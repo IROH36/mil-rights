@@ -1249,6 +1249,56 @@
       "kaynak_adi": "Military OneSource (DoD)",
       "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "fry-scholarship",
+      "ana_baslik": "veterans",
+      "baslik": "Marine Gunnery Sergeant John David Fry Scholarship",
+      "ozet": "The Fry Scholarship provides Post-9/11 GI Bill-equivalent education benefits — covering tuition, a monthly housing allowance, and books and supplies stipend — to the children and surviving spouses of service members or Selected Reserve members who died in the line of duty on or after September 11, 2001. Benefits are available for up to 36 months; eligibility timelines vary depending on the date of the service member's death, with some beneficiaries having no expiration deadline. Apply using VA Form 22-5490 at VA.gov.",
+      "resmi_link": "https://www.va.gov/education/survivor-dependent-benefits/fry-scholarship/",
+      "kaynak_adi": "VA",
+      "etiketler": ["family-member","all-branches","all-ranks","education-benefit","survivor-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "chapter-36-career-counseling",
+      "ana_baslik": "veterans",
+      "baslik": "VA Career Counseling (Chapter 36)",
+      "ozet": "VA Chapter 36 — Personalized Career Planning and Guidance — is a free program offering educational and career counseling, planning, and resources to eligible veterans and their dependents who qualify for VA education benefits. Services include career aptitude assessments, resume support, education planning, and academic guidance to help with post-military employment transitions. There is no cost; apply at VA.gov under the Careers and Employment section.",
+      "resmi_link": "https://www.va.gov/careers-employment/education-and-career-counseling/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","family-member","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-sah-sha-grants",
+      "ana_baslik": "housing",
+      "baslik": "VA Disability Housing Grants (SAH & SHA)",
+      "ozet": "The VA offers two housing grants for disabled veterans: the Specially Adapted Housing (SAH) grant (up to $126,526 for FY 2026) for veterans with the loss or loss of use of more than one limb or comparable qualifying disabilities, and the Special Home Adaptation (SHA) grant (up to $25,350 for FY 2026) for those with the loss of both hands or severe burns. Both grants can be used to buy, build, or modify a permanent home to increase the veteran's independence and accommodate their disability. Apply at VA.gov under the Housing Assistance section.",
+      "resmi_link": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-health-care-eligibility",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Health Care Eligibility",
+      "ozet": "Veterans who served on active duty and received an honorable (or other-than-dishonorable) discharge are generally eligible to apply for VA health care; the main eligibility groups include veterans with service-connected disabilities, combat veterans within five years of discharge, veterans exposed to specific hazardous materials, and veterans who qualify based on income. Eligibility is prioritized across eight enrollment categories, with the VA reserving the right to limit enrollment for lower-priority groups based on funding. Veterans can enroll online at VA.gov or call 877-222-8387.",
+      "resmi_link": "https://www.va.gov/health-care/eligibility/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "former-pow-benefits",
+      "ana_baslik": "veterans",
+      "baslik": "Former POW VA Benefits",
+      "ozet": "Former prisoners of war (POWs) may qualify for VA disability compensation for a broad range of presumptive conditions linked to captivity — including osteoporosis, hypertensive vascular disease, PTSD, psychosis, and many others — without needing to prove a direct service connection. Former POWs who receive any disability rating also gain access to VA health care enrollment. File a claim at VA.gov; the VA's National POW Registry can assist in documenting captivity status.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/former-pows/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability","va-health"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
