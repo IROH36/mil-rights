@@ -1456,7 +1456,7 @@
       "id": "sbp",
       "ana_baslik": "veterans",
       "baslik": "Survivor Benefit Plan (SBP)",
-      "ozet": "The Survivor Benefit Plan (SBP) is a DoD program that provides monthly, cost-of-living-adjusted annuity to surviving dependents of deceased service members and retirees. Active-duty service members are automatically covered at no cost; retiring service members must elect SBP coverage at retirement — full spouse and child coverage is automatic unless the retiree actively declines, and spouse coverage cannot be reduced without written spousal consent. Premiums are deducted from gross retired pay before taxes; beneficiaries report the retiree's death to DFAS at 800-321-1080 to begin payments, and those also eligible for VA Dependency and Indemnity Compensation (DIC) may receive a Special Survivors Indemnity Allowance (SSIA) to offset reductions.",
+      "ozet": "The Survivor Benefit Plan (SBP) is a DoD program that provides monthly, cost-of-living-adjusted annuity to surviving dependents of deceased service members and retirees. Active-duty service members are automatically covered at no cost; retiring service members must elect SBP coverage at retirement — full spouse and child coverage is automatic unless the retiree actively declines, and spousal coverage cannot be reduced without written spousal consent. Effective February 1, 2023, the SBP-DIC offset was fully eliminated; surviving spouses now receive their complete SBP payment from DFAS and their complete VA Dependency and Indemnity Compensation (DIC) simultaneously with no offset — the prior Special Survivor Indemnity Allowance (SSIA) was discontinued.",
       "resmi_link": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Survivor-Benefit-Plan-(SBP)",
       "kaynak_adi": "The Official Army Benefits Website (DoD)",
       "etiketler": [
@@ -3772,6 +3772,209 @@
         "green-card",
         "all-branches",
         "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "enlistment-bonus",
+      "ana_baslik": "pay",
+      "baslik": "Enlistment and Accession Bonuses",
+      "ozet": "The military services offer enlistment bonuses to recruits who enlist in specific military occupational specialties or ratings deemed critical by the branch. Eligibility depends on job specialty, ASVAB scores, enlistment contract length, and training ship dates. Initial bonus payments are typically made after completion of initial entry training; bonus amounts and eligible MOSs change regularly based on recruiting needs.",
+      "resmi_link": "https://www.goarmy.com/benefits/while-you-serve/bonuses",
+      "kaynak_adi": "U.S. Army (Department of the Army)",
+      "etiketler": [
+        "active-duty",
+        "enlisted",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "critical-skills-retention-bonus",
+      "ana_baslik": "pay",
+      "baslik": "Critical Skills Retention Bonus (CSRB)",
+      "ozet": "Under 37 U.S. Code § 355, the Secretary of Defense may pay a retention bonus to active-duty or reserve-component members who are qualified in a critical military skill designated as a shortage specialty, or who accept assignment to a high-priority unit. Eligible members must execute a written agreement to continue serving for at least one additional year. Total payments are capped by statute, with higher limits for health care officers.",
+      "resmi_link": "https://www.law.cornell.edu/uscode/text/37/355",
+      "kaynak_adi": "37 U.S. Code § 355 (DoD-administered)",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "all-branches",
+        "officer",
+        "enlisted"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vre-subsistence-allowance",
+      "ana_baslik": "veterans",
+      "baslik": "VR&E Subsistence Allowance — Monthly Living Stipend",
+      "ozet": "Veterans participating in the VA Vocational Rehabilitation and Employment (VR&E, Chapter 31) program may receive a monthly subsistence allowance while pursuing an educational or vocational training program. The monthly amount is determined by attendance rate (full-time, three-quarter, or half-time), number of dependents, and type of training program. Veterans also eligible for the Post-9/11 GI Bill may instead receive a BAH-equivalent housing allowance as their subsistence benefit.",
+      "resmi_link": "https://www.benefits.va.gov/vocrehab/subsistence_allowance_rates.asp",
+      "kaynak_adi": "VA Veterans Benefits Administration",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "education-benefit",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "brs-lump-sum-election",
+      "ana_baslik": "veterans",
+      "baslik": "BRS Lump Sum Retirement Election",
+      "ozet": "Under the Blended Retirement System (BRS), eligible retirees may choose to receive 25% or 50% of their pension as a lump sum at retirement in exchange for a proportionally reduced monthly payment until age 67. At age 67, the monthly retired pay automatically returns to the full, unreduced amount. The lump sum election must be made during the retirement application process and cannot be changed after separation.",
+      "resmi_link": "https://www.militaryonesource.mil/resources/millife-guides/blended-retirement-system/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "all-branches",
+        "all-ranks",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-state-income-tax",
+      "ana_baslik": "pay",
+      "baslik": "State Income Tax Protections for Active Duty Service Members",
+      "ozet": "Under the Servicemembers Civil Relief Act (SCRA), active-duty service members may retain their legal state of domicile for income tax purposes regardless of where they are stationed, so military pay is taxed only by their home state, not by the state where they are physically assigned. The Veterans Auto and Education Improvement Act of 2022 further allows service members and spouses to elect filing based on the service member's domicile, the spouse's domicile, or the permanent duty station state. SCRA protections apply only to the service member's military income; income earned from other sources remains taxable where earned.",
+      "resmi_link": "https://www.militaryonesource.mil/resources/millife-guides/tax-preparation-services/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "rotc-scholarships",
+      "ana_baslik": "family",
+      "baslik": "ROTC Scholarships — Army, Navy, and Air Force",
+      "ozet": "The Army, Navy, and Air Force offer Reserve Officers' Training Corps (ROTC) scholarship programs at participating colleges, covering tuition, fees, or room and board along with monthly stipends and book allowances for students who commit to serving as commissioned officers upon graduation. Army ROTC is available at over 1,000 colleges; Navy ROTC scholarships lead to commissions as Navy or Marine Corps officers; Air Force ROTC graduates may commission into the Air Force or Space Force. Recipients typically incur an eight-year service obligation (combination of active duty and reserve), with specifics varying by branch and scholarship type.",
+      "resmi_link": "https://www.goarmy.com/careers-and-jobs/find-your-path/army-officers/rotc/scholarships",
+      "kaynak_adi": "U.S. Army (TRADOC)",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "officer"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "survivors-pension-vs-dic",
+      "ana_baslik": "veterans",
+      "baslik": "VA Survivors Pension vs. Dependency and Indemnity Compensation (DIC)",
+      "ozet": "VA Survivors Pension is a needs-based monthly benefit for surviving spouses and children of wartime veterans, with eligibility based on the survivor's income and net worth. VA Dependency and Indemnity Compensation (DIC) is a service-connection-based, tax-free monthly benefit paid to survivors of service members who died in the line of duty or veterans whose death resulted from a service-connected condition, with no income or net worth requirement. Survivors who may qualify for both should apply for both; VA will pay the higher benefit.",
+      "resmi_link": "https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "family-member",
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "survivor-benefit"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "commissary-exchange-veterans",
+      "ana_baslik": "veterans",
+      "baslik": "Commissary and Exchange Privileges for Veterans",
+      "ozet": "Certain veterans may access commissaries, military exchanges (PX/BX), and MWR facilities by presenting valid identification. Accepted IDs include the Veterans Health Identification Card (VHIC) for VA-enrolled veterans, or a DoD-issued ID card for retirees and those with a 100% VA disability rating. Medal of Honor recipients receive lifetime exchange and commissary access.",
+      "resmi_link": "https://www.va.gov/resources/commissary-and-exchange-privileges-for-veterans/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "sbp-dic-offset-repeal",
+      "ana_baslik": "veterans",
+      "baslik": "SBP-DIC Offset Repeal — Widow's Tax Elimination (2023)",
+      "ozet": "Prior to 2023, surviving spouses receiving both a Survivor Benefit Plan (SBP) annuity and VA Dependency and Indemnity Compensation (DIC) had their SBP payment reduced dollar-for-dollar by the DIC amount. Effective February 1, 2023, this offset was fully eliminated; surviving spouses now receive their complete SBP payment from DFAS and their complete DIC payment from the VA with no reduction. The Special Survivor Indemnity Allowance (SSIA), which had partially compensated for the offset, was also discontinued after January 3, 2023.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/survivor-benefit-plan-and-dependency-and-indemnity-compensation/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "family-member",
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "survivor-benefit"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "incarcerated-veterans-benefits",
+      "ana_baslik": "veterans",
+      "baslik": "VA Benefits for Incarcerated Veterans",
+      "ozet": "Incarcerated veterans may retain access to certain VA benefits depending on the nature of their conviction. Disability compensation payments are reduced for felony convictions resulting in imprisonment beyond 60 days, while education benefits for felony-convicted veterans in prison are generally limited to direct costs such as tuition, fees, and books. The VA's Health Care for Re-entry Veterans (HCRV) and Veteran Justice Outreach (VJO) programs provide outreach and reintegration support to help veterans transition back into the community upon release.",
+      "resmi_link": "https://www.benefits.va.gov/persona/veteran-incarcerated.asp",
+      "kaynak_adi": "VA Veterans Benefits Administration",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "veteran-directed-care",
+      "ana_baslik": "veterans",
+      "baslik": "Veteran-Directed Care (VDC) — Self-Managed Home Care Budget",
+      "ozet": "Veteran-Directed Care is a VA program that allows enrolled veterans who need personal care services — such as help with bathing, dressing, or meal preparation — to manage their own allocated budget rather than receive traditional VA-assigned care. Veterans work with a counselor to hire their own workers, which may include family members, to meet daily needs at home or in the community. Eligible veterans must be enrolled in VA health care, qualify for community care, and meet the clinical criteria; availability depends on local VA participation.",
+      "resmi_link": "https://www.va.gov/geriatrics/pages/Veteran-Directed_Care.asp",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-chaplain-services",
+      "ana_baslik": "family",
+      "baslik": "Military Chaplain Services",
+      "ozet": "Military chaplains provide confidential counseling, spiritual care, and support to service members and their families on issues including combat stress, deployment, grief, marriage difficulties, and substance abuse. They are available to all service members regardless of religious affiliation and can make referrals to clergy of specific faith traditions or licensed mental health professionals when needed. Chaplain conversations are protected by privileged communication, making them a confidential resource distinct from other military counseling.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/unit-chaplain-roles-and-responsibilities/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-home-loan-process",
+      "ana_baslik": "housing",
+      "baslik": "VA Home Loan — Step-by-Step Purchase Process",
+      "ozet": "The VA home loan purchase process begins with obtaining a Certificate of Eligibility (COE), which confirms to a lender that the buyer meets VA loan requirements. Veterans then find a VA-approved lender, get pre-qualified, work with a real estate agent to secure a purchase agreement containing a VA Option Clause, complete a loan application, and allow the lender to order a VA appraisal. The process closes through a title company or attorney once all credit, income, and appraisal documentation are reviewed and approved.",
+      "resmi_link": "https://www.benefits.va.gov/homeloans/purchaseco_buy_process.asp",
+      "kaynak_adi": "VA Veterans Benefits Administration",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
       ],
       "son_kontrol": "2026-06"
     }

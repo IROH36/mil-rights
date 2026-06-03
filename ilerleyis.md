@@ -2,6 +2,17 @@
 
 ---
 
+## Content expansion: 234 → 247 topics — status: done ✓ (2026-06-03)
+- Fixed: sbp entry updated to reflect 2023 SBP-DIC offset elimination (SSIA discontinued)
+- New pay (33): enlistment-bonus, critical-skills-retention-bonus, social-security-military-credits, military-state-income-tax, hplrp-loan-repayment
+- New veterans (104): gi-bill-comparison-tool, pslf-military, vsi-ssb-separation, hire-vets-medallion, brs-lump-sum-election, vre-subsistence-allowance, survivors-pension-vs-dic, sbp-dic-offset-repeal, commissary-exchange-veterans, incarcerated-veterans-benefits, veteran-directed-care
+- New family (39): mil-spouse-license-portability, rotc-scholarships, military-chaplain-services
+- New housing (20): homeowners-assistance-program, va-home-loan-process
+- New citizenship (10): children-born-abroad-citizenship, discharge-immigration-consequences, military-spouse-immigrant-visa, siv-iraqi-afghan
+- Category totals: citizenship 10, pay 33, healthcare 41, family 39, housing 20, veterans 104
+
+---
+
 ## Content expansion + dedup cleanup: 219 → 234 topics — status: done ✓ (2026-06-03)
 - Removed duplicate IDs: combat-zone-tax-exclusion (×2), tricare-young-adult (×2), overseas-housing-allowance (×2), family-separation-allowance/fsa, tsp-savings-plan/tsp, va-caregiver-pcafc/va-caregiver-support
 - New citizenship (10 total): children-born-abroad-citizenship (INA 320/322), discharge-immigration-consequences (noncitizen honorable discharge rule), military-spouse-immigrant-visa (IR-1/CR-1/K-3), siv-iraqi-afghan (Special Immigrant Visa for interpreters), uscis-military-help-line
