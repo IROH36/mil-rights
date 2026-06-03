@@ -2,6 +2,17 @@
 
 ---
 
+## Content expansion + dedup cleanup: 219 → 234 topics — status: done ✓ (2026-06-03)
+- Removed duplicate IDs: combat-zone-tax-exclusion (×2), tricare-young-adult (×2), overseas-housing-allowance (×2), family-separation-allowance/fsa, tsp-savings-plan/tsp, va-caregiver-pcafc/va-caregiver-support
+- New citizenship (10 total): children-born-abroad-citizenship (INA 320/322), discharge-immigration-consequences (noncitizen honorable discharge rule), military-spouse-immigrant-visa (IR-1/CR-1/K-3), siv-iraqi-afghan (Special Immigrant Visa for interpreters), uscis-military-help-line
+- New pay (30 total): combat-zone-tax-exclusion (CZTE/IRS), social-security-military-credits (SSA), hplrp-loan-repayment (health professions loan repayment)
+- New housing (19 total): homeowners-assistance-program (HAP, USACE)
+- New veterans (97 total): gi-bill-comparison-tool (va.gov), pslf-military (StudentAid.gov), vsi-ssb-separation (DFAS), hire-vets-medallion (HIRE Vets Act)
+- New family (37 total): mil-spouse-license-portability (SCRA/NDAA PCS license rights), guard-reserve-activation-benefits, red-cross-hero-care
+- All sourced from official pages or verified via WebSearch against official .mil/.gov sources
+
+---
+
 ## Major content expansion: 207 → 219 topics — status: done ✓ (2026-06-03)
 - 9 duplicate IDs removed (efmp, tricare-dental, tricare-for-life, va-dental-care, tricare-reserve-select, tricare-prime-remote, veterans-crisis-line) + 2 same-topic different-ID pairs merged (sgli-life-insurance→sgli, va-vocational-rehab→va-vr-e)
 - `naturalization-military` ozet improved to include INA 328 vs 329 distinction and overseas process

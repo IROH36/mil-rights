@@ -73,22 +73,6 @@
       "son_kontrol": "2026-06"
     },
     {
-      "id": "tsp-savings-plan",
-      "ana_baslik": "pay",
-      "baslik": "Thrift Savings Plan (TSP)",
-      "ozet": "The Thrift Savings Plan (TSP) is a retirement savings and investment plan for uniformed services members — including active duty, National Guard, and Reserve — that functions similarly to a civilian 401(k). Service members covered by the Blended Retirement System (those who joined on or after January 1, 2018) receive automatic government contributions of 1% of basic pay, plus matching contributions up to 4% after two years of service. Contributions are made through the member's branch pay system, and accounts may be rolled over to a civilian retirement plan or IRA when leaving the service.",
-      "resmi_link": "https://www.tsp.gov/",
-      "kaynak_adi": "Thrift Savings Plan",
-      "etiketler": [
-        "active-duty",
-        "reservist",
-        "national-guard",
-        "all-branches",
-        "retirement"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
       "id": "tricare-plans",
       "ana_baslik": "healthcare",
       "baslik": "TRICARE Health Plans",
@@ -335,23 +319,6 @@
       "son_kontrol": "2026-06"
     },
     {
-      "id": "combat-zone-tax-exclusion",
-      "ana_baslik": "pay",
-      "baslik": "Combat Zone Tax Exclusion",
-      "ozet": "Service members serving in a designated combat zone can exclude their basic pay, reenlistment bonuses, and imminent danger pay from federal income tax for each month of qualifying service. The exclusion is applied automatically — the military organization certifies eligibility and excludes the income from your W-2. Social Security and Medicare taxes still apply to excluded combat pay.",
-      "resmi_link": "https://www.irs.gov/individuals/military/tax-exclusion-for-combat-service",
-      "kaynak_adi": "IRS",
-      "etiketler": [
-        "active-duty",
-        "reservist",
-        "national-guard",
-        "all-branches",
-        "all-ranks",
-        "deployment"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
       "id": "hostile-fire-imminent-danger-pay",
       "ana_baslik": "pay",
       "baslik": "Hostile Fire & Imminent Danger Pay",
@@ -362,21 +329,6 @@
         "active-duty",
         "reservist",
         "national-guard",
-        "all-branches",
-        "all-ranks",
-        "deployment"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
-      "id": "family-separation-allowance",
-      "ana_baslik": "pay",
-      "baslik": "Family Separation Allowance (FSA)",
-      "ozet": "Active-duty service members with dependents who are required to be away from their permanent duty station for more than 30 consecutive days due to military orders — such as deployments, unaccompanied overseas assignments, or shipboard duty — receive a Family Separation Allowance of $300 per month (effective January 1, 2026). FSA is initiated by submitting DD Form 1561 to the installation's personnel support office. Both spouses receive FSA if both are service members involuntarily separated from their dependents.",
-      "resmi_link": "https://www.militaryonesource.mil/benefits/family-separation-allowance/",
-      "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": [
-        "active-duty",
         "all-branches",
         "all-ranks",
         "deployment"
@@ -479,22 +431,6 @@
         "all-ranks",
         "disability",
         "va-health"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
-      "id": "survivor-benefit-plan",
-      "ana_baslik": "veterans",
-      "baslik": "Survivor Benefit Plan (SBP)",
-      "ozet": "The Survivor Benefit Plan (SBP) allows retiring service members to elect coverage that provides surviving dependents with a lifetime monthly annuity based on a percentage of the retiree's covered retired pay, adjusted annually for inflation. Full spouse and child coverage is automatic at retirement unless the retiree actively declines it; spouse coverage cannot be reduced without written spousal consent. Premiums are deducted from gross retired pay before taxes, and beneficiaries report the retiree's death to DFAS at 800-321-1080 to begin receiving payments.",
-      "resmi_link": "https://www.militaryonesource.mil/retirement-separation/retirement/survivor-benefit-plan/",
-      "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": [
-        "veteran",
-        "all-branches",
-        "all-ranks",
-        "retirement",
-        "survivor-benefit"
       ],
       "son_kontrol": "2026-06"
     },
@@ -1517,26 +1453,10 @@
       "son_kontrol": "2026-06"
     },
     {
-      "id": "scra",
-      "ana_baslik": "pay",
-      "baslik": "Servicemembers Civil Relief Act (SCRA)",
-      "ozet": "The Servicemembers Civil Relief Act (SCRA) protects active-duty service members, National Guard, and Reserve members called to federal active duty by capping interest rates on pre-service debts at 6%, blocking landlords from evicting service members without a court order for non-payment of rent, and allowing service members to terminate residential leases and auto leases upon receiving PCS orders or a deployment directive. The SCRA also protects against foreclosure, vehicle repossession, and default judgments while a service member is deployed. Service members can assert SCRA rights by providing written notice and a copy of their orders to the creditor or landlord.",
-      "resmi_link": "https://www.militaryonesource.mil/financial-legal/personal-finance/servicemembers-civil-relief-act/",
-      "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": [
-        "active-duty",
-        "reservist",
-        "national-guard",
-        "all-branches",
-        "all-ranks"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
       "id": "sbp",
       "ana_baslik": "veterans",
       "baslik": "Survivor Benefit Plan (SBP)",
-      "ozet": "The Survivor Benefit Plan (SBP) is a DoD program that provides monthly, cost-of-living-adjusted income to the eligible survivors of deceased service members and retirees. Active-duty service members are automatically covered at no cost; retiring service members must elect SBP coverage at the time of retirement, with premiums deducted from retired pay. Retirees who are also eligible for VA Dependency and Indemnity Compensation (DIC) may receive a Special Survivors Indemnity Allowance (SSIA) to offset reductions.",
+      "ozet": "The Survivor Benefit Plan (SBP) is a DoD program that provides monthly, cost-of-living-adjusted annuity to surviving dependents of deceased service members and retirees. Active-duty service members are automatically covered at no cost; retiring service members must elect SBP coverage at retirement — full spouse and child coverage is automatic unless the retiree actively declines, and spouse coverage cannot be reduced without written spousal consent. Premiums are deducted from gross retired pay before taxes; beneficiaries report the retiree's death to DFAS at 800-321-1080 to begin payments, and those also eligible for VA Dependency and Indemnity Compensation (DIC) may receive a Special Survivors Indemnity Allowance (SSIA) to offset reductions.",
       "resmi_link": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Survivor-Benefit-Plan-(SBP)",
       "kaynak_adi": "The Official Army Benefits Website (DoD)",
       "etiketler": [
@@ -1547,23 +1467,6 @@
         "all-ranks",
         "retirement",
         "survivor-benefit"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
-      "id": "va-caregiver-pcafc",
-      "ana_baslik": "healthcare",
-      "baslik": "VA Caregiver Support — PCAFC",
-      "ozet": "The Program of Comprehensive Assistance for Family Caregivers (PCAFC) provides support to family members caring for veterans with serious service-connected disabilities, including a financial stipend, access to health insurance, mental health counseling, caregiver training, and respite care. To be eligible, the veteran must have a service-connected disability and require personal care services due to that condition. Apply through VA.gov or contact your local VA facility's caregiver support coordinator.",
-      "resmi_link": "https://www.va.gov/health-care/family-caregiver-benefits/",
-      "kaynak_adi": "VA",
-      "etiketler": [
-        "veteran",
-        "family-member",
-        "all-branches",
-        "all-ranks",
-        "va-health",
-        "disability"
       ],
       "son_kontrol": "2026-06"
     },
@@ -3529,6 +3432,346 @@
         "family-member",
         "all-branches",
         "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "uscis-military-help-line",
+      "ana_baslik": "citizenship",
+      "baslik": "USCIS Military Help Line — Immigration Support for Service Members",
+      "ozet": "USCIS operates a dedicated Military Help Line at 877-CIS-4MIL (877-247-4645), with email at militaryinfo@uscis.dhs.gov, available Monday through Friday 8 a.m. to 4 p.m. Central time; many installations also have a designated USCIS liaison to assist with naturalization applications. Service members stationed overseas can receive naturalization services at quarterly hub visits to Camp Humphreys (South Korea), Yokosuka (Japan), Stuttgart (Germany), and Naples (Italy); domestic processing of all overseas military Form N-400 applications is handled by the USCIS Guam Field Office (Asia/Pacific) and the Washington Field Office (Europe, Middle East, and Africa). Use the Deployments and Moving page at uscis.gov/military for guidance when military orders affect pending immigration applications.",
+      "resmi_link": "https://www.uscis.gov/military/military-help-line",
+      "kaynak_adi": "USCIS",
+      "etiketler": [
+        "green-card",
+        "active-duty",
+        "naturalized",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-child-custody",
+      "ana_baslik": "family",
+      "baslik": "Child Custody Protections for Military Parents",
+      "ozet": "Under the SCRA, a deployed service member can request an automatic 90-day stay of custody proceedings if military duties prevent participation, with any additional delay at the court's discretion; all 50 states have custody provisions protecting military parents, including prohibitions on using military absence alone as grounds to modify existing custody orders and requirements that original arrangements be reinstated upon return. Service members are required to maintain an official Family Care Plan before deploying, specifying who provides financial, medical, and logistical care for children. Contact your installation's Legal Assistance Office for help preparing a family care plan and understanding your state's specific military custody protections.",
+      "resmi_link": "https://www.militaryonesource.mil/relationships/separation-divorce/child-custody-considerations-for-military-families/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "foreign-language-proficiency-bonus",
+      "ana_baslik": "pay",
+      "baslik": "Foreign Language Proficiency Bonus (FLPB)",
+      "ozet": "The Foreign Language Proficiency Bonus (FLPB) is paid to active-duty and reserve service members who are certified as proficient in one or more languages or dialects on the DoD Strategic Language List; monthly rates range from $100 to $500 for a single language and up to $1,000 for two or more languages, with a cap of $12,000 per annual certification period. Proficiency must be certified annually using a combination of at least two of three modalities (listening, reading, speaking) at levels determined by the service branch. Current FLPB pay tables by language category and branch are available at dfas.mil.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/FLPB/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-estate-planning",
+      "ana_baslik": "family",
+      "baslik": "Military Estate Planning — Wills, POA, and Survivor Documents",
+      "ozet": "An estate plan for military families typically includes a last will and testament (distributes property and designates guardians for children), power of attorney (authorizes someone to act on your behalf), living will (specifies medical treatment preferences in an emergency), and beneficiary designations for life insurance and survivor benefits such as SGLI and SBP. Installation Legal Assistance / JAG offices draft wills and estate documents at no cost to service members; update your plan whenever you marry, divorce, change state of residence, have a child, or experience significant changes in property or family circumstances. Contact your nearest legal assistance office or call Military OneSource at 800-342-9647 to locate free legal services.",
+      "resmi_link": "https://www.militaryonesource.mil/resources/millife-guides/estate-planning/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-reentry-hcrv",
+      "ana_baslik": "veterans",
+      "baslik": "Healthcare for Re-entry Veterans (HCRV) — Prison Reentry Support",
+      "ozet": "The VA Healthcare for Re-entry Veterans (HCRV) program places specialists in state and federal prisons nationwide to provide outreach and pre-release assessments for incarcerated veterans, helping them plan access to VA services and preventing homelessness upon release. After release, HCRV specialists provide referrals and linkages to medical, mental health, and social services including employment assistance, along with short-term case management. Veterans approaching release from prison or recently released can reach their regional HCRV specialist or call the National Call Center for Homeless Veterans at 877-424-3838 (24/7, free and confidential).",
+      "resmi_link": "https://department.va.gov/homeless/vjp/hcrv/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hardship-duty-pay",
+      "ana_baslik": "pay",
+      "baslik": "Hardship Duty Pay — Location (HDP-L)",
+      "ozet": "Hardship Duty Pay for Location (HDP-L) is additional monthly compensation for service members assigned to locations where living conditions are substantially below those in the continental United States; rates are $50, $100, or $150 per month for officers and enlisted in DoD-designated areas, based on severity of hardship. Entitlement begins the day of arrival at the duty location and ends the day of departure; members must serve more than 30 days at a designated location, and pay is prorated daily. Current lists of designated HDP-L locations and applicable rates are in the official DFAS pay tables at dfas.mil.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/HDP_L/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "red-cross-hero-care",
+      "ana_baslik": "family",
+      "baslik": "American Red Cross Hero Care Network — Military Emergency Support",
+      "ozet": "The American Red Cross Hero Care Network provides free, confidential 24/7 emergency support to military members and their families, including verified emergency communications to service members worldwide in cases of serious illness, death, or birth of an immediate family member. The Red Cross also facilitates access to financial assistance for emergency travel, food, and shelter through military aid society partnerships, and offers resiliency workshops, a Caregiver Network for families of wounded service members, and disaster assistance. Contact the Hero Care Network at 877-272-7337 (24/7), text 'GETHEROCARE' to 90999, or create an account at saf.redcross.org.",
+      "resmi_link": "https://www.militaryonesource.mil/military-basics/millife-essentials/american-red-cross-support-for-military-families/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "veteran",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "guard-reserve-activation-benefits",
+      "ana_baslik": "family",
+      "baslik": "National Guard and Reserve Activation — Benefits Upon Call-Up",
+      "ozet": "When National Guard or Reserve members are called to active duty, their benefits change significantly: active-duty pay replaces drill pay, and members on orders of more than 30 consecutive days receive comprehensive medical and dental care at no cost, with families also covered by TRICARE. For contingency operations, active-duty TRICARE may begin up to 180 days before the reporting date from the date orders are issued; after deactivation from a contingency operation, members and their families are covered by the Transitional Assistance Management Program (TAMP) for 180 days. Contact Military OneSource at 800-342-9647 or your unit readiness officer for details on benefits as orders are issued.",
+      "resmi_link": "https://www.militaryonesource.mil/deployment/on-deployment/when-your-guard-or-reserve-service-member-is-called-to-active-duty/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "combat-zone-tax-exclusion",
+      "ana_baslik": "pay",
+      "baslik": "Combat Zone Tax Exclusion (CZTE)",
+      "ozet": "Under the Combat Zone Tax Exclusion, U.S. Armed Forces members who serve in a presidentially designated combat zone may exclude qualifying military compensation from federal income tax. Excluded pay includes basic pay for each month present in the combat zone, reenlistment bonuses executed while deployed, imminent danger/hostile fire pay, and income from selling leave accrued in the zone. The exclusion is applied automatically and reflected on the member's W-2.",
+      "resmi_link": "https://www.irs.gov/individuals/military/tax-exclusion-for-combat-service",
+      "kaynak_adi": "Internal Revenue Service (IRS)",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "children-born-abroad-citizenship",
+      "ana_baslik": "citizenship",
+      "baslik": "Citizenship for Children Born Abroad to Service Members",
+      "ozet": "Children born outside the United States to a U.S. citizen parent who is a member of the Armed Forces may acquire citizenship at birth if the parent meets applicable physical presence or residence requirements; periods of honorable military service count toward those requirements. Children who do not acquire citizenship at birth may be eligible under INA Section 320 (automatic acquisition) or INA Section 322 (naturalization through a parent), and those residing abroad with a parent on official orders may complete the entire naturalization process outside the United States. Eligible children may document their citizenship by obtaining a Consular Report of Birth Abroad (CRBA) or by filing Form N-600.",
+      "resmi_link": "https://www.uscis.gov/military/citizenship-for-military-family-members",
+      "kaynak_adi": "USCIS",
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "homeowners-assistance-program",
+      "ana_baslik": "housing",
+      "baslik": "DoD Homeowners Assistance Program (HAP)",
+      "ozet": "The DoD Homeowners Assistance Program provides financial aid to eligible military homeowners who suffer losses on the sale of their primary residence due to base realignment, closure, or significant operational reductions at a nearby installation. Current eligibility includes service members with a 30% or greater service-connected disability incurred after September 11, 2001, and surviving spouses of service members who died from service-connected causes after that date. The U.S. Army Corps of Engineers (USACE), Savannah District, processes all applications.",
+      "resmi_link": "https://www.usace.army.mil/Missions/Military-Missions/Real-Estate/HAP/",
+      "kaynak_adi": "U.S. Army Corps of Engineers (USACE)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "army",
+        "all-ranks",
+        "disability",
+        "housing-allowance"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-comparison-tool",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill Comparison Tool — School & Program Research",
+      "ozet": "The VA's GI Bill Comparison Tool allows veterans, service members, and their families to research and compare GI Bill benefits at approved schools, employers, and training programs. Users can view data on tuition, graduation rates, loan default rates, Yellow Ribbon participation, accreditation status, and veteran-specific indicators such as Principles of Excellence compliance. The tool is designed to help eligible individuals make informed educational decisions before committing GI Bill benefits.",
+      "resmi_link": "https://www.va.gov/education/gi-bill-comparison-tool/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "education-benefit"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "pslf-military",
+      "ana_baslik": "veterans",
+      "baslik": "Public Service Loan Forgiveness (PSLF) for Military Service",
+      "ozet": "Public Service Loan Forgiveness cancels the remaining balance on eligible federal Direct Loans after a borrower makes 120 qualifying monthly payments while employed full-time by a qualifying public service employer, including the U.S. military. A key provision for service members is that months spent on active duty — even during deferment or forbearance — may count toward the 120-payment requirement. Borrowers manage and apply through the PSLF Help Tool at StudentAid.gov.",
+      "resmi_link": "https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service",
+      "kaynak_adi": "Federal Student Aid (Dept. of Education)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "education-benefit"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hplrp-loan-repayment",
+      "ana_baslik": "pay",
+      "baslik": "Health Professions Loan Repayment Program (HPLRP)",
+      "ozet": "The Health Professions Loan Repayment Program is a DoD incentive that repays qualifying educational loans for eligible health professionals who serve as commissioned officers in the military. The program is intended to attract new accessions and retain active-duty medical personnel in critical shortage specialties, including medicine, dentistry, osteopathic medicine, and nursing. Individual service branches publish annual lists of qualifying specialties and funding levels.",
+      "resmi_link": "https://www.med.navy.mil/Accessions/Health-Professions-Loan-Repayment-Program/",
+      "kaynak_adi": "U.S. Navy Bureau of Medicine and Surgery",
+      "etiketler": [
+        "active-duty",
+        "officer",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vsi-ssb-separation",
+      "ana_baslik": "veterans",
+      "baslik": "Voluntary Separation Incentive & Special Separation Benefit (VSI/SSB)",
+      "ozet": "The Voluntary Separation Incentive (VSI) and Special Separation Benefit (SSB) were programs that provided financial incentives to service members who voluntarily separated during congressionally authorized drawdown periods — VSI paid an annual annuity, while SSB paid a one-time lump sum at separation. Both programs have recoupment provisions: if a recipient later qualifies for VA disability compensation, the VSI or SSB amount received is offset from disability payments until fully recovered. Veterans who received these payments should contact DFAS to understand the impact on their VA compensation.",
+      "resmi_link": "https://www.dfas.mil/RetiredMilitary/plan/separation-payments/voluntary-separation-incentive/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "siv-iraqi-afghan",
+      "ana_baslik": "citizenship",
+      "baslik": "Special Immigrant Visa (SIV) for Iraqi & Afghan Interpreters",
+      "ozet": "The Special Immigrant Visa program provides a pathway to U.S. immigrant status for Iraqi and Afghan nationals who served directly alongside U.S. Armed Forces or under Chief of Mission authority for a minimum of 12 months and received a favorable recommendation from a commanding general or flag officer. The program is authorized under separate statutory frameworks for Iraq and Afghanistan, with a limited annual allocation of visas. Applications are processed through the U.S. Department of State, with USCIS handling the petition stage via Form I-360.",
+      "resmi_link": "https://travel.state.gov/content/travel/en/us-visas/immigrate/siv-iraqi-afghan-translators-interpreters.html",
+      "kaynak_adi": "U.S. Department of State",
+      "etiketler": [
+        "green-card",
+        "naturalization",
+        "army",
+        "navy",
+        "marines",
+        "air-force"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mil-spouse-license-portability",
+      "ana_baslik": "family",
+      "baslik": "Military Spouse Professional License Portability",
+      "ozet": "Federal law — including amendments to the Servicemembers Civil Relief Act — provides military spouses with protections and reimbursements when transferring professional licenses across state lines during a Permanent Change of Station (PCS) move. Interstate occupational licensure compacts enable seamless license portability across member states for professions such as nursing, physical therapy, and counseling. Service branches may reimburse spouses for associated relicensing costs; details are available through Military OneSource.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/transferring-your-professional-license/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "hire-vets-medallion",
+      "ana_baslik": "veterans",
+      "baslik": "HIRE Vets Medallion Program — Veteran-Friendly Employer Recognition",
+      "ozet": "The HIRE Vets Medallion Program is the only federal-level veterans employment award, established under the HIRE Vets Act of 2017, which recognizes employers of all sizes for efforts to recruit, employ, and retain military veterans. Awards are offered at Gold and Platinum tiers across three employer size categories: small (50 or fewer employees), medium (51-499), and large (500 or more). Veterans can use medallion recipients as a guide when evaluating potential employers; applications open annually on January 31.",
+      "resmi_link": "https://www.hirevets.gov/about",
+      "kaynak_adi": "U.S. Department of Labor (VETS)",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "social-security-military-credits",
+      "ana_baslik": "pay",
+      "baslik": "Social Security Credits for Military Service",
+      "ozet": "Active-duty military service has been covered under Social Security since 1957. From 1957 through 2001, eligible service members received special extra earnings credits to account for untaxed military benefits — up to $1,200 per year in additional credits from 1978 through 2001. These extra credits ended in January 2002, and a military pension does not reduce Social Security retirement or disability benefits.",
+      "resmi_link": "https://www.ssa.gov/benefits/retirement/planner/military.html",
+      "kaynak_adi": "Social Security Administration (SSA)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "discharge-immigration-consequences",
+      "ana_baslik": "citizenship",
+      "baslik": "Discharge Character & Immigration Consequences for Noncitizens",
+      "ozet": "Noncitizen service members must have served and separated under honorable conditions to be eligible for naturalization under INA Sections 328 or 329. A less-than-honorable discharge disqualifies a noncitizen from military naturalization; as of 2025 USCIS guidance, uncharacterized discharges issued on or after August 1, 2024 no longer meet the honorable conditions standard. Green card holders with a less-than-honorable discharge may also become subject to removal proceedings under broader immigration law.",
+      "resmi_link": "https://www.uscis.gov/newsroom/alerts/uscis-updates-guidance-on-military-naturalization",
+      "kaynak_adi": "USCIS",
+      "etiketler": [
+        "green-card",
+        "active-duty",
+        "veteran",
+        "all-branches",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-spouse-immigrant-visa",
+      "ana_baslik": "citizenship",
+      "baslik": "Immigrant & Nonimmigrant Visa Options for Foreign National Military Spouses",
+      "ozet": "Foreign national spouses of U.S. citizen service members can apply for an IR-1 (Immediate Relative) immigrant visa if married two or more years, or a CR-1 (Conditional Resident) visa if married under two years; both grant lawful permanent resident status upon entry. The K-3 nonimmigrant visa allows a spouse to enter the United States while an immigrant petition (Form I-130) is pending. These pathways are separate from Military Parole in Place, which is a discretionary option for qualifying spouses already present in the United States.",
+      "resmi_link": "https://travel.state.gov/content/travel/en/us-visas/immigrate/family-immigration/immigrant-visa-for-spouse.html",
+      "kaynak_adi": "U.S. Department of State",
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "green-card",
+        "all-branches",
+        "naturalization"
       ],
       "son_kontrol": "2026-06"
     }
