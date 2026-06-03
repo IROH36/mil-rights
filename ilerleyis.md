@@ -2,6 +2,11 @@
 
 ---
 
+## AFAS topic added — status: done ✓ (2026-06-03)
+212 topics total. Air & Space Forces Aid Society (afas.org) — emergency loans/grants, education support, community programs — added to `pay` category. Source: user-pasted afas.org content.
+
+---
+
 ## Content expansion: 11 new topics — status: done ✓ (2026-06-03)
 211 topics total (was 200). Summaries from live official pages or verified WebSearch excerpts.
 - Family: Army Emergency Relief / AER (armyemergencyrelief.org), Interstate Compact for Military Children / MIC3 (mic3.net)
@@ -11,7 +16,6 @@
 - Pay: Savings Deposit Program / SDP (dfas.mil — search-verified: 10%, $10,000 cap, 30-day combat zone condition), Military Lending Act / MLA (cfpb — fetched)
 
 ⚠ STILL BLOCKED — human review needed:
-- **afas** → Air Force Aid Society; afas.org all sub-pages return 404/403. Human should open afas.org, copy program descriptions and eligibility.
 - **deers-enrollment** → tricare.mil/registration returns 404
 
 ---

@@ -2059,6 +2059,16 @@
       "kaynak_adi": "Consumer Financial Protection Bureau (CFPB)",
       "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "afas-emergency-assistance",
+      "ana_baslik": "pay",
+      "baslik": "Air & Space Forces Aid Society (AFAS) — Emergency Financial Aid",
+      "ozet": "The Air & Space Forces Aid Society (AFAS) provides no-interest loans and grants to active-duty and retired Airmen, Guardians, and their families facing unexpected financial emergencies. Education grants, loans, and scholarships are available to dependent children and spouses of active-duty and retired Air Force and Space Force members. AFAS also offers community programs covering child care, vehicle upkeep, and spouse employment education; contact your installation's Military Family Readiness Center or visit afas.org to apply.",
+      "resmi_link": "https://www.afas.org/how-we-help/",
+      "kaynak_adi": "Air & Space Forces Aid Society",
+      "etiketler": ["active-duty","veteran","family-member","air-force","space-force","all-ranks"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
