@@ -2,6 +2,18 @@
 
 ---
 
+## Major content expansion: 207 → 219 topics — status: done ✓ (2026-06-03)
+- 9 duplicate IDs removed (efmp, tricare-dental, tricare-for-life, va-dental-care, tricare-reserve-select, tricare-prime-remote, veterans-crisis-line) + 2 same-topic different-ID pairs merged (sgli-life-insurance→sgli, va-vocational-rehab→va-vr-e)
+- `naturalization-military` ozet improved to include INA 328 vs 329 distinction and overseas process
+- New citizenship: military-family-citizenship (INA 319b/e/322), selective-service-military (sss.gov), surviving-family-citizenship (INA 329A/319d)
+- New pay: msrra-spouse-residency, overseas-cola, selective-reenlistment-bonus, career-sea-pay, special-duty-assignment-pay, aviation-career-incentive-pay, submarine-duty-pay, diving-duty-pay, military-leave-types, basic-needs-allowance
+- New family: military-power-of-attorney, military-no-fee-passport, adoption-reimbursement
+- New housing: privatized-housing-tenant-rights, ssvf-homeless-prevention
+- New veterans: mst-disability-compensation, va-adaptive-sports, medical-evaluation-board
+- All sourced from official pages (USCIS, DFAS, VA, MilitaryOneSource, DoD, State Dept) or verified via WebSearch against official .mil/.gov sources
+
+---
+
 ## AFAS topic added — status: done ✓ (2026-06-03)
 212 topics total. Air & Space Forces Aid Society (afas.org) — emergency loans/grants, education support, community programs — added to `pay` category. Source: user-pasted afas.org content.
 
