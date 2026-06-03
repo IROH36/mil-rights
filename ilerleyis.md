@@ -2,18 +2,16 @@
 
 ---
 
-## Content expansion: 8 new topics — status: done ✓ (2026-06-03)
-208 topics total (was 200). All summaries fetched from live official pages.
+## Content expansion: 11 new topics — status: done ✓ (2026-06-03)
+211 topics total (was 200). Summaries from live official pages or verified WebSearch excerpts.
 - Family: Army Emergency Relief / AER (armyemergencyrelief.org), Interstate Compact for Military Children / MIC3 (mic3.net)
-- Veterans: VA Disability Claim Process & Timeline (va.gov), VA Benefits by Rating Level (va.gov), GI Bill Monthly Enrollment Verification (va.gov), VA Principles of Excellence – school accountability (va.gov)
+- Veterans: VA Disability Claim Process & Timeline (va.gov), VA Benefits by Rating Level (va.gov), GI Bill Monthly Enrollment Verification (va.gov), VA Principles of Excellence (va.gov), Discharge Upgrade (va.gov)
 - Healthcare: VA Medical Records / My HealtheVet (va.gov)
 - Housing: VA Home Loan for Surviving Spouses (va.gov)
+- Pay: Savings Deposit Program / SDP (dfas.mil — search-verified: 10%, $10,000 cap, 30-day combat zone condition), Military Lending Act / MLA (cfpb — fetched)
 
-⚠ STILL BLOCKED — human review needed (carried over from 2026-06-02):
-- **afas** → Air Force Aid Society; afas.org and all sub-pages return 404/403. Human should open afas.org, copy program descriptions and eligibility.
-- **sdp** → Savings Deposit Program; dfas.mil 403, militaryonesource 404. Human should open the DFAS SDP page and confirm 10% interest rate, $10,000 cap, deployment condition.
-- **discharge-upgrade** → va.gov discharge upgrade pages return 404
-- **military-lending-act** → militaryonesource.mil and consumerfinance.gov all 404/403
+⚠ STILL BLOCKED — human review needed:
+- **afas** → Air Force Aid Society; afas.org all sub-pages return 404/403. Human should open afas.org, copy program descriptions and eligibility.
 - **deers-enrollment** → tricare.mil/registration returns 404
 
 ---

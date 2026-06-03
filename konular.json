@@ -2029,6 +2029,36 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks","education-benefit"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "discharge-upgrade",
+      "ana_baslik": "veterans",
+      "baslik": "Discharge Upgrade or Correction",
+      "ozet": "Veterans with a discharge that isn't honorable can apply for a discharge upgrade or correction; strong cases include discharges connected to mental health conditions (including PTSD), traumatic brain injury (TBI), military sexual trauma (MST), or sexual orientation under the Don't Ask, Don't Tell policy. The VA provides an online tool at va.gov/discharge-upgrade-instructions that asks questions about your situation and tells you exactly how and where to apply — it does not start the application itself. For help, call the VA at 800-827-1000, Monday through Friday, 8 a.m. to 9 p.m. ET.",
+      "resmi_link": "https://www.va.gov/discharge-upgrade-instructions/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "savings-deposit-program",
+      "ana_baslik": "pay",
+      "baslik": "Savings Deposit Program (SDP) — 10% Deployed Savings",
+      "ozet": "The Savings Deposit Program (SDP) allows service members deployed to a designated combat zone, qualified hazardous duty area, or certain contingency operations for more than 30 consecutive days (or at least one day in each of three consecutive months) to deposit up to $10,000 of unallotted pay and earn a guaranteed 10% annual interest rate, compounded quarterly. Interest accrues for the duration of the qualifying deployment plus up to 90 days after leaving the combat zone; the account is closed and all funds are returned via direct deposit 120 days after the member's last day in the combat zone. Enrollment is initiated through your installation's finance office or unit pay administrator.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/sdp/",
+      "kaynak_adi": "DFAS",
+      "etiketler": ["active-duty","reservist","national-guard","all-branches","all-ranks","deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-lending-act",
+      "ana_baslik": "pay",
+      "baslik": "Military Lending Act (MLA) — Loan Protections",
+      "ozet": "The Military Lending Act (MLA) caps the Military Annual Percentage Rate (MAPR) at 36% on most consumer loans to active-duty service members, their spouses, and certain dependents — including National Guard members mobilized federally for 30 or more consecutive days — covering credit cards, payday loans, vehicle title loans, installment loans, and overdraft lines of credit, but not residential mortgages or vehicle purchase loans secured by the vehicle. Lenders subject to the MLA cannot require mandatory arbitration agreements, force repayment through military pay allotments, or charge prepayment penalties. Violations can be reported to the Consumer Financial Protection Bureau (CFPB) online or by calling 855-411-2372.",
+      "resmi_link": "https://www.consumerfinance.gov/consumer-tools/military-financial-lifecycle/military-lending-act-mla/",
+      "kaynak_adi": "Consumer Financial Protection Bureau (CFPB)",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
