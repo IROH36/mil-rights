@@ -2,6 +2,22 @@
 
 ---
 
+## Content expansion: 8 new topics — status: done ✓ (2026-06-03)
+208 topics total (was 200). All summaries fetched from live official pages.
+- Family: Army Emergency Relief / AER (armyemergencyrelief.org), Interstate Compact for Military Children / MIC3 (mic3.net)
+- Veterans: VA Disability Claim Process & Timeline (va.gov), VA Benefits by Rating Level (va.gov), GI Bill Monthly Enrollment Verification (va.gov), VA Principles of Excellence – school accountability (va.gov)
+- Healthcare: VA Medical Records / My HealtheVet (va.gov)
+- Housing: VA Home Loan for Surviving Spouses (va.gov)
+
+⚠ STILL BLOCKED — human review needed (carried over from 2026-06-02):
+- **afas** → Air Force Aid Society; afas.org and all sub-pages return 404/403. Human should open afas.org, copy program descriptions and eligibility.
+- **sdp** → Savings Deposit Program; dfas.mil 403, militaryonesource 404. Human should open the DFAS SDP page and confirm 10% interest rate, $10,000 cap, deployment condition.
+- **discharge-upgrade** → va.gov discharge upgrade pages return 404
+- **military-lending-act** → militaryonesource.mil and consumerfinance.gov all 404/403
+- **deers-enrollment** → tricare.mil/registration returns 404
+
+---
+
 ## Content expansion: 13 new topics — status: done ✓ (2026-06-02)
 200 topics total (was 187). Fetched from live official pages.
 Added: TSGLI, VA Foreign Medical Program, VA headstones/markers, VA priority groups, SBA veteran businesses, VA fiduciary program, VA copay rates, VA supplemental claim, VA higher-level review, TRICARE urgent care, VA Board of Veterans' Appeals, VA pre-discharge/BDD claims, Airborne Hazards & Burn Pit Registry.

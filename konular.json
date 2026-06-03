@@ -1949,6 +1949,86 @@
       "kaynak_adi": "VA",
       "etiketler": ["veteran","active-duty","all-branches","all-ranks","disability"],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "aer-emergency-relief",
+      "ana_baslik": "family",
+      "baslik": "Army Emergency Relief (AER)",
+      "ozet": "Army Emergency Relief (AER) is a nonprofit organization established in 1942 that provides zero-interest loans and grants to Army service members — active duty, National Guard, Reserve, and retired — and their families to cover financial emergencies such as emergency travel, housing costs, medical or dental expenses, utilities, food, and natural disaster preparation. Requests are evaluated on a case-by-case basis by local installation AER offices; eligible populations also include surviving spouses, Wounded Warriors, and parents of service members. Applications and the online loan portal are available at armyemergencyrelief.org.",
+      "resmi_link": "https://www.armyemergencyrelief.org/",
+      "kaynak_adi": "Army Emergency Relief",
+      "etiketler": ["active-duty","reservist","national-guard","veteran","family-member","army","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mic3-military-children-compact",
+      "ana_baslik": "family",
+      "baslik": "Interstate Compact — Educational Rights for Military Children",
+      "ozet": "The Interstate Compact on Educational Opportunity for Military Children (MIC3) is an agreement among all 50 states, Washington D.C., and DoDEA schools that protects military children during PCS moves by standardizing school transition policies: provisional enrollment using existing records, recognition of prior coursework and advanced programs, maintained eligibility for extracurricular activities despite missed deadlines, course waivers for equivalent coursework, coordinated graduation for senior-year transfers, and comparable special education services under current IEPs. Families access Compact rights through installation school liaisons or Military OneSource at 800-342-9647; state-specific resources and a parent guide are available at mic3.net.",
+      "resmi_link": "https://www.mic3.net/",
+      "kaynak_adi": "Military Interstate Children's Compact Commission (MIC3)",
+      "etiketler": ["active-duty","reservist","national-guard","family-member","all-branches","all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-disability-claim-process",
+      "ana_baslik": "veterans",
+      "baslik": "VA Disability Claim — Process and Timeline",
+      "ozet": "After a veteran files a VA disability claim, the VA follows a seven-step process: claim received, initial review, evidence gathering, evidence review, rating decision, preparation of the decision letter, and final review before mailing — with an average processing time of approximately 72 days as of April 2026. The evidence-gathering phase is typically the longest; the VA may schedule a Compensation and Pension (C&P) exam, request private medical records, and review existing VA records during this phase, and submitting new evidence after it begins restarts the process. Claim status can be tracked online at VA.gov or by calling 800-827-1000.",
+      "resmi_link": "https://www.va.gov/disability/after-you-file-claim/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-rating-level-benefits",
+      "ana_baslik": "veterans",
+      "baslik": "VA Disability — Benefits Unlocked at Each Rating Level",
+      "ozet": "VA disability ratings unlock different benefits at increasing thresholds: any service-connected rating (including 0%) makes a veteran eligible for VA health care and for VALife whole-life insurance without a medical exam; ratings of 10% or higher activate monthly tax-free disability compensation payments; 30% or higher opens additional financial support for qualifying dependents; and a 100% combined rating adds dental care, commissary and exchange privileges, and related enhanced benefits. Veterans can update their VA profile at VA.gov to report life events — such as marriage or the birth of a child — that may affect their compensation amount.",
+      "resmi_link": "https://www.va.gov/disability/about-disability-ratings/after-you-get-a-rating/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","all-branches","all-ranks","disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gi-bill-enrollment-verification",
+      "ana_baslik": "veterans",
+      "baslik": "GI Bill — Monthly Enrollment Verification",
+      "ozet": "Veterans and dependents receiving education benefits under the Post-9/11 GI Bill, Montgomery GI Bill Active Duty (MGIB-AD), Montgomery GI Bill Selected Reserve (MGIB-SR), or Survivors' and Dependents' Educational Assistance (DEA/Chapter 35) must verify their enrollment — confirming credit or clock hours and enrollment dates — each month to continue receiving benefit payments. The VA sends a monthly text or email prompt; verification can be completed online at VA.gov, by text, by phone, or through Ask VA. STEM Scholarship recipients follow a separate verification process.",
+      "resmi_link": "https://www.va.gov/education/verify-school-enrollment/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","family-member","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-my-healthevet-records",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Medical Records — My HealtheVet",
+      "ozet": "Veterans enrolled in VA health care and registered as patients at a VA facility can access, review, print, and download their complete VA medical records — including lab and test results, vaccine and allergy records, and care summaries and notes — through My HealtheVet on VA.gov. The Share My Health Data app allows veterans to track vitals and share that data directly with their VA care team, and CHAMPVA beneficiaries can also review their medication records through the same platform. My HealtheVet support is available Monday–Friday, 8 a.m.–8 p.m. ET; general VA.gov account questions are supported 24/7.",
+      "resmi_link": "https://www.va.gov/health-care/get-medical-records/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","family-member","all-branches","all-ranks","va-health"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-home-loan-surviving-spouse",
+      "ana_baslik": "housing",
+      "baslik": "VA Home Loan Benefit for Surviving Spouses",
+      "ozet": "Surviving spouses of veterans who died in service or from a service-connected disability may be eligible for VA-backed home loans — including purchase loans, Interest Rate Reduction Refinance Loans (IRRRL), and cash-out refinance loans — provided they did not remarry (or remarried after age 57 or after December 16, 2003). Spouses receiving Dependency and Indemnity Compensation (DIC) apply using VA Form 26-1817 with the veteran's DD-214; those not receiving DIC submit VA Form 21P-534EZ along with the DD-214, marriage license, and death certificate. Once eligibility is established, a Certificate of Eligibility (COE) is obtained and the loan is processed through any VA-approved private lender.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/surviving-spouse/",
+      "kaynak_adi": "VA",
+      "etiketler": ["family-member","veteran","all-branches","all-ranks","survivor-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-principles-of-excellence",
+      "ana_baslik": "veterans",
+      "baslik": "VA Principles of Excellence — School Accountability",
+      "ozet": "The Principles of Excellence program requires schools receiving GI Bill funding to provide each enrolled veteran or dependent with a written cost estimate covering benefits, available financial aid, and projected loan debt; to assign a dedicated academic and financial advisor with disability counseling access; and to permit active-duty and Reserve members to take leave for service obligations without academic penalty. Schools must also comply with Title IV refund policies and eliminate deceptive recruitment practices; foreign schools, high schools, and tuition-free institutions are exempt. Veterans can identify participating schools and check compliance using the VA's GI Bill Comparison Tool at va.gov.",
+      "resmi_link": "https://www.va.gov/education/choosing-a-school/principles-of-excellence/",
+      "kaynak_adi": "VA",
+      "etiketler": ["veteran","active-duty","reservist","national-guard","all-branches","all-ranks","education-benefit"],
+      "son_kontrol": "2026-06"
     }
   ]
 }
