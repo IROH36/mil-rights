@@ -2,6 +2,22 @@
 
 ---
 
+## Content expansion: 10 new advanced topics added — status: done ✓ (2026-06-04)
+- Topics added to konular.json (all sourced from official .gov/.mil or U.S. Code via law.cornell.edu):
+  - security-clearance-appeals (32 CFR § 155.6 / DOHA)
+  - political-activity-restrictions (10 U.S.C. § 973)
+  - military-foia-request (foia.gov / 5 U.S.C. § 552)
+  - bah-rate-protection (37 U.S.C. § 403(b)(6))
+  - career-intermission-program (10 U.S.C. § 710)
+  - uniform-clothing-allowances (37 U.S.C. § 418)
+  - school-liaison-officers (militaryonesource.mil)
+  - va-patient-advocate (va.gov/health/patientadvocate/)
+  - va-walk-in-urgent-care (va.gov/COMMUNITYCARE)
+  - cavc-appeals-court (uscourts.cavc.gov + 38 U.S.C. §§ 7252, 7266)
+- NOTE: Direct .mil domains (dcsa.mil, militarypay.defense.gov, dodea.edu, mynavyhr.navy.mil) were blocked by firewall/403 during this session; summaries for affected topics were sourced from official U.S. Code at law.cornell.edu or redirected VA/Military OneSource pages.
+
+---
+
 ## Content expansion + sync fix: 247 → 257 topics — status: done ✓ (2026-06-04)
 - 10 new topics added to konular.json and index.html DATA_FALLBACK
 - New pay (3): jump-parachute-pay (DFAS HDIP), conus-cola (DTMO), clothing-allowance-enlisted (DFAS)

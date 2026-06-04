@@ -4335,6 +4335,204 @@
         ]
       },
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "security-clearance-appeals",
+      "ana_baslik": "citizenship",
+      "baslik": "Security Clearance Denial & Revocation Appeals (DOHA)",
+      "ozet": "When a DoD security clearance is denied or revoked, the case is adjudicated by the Defense Office of Hearings and Appeals (DOHA), whose Administrative Judges and Appeal Board apply a fair and impartial standard weighing conduct seriousness, frequency, recency, applicant age, and evidence of rehabilitation. Applicants must cooperate fully — provide truthful answers and authorize disclosure of relevant information — or DOHA may revoke the clearance and bar reapplication for one year. Emergency suspension authority also allows the ASD(C3I) to suspend a clearance immediately when continued access poses an imminent threat to the national interest.",
+      "resmi_link": "https://www.law.cornell.edu/cfr/text/32/155.6",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "emekli"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "political-activity-restrictions",
+      "ana_baslik": "citizenship",
+      "baslik": "Political Activity Restrictions for Active-Duty Military",
+      "ozet": "Under 10 USC § 973, active-duty officers are prohibited from holding elective federal, state, or local civil offices, from accepting positions requiring Senate confirmation, and from taking employment that would interfere with military duties. Exceptions permit officers to hold federal civil offices when officially assigned or detailed to those positions, and to seek and hold nonpartisan civil office on an independent school board located exclusively on a military reservation. Similar restrictions apply to enlisted members and all active-duty personnel under DoD Directive 1344.10.",
+      "resmi_link": "https://www.law.cornell.edu/uscode/text/10/973",
+      "etiketler": {
+        "statü": [
+          "aktif"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-foia-request",
+      "ana_baslik": "citizenship",
+      "baslik": "Requesting DoD Records via FOIA",
+      "ozet": "Under the Freedom of Information Act (5 USC § 552), any person may submit a written request to any federal agency — including DoD components — for agency records; the agency must respond within 20 business days and may charge search, duplication, and review fees depending on the requester category. Requesters whose request is denied have the right to appeal to the agency head within at least 90 days, and dispute resolution services are available through the Office of Government Information Services. FOIA.gov, managed by the Department of Justice, provides a central portal to identify the correct DoD component FOIA office and submit requests electronically.",
+      "resmi_link": "https://www.foia.gov/",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "emekli",
+          "eş"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "bah-rate-protection",
+      "ana_baslik": "housing",
+      "baslik": "BAH Rate Protection (Hold-Harmless Rule)",
+      "ozet": "Under 37 USC § 403(b)(6), a service member's Basic Allowance for Housing may not be reduced as long as the member retains uninterrupted eligibility within the same military housing area — protecting members from decreases caused by falling local housing costs or by the member's own promotion. This hold-harmless protection applies to domestic duty stations; a similar provision under § 403(c)(2) covers overseas locations, though those amounts may still adjust for currency fluctuations. The protection ends if eligibility is interrupted, such as when a member receives permanent change of station orders to a new location.",
+      "resmi_link": "https://www.law.cornell.edu/uscode/text/37/403",
+      "etiketler": {
+        "statü": [
+          "aktif"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "konut",
+          "maaş"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "career-intermission-program",
+      "ana_baslik": "pay",
+      "baslik": "Career Intermission Program (CIP)",
+      "ozet": "Under 10 USC § 710, the Secretary of each military department may place active-duty service members in an inactive-duty status for up to three years to address personal or professional needs, after which the member returns to active service. During the intermission, members receive two-thirtieths of their normal monthly basic pay and must serve in the Ready Reserve, completing training to maintain proficiency; they also retain access to military medical and dental care, survivor death benefits, and VA benefits. Service time during inactive status does not count toward retirement, and members are ineligible for promotion while in the program, with a return-to-active-duty obligation of one month for each month of inactive status.",
+      "resmi_link": "https://www.law.cornell.edu/uscode/text/10/710",
+      "etiketler": {
+        "statü": [
+          "aktif"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "maaş",
+          "emeklilik",
+          "aile"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "uniform-clothing-allowances",
+      "ana_baslik": "pay",
+      "baslik": "Military Clothing Allowances",
+      "ozet": "Under 37 USC § 418, the Secretary of Defense is authorized to prescribe the quantity and type of clothing furnished to enlisted members annually or, alternatively, to provide a cash clothing allowance in lieu of issued items. For initial entry, service members in the Army, Navy, Air Force, Marine Corps, and Space Force must be furnished athletic footwear directly rather than receiving a cash allowance, with medical exceptions available for members with unique physiological needs that cannot be met by standard-issue footwear. Amendments effective in 2021 require reducing gender-related cost disparities and establishing standards for items considered uniquely military across all service branches.",
+      "resmi_link": "https://www.law.cornell.edu/uscode/text/37/418",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek"
+        ],
+        "kol": [],
+        "rütbe": [
+          "er",
+          "nco"
+        ],
+        "konu": [
+          "maaş"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "school-liaison-officers",
+      "ana_baslik": "family",
+      "baslik": "School Liaison Officers (SLO) for Military Children",
+      "ozet": "School Liaison Officers are located at each military installation and serve as the primary point of contact for military families, local school systems, and installation leadership on school-related matters for children in pre-K through 12th grade. They help families navigating PCS moves by providing information on school districts, assisting with credit transfers, offering youth sponsorship referrals, and explaining educational options including private, charter, parochial, and homeschool alternatives. Additional services include special education referrals through the Exceptional Family Member Program, support for deployment-related challenges, and college and career readiness guidance.",
+      "resmi_link": "https://www.militaryonesource.mil/family-relationships/family-life/moving-pcs/school-liaison-program/",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "eş",
+          "çocuk"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "aile",
+          "eğitim"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-patient-advocate",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Patient Advocate Program",
+      "ozet": "Every VA medical facility has a designated Patient Advocate — a staff member who manages feedback from veterans and their families, facilitates problem resolution, and handles concerns about care delivery in coordination with VA management and clinical staff. Veterans are encouraged to first address concerns with their treatment team or the provider's supervisor, and may escalate unresolved issues to the Patient Advocate to file appeals for care reviews and address questions about patient rights and responsibilities. Patient Advocates are available at individual VA medical centers; veterans can find the nearest facility using the VA's location finder at va.gov.",
+      "resmi_link": "https://www.va.gov/health/patientadvocate/",
+      "etiketler": {
+        "statü": [
+          "emekli"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "sağlık",
+          "hukuki"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-walk-in-urgent-care",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Walk-In Community Urgent Care",
+      "ozet": "Veterans enrolled in VA health care who have received VA or in-network provider care within the past 24 months may use VA-covered walk-in urgent care at in-network community urgent care centers and retail health clinics for minor injuries and illnesses — such as strep throat, pink eye, sprained muscles, and skin or ear infections — with no referral required. Diagnostic services including X-rays and lab tests, as well as certain medicines and vaccines, are also covered; veterans should bring a valid government-issued photo ID and confirm the provider is in-network before receiving treatment. Copayments of up to $30 may apply in some cases depending on the veteran's priority group and annual visit frequency, and the VA will bill the veteran after the visit if applicable.",
+      "resmi_link": "https://www.va.gov/COMMUNITYCARE/programs/veterans/Urgent_Care.asp",
+      "etiketler": {
+        "statü": [
+          "emekli"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "sağlık"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "cavc-appeals-court",
+      "ana_baslik": "veterans",
+      "baslik": "Court of Appeals for Veterans Claims (CAVC)",
+      "ozet": "The U.S. Court of Appeals for Veterans Claims (CAVC) is an independent federal Article I court located in Washington, D.C., with exclusive jurisdiction under 38 USC § 7252 to review final decisions of the Board of Veterans' Appeals; the Court may affirm, modify, reverse, or remand Board decisions. Veterans who disagree with a Board decision must file a Notice of Appeal with the CAVC within 120 days of the date the Board decision notice is issued, by delivering or mailing the notice to the Court. The CAVC provides access to a searchable decisions database, a practitioner locator, electronic case filing, and public oral arguments via YouTube Live.",
+      "resmi_link": "https://www.uscourts.cavc.gov/",
+      "etiketler": {
+        "statü": [
+          "emekli"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki",
+          "engel"
+        ]
+      },
+      "son_kontrol": "2026-06"
     }
   ]
 }

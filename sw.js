@@ -1,4 +1,4 @@
-const CACHE = 'mil-rights-v3';
+const CACHE = 'mil-rights-v4';
 const ASSETS = [
   './',
   './index.html',
