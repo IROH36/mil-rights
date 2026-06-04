@@ -2,6 +2,18 @@
 
 ---
 
+## Content expansion + sync fix: 247 → 257 topics — status: done ✓ (2026-06-04)
+- 10 new topics added to konular.json and index.html DATA_FALLBACK
+- New pay (3): jump-parachute-pay (DFAS HDIP), conus-cola (DTMO), clothing-allowance-enlisted (DFAS)
+- New healthcare (2): va-fertility-benefits (va.gov), va-community-living-centers (va.gov)
+- New veterans (4): ucx-unemployment (DOL), scaadl (va.gov), reserve-component-retirement (DFAS), veterans-treatment-courts (va.gov)
+- New family (1): deers-enrollment (tricare.mil) — previously blocked, now resolved
+- Architecture fix: index.html now loads konular.json via fetch() on startup and updates DATA if fresh data has more entries; embedded DATA_FALLBACK (205 entries) used as offline fallback; sw.js bumped to v2 to force fresh cache
+- BLOCKED: survivor-outreach-services — all URLs (militaryonesource.mil, armymwr.com, army.mil, myarmybenefits) returned 404/timeout; needs human to open official page
+- Category totals (estimated): citizenship 10, pay 36, healthcare 43, family 40, housing 20, veterans 108
+
+---
+
 ## Content expansion: 234 → 247 topics — status: done ✓ (2026-06-03)
 - Fixed: sbp entry updated to reflect 2023 SBP-DIC offset elimination (SSIA discontinued)
 - New pay (33): enlistment-bonus, critical-skills-retention-bonus, social-security-military-credits, military-state-income-tax, hplrp-loan-repayment

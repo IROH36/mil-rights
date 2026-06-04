@@ -3977,6 +3977,156 @@
         "all-ranks"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "ucx-unemployment",
+      "ana_baslik": "veterans",
+      "baslik": "Unemployment Compensation for Ex-Servicemembers (UCX)",
+      "ozet": "The UCX program provides unemployment benefits for eligible ex-military personnel who served on active duty and were separated under honorable conditions; benefits are administered by individual states and amounts, duration, and eligibility requirements vary by state. Benefits are funded directly by the military branches with no payroll deductions taken from servicemembers' wages during service. Separated servicemembers should file a UCX claim through their state's unemployment insurance agency.",
+      "resmi_link": "https://oui.doleta.gov/unemploy/ucx.asp",
+      "kaynak_adi": "U.S. Department of Labor — Office of Unemployment Insurance",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "jump-parachute-pay",
+      "ana_baslik": "pay",
+      "baslik": "Parachute / Jump Duty Pay",
+      "ozet": "Service members who perform parachute jumping as an essential military duty receive a monthly hazard pay in addition to their base pay; those performing military free fall operations (parachute deployment without a static line) receive a higher rate. Reserve component members receive a prorated daily amount for equivalent duty periods, and a member may not receive more than two simultaneous hazard pay compensations.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/HDIP/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "enlisted",
+        "officer"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "conus-cola",
+      "ana_baslik": "pay",
+      "baslik": "CONUS Cost of Living Allowance (CONUS COLA)",
+      "ozet": "Service members assigned to duty stations within the continental United States where the local cost of living significantly exceeds the national average may be eligible for CONUS COLA. The allowance supplements base pay to help offset higher local living expenses, and current eligible locations and rates are published annually by the Defense Travel Management Office.",
+      "resmi_link": "https://www.travel.dod.mil/Allowances/CONUS-COLA/",
+      "kaynak_adi": "Defense Travel Management Office (DTMO)",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-fertility-benefits",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Fertility and Reproductive Health Benefits",
+      "ozet": "The VA provides fertility counseling and certain fertility treatments, including in vitro fertilization (IVF), to veterans who have a service-connected condition that causes infertility. Eligible veterans and their spouses or partners may access covered services at VA medical centers or through authorized community providers. Contact your VA health care team or the VA health benefits hotline at 877-222-8387 to determine eligibility and available services.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/fertility-and-reproductive-health/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "va-health"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-community-living-centers",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Community Living Centers (VA Nursing Homes)",
+      "ozet": "VA Community Living Centers (CLCs) are VA-operated nursing home facilities at over 100 sites nationwide, providing 24-hour skilled nursing care, restorative services, mental health support, dementia care, respite care, and hospice to eligible veterans. Veterans must be enrolled in VA health care, be medically stable, and have a clinical need for nursing home-level care; copay amounts depend on service-connected status and income.",
+      "resmi_link": "https://www.va.gov/geriatrics/pages/VA_Community_Living_Centers.asp",
+      "kaynak_adi": "U.S. Department of Veterans Affairs — Geriatrics and Extended Care",
+      "etiketler": [
+        "veteran",
+        "disability",
+        "va-health",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "scaadl",
+      "ana_baslik": "veterans",
+      "baslik": "Special Compensation for Assistance with Activities of Daily Living (SCAADL)",
+      "ozet": "SCAADL is monthly special compensation for active-duty servicemembers with a permanent, severe, service-connected disability that requires personal or mechanical assistance to leave home or bed, or constant supervision to avoid physical harm. Eligibility ends 90 days after separation or retirement, upon the member's death, or when the member begins receiving equivalent VA compensation; contact your military treatment facility's SCAADL coordinator to apply.",
+      "resmi_link": "https://www.va.gov/disability/eligibility/special-claims/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "disability",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "reserve-component-retirement",
+      "ana_baslik": "veterans",
+      "baslik": "Reserve Component Retirement (Points-Based)",
+      "ozet": "Reserve and National Guard members become eligible for retirement pay starting at age 60 — reduced to as low as age 50 for qualifying active duty service after January 28, 2008 — after earning at least 20 qualifying years computed by retirement points. Points accumulate through active service, unit drills, and an annual membership credit, with a minimum number of points required per year for that year to count toward retirement.",
+      "resmi_link": "https://www.dfas.mil/RetiredMilitary/plan/reserve-retirement/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "veterans-treatment-courts",
+      "ana_baslik": "veterans",
+      "baslik": "Veterans Treatment Courts",
+      "ozet": "Veterans Treatment Courts (VTCs) are specialized criminal justice diversion programs that pair judicial supervision with VA health care services, including mental health and substance use treatment, for justice-involved veterans. VA Veterans Justice Outreach (VJO) specialists at VA medical centers nationwide work directly with courts and law enforcement to connect veterans to VA services before or during incarceration. Veterans or family members can contact the nearest VA medical center's VJO specialist or call the National Call Center for Homeless Veterans at 877-424-3838.",
+      "resmi_link": "https://www.va.gov/homeless/vjo.asp",
+      "kaynak_adi": "U.S. Department of Veterans Affairs — Veterans Justice Programs",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "clothing-allowance-enlisted",
+      "ana_baslik": "pay",
+      "baslik": "Military Clothing Allowance (Enlisted)",
+      "ozet": "Enlisted members of the armed forces receive an annual clothing replacement allowance to help maintain required uniforms, paid as a cash allowance by DFAS. The initial clothing allowance is provided upon entry into service; annual replacement amounts and current rates are published by DFAS and differ between branches. Officers receive a one-time uniform allowance upon commissioning rather than annual replacements.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/CMA1/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "active-duty",
+        "enlisted",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "deers-enrollment",
+      "ana_baslik": "family",
+      "baslik": "DEERS Enrollment — ID Cards and Benefits Access",
+      "ozet": "The Defense Enrollment Eligibility Reporting System (DEERS) is the DoD database that establishes eligibility for TRICARE, military ID cards, and other benefits; servicemembers are registered automatically, but sponsors must manually enroll eligible dependents (spouse, children) at a local RAPIDS ID card office, by phone at 800-538-9552, or by mail. Keeping DEERS records current is essential — errors cause problems with TRICARE claims, referrals, and prescription coverage.",
+      "resmi_link": "https://www.tricare.mil/Plans/Eligibility/DEERS",
+      "kaynak_adi": "TRICARE — Defense Health Agency",
+      "etiketler": [
+        "active-duty",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }
