@@ -4127,6 +4127,214 @@
         "all-branches"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "brs-continuation-pay",
+      "baslik": "BRS Continuation Pay",
+      "ozet": "Continuation Pay is a mid-career cash bonus available to service members under the Blended Retirement System who have between 7 and 12 years of service and agree to serve at least three additional years. Active duty members receive a minimum of 2.5 times monthly basic pay, while reserve component members receive at least 0.5 times monthly basic pay, with exact amounts varying by service branch. The bonus may be deposited directly into the Thrift Savings Plan retirement account.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/financial-counseling/blended-retirement-system/",
+      "ana_baslik": "pay",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "maaş",
+          "emeklilik",
+          "maliye"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vmli-mortgage-life",
+      "baslik": "Veterans Mortgage Life Insurance (VMLI)",
+      "ozet": "Veterans Mortgage Life Insurance (VMLI) provides up to $200,000 in mortgage protection insurance for veterans with severe service-connected disabilities who have received a Specially Adapted Housing (SAH) grant. Payments are made directly to the lender rather than to beneficiaries, and coverage decreases as the mortgage balance declines. Applicants must be under age 70, hold the title to an adapted home, and carry an active mortgage.",
+      "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/vmli/",
+      "ana_baslik": "veterans",
+      "etiketler": {
+        "statü": [
+          "emekli"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "sigorta",
+          "konut",
+          "engel"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "clep-dantes-testing",
+      "baslik": "CLEP and DANTES Subject Tests",
+      "ozet": "The Defense Activity for Non-Traditional Education Support (DANTES) fully funds College-Level Examination Program (CLEP) exams for eligible service members, including active duty, reserve, National Guard, and certain military spouses, allowing them to earn college credit by demonstrating existing knowledge. DANTES funding covers each exam subject once, and exam and administration fees are waived at DANTES-funded and on-base test centers. Eligible individuals register through the My CLEP student portal and must present a Geneva Convention Identification Card on test day.",
+      "resmi_link": "https://clep.collegeboard.org/clep-military-benefits",
+      "ana_baslik": "pay",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "eş"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "eğitim"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-newborn-enrollment",
+      "baslik": "TRICARE Newborn Enrollment",
+      "ozet": "Newborns must be registered in the Defense Enrollment Eligibility Reporting System (DEERS) and enrolled in a TRICARE health plan within 90 days of birth for stateside families, or within 120 days for initial DEERS registration followed by a 90-day enrollment window for overseas families. Birth and adoption are qualifying life events that trigger TRICARE eligibility for the child. Failure to register and enroll within the required timeframe may result in a gap in coverage.",
+      "resmi_link": "https://www.tricare.mil/LifeEvents/Baby",
+      "ana_baslik": "family",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "çocuk"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "sağlık",
+          "aile"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-whistleblower-protection",
+      "baslik": "Military Whistleblower Protection",
+      "ozet": "Under 10 U.S.C. § 1034, service members are protected from retaliation for communicating with Members of Congress or Inspectors General regarding violations of law, gross mismanagement, waste of funds, abuse of authority, or threats to public safety. Commanders are prohibited from taking adverse personnel actions — such as unfavorable evaluations or duty reassignments — against members who make protected disclosures. Complaints are submitted to an Inspector General, who investigates outside the chain of command and must report findings within 30 days.",
+      "resmi_link": "https://www.law.cornell.edu/uscode/text/10/1034",
+      "ana_baslik": "citizenship",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "mwr-recreation",
+      "baslik": "Morale, Welfare and Recreation (MWR)",
+      "ozet": "Morale, Welfare and Recreation (MWR) programs support the physical and mental well-being of service members and their families through installation-based fitness centers, aquatics, libraries, child development services, outdoor recreation, and recreational lodging. Programs are organized into three funding categories — mission-sustaining, community support, and revenue-generating — ensuring a broad range of services across installations. MWR also provides access to American Forces Travel discounts and the Information, Tickets and Travel (ITT) program for affordable recreation and travel opportunities.",
+      "resmi_link": "https://www.militaryonesource.mil/recreation-travel-shopping/recreation/",
+      "ana_baslik": "family",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "eş",
+          "çocuk",
+          "bakmakla-yükümlü"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "aile",
+          "ulaşım"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "ides-disability-evaluation",
+      "baslik": "Integrated Disability Evaluation System (IDES)",
+      "ozet": "The Integrated Disability Evaluation System (IDES) is a joint VA and Department of Defense program that streamlines the disability evaluation process for service members who are wounded, ill, or injured and cannot perform their military duties. The VA and DoD collaborate to assess medical fitness for continued service and provide a proposed disability rating to the service member before discharge. Those found medically unfit receive their VA disability determination prior to separation and gain early access to Veteran Readiness and Employment services.",
+      "resmi_link": "https://www.va.gov/disability/how-to-file-claim/when-to-file/pre-discharge-claim/",
+      "ana_baslik": "healthcare",
+      "etiketler": {
+        "statü": [
+          "aktif"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "sağlık",
+          "engel",
+          "emeklilik"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "bcmr-records-correction",
+      "baslik": "Board for Correction of Military Records (BCMR)",
+      "ozet": "The Board for Correction of Military Records (BCMR), authorized under 10 U.S.C. § 1552, is a civilian board empowered to correct errors or remove injustices from military records of current and former service members, including discharge characterizations, promotion decisions, and service-related benefits. Applications are submitted using DD Form 149 and must generally be filed within three years of discovering the error or injustice, though the board may waive this deadline in the interest of justice. Each service branch maintains its own board: the Army Review Boards Agency (ARBA), the Board for Correction of Naval Records (BCNR), and the Air Force Board for Correction of Military Records (AFBCMR).",
+      "resmi_link": "https://www.arba.army.mil/",
+      "ana_baslik": "citizenship",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "emekli"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki",
+          "emeklilik"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-buddy-statements",
+      "baslik": "Lay and Buddy Statements for VA Claims",
+      "ozet": "Lay evidence and buddy statements are written testimonies submitted by veterans, family members, fellow service members, or any person with personal knowledge of a veteran's condition or service-related events, requiring no special training or credentials. These statements can be submitted on plain paper, via VA Form 21-10210 (Lay/Witness Statement), or VA Form 21-4138, and are accepted for original, increased-disability, secondary service-connection, and PTSD claims. Lay statements are particularly valuable when medical documentation is unavailable, providing firsthand accounts of service-related events or symptom progression.",
+      "resmi_link": "https://www.va.gov/disability/how-to-file-claim/evidence-needed/",
+      "ana_baslik": "veterans",
+      "etiketler": {
+        "statü": [
+          "emekli",
+          "eş",
+          "bakmakla-yükümlü"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "hukuki",
+          "engel",
+          "sağlık"
+        ]
+      },
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-maternity",
+      "baslik": "TRICARE Maternity Care",
+      "ozet": "TRICARE covers medically necessary pregnancy care for all enrolled beneficiaries, including prenatal care, labor and delivery, postpartum care up to six weeks, and treatment of pregnancy complications. TRICARE Prime enrollees must obtain a referral from their primary care manager before seeing an obstetrician, while other TRICARE plan members may visit any TRICARE-authorized provider directly. Coverage applies throughout the service area, with specific provisions for members who relocate during pregnancy or receive care overseas.",
+      "resmi_link": "https://www.tricare.mil/LifeEvents/Baby/PregnancyCare",
+      "ana_baslik": "family",
+      "etiketler": {
+        "statü": [
+          "aktif",
+          "yedek",
+          "eş"
+        ],
+        "kol": [],
+        "rütbe": [],
+        "konu": [
+          "sağlık",
+          "aile"
+        ]
+      },
+      "son_kontrol": "2026-06"
     }
   ]
 }
