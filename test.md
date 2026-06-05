@@ -62,6 +62,15 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 ninth batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | military-efmp: link opens Military OneSource EFMP page | Browser | |
+|      | military-childcare-fee-assistance: link opens Military OneSource child care page | Browser | |
+|      | bah-differential: link opens DFAS BAH rates page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | va-joint-loan: link opens VA home loans page | Browser | |
+|      | va-residual-income: link opens VA home loans page | Browser | |
+
 ## New topics (2026-06-05 eighth batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

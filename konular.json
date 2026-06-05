@@ -5174,6 +5174,83 @@
         "all-ranks"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-efmp",
+      "ana_baslik": "family",
+      "baslik": "Exceptional Family Member Program (EFMP)",
+      "ozet": "The Exceptional Family Member Program (EFMP) is a mandatory enrollment program for active-duty service members who have a dependent with special medical, mental health, or educational needs; enrollment ensures that assignment locations can support those needs before permanent change of station orders are issued. The program provides installation-based and community-based support services including special needs consultants, respite care, early intervention, and caregiver support. Families can access EFMP support by contacting their installation Family Support Center or calling Military OneSource at 800-342-9647.",
+      "resmi_link": "https://www.militaryonesource.mil/family-relationships/special-needs/exceptional-family-member/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-childcare-fee-assistance",
+      "ana_baslik": "family",
+      "baslik": "Military Child Care Fee Assistance Programs",
+      "ozet": "When on-installation Child Development Centers (CDCs) are full or unavailable, eligible military families can receive fee assistance to offset the cost of civilian community child care through the Military Child Care in Your Neighborhood (MCCYN) program. MCCYN-PLUS is available in more than 20 states through Child Care Aware of America; a Child Care in Your Home pilot assists eligible families in 12 high-demand locations. On-installation CDCs serve children ages 6 weeks to 5 years and operate year-round; all DoD-approved programs must make reasonable accommodations for children with disabilities.",
+      "resmi_link": "https://www.militaryonesource.mil/parenting/child-care/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "bah-differential",
+      "ana_baslik": "pay",
+      "baslik": "BAH Differential (BAH-DIFF) for Child Support",
+      "ozet": "Service members who reside in single-type government quarters and have a court order to pay child support are entitled to Basic Allowance for Housing Differential (BAH-DIFF), which equals the difference between the BAH with-dependents rate and the BAH without-dependents rate for their grade and duty station. Members not residing in government quarters who pay court-ordered child support are entitled to the full BAH with-dependents rate rather than BAH-DIFF. The BAH-DIFF entitlement was restructured in 2006 and applies only to those actually living in government-provided single-type quarters.",
+      "resmi_link": "https://www.dfas.mil/militarymembers/bah-rates-and-information/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "housing-allowance"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-joint-loan",
+      "ana_baslik": "housing",
+      "baslik": "VA Home Loan with Non-Veteran Co-Borrower",
+      "ozet": "VA home loans may be made jointly with a non-veteran co-borrower under 38 C.F.R. 36.4307, but the VA guaranty applies only to the veteran's proportional share of the total loan amount; the non-veteran's portion carries no VA guarantee and lenders may require a down payment or additional security for that share. For funding fee purposes, the loan amount is divided equally among all borrowers and the fee is calculated only on the veteran's portion. This arrangement is separate from the veteran-plus-veteran joint loan option, where each veteran's entitlement covers their respective share.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-residual-income",
+      "ana_baslik": "housing",
+      "baslik": "VA Loan Residual Income Requirement",
+      "ozet": "Unlike most conventional loans, VA underwriting requires borrowers to meet a minimum residual income standard: gross monthly income minus estimated taxes, ongoing debts, and the proposed housing payment must equal or exceed a threshold that varies by geographic region (Northeast, Midwest, South, or West) and household size. This residual income check ensures the family has enough cash flow for daily living expenses after meeting all obligations. A borrower whose debt-to-income ratio exceeds 41% can still qualify if residual income surpasses the regional table minimum by at least 20%.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }

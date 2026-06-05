@@ -3,6 +3,19 @@
 ---
 
 ## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
+konular.json: 328 entries. DATA_FALLBACK (index.html): 276 entries.
+New topics added:
+- military-efmp (family) — militaryonesource.mil, fetched directly; mandatory enrollment, special needs support, respite care
+- military-childcare-fee-assistance (family) — militaryonesource.mil, fetched directly; MCCYN, MCCYN-PLUS (20+ states), CCYH pilot (12 locations)
+- bah-differential (pay) — dfas.mil; BAH-DIFF for members in government quarters with court-ordered child support; restructured 2006
+- va-joint-loan (housing) — va.gov; 38 C.F.R. 36.4307; VA guaranty applies only to veteran's share; non-veteran portion unguaranteed
+- va-residual-income (housing) — va.gov; regional table by family size; can offset DTI > 41% if surpassed by 20%
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **bah-differential** — dfas.mil/militarymembers/bah-rates-and-information/ returned 403; content from DFAS search results. Human should verify BAH-DIFF restructure details still current.
+
+---
+
+## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
 konular.json: 323 entries. DATA_FALLBACK (index.html): 271 entries.
 New topics added:
 - va-multifamily-loan (housing) — va.gov/purchase-loan, fetched directly; up to 4 units, veteran must occupy one
