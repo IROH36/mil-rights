@@ -2,6 +2,21 @@
 
 ---
 
+## Content expansion: 7 new topics — status: done ✓ (2026-06-05)
+konular.json: 296 entries total. DATA_FALLBACK (index.html): 244 entries.
+New topics added (all sourced from official .gov/.mil pages):
+- n-600k-military-child-abroad (citizenship) — uscis.gov/n-600k, confirmed via WebSearch; citizenship for children abroad with military parent on orders
+- lpr-reentry-permit-deployment (citizenship) — uscis.gov/i-131, confirmed via WebSearch; 2-year reentry permit for LPR on government orders deployment
+- n-470-preserve-naturalization-residence (citizenship) — uscis.gov/n-470, confirmed via WebSearch; preserve continuous residence for naturalization during overseas service
+- immvets-deported-veterans (citizenship) — dhs.gov/immvets confirmed via WebSearch (dhs.gov returned 403); DHS parole program for removed noncitizen veterans
+- va-cash-out-refinance (housing) — va.gov, fetched directly; replace mortgage + withdraw up to 100% home equity
+- crsc-combat-related-compensation (veterans) — va.gov/disability/crsc/, fetched directly; tax-free pay for combat-related disability, DD Form 2860 required
+- survivor-benefit-plan-sbp (veterans) — militaryonesource.mil, fetched directly; 55% retired pay annuity, SBP+DIC offset eliminated Feb 2023
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **immvets-deported-veterans** — dhs.gov/immvets returned 403; content sourced from DHS/VA 2021 joint announcement via WebSearch. Human should open dhs.gov/immvets directly and verify current program status.
+
+---
+
 ## Content expansion: 3 new topics + sw.js v6 — status: done ✓ (2026-06-05)
 konular.json: 289 entries total. DATA_FALLBACK (index.html): 237 entries. sw.js bumped v5→v6.
 New topics added to konular.json and DATA_FALLBACK (all sourced from official .gov/.mil pages):

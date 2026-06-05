@@ -62,6 +62,17 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 second batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | n-600k-military-child-abroad: link opens USCIS N-600K page | Browser | |
+|      | lpr-reentry-permit-deployment: link opens USCIS I-131 page | Browser | |
+|      | n-470-preserve-naturalization-residence: link opens USCIS N-470 page | Browser | |
+|      | immvets-deported-veterans: link opens DHS ImmVets page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | va-cash-out-refinance: link opens VA cash-out refinance page | Browser | |
+|      | crsc-combat-related-compensation: link opens VA CRSC page | Browser | |
+|      | survivor-benefit-plan-sbp: link opens Military OneSource SBP page | Browser | |
+
 ## New topics (2026-06-05 batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
