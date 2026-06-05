@@ -3,6 +3,20 @@
 ---
 
 ## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
+konular.json: 323 entries. DATA_FALLBACK (index.html): 271 entries.
+New topics added:
+- va-multifamily-loan (housing) — va.gov/purchase-loan, fetched directly; up to 4 units, veteran must occupy one
+- overseas-military-naturalization (citizenship) — uscis.gov/outreach/overseas-military-naturalization, confirmed via WebSearch; 4 hubs abroad, 92K+ naturalizations since 2002
+- uscis-expedite-military (citizenship) — uscis.gov/forms/filing-guidance/expedite-requests, confirmed via WebSearch; bold "upcoming deployment" note, Military Help Line
+- va-emergency-care-non-va (healthcare) — va.gov/COMMUNITYCARE/programs/veterans/Emergency_Care.asp, fetched directly; 24-month prior care rule, 72-hr notification
+- military-spouse-federal-hiring (family) — opm.gov/fedshirevets, confirmed via OPM WebSearch; EO 13473 + FY23 NDAA, all active-duty spouses through 2028
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **overseas-military-naturalization** — uscis.gov/outreach/overseas-military-naturalization returned 403; content confirmed from USCIS announcement WebSearch. Human should verify current hub locations still active.
+- **uscis-expedite-military** — uscis.gov expedite page returned 403; content confirmed from USCIS policy manual WebSearch. Human should verify current expedite criteria.
+
+---
+
+## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
 konular.json: 318 entries. DATA_FALLBACK (index.html): 266 entries.
 New topics added:
 - home-sale-tax-exclusion-military (pay) — irs.gov/taxtopics/tc701, fetched directly; Section 121 5-year clock suspended up to 10 years during PCS/qualifying duty

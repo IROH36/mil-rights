@@ -62,6 +62,15 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 eighth batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | va-multifamily-loan: link opens VA purchase loan page | Browser | |
+|      | overseas-military-naturalization: link opens USCIS overseas naturalization page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | uscis-expedite-military: link opens USCIS expedite requests page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | va-emergency-care-non-va: link opens VA community care emergency page | Browser | |
+|      | military-spouse-federal-hiring: link opens OPM military spouses hiring page | Browser | |
+
 ## New topics (2026-06-05 seventh batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
