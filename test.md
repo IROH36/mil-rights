@@ -62,6 +62,15 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 seventh batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | home-sale-tax-exclusion-military: link opens IRS Topic 701 | Browser | |
+|      | scra-interest-rate-cap: link opens Military OneSource SCRA page | Browser | |
+|      | uscis-fee-exemption-military: link opens USCIS fee waiver info page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | military-caregiver-leave: link opens DOL Fact Sheet 28M(a) (⚠ 403 flagged — human spot-check) | Browser | |
+|      | advance-pay-pcs: link opens DFAS PCS travel pay page (⚠ 403 flagged — human spot-check) | Browser | |
+
 ## New topics (2026-06-05 sixth batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

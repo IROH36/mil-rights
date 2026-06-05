@@ -3,6 +3,21 @@
 ---
 
 ## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
+konular.json: 318 entries. DATA_FALLBACK (index.html): 266 entries.
+New topics added:
+- home-sale-tax-exclusion-military (pay) — irs.gov/taxtopics/tc701, fetched directly; Section 121 5-year clock suspended up to 10 years during PCS/qualifying duty
+- scra-interest-rate-cap (pay) — militaryonesource.mil, fetched directly; 6% cap on pre-service debts, interest forgiven, mortgage cap +1 year post-service
+- uscis-fee-exemption-military (citizenship) — uscis.gov fee info, confirmed via USCIS fee rule WebSearch; I-485/I-765/I-131/I-360/N-400 fee-exempt for military
+- military-caregiver-leave (family) — dol.gov/whd fact sheet, confirmed via DOL WebSearch; 26-week FMLA leave for spouse/child/parent/next-of-kin of injured service member
+- advance-pay-pcs (pay) — dfas.mil/militarymembers/travelpay/armypcs/, confirmed via DFAS FAQ WebSearch; 1 month (up to 3) interest-free advance for PCS
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **uscis-fee-exemption-military** — uscis.gov fee page returned 403; content confirmed from USCIS 2024 fee rule FAQ. Human should verify current exempt forms list.
+- **military-caregiver-leave** — dol.gov fact sheet 28M(a) returned 403; content confirmed from DOL WebSearch. Human should verify 26-week entitlement still current.
+- **advance-pay-pcs** — dfas.mil page returned 403; content confirmed from DFAS askDFAS FAQ. Human should verify current advance pay limits.
+
+---
+
+## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
 konular.json: 313 entries. DATA_FALLBACK (index.html): 261 entries.
 New topics added:
 - i-751-military-waiver (citizenship) — uscis.gov/i-751, confirmed via USCIS policy manual WebSearch; INA 329 naturalization waives I-751 requirement; deployed signature exemption with orders
