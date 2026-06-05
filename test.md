@@ -62,6 +62,14 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 fifth batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | posthumous-citizenship: link opens USCIS N-644 page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | vawa-immigrant-spouse: link opens USCIS abused spouses page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | ppm-dity-move: link opens Military OneSource PPM page | Browser | |
+|      | va-minimum-property-requirements: link opens VA home buying process page | Browser | |
+
 ## New topics (2026-06-05 fourth batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

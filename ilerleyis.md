@@ -2,6 +2,19 @@
 
 ---
 
+## Content expansion: 4 new topics — status: done ✓ (2026-06-05)
+konular.json: 308 entries. DATA_FALLBACK (index.html): 256 entries.
+New topics added:
+- posthumous-citizenship (citizenship) — uscis.gov/n-644, confirmed via USCIS policy manual WebSearch; INA 329A, Form N-644 by next of kin within 2 years, Form N-645 issued
+- vawa-immigrant-spouse (citizenship) — uscis.gov/humanitarian, confirmed via USCIS WebSearch; Form I-360 self-petition, no fee, confidential, no abuser's knowledge needed
+- ppm-dity-move (pay) — militaryonesource.mil, fetched + fact sheet WebSearch; 100% GCC reimbursement, keep savings, 45-day filing window, weight tickets required
+- va-minimum-property-requirements (housing) — va.gov/housing-assistance/home-loans/home-buying-process/, fetched directly; MPR safety/soundness/sanitary, appraisal ≠ inspection
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **posthumous-citizenship** — uscis.gov/n-644 returned 403; content confirmed via USCIS policy manual Chapter 8 WebSearch. Human should verify current N-644 requirements.
+- **vawa-immigrant-spouse** — uscis.gov/humanitarian returned 403; content confirmed from USCIS WebSearch. Human should verify current I-360 VAWA self-petition process.
+
+---
+
 ## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
 konular.json: 304 entries. DATA_FALLBACK (index.html): 252 entries.
 New topics added:
