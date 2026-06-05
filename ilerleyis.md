@@ -2,6 +2,18 @@
 
 ---
 
+## Content expansion: 3 new topics + sw.js v6 — status: done ✓ (2026-06-05)
+konular.json: 289 entries total. DATA_FALLBACK (index.html): 237 entries. sw.js bumped v5→v6.
+New topics added to konular.json and DATA_FALLBACK (all sourced from official .gov/.mil pages):
+- purple-heart-benefits (veterans) — news.va.gov, fetched directly; Priority Group 3, copay waivers, GI Bill, Yellow Ribbon, commissary/exchange, loan fee exemption, priority claims processing
+- military-parental-leave (family) — militaryonesource.mil, fetched directly; 6-wk maternity + up to 6-wk primary caregiver + 21-day non-primary caregiver leave, non-chargeable, all branches
+- military-protective-order (family) — militaryonesource.mil, fetched directly; MPO vs CPO, commander authority, DAVA locator, NDVH hotline
+⚠ STILL NEEDS HUMAN REVIEW:
+- **tinnitus-disability** — no consumer-facing va.gov page found; 38 CFR Part 4 § 4.87 DC 6260 is the authority (CFR, not a benefit-guide page). Human should open va.gov disability compensation → conditions and find the tinnitus-specific guidance page.
+- **nuclear-officer-pay (NOBIP/COBO)** — mynavyhr.navy.mil blocked (403). Policy changed from NOIP/COPAY to NOBIP/COBO under OPNAVINST 7220.11F; no accessible official page found for consumer-facing summary.
+
+---
+
 ## Content expansion: 9 new topics + DATA_FALLBACK sync — status: done ✓ (2026-06-05)
 konular.json: 286 entries total. DATA_FALLBACK (index.html): 234 entries (synced 29 missing entries).
 New topics added to konular.json and DATA_FALLBACK (all sourced from official .gov/.mil pages or verified via WebSearch):

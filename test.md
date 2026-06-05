@@ -62,6 +62,26 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | purple-heart-benefits: link opens VA News Purple Heart page | Browser | |
+|      | military-parental-leave: link opens Military OneSource parental leave page | Browser | |
+|      | military-protective-order: link opens Military OneSource domestic abuse page | Browser | |
+
+## New topics (2026-06-05 first batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | va-tbi-polytrauma: link opens polytrauma.va.gov page | Browser | |
+|      | military-fmla: link opens DOL FMLA page (⚠ DOL 403 flagged — human spot-check) | Browser | |
+|      | sdvosb-vetcert: link opens SBA VetCert page | Browser | |
+|      | va-audiology-hearing: link opens VA audiology page | Browser | |
+|      | va-solid-start: link opens VA Solid Start page | Browser | |
+|      | survivor-outreach-services: link opens Army MWR SOS page | Browser | |
+|      | assignment-incentive-pay: link opens DFAS AIP page (⚠ DFAS 403 flagged — human spot-check) | Browser | |
+|      | va-blind-rehabilitation: link opens VA blind/low vision page | Browser | |
+|      | dodea-virtual-high-school: link opens DoDEA Virtual High School page (⚠ DoDEA 403 flagged — human spot-check) | Browser | |
+
 ## Phase 0 — Content tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
