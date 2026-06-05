@@ -2,6 +2,20 @@
 
 ---
 
+## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
+konular.json: 304 entries. DATA_FALLBACK (index.html): 252 entries.
+New topics added:
+- va-loan-entitlement-limits (housing) — va.gov/housing-assistance/home-loans/loan-limits/, fetched directly; basic vs. bonus entitlement, no loan cap with full entitlement
+- va-manufactured-home (housing) — va.gov/housing-assistance/home-loans/loan-types/purchase-loan/, fetched directly; manufactured home + lot eligible, licensed installer required, special underwriting
+- va-loan-assumption (housing) — va.gov/housing-assistance/home-loans/eligibility/, confirmed via WebSearch + prior fetch; any buyer can assume, entitlement substitution if veteran assumes
+- naturalization-spouse-abroad (citizenship) — uscis.gov/military/citizenship-for-military-family-members, confirmed via USCIS policy manual WebSearch; INA 319(b) LPR spouse waives residence/presence requirements
+- n-426-military-naturalization (citizenship) — uscis.gov/n-426, confirmed via USCIS WebSearch; Form N-426 certification of military service for N-400, DD-214 for separated veterans
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **naturalization-spouse-abroad** — uscis.gov/military/citizenship-for-military-family-members returned 403; content confirmed from USCIS policy manual. Human should verify current INA 319(b) requirements.
+- **n-426-military-naturalization** — uscis.gov/n-426 returned 403; content confirmed from USCIS WebSearch (June 2026 edition update noted). Human should verify current N-426 edition requirement.
+
+---
+
 ## Content expansion: 5 new topics, 2 duplicates removed — status: done ✓ (2026-06-05)
 konular.json: 299 entries. DATA_FALLBACK (index.html): 247 entries.
 Removed duplicates: crsc-combat-related-compensation (→ crsc already existed), survivor-benefit-plan-sbp (→ sbp already existed).

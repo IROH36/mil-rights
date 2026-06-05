@@ -62,6 +62,15 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 fourth batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | va-loan-entitlement-limits: link opens VA loan limits page | Browser | |
+|      | va-manufactured-home: link opens VA purchase loan page | Browser | |
+|      | va-loan-assumption: link opens VA eligibility page | Browser | |
+|      | naturalization-spouse-abroad: link opens USCIS military family citizenship page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | n-426-military-naturalization: link opens USCIS N-426 page (⚠ 403 flagged — human spot-check) | Browser | |
+
 ## New topics (2026-06-05 third batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
