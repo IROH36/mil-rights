@@ -4135,7 +4135,13 @@
       "resmi_link": "https://www.militaryonesource.mil/financial-legal/financial-counseling/blended-retirement-system/",
       "ana_baslik": "pay",
       "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": ["active-duty", "reservist", "all-branches", "all-ranks", "retirement"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "all-branches",
+        "all-ranks",
+        "retirement"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4145,7 +4151,12 @@
       "resmi_link": "https://www.va.gov/life-insurance/options-eligibility/vmli/",
       "ana_baslik": "veterans",
       "kaynak_adi": "Veterans Affairs",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "disability"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4155,7 +4166,15 @@
       "resmi_link": "https://clep.collegeboard.org/clep-military-benefits",
       "ana_baslik": "family",
       "kaynak_adi": "College Board / DANTES",
-      "etiketler": ["active-duty", "reservist", "national-guard", "family-member", "all-branches", "all-ranks", "education-benefit"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "education-benefit"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4165,7 +4184,13 @@
       "resmi_link": "https://www.tricare.mil/LifeEvents/Baby",
       "ana_baslik": "family",
       "kaynak_adi": "TRICARE — Defense Health Agency",
-      "etiketler": ["active-duty", "reservist", "family-member", "all-branches", "tricare"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "tricare"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4175,7 +4200,12 @@
       "resmi_link": "https://www.law.cornell.edu/uscode/text/10/1034",
       "ana_baslik": "citizenship",
       "kaynak_adi": "Cornell Law / 10 U.S.C. § 1034",
-      "etiketler": ["active-duty", "reservist", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4185,7 +4215,13 @@
       "resmi_link": "https://www.militaryonesource.mil/recreation-travel-shopping/recreation/",
       "ana_baslik": "family",
       "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": ["active-duty", "reservist", "family-member", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4195,7 +4231,13 @@
       "resmi_link": "https://www.va.gov/disability/how-to-file-claim/when-to-file/pre-discharge-claim/",
       "ana_baslik": "healthcare",
       "kaynak_adi": "Veterans Affairs",
-      "etiketler": ["active-duty", "all-branches", "all-ranks", "disability", "retirement"],
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "disability",
+        "retirement"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4205,7 +4247,13 @@
       "resmi_link": "https://www.arba.army.mil/",
       "ana_baslik": "citizenship",
       "kaynak_adi": "Army Review Boards Agency",
-      "etiketler": ["active-duty", "veteran", "reservist", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4215,7 +4263,13 @@
       "resmi_link": "https://www.va.gov/disability/how-to-file-claim/evidence-needed/",
       "ana_baslik": "veterans",
       "kaynak_adi": "Veterans Affairs",
-      "etiketler": ["veteran", "family-member", "all-branches", "all-ranks", "disability"],
+      "etiketler": [
+        "veteran",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4225,7 +4279,13 @@
       "resmi_link": "https://www.tricare.mil/LifeEvents/Baby/PregnancyCare",
       "ana_baslik": "family",
       "kaynak_adi": "TRICARE — Defense Health Agency",
-      "etiketler": ["active-duty", "reservist", "family-member", "all-branches", "tricare"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "tricare"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4235,7 +4295,13 @@
       "ozet": "When a DoD security clearance is denied or revoked, the case is adjudicated by the Defense Office of Hearings and Appeals (DOHA), whose Administrative Judges and Appeal Board apply a fair and impartial standard weighing conduct seriousness, frequency, recency, applicant age, and evidence of rehabilitation. Applicants must cooperate fully — provide truthful answers and authorize disclosure of relevant information — or DOHA may revoke the clearance and bar reapplication for one year. Emergency suspension authority also allows the ASD(C3I) to suspend a clearance immediately when continued access poses an imminent threat to the national interest.",
       "resmi_link": "https://www.law.cornell.edu/cfr/text/32/155.6",
       "kaynak_adi": "Cornell Law / 32 CFR § 155.6",
-      "etiketler": ["active-duty", "veteran", "reservist", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4245,7 +4311,12 @@
       "ozet": "Under 10 USC § 973, active-duty officers are prohibited from holding elective federal, state, or local civil offices, from accepting positions requiring Senate confirmation, and from taking employment that would interfere with military duties. Exceptions permit officers to hold federal civil offices when officially assigned or detailed to those positions, and to seek and hold nonpartisan civil office on an independent school board located exclusively on a military reservation. Similar restrictions apply to enlisted members and all active-duty personnel under DoD Directive 1344.10.",
       "resmi_link": "https://www.law.cornell.edu/uscode/text/10/973",
       "kaynak_adi": "Cornell Law / 10 U.S.C. § 973",
-      "etiketler": ["active-duty", "all-branches", "officer", "enlisted"],
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "officer",
+        "enlisted"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4255,7 +4326,14 @@
       "ozet": "Under the Freedom of Information Act (5 USC § 552), any person may submit a written request to any federal agency — including DoD components — for agency records; the agency must respond within 20 business days and may charge search, duplication, and review fees depending on the requester category. Requesters whose request is denied have the right to appeal to the agency head within at least 90 days, and dispute resolution services are available through the Office of Government Information Services. FOIA.gov, managed by the Department of Justice, provides a central portal to identify the correct DoD component FOIA office and submit requests electronically.",
       "resmi_link": "https://www.foia.gov/",
       "kaynak_adi": "Department of Justice / FOIA.gov",
-      "etiketler": ["active-duty", "veteran", "reservist", "family-member", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4265,7 +4343,12 @@
       "ozet": "Under 37 USC § 403(b)(6), a service member's Basic Allowance for Housing may not be reduced as long as the member retains uninterrupted eligibility within the same military housing area — protecting members from decreases caused by falling local housing costs or by the member's own promotion. This hold-harmless protection applies to domestic duty stations; a similar provision under § 403(c)(2) covers overseas locations, though those amounts may still adjust for currency fluctuations. The protection ends if eligibility is interrupted, such as when a member receives permanent change of station orders to a new location.",
       "resmi_link": "https://www.law.cornell.edu/uscode/text/37/403",
       "kaynak_adi": "Cornell Law / 37 U.S.C. § 403",
-      "etiketler": ["active-duty", "all-branches", "all-ranks", "housing-allowance"],
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "housing-allowance"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4275,7 +4358,12 @@
       "ozet": "Under 10 USC § 710, the Secretary of each military department may place active-duty service members in an inactive-duty status for up to three years to address personal or professional needs, after which the member returns to active service. During the intermission, members receive two-thirtieths of their normal monthly basic pay and must serve in the Ready Reserve, completing training to maintain proficiency; they also retain access to military medical and dental care, survivor death benefits, and VA benefits. Service time during inactive status does not count toward retirement, and members are ineligible for promotion while in the program, with a return-to-active-duty obligation of one month for each month of inactive status.",
       "resmi_link": "https://www.law.cornell.edu/uscode/text/10/710",
       "kaynak_adi": "Cornell Law / 10 U.S.C. § 710",
-      "etiketler": ["active-duty", "all-branches", "officer", "enlisted"],
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "officer",
+        "enlisted"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4285,7 +4373,12 @@
       "ozet": "Under 37 USC § 418, the Secretary of Defense is authorized to prescribe the quantity and type of clothing furnished to enlisted members annually or, alternatively, to provide a cash clothing allowance in lieu of issued items. For initial entry, service members in the Army, Navy, Air Force, Marine Corps, and Space Force must be furnished athletic footwear directly rather than receiving a cash allowance, with medical exceptions available for members with unique physiological needs that cannot be met by standard-issue footwear. Amendments effective in 2021 require reducing gender-related cost disparities and establishing standards for items considered uniquely military across all service branches.",
       "resmi_link": "https://www.law.cornell.edu/uscode/text/37/418",
       "kaynak_adi": "Cornell Law / 37 U.S.C. § 418",
-      "etiketler": ["active-duty", "reservist", "enlisted", "all-branches"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "enlisted",
+        "all-branches"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4295,7 +4388,14 @@
       "ozet": "School Liaison Officers are located at each military installation and serve as the primary point of contact for military families, local school systems, and installation leadership on school-related matters for children in pre-K through 12th grade. They help families navigating PCS moves by providing information on school districts, assisting with credit transfers, offering youth sponsorship referrals, and explaining educational options including private, charter, parochial, and homeschool alternatives. Additional services include special education referrals through the Exceptional Family Member Program, support for deployment-related challenges, and college and career readiness guidance.",
       "resmi_link": "https://www.militaryonesource.mil/family-relationships/family-life/moving-pcs/school-liaison-program/",
       "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": ["active-duty", "reservist", "family-member", "all-branches", "all-ranks", "education-benefit"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "education-benefit"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4305,7 +4405,12 @@
       "ozet": "Every VA medical facility has a designated Patient Advocate — a staff member who manages feedback from veterans and their families, facilitates problem resolution, and handles concerns about care delivery in coordination with VA management and clinical staff. Veterans are encouraged to first address concerns with their treatment team or the provider's supervisor, and may escalate unresolved issues to the Patient Advocate to file appeals for care reviews and address questions about patient rights and responsibilities. Patient Advocates are available at individual VA medical centers; veterans can find the nearest facility using the VA's location finder at va.gov.",
       "resmi_link": "https://www.va.gov/health/patientadvocate/",
       "kaynak_adi": "Veterans Affairs",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "va-health"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4315,7 +4420,12 @@
       "ozet": "Veterans enrolled in VA health care who have received VA or in-network provider care within the past 24 months may use VA-covered walk-in urgent care at in-network community urgent care centers and retail health clinics for minor injuries and illnesses — such as strep throat, pink eye, sprained muscles, and skin or ear infections — with no referral required. Diagnostic services including X-rays and lab tests, as well as certain medicines and vaccines, are also covered; veterans should bring a valid government-issued photo ID and confirm the provider is in-network before receiving treatment. Copayments of up to $30 may apply in some cases depending on the veteran's priority group and annual visit frequency, and the VA will bill the veteran after the visit if applicable.",
       "resmi_link": "https://www.va.gov/COMMUNITYCARE/programs/veterans/Urgent_Care.asp",
       "kaynak_adi": "VA Community Care",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "va-health"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4325,7 +4435,12 @@
       "ozet": "The U.S. Court of Appeals for Veterans Claims (CAVC) is an independent federal Article I court located in Washington, D.C., with exclusive jurisdiction under 38 USC § 7252 to review final decisions of the Board of Veterans' Appeals; the Court may affirm, modify, reverse, or remand Board decisions. Veterans who disagree with a Board decision must file a Notice of Appeal with the CAVC within 120 days of the date the Board decision notice is issued, by delivering or mailing the notice to the Court. The CAVC provides access to a searchable decisions database, a practitioner locator, electronic case filing, and public oral arguments via YouTube Live.",
       "resmi_link": "https://www.uscourts.cavc.gov/",
       "kaynak_adi": "U.S. Court of Appeals for Veterans Claims",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "disability"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4335,7 +4450,14 @@
       "ozet": "VA provides comprehensive TBI care through its Polytrauma System of Care, a national network of specialized rehabilitation programs serving veterans and service members with TBI ranging from mild to severe. Treatment includes cognitive, physical, speech, and occupational therapy, medication management, assistive devices, and a residential rehabilitation program for those requiring intensive neurobehavioral care in a supervised environment. Veterans can access TBI services by contacting their primary care provider or local VA health facility; those not yet enrolled in VA health care can apply at va.gov.",
       "resmi_link": "https://www.polytrauma.va.gov/understanding-tbi/",
       "kaynak_adi": "VA Polytrauma System of Care",
-      "etiketler": ["veteran", "active-duty", "all-branches", "all-ranks", "va-health", "disability"],
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "va-health",
+        "disability"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4345,7 +4467,15 @@
       "ozet": "The Family and Medical Leave Act (FMLA) provides two special protections for military families employed by covered employers: qualifying exigency leave (up to 12 workweeks per year) when a spouse, child, or parent is called to covered active duty, and military caregiver leave (up to 26 workweeks in a single 12-month period) to care for a covered servicemember or veteran with a serious injury or illness. Both provisions apply to employees who have worked at least 12 months and 1,250 hours for an employer with 50 or more employees. Use DOL Forms WH-384 (exigency), WH-385 (servicemember caregiver), or WH-385-V (veteran caregiver) to document the request.",
       "resmi_link": "https://www.dol.gov/agencies/whd/fmla/military-families",
       "kaynak_adi": "U.S. Department of Labor, Wage and Hour Division",
-      "etiketler": ["family-member", "active-duty", "veteran", "reservist", "national-guard", "all-branches", "all-ranks"],
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "veteran",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4355,7 +4485,11 @@
       "ozet": "The SBA administers the Veteran Small Business Certification (VetCert) program, which certifies service-disabled veteran-owned small businesses (SDVOSBs) and veteran-owned small businesses (VOSBs) to compete for federal set-aside and sole-source contracts; the federal government sets a goal of awarding at least 5% of all federal contracting dollars to SDVOSBs each year. To qualify, the business must be at least 51% owned and controlled by veterans or service-disabled veterans and meet SBA small business size standards for its industry. Veterans apply and manage their certification through the MySBA Certifications portal at certifications.sba.gov.",
       "resmi_link": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs",
       "kaynak_adi": "U.S. Small Business Administration",
-      "etiketler": ["veteran", "all-branches", "all-ranks"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4365,7 +4499,14 @@
       "ozet": "VA provides comprehensive hearing health care — including diagnostic evaluations, hearing aids, cochlear implants, tinnitus management, and teleaudiology — to all enrolled veterans; audiology is one of the few VA services that veterans can schedule directly without a referral from a primary care provider. Hearing aids, repairs, batteries, and accessories are provided at no cost to eligible veterans, and surgically implantable devices such as cochlear implants are available at more than 125 VA sites for those with severe to profound hearing loss. Veterans should contact their nearest VA medical center's audiology department to schedule an evaluation.",
       "resmi_link": "https://www.rehab.va.gov/audiology/",
       "kaynak_adi": "VA Rehabilitation and Prosthetic Services",
-      "etiketler": ["veteran", "active-duty", "all-branches", "all-ranks", "va-health", "disability"],
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "va-health",
+        "disability"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4375,7 +4516,11 @@
       "ozet": "VA Solid Start proactively contacts newly separated service members by phone at approximately 90, 180, and 365 days after separation to connect them with VA benefits and support during the critical first year of transition to civilian life. Representatives help veterans access disability compensation, mental health care, VA health care enrollment, and education and employment resources tailored to each individual's situation, and follow up with a personalized email after each call. Veterans can contact VA Solid Start at 1-800-827-0611, Monday–Friday, 8 a.m.–9 p.m. ET.",
       "resmi_link": "https://discover.va.gov/transition-programs/",
       "kaynak_adi": "VA Benefits Administration",
-      "etiketler": ["veteran", "all-branches", "all-ranks"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4385,7 +4530,13 @@
       "ozet": "Army Survivor Outreach Services (SOS) provides long-term support to surviving family members of fallen Soldiers from all components — Active, Guard, and Reserve — regardless of the Soldier's branch, duty status, location, or manner of death. Services include grief counseling, financial guidance and estate planning education, benefits coordination, and peer support groups, available for as long as the survivor desires. Survivors are honored with Gold Star and Next of Kin lapel buttons; reach a Gold Star representative toll-free at (833) 313-1960.",
       "resmi_link": "https://www.armymwr.com/programs-and-services/personal-assistance/survivor-outreach",
       "kaynak_adi": "U.S. Army Installation Management Command (IMCOM)",
-      "etiketler": ["family-member", "veteran", "army", "all-ranks", "survivor-benefit"],
+      "etiketler": [
+        "family-member",
+        "veteran",
+        "army",
+        "all-ranks",
+        "survivor-benefit"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4395,7 +4546,12 @@
       "ozet": "Assignment Incentive Pay (AIP) compensates service members for unusual or extended assignments, including involuntary extensions in combat zones, voluntary tour extensions for members with critical skills, and service in certain designated locations. AIP is capped at $3,000 per month and is taxable unless earned in a designated combat zone; specific locations and durations are governed by a DoD Duration of Authority table that is updated periodically. Current AIP tables and duration-of-authority information are available through DFAS.",
       "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/DofAuth/",
       "kaynak_adi": "Defense Finance and Accounting Service (DFAS)",
-      "etiketler": ["active-duty", "all-branches", "all-ranks", "deployment"],
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4405,7 +4561,13 @@
       "ozet": "VA provides blind and low vision rehabilitation services to all honorably discharged veterans with significant vision loss, regardless of whether the vision loss is service-connected. Services span a continuum of care from outpatient low vision clinics to inpatient Blind Rehabilitation Centers, and include vision-enhancing devices, assistive technology training, orientation and mobility instruction, and counseling. Veterans should contact the Visual Impairment Services Team (VIST) Coordinator at their nearest VA medical center to begin an assessment.",
       "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/vision-care/blind-low-vision-rehab-services/",
       "kaynak_adi": "Veterans Affairs",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "va-health", "disability"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health",
+        "disability"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4415,7 +4577,13 @@
       "ozet": "DoDEA Virtual High School (DVHS) is a tuition-free, fully accredited online high school operated by the Department of Defense Education Activity for military-connected students who are enrolled in or eligible to attend a DoDEA brick-and-mortar school in the same geographic area. DVHS offers asynchronous online courses taught by full-time DoDEA-certified teachers, helping students maintain academic continuity during PCS moves by allowing course credits to transfer when relocating to another DoDEA school zone. Students must first enroll at their local DoDEA school and then register for DVHS courses at dvhs.dodea.edu.",
       "resmi_link": "https://dvhs.dodea.edu/",
       "kaynak_adi": "DoDEA (Department of Defense Education Activity)",
-      "etiketler": ["family-member", "active-duty", "all-branches", "all-ranks", "education-benefit"],
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "education-benefit"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4425,7 +4593,13 @@
       "ozet": "Purple Heart recipients are automatically assigned to VA Priority Group 3, entitling them to VA inpatient and outpatient healthcare without copayments (a $2 copayment per 30-day supply applies only to non-service-connected prescriptions). Recipients are also eligible for Post-9/11 GI Bill benefits, the Yellow Ribbon Program, commissary and exchange shopping privileges, and potential VA home loan funding fee exemptions if receiving disability compensation. VA disability claims filed by Purple Heart recipients receive priority processing through the Veterans Benefits Administration.",
       "resmi_link": "https://news.va.gov/106548/purple-heart-day-and-va-benefits-to-recipients/",
       "kaynak_adi": "VA News",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "va-health", "education-benefit"],
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health",
+        "education-benefit"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4435,7 +4609,13 @@
       "ozet": "Active-duty birth parents receive 6 weeks of non-chargeable maternity leave, plus up to 6 additional weeks if designated as the primary caregiver; non-primary caregivers (the other new parent) receive 21 days of non-chargeable parental leave for birth, adoption, or other qualifying events — none of which count against the service member's annual leave balance. This expanded parental leave policy applies across all branches of service for active-duty members and is separate from any convalescent leave a physician may authorize for childbirth recovery. Service members should contact their installation's Military Personnel Section or Family Support Center for service-specific request forms and approval authorities.",
       "resmi_link": "https://www.militaryonesource.mil/military-basics/new-to-the-military/military-leave-and-how-it-works/",
       "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": ["active-duty", "reservist", "family-member", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4445,7 +4625,14 @@
       "ozet": "A Military Protective Order (MPO) is issued by a military commander and can immediately restrict an active-duty service member from contacting a victim, entering a shared residence, or approaching specific locations; victims must file an unrestricted report of domestic abuse for the commander to issue one. Victims may also seek a Civilian Protective Order (CPO) from a civilian court, which applies to both active-duty and civilian abusers and is enforceable on and off base. To locate a domestic abuse victim advocate on or near your installation, use the Domestic Abuse Victim Advocate Locator at militaryonesource.mil, or call the National Domestic Violence Hotline at 1-800-799-7233.",
       "resmi_link": "https://www.militaryonesource.mil/family-relationships/family-life/preventing-abuse-neglect/domestic-abuse-military-reporting-options",
       "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": ["active-duty", "veteran", "family-member", "reservist", "all-branches", "all-ranks"],
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4455,7 +4642,13 @@
       "ozet": "A U.S. citizen parent on active military duty can apply for their child's citizenship using Form N-600K even while the entire family is stationed outside the United States, as long as the child resides abroad with the service member under official military orders and has not yet turned 18. The military parent's time served abroad on official orders counts toward the physical presence requirement, waiving the usual need for the child to demonstrate time inside the United States. Applications must be filed at least 90 days before the requested interview date; USCIS will schedule the naturalization interview and oath ceremony at the overseas location.",
       "resmi_link": "https://www.uscis.gov/n-600k",
       "kaynak_adi": "USCIS",
-      "etiketler": ["active-duty", "family-member", "all-branches", "all-ranks", "naturalization"],
+      "etiketler": [
+        "active-duty",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4465,7 +4658,13 @@
       "ozet": "A lawful permanent resident (LPR) service member who will be outside the United States for more than one year should file Form I-131 before departing to obtain a Reentry Permit, which protects their green card status from being considered abandoned during the extended absence. LPRs traveling on official U.S. Government orders qualify for a 2-year permit and will not have their LPR status deemed abandoned solely due to the duration of their absence while the permit remains valid. USCIS requires the applicant to be physically present in the United States at the time Form I-131 is filed, so this should be arranged before the deployment begins.",
       "resmi_link": "https://www.uscis.gov/i-131",
       "kaynak_adi": "USCIS",
-      "etiketler": ["active-duty", "green-card", "all-branches", "all-ranks", "deployment"],
+      "etiketler": [
+        "active-duty",
+        "green-card",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4475,7 +4674,14 @@
       "ozet": "Lawful permanent residents serving in the U.S. Armed Forces abroad can file Form N-470 (Application to Preserve Residence for Naturalization Purposes) to ensure that extended overseas duty does not break the continuous residence requirement needed to qualify for naturalization. For military LPRs, any time spent abroad on official U.S. military orders counts as physical presence in the United States, and the application may be filed before or after overseas service begins — but before a full year abroad has elapsed. The applicant must have lived in the United States as an LPR for at least one continuous year before applying.",
       "resmi_link": "https://www.uscis.gov/n-470",
       "kaynak_adi": "USCIS",
-      "etiketler": ["active-duty", "green-card", "all-branches", "all-ranks", "naturalization", "deployment"],
+      "etiketler": [
+        "active-duty",
+        "green-card",
+        "all-branches",
+        "all-ranks",
+        "naturalization",
+        "deployment"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4485,7 +4691,13 @@
       "ozet": "The Department of Homeland Security's ImmVets initiative allows noncitizen military veterans who were removed (deported) from the United States to request parole consideration on a case-by-case basis to return and access legal counsel and the veterans' benefits they earned through service. DHS, ICE, USCIS, and CBP conduct case-by-case reviews of removal orders involving noncitizen veterans and their immediate family members; VA healthcare and other VA benefits remain accessible to eligible veterans regardless of current immigration or removal status. Veterans or family members seeking assistance can submit a request through the ImmVets portal at dhs.gov/immvets.",
       "resmi_link": "https://www.dhs.gov/immvets",
       "kaynak_adi": "DHS (Department of Homeland Security)",
-      "etiketler": ["veteran", "green-card", "naturalized", "all-branches", "all-ranks"],
+      "etiketler": [
+        "veteran",
+        "green-card",
+        "naturalized",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
@@ -4495,27 +4707,91 @@
       "ozet": "A VA-backed cash-out refinance loan lets eligible veterans and service members replace their current mortgage — including a non-VA loan — with a new VA-backed loan and withdraw up to 100 percent of the home's appraised value as cash for purposes such as debt repayment, home improvements, or education. To qualify, you must have a VA Certificate of Eligibility, meet the private lender's credit and income standards, and intend to occupy the home being refinanced; the loan is obtained through a private bank or mortgage company, not directly through VA. Closing costs, including the VA funding fee, apply and can typically be rolled into the loan amount.",
       "resmi_link": "https://www.va.gov/housing-assistance/home-loans/loan-types/cash-out-loan",
       "kaynak_adi": "VA (U.S. Department of Veterans Affairs)",
-      "etiketler": ["veteran", "active-duty", "all-branches", "all-ranks"],
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
-      "id": "crsc-combat-related-compensation",
-      "ana_baslik": "veterans",
-      "baslik": "Combat-Related Special Compensation (CRSC)",
-      "ozet": "Combat-Related Special Compensation (CRSC) provides monthly tax-free payments to military retirees with at least a 10 percent VA disability rating that includes a combat-related disability — one caused by armed conflict, hazardous duty, simulated war training, or an instrumentality of war — and whose DoD retirement pay is currently offset by VA disability compensation. Unlike Concurrent Retirement and Disability Pay (CRDP), which restores retirement pay automatically for retirees with 20+ years of service and a 50%+ VA rating, CRSC requires you to apply by submitting DD Form 2860 and supporting records to your uniformed service; filing within six years of your VA rating decision ensures eligibility for back payments. If you qualify for both CRSC and CRDP, you may receive only one — choose whichever is more beneficial.",
-      "resmi_link": "https://www.va.gov/disability/crsc/",
+      "id": "va-construction-loan",
+      "ana_baslik": "housing",
+      "baslik": "VA Construction Loan: Build a New Home",
+      "ozet": "The VA guaranty benefit can be used for construction loans that enable eligible veterans to build a custom home from the ground up with no down payment required; veterans with a service-connected disability may qualify for a VA funding fee exemption. Once approved, loan proceeds are placed in an escrow draw account and disbursed to the builder at specific construction milestones, with the veteran written approval required before each disbursement — projects typically take one year or more to complete. Veterans must find a VA-approved lender that specifically offers construction loan products (not all do) and a licensed local builder who can obtain required permits.",
+      "resmi_link": "https://news.va.gov/141691/va-offers-construction-loans-for-veterans-to-build-their-dream-homes/",
+      "kaynak_adi": "VA News (U.S. Department of Veterans Affairs)",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-energy-efficient-mortgage",
+      "ana_baslik": "housing",
+      "baslik": "VA Energy Efficient Mortgage (EEM)",
+      "ozet": "When closing a VA purchase loan or IRRRL, veterans can add up to $6,000 to the loan amount to finance energy-efficient home improvements such as solar heating systems, insulation, storm windows, heat pumps, and water heater upgrades — the EEM is not a separate loan product but is added to and closed simultaneously with the primary VA loan. Improvements up to $3,000 require documentation of bid or contract costs; for amounts between $3,000 and $6,000, projected monthly utility savings must equal or exceed the increase in the monthly mortgage payment. Veterans should confirm their VA-approved lender offers EEM products, as not all do; lenders can reference Chapter 7 of the VA Lenders Handbook for the full program guidelines.",
+      "resmi_link": "https://www.benefits.va.gov/homeloans/",
       "kaynak_adi": "VA (U.S. Department of Veterans Affairs)",
-      "etiketler": ["veteran", "all-branches", "all-ranks", "disability", "retirement"],
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
       "son_kontrol": "2026-06"
     },
     {
-      "id": "survivor-benefit-plan-sbp",
-      "ana_baslik": "veterans",
-      "baslik": "Survivor Benefit Plan (SBP): Retirement Annuity for Survivors",
-      "ozet": "The Survivor Benefit Plan (SBP) allows a retiring service member to elect that up to 55 percent of their retired pay continue as a monthly, inflation-adjusted annuity to an eligible survivor — typically a spouse or dependent children — after the retiree's death; full SBP spouse coverage is automatic at retirement unless both the service member and spouse sign a written election to decline or reduce it. Premiums are deducted from gross retired pay before tax, reducing taxable income, and as of February 1, 2023, the previous offset between SBP and VA Dependency and Indemnity Compensation (DIC) was fully eliminated, so surviving spouses now receive both payments in full. SBP elections made at retirement are generally irrevocable except in limited circumstances such as divorce or a spouse's death.",
-      "resmi_link": "https://www.militaryonesource.mil/benefits/survivor-benefit-plan/",
+      "id": "tdy-per-diem-rates",
+      "ana_baslik": "pay",
+      "baslik": "TDY Per Diem: Lodging and Meal Allowances During Temporary Duty",
+      "ozet": "Service members on Temporary Duty (TDY) orders away from their permanent duty station are entitled to a daily per diem allowance covering lodging, meals, and incidental expenses (M&IE) based on the specific TDY location, as set by the Defense Travel Management Office (DTMO). The FY 2026 standard CONUS rate is $110 for lodging and $63 for meals and incidentals; locality-specific higher rates apply in expensive cities, and TDY assignments lasting 31 to 180 consecutive days at the same location are reimbursed at 75 percent of the applicable rate. Current rates for specific cities can be looked up at travel.dod.mil using the Per Diem Rate Lookup tool; all TDY entitlements are governed by the Joint Travel Regulations (JTR).",
+      "resmi_link": "https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/",
+      "kaynak_adi": "Defense Travel Management Office (DTMO)",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-pay-allotments",
+      "ana_baslik": "pay",
+      "baslik": "Military Pay Allotments",
+      "ozet": "A pay allotment is a recurring automatic deduction from a service member pay directed to a designated account or payee — such as a personal savings account, a family member bank account, TSP contributions, or insurance premiums — processed before the member receives their net pay each month. Allotments are set up, changed, or stopped through myPay at mypay.dfas.mil, DFAS secure online pay management portal, which is accessible 24 hours a day. Because allotments are deducted before net pay is distributed, they are a reliable way to ensure recurring financial obligations are met automatically during deployment or other periods when personal access to finances may be limited.",
+      "resmi_link": "https://www.dfas.mil/militarymembers/paydeductions/allotments/",
+      "kaynak_adi": "DFAS (Defense Finance and Accounting Service)",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "pcs-household-goods",
+      "ana_baslik": "pay",
+      "baslik": "PCS Household Goods Weight Allowance",
+      "ozet": "When executing a Permanent Change of Station (PCS) move, the military provides a household goods (HHG) weight allowance — the maximum poundage the government will ship at no cost — that increases with rank and depends on dependency status. Service members are also authorized to ship up to 2,000 pounds of professional gear at no cost, with 500 pounds available for an accompanying spouse professional gear; any weight exceeding the authorized limit is billed to the member after delivery. All shipments are arranged through move.mil, the official DoD personal property site; the Joint Travel Regulations (JTR) governs all HHG entitlements, and members should contact their local transportation office to confirm rank-specific weight allowances and OCONUS or retirement move variations.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/pcs-entitlements/",
       "kaynak_adi": "Military OneSource (DoD)",
-      "etiketler": ["veteran", "family-member", "all-branches", "all-ranks", "retirement", "survivor-benefit"],
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
       "son_kontrol": "2026-06"
     }
   ]

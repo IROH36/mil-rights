@@ -62,6 +62,15 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 third batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | va-construction-loan: link opens VA News construction loan page | Browser | |
+|      | va-energy-efficient-mortgage: link opens VA home loans page | Browser | |
+|      | tdy-per-diem-rates: link opens DTMO per diem page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | military-pay-allotments: link opens DFAS allotments page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | pcs-household-goods: link opens Military OneSource PCS entitlements page | Browser | |
+
 ## New topics (2026-06-05 second batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

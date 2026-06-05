@@ -2,6 +2,21 @@
 
 ---
 
+## Content expansion: 5 new topics, 2 duplicates removed — status: done ✓ (2026-06-05)
+konular.json: 299 entries. DATA_FALLBACK (index.html): 247 entries.
+Removed duplicates: crsc-combat-related-compensation (→ crsc already existed), survivor-benefit-plan-sbp (→ sbp already existed).
+New topics added:
+- va-construction-loan (housing) — news.va.gov, fetched directly; escrow draw account, no down payment, lender + licensed builder required
+- va-energy-efficient-mortgage (housing) — benefits.va.gov (Chapter 7 Lenders Handbook); up to $6,000 EEM on VA purchase or IRRRL
+- tdy-per-diem-rates (pay) — travel.dod.mil DTMO, confirmed via WebSearch; FY2026 standard CONUS $110 lodging + $63 M&IE, 75% after 31 days
+- military-pay-allotments (pay) — dfas.mil/militarymembers/paydeductions/allotments/, confirmed via WebSearch; myPay setup/change
+- pcs-household-goods (pay) — militaryonesource.mil, fetched directly; weight allowance by rank, 2000 lbs pro gear, move.mil
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **tdy-per-diem-rates** — travel.dod.mil returned 403; rates ($110/$63) confirmed from DTMO WebSearch. Human should open travel.dod.mil to verify FY2026 standard rates.
+- **military-pay-allotments** — dfas.mil returned 403; content confirmed from DFAS WebSearch. Human should open dfas.mil allotments page to verify current allotment limits.
+
+---
+
 ## Content expansion: 7 new topics — status: done ✓ (2026-06-05)
 konular.json: 296 entries total. DATA_FALLBACK (index.html): 244 entries.
 New topics added (all sourced from official .gov/.mil pages):
