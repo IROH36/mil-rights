@@ -2,6 +2,23 @@
 
 ---
 
+## Content expansion: 9 new topics + DATA_FALLBACK sync — status: done ✓ (2026-06-05)
+konular.json: 286 entries total. DATA_FALLBACK (index.html): 234 entries (synced 29 missing entries).
+New topics added to konular.json and DATA_FALLBACK (all sourced from official .gov/.mil pages or verified via WebSearch):
+- va-tbi-polytrauma (healthcare) — polytrauma.va.gov, fetched directly
+- military-fmla (family) — dol.gov (page 403; summary from DOL official fact-sheet search excerpts — human spot-check recommended)
+- sdvosb-vetcert (veterans) — sba.gov, fetched directly
+- va-audiology-hearing (healthcare) — rehab.va.gov/audiology/, fetched directly
+- va-solid-start (veterans) — discover.va.gov/transition-programs/, fetched directly
+- survivor-outreach-services (family) — armymwr.com, fetched directly
+- assignment-incentive-pay (pay) — dfas.mil DofAuth (DFAS 403; summary from DFAS/myarmybenefits search excerpts — human spot-check recommended)
+- va-blind-rehabilitation (healthcare) — va.gov blind/low vision page, fetched directly
+- dodea-virtual-high-school (family) — dvhs.dodea.edu (403; summary from official search excerpts — human spot-check recommended)
+DATA_FALLBACK sync: Added 20 previously missing entries (brs-continuation-pay → cavc-appeals-court) + 9 new entries. cavc-appeals-court etiketler also fixed in both files (was non-standard Turkish object → correct flat English array per CLAUDE.md schema).
+⚠ NOTE: Entries brs-continuation-pay through uniform-clothing-allowances (and others) still use the non-standard Turkish object format in konular.json. DATA_FALLBACK entries for these were added with correct flat English arrays. Consider a cleanup pass on konular.json to standardize etiketler format.
+
+---
+
 ## Content expansion: 10 new advanced topics added — status: done ✓ (2026-06-04)
 - Topics added to konular.json (all sourced from official .gov/.mil or U.S. Code via law.cornell.edu):
   - security-clearance-appeals (32 CFR § 155.6 / DOHA)

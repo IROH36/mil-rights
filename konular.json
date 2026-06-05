@@ -4521,17 +4521,98 @@
       "baslik": "Court of Appeals for Veterans Claims (CAVC)",
       "ozet": "The U.S. Court of Appeals for Veterans Claims (CAVC) is an independent federal Article I court located in Washington, D.C., with exclusive jurisdiction under 38 USC § 7252 to review final decisions of the Board of Veterans' Appeals; the Court may affirm, modify, reverse, or remand Board decisions. Veterans who disagree with a Board decision must file a Notice of Appeal with the CAVC within 120 days of the date the Board decision notice is issued, by delivering or mailing the notice to the Court. The CAVC provides access to a searchable decisions database, a practitioner locator, electronic case filing, and public oral arguments via YouTube Live.",
       "resmi_link": "https://www.uscourts.cavc.gov/",
-      "etiketler": {
-        "statü": [
-          "emekli"
-        ],
-        "kol": [],
-        "rütbe": [],
-        "konu": [
-          "hukuki",
-          "engel"
-        ]
-      },
+      "kaynak_adi": "U.S. Court of Appeals for Veterans Claims",
+      "etiketler": ["veteran", "all-branches", "all-ranks", "disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-tbi-polytrauma",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Traumatic Brain Injury (TBI) Care",
+      "ozet": "VA provides comprehensive TBI care through its Polytrauma System of Care, a national network of specialized rehabilitation programs serving veterans and service members with TBI ranging from mild to severe. Treatment includes cognitive, physical, speech, and occupational therapy, medication management, assistive devices, and a residential rehabilitation program for those requiring intensive neurobehavioral care in a supervised environment. Veterans can access TBI services by contacting their primary care provider or local VA health facility; those not yet enrolled in VA health care can apply at va.gov.",
+      "resmi_link": "https://www.polytrauma.va.gov/understanding-tbi/",
+      "kaynak_adi": "VA Polytrauma System of Care",
+      "etiketler": ["veteran", "active-duty", "all-branches", "all-ranks", "va-health", "disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-fmla",
+      "ana_baslik": "family",
+      "baslik": "FMLA Military Family Leave",
+      "ozet": "The Family and Medical Leave Act (FMLA) provides two special protections for military families employed by covered employers: qualifying exigency leave (up to 12 workweeks per year) when a spouse, child, or parent is called to covered active duty, and military caregiver leave (up to 26 workweeks in a single 12-month period) to care for a covered servicemember or veteran with a serious injury or illness. Both provisions apply to employees who have worked at least 12 months and 1,250 hours for an employer with 50 or more employees. Use DOL Forms WH-384 (exigency), WH-385 (servicemember caregiver), or WH-385-V (veteran caregiver) to document the request.",
+      "resmi_link": "https://www.dol.gov/agencies/whd/fmla/military-families",
+      "kaynak_adi": "U.S. Department of Labor, Wage and Hour Division",
+      "etiketler": ["family-member", "active-duty", "veteran", "reservist", "national-guard", "all-branches", "all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "sdvosb-vetcert",
+      "ana_baslik": "veterans",
+      "baslik": "Veteran-Owned Business Certification (VetCert / SDVOSB)",
+      "ozet": "The SBA administers the Veteran Small Business Certification (VetCert) program, which certifies service-disabled veteran-owned small businesses (SDVOSBs) and veteran-owned small businesses (VOSBs) to compete for federal set-aside and sole-source contracts; the federal government sets a goal of awarding at least 5% of all federal contracting dollars to SDVOSBs each year. To qualify, the business must be at least 51% owned and controlled by veterans or service-disabled veterans and meet SBA small business size standards for its industry. Veterans apply and manage their certification through the MySBA Certifications portal at certifications.sba.gov.",
+      "resmi_link": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs",
+      "kaynak_adi": "U.S. Small Business Administration",
+      "etiketler": ["veteran", "all-branches", "all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-audiology-hearing",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Audiology & Hearing Loss Services",
+      "ozet": "VA provides comprehensive hearing health care — including diagnostic evaluations, hearing aids, cochlear implants, tinnitus management, and teleaudiology — to all enrolled veterans; audiology is one of the few VA services that veterans can schedule directly without a referral from a primary care provider. Hearing aids, repairs, batteries, and accessories are provided at no cost to eligible veterans, and surgically implantable devices such as cochlear implants are available at more than 125 VA sites for those with severe to profound hearing loss. Veterans should contact their nearest VA medical center's audiology department to schedule an evaluation.",
+      "resmi_link": "https://www.rehab.va.gov/audiology/",
+      "kaynak_adi": "VA Rehabilitation and Prosthetic Services",
+      "etiketler": ["veteran", "active-duty", "all-branches", "all-ranks", "va-health", "disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-solid-start",
+      "ana_baslik": "veterans",
+      "baslik": "VA Solid Start Program",
+      "ozet": "VA Solid Start proactively contacts newly separated service members by phone at approximately 90, 180, and 365 days after separation to connect them with VA benefits and support during the critical first year of transition to civilian life. Representatives help veterans access disability compensation, mental health care, VA health care enrollment, and education and employment resources tailored to each individual's situation, and follow up with a personalized email after each call. Veterans can contact VA Solid Start at 1-800-827-0611, Monday–Friday, 8 a.m.–9 p.m. ET.",
+      "resmi_link": "https://discover.va.gov/transition-programs/",
+      "kaynak_adi": "VA Benefits Administration",
+      "etiketler": ["veteran", "all-branches", "all-ranks"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "survivor-outreach-services",
+      "ana_baslik": "family",
+      "baslik": "Army Survivor Outreach Services (SOS)",
+      "ozet": "Army Survivor Outreach Services (SOS) provides long-term support to surviving family members of fallen Soldiers from all components — Active, Guard, and Reserve — regardless of the Soldier's branch, duty status, location, or manner of death. Services include grief counseling, financial guidance and estate planning education, benefits coordination, and peer support groups, available for as long as the survivor desires. Survivors are honored with Gold Star and Next of Kin lapel buttons; reach a Gold Star representative toll-free at (833) 313-1960.",
+      "resmi_link": "https://www.armymwr.com/programs-and-services/personal-assistance/survivor-outreach",
+      "kaynak_adi": "U.S. Army Installation Management Command (IMCOM)",
+      "etiketler": ["family-member", "veteran", "army", "all-ranks", "survivor-benefit"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "assignment-incentive-pay",
+      "ana_baslik": "pay",
+      "baslik": "Assignment Incentive Pay (AIP)",
+      "ozet": "Assignment Incentive Pay (AIP) compensates service members for unusual or extended assignments, including involuntary extensions in combat zones, voluntary tour extensions for members with critical skills, and service in certain designated locations. AIP is capped at $3,000 per month and is taxable unless earned in a designated combat zone; specific locations and durations are governed by a DoD Duration of Authority table that is updated periodically. Current AIP tables and duration-of-authority information are available through DFAS.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/DofAuth/",
+      "kaynak_adi": "Defense Finance and Accounting Service (DFAS)",
+      "etiketler": ["active-duty", "all-branches", "all-ranks", "deployment"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-blind-rehabilitation",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Blind and Low Vision Rehabilitation",
+      "ozet": "VA provides blind and low vision rehabilitation services to all honorably discharged veterans with significant vision loss, regardless of whether the vision loss is service-connected. Services span a continuum of care from outpatient low vision clinics to inpatient Blind Rehabilitation Centers, and include vision-enhancing devices, assistive technology training, orientation and mobility instruction, and counseling. Veterans should contact the Visual Impairment Services Team (VIST) Coordinator at their nearest VA medical center to begin an assessment.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/vision-care/blind-low-vision-rehab-services/",
+      "kaynak_adi": "Veterans Affairs",
+      "etiketler": ["veteran", "all-branches", "all-ranks", "va-health", "disability"],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "dodea-virtual-high-school",
+      "ana_baslik": "family",
+      "baslik": "DoDEA Virtual High School (DVHS)",
+      "ozet": "DoDEA Virtual High School (DVHS) is a tuition-free, fully accredited online high school operated by the Department of Defense Education Activity for military-connected students who are enrolled in or eligible to attend a DoDEA brick-and-mortar school in the same geographic area. DVHS offers asynchronous online courses taught by full-time DoDEA-certified teachers, helping students maintain academic continuity during PCS moves by allowing course credits to transfer when relocating to another DoDEA school zone. Students must first enroll at their local DoDEA school and then register for DVHS courses at dvhs.dodea.edu.",
+      "resmi_link": "https://dvhs.dodea.edu/",
+      "kaynak_adi": "DoDEA (Department of Defense Education Activity)",
+      "etiketler": ["family-member", "active-duty", "all-branches", "all-ranks", "education-benefit"],
       "son_kontrol": "2026-06"
     }
   ]
