@@ -2,6 +2,20 @@
 
 ---
 
+## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
+konular.json: 313 entries. DATA_FALLBACK (index.html): 261 entries.
+New topics added:
+- i-751-military-waiver (citizenship) — uscis.gov/i-751, confirmed via USCIS policy manual WebSearch; INA 329 naturalization waives I-751 requirement; deployed signature exemption with orders
+- va-home-loan-closing-costs (housing) — va.gov/funding-fee-and-closing-costs, fetched directly; 4% seller concession cap, no PMI on VA loans
+- va-condo-approval (housing) — lgy.va.gov/lgyhub/condo-report, confirmed via VA WebSearch; VA-approved project required, independent VA review, LGY tool to check
+- va-loan-occupancy (housing) — va.gov/housing-assistance/home-loans/eligibility/, fetched + VA Pamphlet WebSearch; 60-day rule, deployed exception, spouse can satisfy requirement
+- bah-guard-reserve-activation (pay) — militaryonesource.mil BAH page, confirmed via MOS/DFAS WebSearch; no BAH during IDT, BAH starts on activation orders
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **i-751-military-waiver** — uscis.gov/i-751 returned 403; content confirmed from USCIS policy manual Chapter 5 via WebSearch. Human should verify current I-751 military provisions.
+- **bah-guard-reserve-activation** — DFAS BAH page returned 403; details confirmed from DFAS FAQ and MilitaryOneSource WebSearch. Human should verify current activation BAH threshold.
+
+---
+
 ## Content expansion: 4 new topics — status: done ✓ (2026-06-05)
 konular.json: 308 entries. DATA_FALLBACK (index.html): 256 entries.
 New topics added:

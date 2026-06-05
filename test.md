@@ -62,6 +62,15 @@
 |      | Favorites persist after page refresh | Browser desktop | |
 |      | All above on real device | Friend's iPhone (US) | |
 
+## New topics (2026-06-05 sixth batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | i-751-military-waiver: link opens USCIS I-751 page (⚠ 403 flagged — human spot-check) | Browser | |
+|      | va-home-loan-closing-costs: link opens VA funding fee & closing costs page | Browser | |
+|      | va-condo-approval: link opens VA LGY condo report tool | Browser | |
+|      | va-loan-occupancy: link opens VA home loan eligibility page | Browser | |
+|      | bah-guard-reserve-activation: link opens Military OneSource BAH page | Browser | |
+
 ## New topics (2026-06-05 fifth batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

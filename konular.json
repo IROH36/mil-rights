@@ -4934,6 +4934,84 @@
         "all-ranks"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "i-751-military-waiver",
+      "ana_baslik": "citizenship",
+      "baslik": "I-751 Conditional Green Card: Military Waivers and Deployment Accommodations",
+      "ozet": "Conditional permanent residents who qualify for naturalization under INA 329 (military service during hostilities) are not required to file Form I-751 (Petition to Remove Conditions on Residence) before their naturalization can be approved—they may naturalize while their conditional status remains in place. Service members deployed abroad may file Form I-751 without their own signature by including a copy of official orders or a commanding officer letter; the form must be marked \"ACTIVE MILITARY\" or \"GOVERNMENT ORDERS\" at the top. Conditional residents who cannot file jointly due to an abusive spouse may also apply for a waiver using Form I-751.",
+      "resmi_link": "https://www.uscis.gov/i-751",
+      "kaynak_adi": "USCIS (U.S. Citizenship and Immigration Services)",
+      "etiketler": [
+        "active-duty",
+        "green-card",
+        "all-branches",
+        "all-ranks",
+        "naturalization",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-home-loan-closing-costs",
+      "ana_baslik": "housing",
+      "baslik": "VA Loan Closing Costs and Seller Concessions",
+      "ozet": "On a VA-backed home loan, most closing costs—such as appraisal fees and title insurance—are negotiated between the buyer, seller, and lender; seller concessions are capped at no more than 4% of the home's reasonable value. VA loans do not require monthly private mortgage insurance (PMI), which can substantially reduce ongoing housing costs compared to conventional loans. Borrowers should request a Loan Estimate from their lender to review all applicable fees before committing.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/",
+      "kaynak_adi": "VA (U.S. Department of Veterans Affairs)",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-condo-approval",
+      "ana_baslik": "housing",
+      "baslik": "Buying a Condo with a VA Loan: Project Approval Requirements",
+      "ozet": "Veterans using a VA-backed purchase loan can buy a condominium unit, but only in a project that has been independently reviewed and approved by the VA—the VA no longer accepts HUD/FHA approval as a substitute for its own review. Buyers and lenders can check whether a specific condo project is VA-approved using the VA's Loan Guaranty (LGY) condo report tool before making an offer on a unit. Approved condo purchases qualify for the full VA loan benefit package: no down payment, no monthly mortgage insurance, and competitive interest rates.",
+      "resmi_link": "https://lgy.va.gov/lgyhub/condo-report",
+      "kaynak_adi": "VA (U.S. Department of Veterans Affairs)",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-loan-occupancy",
+      "ana_baslik": "housing",
+      "baslik": "VA Loan Occupancy Requirements and Military Exceptions",
+      "ozet": "VA-backed home loans require borrowers to certify a good-faith intent to personally occupy the property as their primary residence, with a standard move-in timeframe of within 60 days of closing. Active-duty service members who are deployed or assigned elsewhere may qualify for an extended occupancy timeline, and a spouse may satisfy the occupancy requirement on the veteran's behalf when the service member cannot be present. The VA applies a reasonable-basis test: if clear intent to occupy exists, the certification is valid even when immediate move-in is not possible.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/eligibility/",
+      "kaynak_adi": "VA (U.S. Department of Veterans Affairs)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "bah-guard-reserve-activation",
+      "ana_baslik": "pay",
+      "baslik": "BAH for National Guard and Reserve Members on Active-Duty Orders",
+      "ozet": "National Guard and Reserve members are not entitled to Basic Allowance for Housing (BAH) during Inactive Duty Training (IDT) such as weekend drill, but become entitled to BAH when called to active duty on orders. Once activated, BAH is calculated at the same rates as regular active-duty members—based on pay grade, duty station location, and dependent status—and payments are processed automatically by DFAS. Service members should confirm their family members are enrolled in DEERS and verify their BAH entitlement with their unit's finance office at the start of activation.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/basic-allowance-for-housing/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }
