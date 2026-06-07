@@ -1,18 +1,20 @@
 # Mil-Rights
 
-A free, offline mobile app for U.S. military members, veterans, and their families to learn their rights — citizenship, pay, healthcare, family, education, housing, and veteran benefits.
+**A free, offline app for U.S. military members, veterans, and their families.**
 
-Every topic links to an official government source. This app does not give advice; it points to the authority.
+Know your rights — citizenship, pay, healthcare, family, education, housing, and veteran benefits. 328 topics, every one linked to an official government source.
+
+> This app does not give advice. It points to the authority.
 
 **This is NOT an official government or military resource.**
 
 ---
 
-## Try it
+## Try it now
 
-**GitHub Pages:** https://iroh36.github.io/mil-rights
+**[Open the app →](https://iroh36.github.io/mil-rights)**
 
-Open `index.html` in any browser — no server, no install, no dependencies.
+Works in any browser on phone or desktop — no install, no account, no server.
 
 ---
 
@@ -20,7 +22,7 @@ Open `index.html` in any browser — no server, no install, no dependencies.
 
 | Phase | Description | Status |
 |---|---|---|
-| 0 | Content collection (26 topics, official sources) | done ✓ |
+| 0 | Content collection (328 topics, official sources) | done ✓ |
 | 1 | Offline web MVP — search, favorites, 6 categories | done ✓ |
 | 3 | Donation module (remote config via uzak-ayarlar.json) | done ✓ |
 | 5 | Profile filter — For You section, tag-based matching | done ✓ |
@@ -29,7 +31,7 @@ Open `index.html` in any browser — no server, no install, no dependencies.
 
 ## Privacy
 
-**Privacy policy:** https://iroh36.github.io/mil-rights/privacy.html
+**[Privacy policy](https://iroh36.github.io/mil-rights/privacy.html)**
 
 The app stores only favorites and profile settings in `localStorage` — on your device, never transmitted. No analytics, no accounts, no server.
 
