@@ -2,6 +2,12 @@
 
 ---
 
+## Content expansion: 3 new pay topics — status: done ✓ (2026-06-08)
+konular.json: 366 topics (was 363). Sources: mycgma.org, militaryonesource.mil
+- cgma-financial-assistance (pay) — mycgma.org; interest-free loans/grants for CG active duty, Reserve, retirees, PHS; 800-881-2462
+- brs-lump-sum-option (pay) — militaryonesource.mil; 25% or 50% lump sum at BRS retirement; reduces annuity until age 67
+- legacy-military-retirement (pay) — militaryonesource.mil; Final Pay / High-36 / CSB-REDUX; entry-date based; 20-year minimum
+
 ## Content expansion: 6 new topics (pay + healthcare) — status: done ✓ (2026-06-08)
 konular.json: 363 topics (was 357). Sources: militaryonesource.mil, dol.gov, irs.gov, tricare.mil
 - military-moving-expense-deduction (pay) — irs.gov/taxtopics/tc455; Form 3903, unreimbursed PCS moving expenses

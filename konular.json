@@ -5795,6 +5795,55 @@
         "tricare"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "cgma-financial-assistance",
+      "ana_baslik": "pay",
+      "baslik": "Coast Guard Mutual Assistance (CGMA) — Emergency Financial Aid",
+      "ozet": "Coast Guard Mutual Assistance (CGMA) provides interest-free loans, grants, financial counseling, and referrals to active duty Coast Guard members, reserve personnel, retirees, civilian employees, Public Health Service officers assigned to the Coast Guard, auxiliary members, and surviving spouses facing financial hardship or emergencies. The organization delivered over $12.1 million in assistance to more than 4,000 individuals in 2025; members can reach a local CGMA representative (over 600 available nationwide) or call 800-881-2462 for help.",
+      "resmi_link": "https://mycgma.org/",
+      "kaynak_adi": "Coast Guard Mutual Assistance (CGMA)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "coast-guard",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "brs-lump-sum-option",
+      "ana_baslik": "pay",
+      "baslik": "BRS Lump Sum Option at Retirement",
+      "ozet": "Under the Blended Retirement System, eligible service members retiring at 20 or more years may elect to receive either 25% or 50% of the projected value of their retirement pension as a lump sum payment at the time of separation. This election reduces monthly pension annuity payments until the retiree reaches their Full Retirement Age (67); after that point, monthly payments return to the full calculated amount. This option is separate from the TSP and is irrevocable once elected at retirement.",
+      "resmi_link": "https://www.militaryonesource.mil/pay-taxes/pay/retirement/blended-retirement-system/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "legacy-military-retirement",
+      "ana_baslik": "pay",
+      "baslik": "Legacy Military Retirement — Final Pay, High-36, and CSB/REDUX",
+      "ozet": "Service members who entered active duty before January 1, 2018 and did not elect the Blended Retirement System are covered by one of three legacy retirement plans: Final Basic Pay (entry before September 8, 1980), High-36 (entry from September 8, 1980 through December 31, 2017 without a REDUX election), or Career Status Bonus/REDUX (entry after July 31, 1986, with acceptance of a mid-career bonus in exchange for a reduced retirement formula). All three legacy plans require a minimum of 20 years of qualifying service, and retirement pay under all plans is protected by annual cost-of-living adjustments.",
+      "resmi_link": "https://www.militaryonesource.mil/pay-taxes/pay/retirement/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }
