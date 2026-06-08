@@ -2,6 +2,15 @@
 
 ---
 
+## Oturum özeti — 2026-06-08 (pay + housing odaklı içerik genişlemesi)
+Başlangıç: 357 konu → Bitiş: 366 konu (+9 konu bu oturumda).
+Kategoriler: pay +9 (56→59 olmak için batch4-6), healthcare +1 (CHCBP).
+Kalan sorun: housing hâlâ 35'te — va.gov ve travel.dod.mil alt sayfaların büyük çoğunluğu 404/403 döndürüyor, yeni housing konusu bulmak güçleşti.
+
+⚠ BİLİNEN DUPLIKAT (insan onayı gerekli):
+- `va-adapted-housing-grants` (satır ~391) VE `va-sah-sha-grants` (satır ~1824) ikisi de aynı SAH/SHA hibe konusunu kapsıyor; biri silinmeli.
+- `clothing-allowance-enlisted` ve `uniform-clothing-allowances` — benzer içerik, gözden geçirilmeli.
+
 ## Content expansion: 3 new pay topics — status: done ✓ (2026-06-08)
 konular.json: 366 topics (was 363). Sources: mycgma.org, militaryonesource.mil
 - cgma-financial-assistance (pay) — mycgma.org; interest-free loans/grants for CG active duty, Reserve, retirees, PHS; 800-881-2462
