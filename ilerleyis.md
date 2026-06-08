@@ -3,12 +3,32 @@
 ---
 
 ## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
-Mevcut durum (2026-06-08 gece): **404 konu** — citizenship:40, housing:40, pay:64, family:66, healthcare:74, veterans:120.
+Mevcut durum (2026-06-08 gece): **411 konu** — citizenship:41, housing:41, pay:64, family:66, healthcare:74, veterans:125.
 Devam önerileri (öncelik sırasıyla):
 1. **Housing/Citizenship** (40 eşit) — en zayıf; yeni konular bulmak güçleşiyor, araştırma gerekiyor
 2. **Pay** (64) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
 3. **Veterans** (120) — zaten güçlü; gap analizi gerekiyor
 4. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+
+---
+
+## Oturum özeti — 2026-06-08 (veterans gap analizi + housing/citizenship gap konuları)
+Başlangıç: 404 konu → Bitiş: 411 konu (+7 konu, +1 düzeltme).
+Kategoriler: veterans 120→125 (+5), housing 40→41 (+1+güncelleme), citizenship 40→41 (+1).
+
+**Eklenen veterans konuları (5):**
+- va-effective-date-back-pay — VA; 1 yıl içinde başvuru = ayrılma günü itibariyle geçerlilik, geriye dönük ödeme
+- va-accredited-claims-agents — VA OGC; sadece ilk karardan sonra ücret, %20 limit, OGC akreditasyon rostrosu
+- homeless-veteran-reintegration-hvrp — DoL VETS; tek federal homeless vet istihdam programı, grantee organizasyonlar
+- va-pension-vs-compensation — VA; pension (wartime+ihtiyaç) vs compensation (service-connected), ikisi aynı anda olmaz
+- state-veterans-benefits — VA News Nisan 2025; eyalet bazlı vergi muafiyeti rehberi, SVSO yönlendirme
+
+**Eklenen housing/citizenship konuları (2):**
+- bah-rate-lookup-dtmo — DTMO; travel.dod.mil/BAH-Rate-Lookup, pay grade + dependency + ZIP kodu
+- ina-319e-overseas-naturalization — USCIS; §319(e) ABD'ye gitmeden yurt dışında tam naturalization
+
+**Güncelleme:**
+- scra-lease-termination — bildirim mekanizması düzeltildi: "next rent due date + 30 gün" (önceki "30 gün önceden" yanıltıcıydı)
 
 ---
 

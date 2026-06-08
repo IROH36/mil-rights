@@ -11,6 +11,18 @@
 
 ---
 
+## New topics (2026-06-08 veterans gap + housing/citizenship batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | va-effective-date-back-pay: link opens va.gov/disability/effective-date | Browser | |
+|      | va-accredited-claims-agents: link opens va.gov accredited rep FAQs | Browser | |
+|      | homeless-veteran-reintegration-hvrp: link opens dol.gov/agencies/vets/programs/hvrp | Browser | |
+|      | va-pension-vs-compensation: link opens va.gov pension vs compensation page | Browser | |
+|      | state-veterans-benefits: link opens va news state tax exemptions guide | Browser | |
+|      | bah-rate-lookup-dtmo: link opens travel.dod.mil BAH rate lookup (⚠ 403 automated — opens in browser) | Browser | |
+|      | ina-319e-overseas-naturalization: link opens uscis.gov military family citizenship page | Browser | |
+|      | scra-lease-termination: corrected notice timing renders correctly in topic detail | Browser | |
+
 ## New topics (2026-06-08 healthcare batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
