@@ -5345,6 +5345,84 @@
         "all-ranks"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "state-veterans-homes",
+      "ana_baslik": "veterans",
+      "baslik": "State Veterans Homes",
+      "ozet": "State Veterans Homes are long-term care facilities owned and operated by state governments, offering nursing home care, domiciliary (residential) services, or adult day health care to eligible veterans; eligibility requirements and costs vary by state, and some homes also admit non-veteran surviving spouses and Gold Star parents. All 50 states and Puerto Rico have facilities; VA certifies and annually inspects them to ensure quality standards, and provides financial support to help defray veteran care costs. A searchable directory of facilities is maintained by the National Association of State Veterans Homes at nasvh.org/directory.",
+      "resmi_link": "https://www.va.gov/geriatrics/pages/State_Veterans_Homes.asp",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "va-health",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-mental-health",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Mental Health Coverage",
+      "ozet": "TRICARE Prime enrollees can access outpatient mental health care from network psychiatrists and psychologists without a referral — except for psychoanalysis and substance abuse therapy — while active-duty members must first seek care at a military hospital or clinic when available. Other TRICARE plans (Select, Reserve Select, Young Adult) do not require referrals for outpatient mental health services; however, all plans require pre-authorization for inpatient mental health hospitalization. Covered conditions include anxiety, depression, PTSD, seasonal affective disorder, and other mental illnesses; contact your regional contractor for plan-specific coverage details.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/Mental/MentalHealthAppts",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-substance-use-treatment",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Substance Use Disorder Treatment",
+      "ozet": "TRICARE covers a full range of substance use disorder treatment including inpatient hospitalization, intensive outpatient programs, medically supervised detoxification, medication-assisted treatment for opioid addiction (such as methadone and buprenorphine), partial hospitalization programs, and office-based opioid treatment; coverage excludes aversion therapy and unproven treatments, and all covered services must be medically necessary. Active-duty service members seeking substance use treatment should be aware that some services — including specialized substance abuse therapy — require a referral even under plans that otherwise do not mandate them. Contact your regional TRICARE contractor (Humana Military for the East Region, TriWest for the West Region) for specific prior authorization requirements and coverage limits.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/SubstanceUseDisorderTreatment",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-substance-use-treatment",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Substance Use Disorder Treatment",
+      "ozet": "The VA provides comprehensive substance use disorder treatment for veterans struggling with alcohol, opioids, tobacco, or other drugs, including medically supervised detoxification, medication-based therapies (methadone and buprenorphine for opioids, nicotine replacement), outpatient and residential counseling, intensive treatment programs, family counseling, and specialized programs for women veterans and homeless veterans. Co-occurring mental health conditions such as PTSD and depression are treated alongside substance use disorders. Veterans should apply for VA health care to access these services; those not yet enrolled can reach an SUD program at 800-827-1000 or visit a local Vet Center (available to combat zone veterans without VA enrollment).",
+      "resmi_link": "https://www.va.gov/health-care/health-needs-conditions/substance-use-problems/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "va-health",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-fully-developed-claim",
+      "ana_baslik": "veterans",
+      "baslik": "VA Fully Developed Claims (FDC) Program",
+      "ozet": "The VA Fully Developed Claims (FDC) program allows veterans to potentially receive faster disability benefit decisions by submitting all supporting evidence — private medical records, military treatment records, and relevant personnel documents — simultaneously with VA Form 21-526EZ, along with a certification that no additional evidence is needed. Veterans must attend any scheduled C&P exams; submitting additional materials after filing removes the claim from FDC and converts it to standard processing. Filing through FDC carries no risk: if the VA determines it needs additional federal records, the claim converts to standard processing without penalty and with no effect on the claim's attention or potential benefits.",
+      "resmi_link": "https://www.va.gov/disability/how-to-file-claim/evidence-needed/fully-developed-claims/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }
