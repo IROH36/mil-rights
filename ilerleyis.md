@@ -2,6 +2,40 @@
 
 ---
 
+## Oturum özeti — 2026-06-08 (citizenship, healthcare, family, housing genişlemesi)
+Başlangıç: 366 konu → Bitiş: 379 konu (+13 net: 15 eklendi, 2 duplikat silindi).
+Kategoriler: citizenship 27→32, housing 35→36, family 60→62, healthcare 66→70, veterans 119→120, pay sabit (1 eklendi 1 silindi).
+
+**Silinen duplikatlar:**
+- `va-sah-sha-grants` — `va-adapted-housing-grants` ile aynı SAH/SHA konusu; `va-adapted-housing-grants` tutuldu
+- `uniform-clothing-allowances` — `clothing-allowance-enlisted` ile örtüşüyor; pratik DFAS versiyonu tutuldu
+
+**Eklenen konular:**
+- n-648-disability-exemption (citizenship) — USCIS; naturalization için disability medical waiver
+- i-360-special-immigrant-military (citizenship) — USCIS; 12 yıl antlaşma kuvvetleri hizmetine LPR yolu
+- deferred-action-military-family (citizenship) — USCIS; askeri aile üyelerine 2 yıl sınır dışı ertelemesi
+- naturalization-after-discharge (citizenship) — USCIS Policy Manual; INA §328 barış dönemi terhis sonrası
+- aila-military-assistance (citizenship) — militaryonesource.mil; askeri üyelere ücretsiz göçmenlik hukuku
+- va-loan-entitlement-restoration (housing) — va.gov; VA Form 26-1880 ile eski hakka geri dönme
+- scra-lease-termination (housing) — militaryonesource.mil; PCS/deploymnet sonrası kira fesih hakkı (50 USC §3955)
+- active-duty-dental-addp (healthcare) — tricare.mil/addp; aktif görev ücretsiz diş bakımı
+- tricare-mental-health (healthcare) — tricare.mil; psikiyatrik ve davranışsal sağlık (sevk gerekmez)
+- tricare-maternity (healthcare) — tricare.mil; hamilelik/doğum/doğum sonrası; yenidoğan DEERS kaydı
+- tricare-guard-reserve-activation (healthcare) — tricare.mil; 30+ gün aktivasyonda aktif görev TRICARE; 180 gün TAMP sonrası
+- reserve-drill-pay (pay) — dfas.mil; Guard/Reserve IDT tatbikat ücreti yapısı
+- military-cdc-childcare (family) — militaryonesource.mil; kurulumda CDC çocuk bakımı, MilitaryChildCare.com
+- yellow-ribbon-reintegration (family) — yellowribbon.mil; Guard/Reserve konuşlanma döngüsü desteği
+- esgr-ombudsman (veterans) — esgr.mil; ücretsiz USERRA arabuluculuk, 1-800-336-4590
+
+⚠ NEEDS HUMAN SPOT-CHECK (search-confirmed, page 403):
+- **naturalization-after-discharge** — uscis.gov policy manual 403; içerik USCIS arama sonuçlarından
+- **deferred-action-military-family** — Mayıs 2026 USCIS policy güncellemesi var; mevcut politika insan tarafından doğrulanmalı
+- **i-360-special-immigrant-military** — uscis.gov/i-360 sayfa 403; içerik USCIS arama sonuçlarından
+- **reserve-drill-pay** — dfas.mil drill pay sayfaları muhtemelen 403; insan spot-check önerilir
+- **esgr-ombudsman** — esgr.mil SSL sorunlu; içerik arama sonuçlarından
+
+---
+
 ## Oturum özeti — 2026-06-08 (pay + housing odaklı içerik genişlemesi)
 Başlangıç: 357 konu → Bitiş: 366 konu (+9 konu bu oturumda).
 Kategoriler: pay +9 (56→59 olmak için batch4-6), healthcare +1 (CHCBP).

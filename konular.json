@@ -1821,21 +1821,6 @@
       "son_kontrol": "2026-06"
     },
     {
-      "id": "va-sah-sha-grants",
-      "ana_baslik": "housing",
-      "baslik": "VA Disability Housing Grants (SAH & SHA)",
-      "ozet": "The VA offers two housing grants for disabled veterans: the Specially Adapted Housing (SAH) grant (up to $126,526 for FY 2026) for veterans with the loss or loss of use of more than one limb or comparable qualifying disabilities, and the Special Home Adaptation (SHA) grant (up to $25,350 for FY 2026) for those with the loss of both hands or severe burns. Both grants can be used to buy, build, or modify a permanent home to increase the veteran's independence and accommodate their disability. Apply at VA.gov under the Housing Assistance section.",
-      "resmi_link": "https://www.va.gov/housing-assistance/disability-housing-grants/",
-      "kaynak_adi": "VA",
-      "etiketler": [
-        "veteran",
-        "all-branches",
-        "all-ranks",
-        "disability"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
       "id": "va-health-care-eligibility",
       "ana_baslik": "healthcare",
       "baslik": "VA Health Care Eligibility",
@@ -4367,21 +4352,6 @@
       "son_kontrol": "2026-06"
     },
     {
-      "id": "uniform-clothing-allowances",
-      "ana_baslik": "pay",
-      "baslik": "Military Clothing Allowances",
-      "ozet": "Under 37 USC § 418, the Secretary of Defense is authorized to prescribe the quantity and type of clothing furnished to enlisted members annually or, alternatively, to provide a cash clothing allowance in lieu of issued items. For initial entry, service members in the Army, Navy, Air Force, Marine Corps, and Space Force must be furnished athletic footwear directly rather than receiving a cash allowance, with medical exceptions available for members with unique physiological needs that cannot be met by standard-issue footwear. Amendments effective in 2021 require reducing gender-related cost disparities and establishing standards for items considered uniquely military across all service branches.",
-      "resmi_link": "https://www.law.cornell.edu/uscode/text/37/418",
-      "kaynak_adi": "Cornell Law / 37 U.S.C. § 418",
-      "etiketler": [
-        "active-duty",
-        "reservist",
-        "enlisted",
-        "all-branches"
-      ],
-      "son_kontrol": "2026-06"
-    },
-    {
       "id": "school-liaison-officers",
       "ana_baslik": "family",
       "baslik": "School Liaison Officers (SLO) for Military Children",
@@ -5842,6 +5812,248 @@
         "all-branches",
         "all-ranks",
         "retirement"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "n-648-disability-exemption",
+      "ana_baslik": "citizenship",
+      "baslik": "Naturalization Disability Exception (Form N-648)",
+      "ozet": "Naturalization applicants who have a physical or developmental disability or mental impairment that prevents them from meeting the English language or civics requirements may file Form N-648, Medical Certification for Disability Exceptions, along with their N-400. The form must be certified by a licensed physician, doctor of osteopathy, or clinical psychologist within 180 days before the N-400 is submitted to USCIS. There is no filing fee for Form N-648, though the certifying medical professional may charge for their examination.",
+      "resmi_link": "https://www.uscis.gov/n-648",
+      "kaynak_adi": "USCIS",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "green-card",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "i-360-special-immigrant-military",
+      "ana_baslik": "citizenship",
+      "baslik": "Special Immigrant Green Card for Treaty Force Members (Form I-360)",
+      "ozet": "Noncitizen members of the U.S. Armed Forces who enlisted outside the United States under a treaty or agreement in effect on October 1, 1991, and served honorably on active duty since October 15, 1978, may petition for lawful permanent resident status using Form I-360 after accumulating 12 years of aggregate active-duty service — or 6 years with a reenlistment commitment totaling 12 years. A recommendation for special immigrant classification from the relevant military department is also required. This pathway primarily applies to nationals of countries with longstanding military service agreements with the United States.",
+      "resmi_link": "https://www.uscis.gov/i-360",
+      "kaynak_adi": "USCIS",
+      "etiketler": [
+        "active-duty",
+        "green-card",
+        "all-branches",
+        "enlisted"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "deferred-action-military-family",
+      "ana_baslik": "citizenship",
+      "baslik": "Deferred Action for Military Family Members",
+      "ozet": "USCIS may grant deferred action — temporary relief from removal — to certain immediate family members (spouse, parent, son, or daughter) of active-duty service members, veterans, and individuals currently enlisted through the Delayed Entry Program. Deferred action is granted case-by-case for up to two years and treats the family member as lawfully present during that period; it is distinct from parole in place, which applies to individuals who entered the U.S. without inspection. Individuals already in formal removal proceedings are generally not eligible for USCIS-granted deferred action.",
+      "resmi_link": "https://www.uscis.gov/military/discretionary-options-for-military-members-enlistees-and-their-families",
+      "kaynak_adi": "USCIS",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "naturalization-after-discharge",
+      "ana_baslik": "citizenship",
+      "baslik": "Naturalization After Honorable Discharge (INA §328)",
+      "ozet": "Lawful permanent residents who served honorably in the U.S. Armed Forces for at least one year — including peacetime service — may apply for naturalization under INA Section 328 using Form N-400 and a DD-214 or official discharge document; USCIS charges no filing fee. Unlike the hostilities-based path under INA §329, Section 328 requires the applicant to be a lawful permanent resident at the time of the naturalization interview and to demonstrate English language ability and knowledge of U.S. civics. Uncharacterized discharges issued on or after August 1, 2024 no longer meet the under-honorable-conditions requirement.",
+      "resmi_link": "https://www.uscis.gov/policy-manual/volume-12-part-i-chapter-2",
+      "kaynak_adi": "USCIS Policy Manual",
+      "etiketler": [
+        "veteran",
+        "green-card",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-loan-entitlement-restoration",
+      "ana_baslik": "housing",
+      "baslik": "VA Home Loan Entitlement Restoration",
+      "ozet": "Veterans who have paid off a VA-guaranteed loan and sold the property can have their full VA loan entitlement restored for future use by submitting VA Form 26-1880 with proof the prior loan was paid in full. Veterans who paid off a VA loan but kept the property may restore entitlement on a one-time-only basis to purchase another primary residence. Veterans who refinanced a VA loan into a conventional loan may also restore entitlement while retaining ownership of the original home.",
+      "resmi_link": "https://www.va.gov/housing-assistance/home-loans/eligibility/",
+      "kaynak_adi": "VA",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "scra-lease-termination",
+      "ana_baslik": "housing",
+      "baslik": "SCRA Lease Termination for PCS and Deployment",
+      "ozet": "Under 50 U.S.C. § 3955, service members may terminate a residential lease early without penalty when they receive PCS orders or deployment orders lasting more than 90 days — or when they entered active duty after signing the lease and will serve at least 90 days. Written notice plus a copy of military orders must be delivered to the landlord at least 30 days before termination; the lease ends 30 days after the next monthly rent due date. Guard and Reserve members called to active duty for 180 or more days may also terminate vehicle leases under the same law.",
+      "resmi_link": "https://www.militaryonesource.mil/deployment/pre-deployment/military-clause-terminate-your-lease-due-to-deployment-or-pcs/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "active-duty-dental-addp",
+      "ana_baslik": "healthcare",
+      "baslik": "Active Duty Dental Program (ADDP)",
+      "ozet": "Active duty service members from all branches — including Coast Guard, NOAA, and Public Health Service, plus Guard and Reserve members on continuous active duty for more than 30 days — receive dental care at no out-of-pocket cost through military dental clinics. When a military dental clinic is not available, the Active Duty Dental Program provides access to a civilian dental network through United Concordia; remote service members can self-refer for routine care after obtaining an Appointment Control Number (ACN) by calling 1-866-984-2337. Emergency dental care through ADDP does not require prior authorization.",
+      "resmi_link": "https://tricare.mil/addp",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-mental-health",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Mental Health and Behavioral Health Coverage",
+      "ozet": "TRICARE covers a broad range of mental health and behavioral health services, including outpatient counseling and therapy, inpatient psychiatric care, residential treatment, and substance use disorder treatment for conditions such as depression, anxiety, PTSD, and others. No referral or prior authorization is required for outpatient mental health or substance use disorder care — beneficiaries, including active duty service members, can self-refer directly to a behavioral health provider or military clinic at any time. Active duty members can contact their installation behavioral health clinic directly without a referral from their primary care provider.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/Mental",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-maternity",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Maternity and Newborn Coverage",
+      "ozet": "TRICARE covers all medically necessary pregnancy care, including prenatal visits, labor and delivery, and postpartum care for at least six weeks with a minimum of two follow-up visits. Hospital stays are generally 48 hours after a vaginal delivery or 96 hours after a cesarean section, with longer stays covered if medically necessary. Newborns must be registered in DEERS before TRICARE coverage can begin; enrollment should be completed as soon as possible after birth.",
+      "resmi_link": "https://tricare.mil/CoveredServices/IsItCovered/MaternityCare",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-guard-reserve-activation",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Coverage When Guard or Reserve Members Are Activated",
+      "ozet": "National Guard and Reserve members ordered to active duty for more than 30 consecutive days — and their eligible family members — receive the same TRICARE health and dental benefits as active duty service members, beginning on the first day of orders. Activated members choose from TRICARE Prime, Prime Remote, or their overseas equivalents; dental coverage automatically switches from the premium-based TRICARE Dental Program to active duty dental benefits. After deactivation, TRICARE Transitional Assistance Management Program (TAMP) provides 180 days of continued coverage.",
+      "resmi_link": "https://tricare.mil/Plans/Eligibility/NGRMandFamilies/Activated",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "reserve-drill-pay",
+      "ana_baslik": "pay",
+      "baslik": "Reserve and Guard Drill Pay (Inactive Duty Training)",
+      "ozet": "Guard and Reserve members earn drill pay for each Inactive Duty Training (IDT) period completed, such as the weekend drills that make up most unit training schedules; a standard monthly drill weekend counts as four IDT periods. Drill pay rates follow the same pay grade and years-of-service structure as active duty basic pay and are published annually by DFAS. Most units require 48 IDT periods per year, with annual training periods compensated at the equivalent active duty daily rate.",
+      "resmi_link": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/Drill-Pay/Drill-Pay_E/",
+      "kaynak_adi": "DFAS",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "enlisted"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-cdc-childcare",
+      "ana_baslik": "family",
+      "baslik": "On-Installation Child Care (Child Development Centers)",
+      "ozet": "Child Development Centers (CDCs) at military installations provide nationally accredited child care for infants through preschool-age children of service members, with fees set on a sliding scale based on total family income rather than a flat rate. CDCs offer full-day, part-day, and space-available hourly care, typically Monday through Friday; children with special needs can receive support in coordination with the Exceptional Family Member Program. Military families in any branch can search for and request spots at CDCs worldwide through MilitaryChildCare.com, the official DoD child care platform.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/military-child-care-programs/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "yellow-ribbon-reintegration",
+      "ana_baslik": "family",
+      "baslik": "Yellow Ribbon Reintegration Program (Guard & Reserve Families)",
+      "ozet": "The Department of Defense Yellow Ribbon Reintegration Program (YRRP) supports National Guard and Reserve members and their families throughout the deployment cycle by hosting pre-deployment, mid-deployment, and reintegration events at 30, 60, and 90 days after return from deployment. Events connect participants with TRICARE coordinators, Military OneSource counselors, Military Family Life Consultants, personal financial counselors, chaplains, transition advisors, and employment support through the Employer Support of the Guard and Reserve. Eligibility is for Guard and Reserve members mobilized or deployed and their families.",
+      "resmi_link": "https://www.yellowribbon.mil/",
+      "kaynak_adi": "DoD Yellow Ribbon Reintegration Program",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "aila-military-assistance",
+      "ana_baslik": "citizenship",
+      "baslik": "Free Immigration Legal Services (AILA Military Assistance Program)",
+      "ozet": "The American Immigration Lawyers Association Military Assistance Program provides free immigration legal services — from visa petitions and naturalization to alien registration and reentry permits — to active-duty service members, reservists, veterans, and their immediate families for cases too complex for standard military legal offices. Military OneSource connects eligible individuals to AILA volunteer attorneys and can also assist with document translation and language interpretation for immigration matters. Contact Military OneSource at 800-342-9647 or use the Legal Services Locator to find the nearest installation legal assistance office.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/legal/citizenship-and-immigration/american-immigration-lawyers-association-military-assistance-program",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "esgr-ombudsman",
+      "ana_baslik": "veterans",
+      "baslik": "ESGR Ombudsman — Free USERRA Mediation for Guard & Reserve",
+      "ozet": "The Employer Support of the Guard and Reserve (ESGR) offers free, neutral mediation services to help Guard and Reserve members resolve workplace disputes with civilian employers over USERRA rights — such as reemployment, benefits continuation, or discrimination based on military service. More than 4,500 volunteer ombudsmen in all 50 states conduct informal mediation without enforcement authority; if mediation fails, cases are referred to the Department of Labor's Veterans' Employment and Training Service (VETS) for formal action. Service members can request assistance at 1-800-336-4590 (option 1) or by emailing osd.USERRA@mail.mil.",
+      "resmi_link": "https://www.esgr.mil/Service-Members-Family/How-ESGR-Can-Help",
+      "kaynak_adi": "ESGR / DoD",
+      "etiketler": [
+        "reservist",
+        "national-guard",
+        "veteran",
+        "all-branches",
+        "all-ranks"
       ],
       "son_kontrol": "2026-06"
     }

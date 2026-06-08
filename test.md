@@ -11,6 +11,25 @@
 
 ---
 
+## New topics (2026-06-08 citizenship + healthcare + family + housing batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | n-648-disability-exemption: link opens uscis.gov/n-648 | Browser | |
+|      | i-360-special-immigrant-military: link opens uscis.gov/i-360 | Browser | |
+|      | deferred-action-military-family: link opens USCIS discretionary options page (⚠ May 2026 policy update — human spot-check) | Browser | |
+|      | naturalization-after-discharge: link opens USCIS Policy Manual Vol.12 Part I Chapter 2 (⚠ 403 flagged — human spot-check) | Browser | |
+|      | aila-military-assistance: link opens militaryonesource.mil AILA page | Browser | |
+|      | va-loan-entitlement-restoration: link opens va.gov home loans eligibility page | Browser | |
+|      | scra-lease-termination: link opens militaryonesource.mil SCRA lease page | Browser | |
+|      | active-duty-dental-addp: link opens tricare.mil/addp | Browser | |
+|      | tricare-mental-health: link opens tricare.mil mental health page | Browser | |
+|      | tricare-maternity: link opens tricare.mil maternity page | Browser | |
+|      | tricare-guard-reserve-activation: link opens tricare.mil Guard/Reserve activation page | Browser | |
+|      | reserve-drill-pay: link opens DFAS drill pay table (⚠ DFAS 403 flagged — human spot-check) | Browser | |
+|      | military-cdc-childcare: link opens militaryonesource.mil child care page | Browser | |
+|      | yellow-ribbon-reintegration: link opens yellowribbon.mil | Browser | |
+|      | esgr-ombudsman: link opens esgr.mil (⚠ SSL issues — human spot-check) | Browser | |
+
 ## App Store prep tests
 | Date | Feature tested | Where | Result |
 |------|----------------|-------|--------|
