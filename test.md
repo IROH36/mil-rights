@@ -11,6 +11,15 @@
 
 ---
 
+## New topics (2026-06-08 healthcare batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | tricare-retiree-dental-fedvip: link opens tricare.mil retiree/survivor dental page | Browser | |
+|      | mhs-genesis-patient-portal: link opens health.mil MHS GENESIS page | Browser | |
+|      | va-mental-health-residential: link opens VA MHRTP page | Browser | |
+|      | tricare-aba-autism: link opens tricare.mil/autism | Browser | |
+|      | va-hepatitis-c-treatment: link opens VA hepatitis C treatment page | Browser | |
+
 ## New topics (2026-06-08 pay + family batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

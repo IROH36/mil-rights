@@ -3,11 +3,28 @@
 ---
 
 ## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
-Mevcut durum (2026-06-08 gece): **400 konu** — citizenship:40, housing:40, pay:64, family:66, healthcare:70, veterans:120.
+Mevcut durum (2026-06-08 gece): **404 konu** — citizenship:40, housing:40, pay:64, family:66, healthcare:74, veterans:120.
 Devam önerileri (öncelik sırasıyla):
-1. **Housing/Citizenship** (40 eşit) — ikisi de zayıf, yeni konu bulmak güçleşti; araştırma gerekiyor
+1. **Housing/Citizenship** (40 eşit) — en zayıf; yeni konular bulmak güçleşiyor, araştırma gerekiyor
 2. **Pay** (64) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
-3. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+3. **Veterans** (120) — zaten güçlü; gap analizi gerekiyor
+4. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+
+---
+
+## Oturum özeti — 2026-06-08 (healthcare genişlemesi, duplikat düzeltme)
+Başlangıç: 400 konu → Bitiş: 404 konu (+5 yeni, -1 duplikat = net +4).
+Kategoriler: healthcare 70→74 (+5 yeni, -1 duplikat tricare-mental-health).
+
+**Eklenen healthcare konuları (5):**
+- tricare-retiree-dental-fedvip — TRICARE; emekliler için FEDVIP dental, OPM Open Season, survivor benefit
+- mhs-genesis-patient-portal — Defense Health Agency; 9.5M faydalanıcı, CAC/DS Logon erişimi, randevu/reçete/sonuçlar
+- va-mental-health-residential — VA Mental Health; ~250 program, ~120 yer, 6 hafta tipik süre, VA kaydı gerekli
+- tricare-aba-autism — TRICARE; ASD tanılı tüm faydalanıcılar, tavan yok, 5 adım erişim süreci
+- va-hepatitis-c-treatment — VA Viral Hepatitis; ücretsiz DAA tedavisi, 100K+ iyileşen, %75-93 kür oranı
+
+**Düzeltme:**
+- tricare-mental-health duplikatı kaldırıldı (eski giriş silindi, güncel giriş tutuldu)
 
 ---
 
