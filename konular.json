@@ -5550,6 +5550,70 @@
         "all-branches"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-home-health-care",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Home Health Care Coverage",
+      "ozet": "TRICARE covers part-time and intermittent skilled nursing care, home health aide services, physical therapy, speech therapy, occupational therapy, and medical social services when pre-authorized by your regional TRICARE contractor. Services must be delivered by a participating home health agency; separate charges may apply for durable medical equipment, prosthetics, and certain medications. Beneficiaries who need more care than standard TRICARE covers may be eligible for additional support through the Extended Care Health Option (ECHO) Home Health Care program.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/HomehealthCare",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-dme",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Durable Medical Equipment (DME)",
+      "ozet": "TRICARE covers durable medical equipment (DME) prescribed by a physician when it serves a medical purpose, can withstand repeated use, and would not be useful without an illness or injury. Covered items include equipment that improves, restores, or maximizes patient function, along with necessary customizations, accessories, repairs, and replacements when conditions change. TRICARE does not cover equipment available from military facilities, items with luxury features, routine servicing not required by the manufacturer, expendable items such as pads or bandages, or non-medical equipment like humidifiers or exercise bikes.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/DurableMedicalEquipment",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "tricare",
+        "disability",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-installations-tool",
+      "ana_baslik": "family",
+      "baslik": "MilitaryINSTALLATIONS: Find Base Services",
+      "ozet": "MilitaryINSTALLATIONS is a free searchable directory provided by Military OneSource that helps service members learn about their duty station, covering installation overviews, check-in procedures, and local community resources. Users can search by installation name, state, specific programs, or ZIP code to find housing offices, child development centers, family advocacy services, medical facilities, schools, financial services, and recreation programs. For personalized support, reach Military OneSource at 800-342-9647 or via secure chat.",
+      "resmi_link": "https://installations.militaryonesource.mil/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-active-duty-mental-health",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Free Mental Health Care for Active Duty Members",
+      "ozet": "Active duty service members can access free mental health care at any VA medical center or Vet Center without enrolling in VA health care — no eligibility verification or enrollment is required. Walk-in access is available 24/7 at VA medical centers; Vet Centers are available during clinic hours; or call 877-222-8387 (Monday through Friday, 8 a.m. to 8 p.m. ET). Service members may also receive routine VA care with a valid TRICARE referral at facilities with VA/DoD sharing agreements, and can apply for full VA health care enrollment as soon as they receive separation or retirement orders.",
+      "resmi_link": "https://www.va.gov/service-member-benefits/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "active-duty",
+        "va-health",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }

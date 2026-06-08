@@ -2,6 +2,13 @@
 
 ---
 
+## Content expansion: 4 new topics — status: done ✓ (2026-06-08)
+konular.json: 351 topics (was 347). New topics added:
+- tricare-home-health-care (healthcare) — tricare.mil; pre-auth required; skilled nursing, PT/OT/speech, home health aides
+- tricare-dme (healthcare) — tricare.mil; physician prescribed; covers repairs/accessories; excludes luxury/non-medical items
+- military-installations-tool (family) — installations.militaryonesource.mil; searchable directory for base services, housing, schools
+- va-active-duty-mental-health (healthcare) — va.gov; AD members can walk in to any VA medical center for free mental health care without enrollment; 877-222-8387
+
 ## Content expansion: 8 new topics — status: done ✓ (2026-06-08)
 konular.json: 347 topics (was 339). New topics added:
 - tricare-chiropractic (healthcare) — tricare.mil; active duty + activated Guard/Reserve only at military facilities
