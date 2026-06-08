@@ -11,6 +11,23 @@
 
 ---
 
+## New topics (2026-06-08 citizenship + housing expansion batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | ina-329-hostilities-periods: link opens USCIS Policy Manual Vol.12 Part I Chapter 3 | Browser | |
+|      | guard-reserve-naturalization: link opens USCIS Policy Manual Vol.12 Part I Chapter 5 | Browser | |
+|      | n-600-certificate-citizenship: link opens uscis.gov/n-600 | Browser | |
+|      | expedited-oath-deploying: link opens USCIS Policy Manual Vol.12 Part J Chapter 6 | Browser | |
+|      | advance-parole-military-adjustment: link opens uscis.gov/i-131 | Browser | |
+|      | noncitizen-enlistment-lpr: link opens mepcom.army.mil Applicants page | Browser | |
+|      | lpr-return-from-deployment: link opens uscis.gov international travel as permanent resident | Browser | |
+|      | afghan-siv-com-process: link opens uscis.gov Afghan SIV page | Browser | |
+|      | bah-dependency-status: link opens militaryonesource.mil BAH page | Browser | |
+|      | military-relocation-assistance: link opens militaryonesource.mil RAP page | Browser | |
+|      | scra-vehicle-storage-lien: link opens militaryonesource.mil SCRA page | Browser | |
+|      | on-base-housing-waitlist: link opens militaryonesource.mil on-installation housing page | Browser | |
+|      | tle-domestic: updated summary shows 21-day figure (Nov 2024 JTR change) | Browser | |
+
 ## New topics (2026-06-08 citizenship + healthcare + family + housing batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|

@@ -3,12 +3,36 @@
 ---
 
 ## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
-Mevcut durum (2026-06-08 akşamı): **379 konu** — citizenship:32, housing:36, pay:59, family:62, healthcare:70, veterans:120.
+Mevcut durum (2026-06-08 gece): **391 konu** — citizenship:40, housing:40, pay:59, family:62, healthcare:70, veterans:120.
 Devam önerileri (öncelik sırasıyla):
-1. **Citizenship** en az konu (32) — INA §329 hostilities ayrıntıları, reserve/guard naturalization eligibility
-2. **Housing** (36) — travel.dod.mil ve HUD hâlâ 403; va.gov housing alt sayfalarından yeni konular denenebilir
-3. **Pay** — officer drill pay, nuclear officer pay (NOBIP, mynavyhr.navy.mil 403 sorunu var)
-4. **Spot-check listesi**: deferred-action-military-family (Mayıs 2026 policy), naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman
+1. **Pay** (59) — officer drill pay, nuclear officer pay (NOBIP), hazardous duty specialties
+2. **Family** (62) — daha fazla okul/eğitim, çocuk bakımı, eş destek konuları
+3. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+
+---
+
+## Oturum özeti — 2026-06-08 (citizenship + housing genişlemesi, TLE güncelleme)
+Başlangıç: 379 konu → Bitiş: 391 konu (+12 konu).
+Kategoriler: citizenship 32→40 (+8), housing 36→40 (+4, +1 güncelleme).
+
+**Eklenen citizenship konuları (8):**
+- ina-329-hostilities-periods — USCIS; INA §329 hostilities dönemleri ve residence muafiyeti
+- guard-reserve-naturalization — USCIS; Guard/Reserve §328/§329 uygunluğu, NGB Form 22
+- n-600-certificate-citizenship — USCIS; çocuklar için vatandaşlık sertifikası
+- expedited-oath-deploying — USCIS; konuşlanma öncesi acele yemin töreni, 1-877-247-4645
+- advance-parole-military-adjustment — USCIS; I-485 pending iken Form I-131 zorunluluğu
+- noncitizen-enlistment-lpr — U.S. Army MEPCOM; yeşil kart sahiplerinin askere alınma belgesi gereksinimleri
+- lpr-return-from-deployment — USCIS; uzun konuşlanma sonrası yeşil kartla dönüş, SB-1 seçeneği
+- afghan-siv-com-process — USCIS; Afgan SIV Form DS-157, 1 yıl hizmet, COM onay süreci
+
+**Eklenen housing konuları (4):**
+- bah-dependency-status — Military OneSource; BAH bağımlı tanımı, DD Form 137, Finance Office
+- military-relocation-assistance — Military OneSource; RAP, MFSC ücretsiz PCS hizmetleri
+- scra-vehicle-storage-lien — Military OneSource; 50 U.S.C. §3958, mahkeme kararı olmadan icra yasak
+- on-base-housing-waitlist — Military OneSource; rütbe/bağımlı/uygunluk tarihi önceliği, MilitaryINSTALLATIONS
+
+**Güncellenen konu:**
+- tle-domestic — Kasım 2024 JTR güncellemesi: 14 günden 21 güne çıktı, ek 10 gün, $290/gün tavan
 
 ---
 
