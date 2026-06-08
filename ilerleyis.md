@@ -2,6 +2,15 @@
 
 ---
 
+## Content expansion: 6 new topics (pay + healthcare) — status: done ✓ (2026-06-08)
+konular.json: 363 topics (was 357). Sources: militaryonesource.mil, dol.gov, irs.gov, tricare.mil
+- military-moving-expense-deduction (pay) — irs.gov/taxtopics/tc455; Form 3903, unreimbursed PCS moving expenses
+- military-eitc-combat-pay (pay) — irs.gov/publications/p3; voluntary election to include combat pay in EITC calculation
+- pcs-pet-transport (pay) — militaryonesource.mil; JTR reimbursement for one pet; enhanced for high-rabies-risk countries
+- military-financial-counseling (pay) — militaryonesource.mil; free debt/savings/retirement counseling 24/7; 800-342-9647
+- ucx-unemployment-benefits (pay) — oui.doleta.gov; federal unemployment for honorably discharged vets; state-administered
+- chcbp-continued-coverage (healthcare) — tricare.mil; premium-based 18-36 month TRICARE bridge after separation; enroll within 60 days
+
 ## Content expansion: 6 new topics — status: done ✓ (2026-06-08)
 konular.json: 357 topics (was 351). Sources: militaryonesource.mil, cfpb.gov, afrh.gov, va.gov
 - brandon-act (healthcare) — service members can request mental health eval at any time, any reason, E-6+ supervisor

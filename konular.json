@@ -5702,6 +5702,99 @@
         "survivor-benefit"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-moving-expense-deduction",
+      "ana_baslik": "pay",
+      "baslik": "Moving Expense Deduction for PCS",
+      "ozet": "Active duty members relocating under PCS orders can deduct unreimbursed moving expenses — household goods, storage, and travel/lodging (not meals) — using Form 3903 filed with Schedule 1 of Form 1040. Expenses already reimbursed or excluded from income by the government cannot be deducted.",
+      "resmi_link": "https://www.irs.gov/taxtopics/tc455",
+      "kaynak_adi": "IRS",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-eitc-combat-pay",
+      "ana_baslik": "pay",
+      "baslik": "EITC Election on Combat Pay",
+      "ozet": "Service members may elect to include otherwise-excluded combat pay in their earned income when calculating the Earned Income Tax Credit (EITC), potentially increasing the refundable credit amount. This election is voluntary and may only be beneficial depending on individual circumstances; IRS Publication 3 explains the rules.",
+      "resmi_link": "https://www.irs.gov/publications/p3",
+      "kaynak_adi": "IRS",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "enlisted",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "pcs-pet-transport",
+      "ana_baslik": "pay",
+      "baslik": "PCS Pet Transportation Reimbursement",
+      "ozet": "Under the Joint Travel Regulations, service members are reimbursed for transporting one pet during a PCS move; additional pets are transported at personal expense. Enhanced reimbursement is available for pets moving from high-rabies-risk countries, and reservations for Patriot Express flights should be made 90–120 days in advance.",
+      "resmi_link": "https://www.militaryonesource.mil/housing-and-moving/moving/moving-with-pets/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-financial-counseling",
+      "ana_baslik": "pay",
+      "baslik": "Free Military Financial Counseling (Military OneSource)",
+      "ozet": "Military OneSource provides free financial counseling to service members and eligible family members through phone, video, and in-person consultations, covering debt management, savings programs, retirement planning, college funding, and consumer rights education. Counselors are available 24/7 at 800-342-9647 and can connect service members with installation-based financial educators and additional resources specific to military life.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/financial-counseling/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "ucx-unemployment-benefits",
+      "ana_baslik": "pay",
+      "baslik": "Unemployment Compensation for Ex-Servicemembers (UCX)",
+      "ozet": "UCX is a federal program providing unemployment benefits to former military members who served on active duty and were separated under honorable conditions; no payroll deductions are required from service members, as the military branches fund the benefits. The program is administered by state workforce agencies as agents of the federal government, so benefit amounts, duration, and specific eligibility requirements are determined by each individual state. Apply at your state workforce agency as soon as possible after separation, typically presenting your DD-214.",
+      "resmi_link": "https://oui.doleta.gov/unemploy/ucx.asp",
+      "kaynak_adi": "U.S. Department of Labor",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "chcbp-continued-coverage",
+      "ana_baslik": "healthcare",
+      "baslik": "Continued Health Care Benefit Program (CHCBP) — Post-Separation Coverage",
+      "ozet": "CHCBP is a premium-based temporary health coverage option that bridges military and civilian benefits when TRICARE eligibility ends, available to separated active duty members, former dependents, and retirees losing coverage. Enrollment must be completed within 60 days of losing TRICARE, and coverage lasts 18 to 36 months depending on the individual's circumstances. Benefits match TRICARE Select and include prescription coverage; contact BCBS Federal Employee Program at 888-550-6788 or visit tricare.mil to enroll.",
+      "resmi_link": "https://www.tricare.mil/Plans/SpecialPrograms/CHCBP",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "tricare"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }
