@@ -5423,6 +5423,133 @@
         "disability"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-chiropractic",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Chiropractic Health Care Program",
+      "ozet": "The TRICARE Chiropractic Health Care Program covers chiropractic services only for active duty service members and activated National Guard and Reserve members at designated military hospitals and clinics. Family members, retirees, their family members, unremarried former spouses, and survivors are not eligible for this program. Those who do not qualify may be referred to alternative Military Health System services such as physical therapy or orthopedics.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/ChiropracticCare",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-physical-therapy",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Physical Therapy Coverage",
+      "ozet": "TRICARE covers physical therapy when professionally administered to aid recovery from disease or injury, including services from licensed physical therapists, physical therapist assistants, occupational therapists, and certain nurse practitioners or podiatrists. Covered therapy must be medically necessary and designed to improve mobility, strength, coordination, or endurance. TRICARE does not cover maintenance therapy, general exercise programs, chiropractic services, acupuncture, or passive range-of-motion exercises unrelated to restoring a specific loss of function.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/PhysicalTherapy",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-occupational-therapy",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Occupational Therapy Coverage",
+      "ozet": "TRICARE covers occupational therapy (OT) when prescribed and supervised by a physician, certified physician assistant, nurse practitioner, or podiatrist and professionally administered to improve, restore, or maintain function. Services must be medically necessary and evidence-based. TRICARE does not cover vocational assessment and training, general exercise programs, maintenance therapy that no longer requires skilled intervention, or repetitive exercise for gait and endurance.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/OccupationalTherapy",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-preventive-care",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Preventive Care Services",
+      "ozet": "TRICARE covers a wide range of clinical preventive services including blood pressure and cholesterol screenings, cancer screenings, immunizations for all age groups, well-child and well-woman exams, tobacco cessation services, hepatitis B and C and HPV testing, and parent and patient health education. Pediatric lead level screening and newborn care are also included. Contact TRICARE or visit tricare.mil for the complete list of covered preventive services.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/PreventiveCare",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-hearing-aids",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Hearing Aid Coverage",
+      "ozet": "TRICARE covers hearing aids for active duty service members and eligible dependents who meet audiological criteria — adults must have a hearing threshold of at least 40 dB HL in one or both ears or a speech recognition score below 94%; children must have a threshold of at least 26 dB HL. Retired service members are not covered for hearing aids under TRICARE but may access VA hearing programs or the Retiree-At-Cost Hearing Aid Program (RACHAP) at military hospitals. Children of retired sponsors may qualify if enrolled in TRICARE Prime or US Family Health Plan and the child meets hearing loss criteria.",
+      "resmi_link": "https://www.tricare.mil/CoveredServices/IsItCovered/HearingAids",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "family-member",
+        "tricare",
+        "disability",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-prosthetics",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Prosthetic and Sensory Aids Service",
+      "ozet": "The VA Prosthetic and Sensory Aids Service (PSAS) provides eligible veterans with prosthetic and orthotic devices, hearing aids, automobile adaptive equipment (AAE) for vehicle modifications, home improvements and structural alterations (HISA) for accessibility, service dog veterinary health benefits, clothing allowances, and assistive technology solutions. Veterans enrolled in VA health care can access these services by contacting their local VA medical center or using the VA facility locator tool. The program provides commercially available advanced medical devices and products to maximize veteran independence.",
+      "resmi_link": "https://www.prosthetics.va.gov/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "disability",
+        "va-health",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "crba-birth-abroad",
+      "ana_baslik": "family",
+      "baslik": "Consular Report of Birth Abroad for Military Families",
+      "ozet": "A Consular Report of Birth Abroad (CRBA) is an official U.S. State Department document that records U.S. citizenship at birth for children under 18 born overseas to at least one U.S. citizen parent, including military families stationed abroad. Parents apply through their nearest U.S. embassy or consulate using MyTravelGov; Form DS-5507 may be required when one parent is not a U.S. citizen, is absent during application, or the child was born out of wedlock to a U.S. citizen father. A CRBA is not a birth certificate, but it serves as proof of U.S. citizenship for the child.",
+      "resmi_link": "https://travel.state.gov/content/travel/en/international-travel/while-abroad/birth-abroad.html",
+      "kaynak_adi": "U.S. Department of State",
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "all-branches",
+        "naturalization"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-onesource-counseling",
+      "ana_baslik": "family",
+      "baslik": "Military OneSource Confidential Counseling",
+      "ozet": "Military OneSource provides free, short-term, confidential counseling to active duty service members, National Guard and Reserve members regardless of activation status, their immediate family members, and eligible surviving spouses and children for up to 365 days post-separation. Sessions are available in-person, by phone, secure video, or online chat and cover relationship conflicts, stress management, parenting issues, grief, and deployment-related challenges. Information is not reported to the chain of command or security clearance investigations; reach counselors 24/7 at 800-342-9647.",
+      "resmi_link": "https://www.militaryonesource.mil/confidential-help/non-medical-counseling/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "family-member",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }

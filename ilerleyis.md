@@ -2,6 +2,17 @@
 
 ---
 
+## Content expansion: 8 new topics — status: done ✓ (2026-06-08)
+konular.json: 347 topics (was 339). New topics added:
+- tricare-chiropractic (healthcare) — tricare.mil; active duty + activated Guard/Reserve only at military facilities
+- tricare-physical-therapy (healthcare) — tricare.mil; medically necessary PT; excludes maintenance/general exercise/acupuncture
+- tricare-occupational-therapy (healthcare) — tricare.mil; requires physician prescription; excludes vocational training/general exercise
+- tricare-preventive-care (healthcare) — tricare.mil; screenings, immunizations, well-child, well-woman, tobacco cessation
+- tricare-hearing-aids (healthcare) — tricare.mil; AD + eligible dependents; retirees use VA or RACHAP
+- va-prosthetics (healthcare) — prosthetics.va.gov; prosthetics, orthotics, hearing aids, AAE, HISA, service dog vet benefits
+- crba-birth-abroad (family) — travel.state.gov; CRBA for children born abroad to US citizen parents including military families
+- military-onesource-counseling (family) — militaryonesource.mil; free confidential counseling; 800-342-9647; not reported to chain of command
+
 ## Content expansion: 5 new topics — status: done ✓ (2026-06-05)
 konular.json: 328 entries. DATA_FALLBACK (index.html): 276 entries.
 New topics added:
