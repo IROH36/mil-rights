@@ -5251,6 +5251,100 @@
         "all-ranks"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "family-separation-allowance",
+      "ana_baslik": "pay",
+      "baslik": "Family Separation Allowance (FSA)",
+      "ozet": "Family Separation Allowance (FSA) is additional monthly pay for service members whose family members cannot live with or near them at their permanent duty station, available at both domestic and overseas locations. Eligibility applies to active-duty members, National Guard, and Reserve personnel when government housing or transportation for dependents is unavailable due to military orders. Service members must submit DD Form 1561 to their installation's Personnel Support Office; current monthly rates are published by the Defense Finance and Accounting Service (DFAS).",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/pay-and-benefits/family-separation-allowance/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-referrals-authorization",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Referrals and Prior Authorizations",
+      "ozet": "TRICARE Prime requires a referral from your Primary Care Manager (PCM) and prior authorization from your regional contractor before receiving specialty care; receiving specialty care without a referral means paying out of pocket. Other TRICARE plans — including TRICARE Select and Reserve Select — generally do not require referrals except for applied behavioral analysis, though pre-authorization is still required for transplants, home health, hospice, and certain other services. Referral and authorization status can be checked through the Humana Military portal (East Region) or TriWest portal (West Region).",
+      "resmi_link": "https://www.tricare.mil/GettingCare/ReferralsPreAuth",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "tricare",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-home-based-primary-care",
+      "ana_baslik": "healthcare",
+      "baslik": "VA Home Based Primary Care",
+      "ozet": "VA Home Based Primary Care (HBPC) delivers medical services in veterans' homes for those with serious ongoing conditions who have difficulty attending clinic appointments due to illness severity or homebound status. The interdisciplinary team provides in-home visits by physicians or nurse practitioners, along with nursing, social work, rehabilitation, psychological, nutritional, and pharmacy services. All enrolled veterans who meet clinical need may qualify; contact a VA social worker at your nearest VA medical center to determine local availability and enrollment.",
+      "resmi_link": "https://www.va.gov/GERIATRICS/pages/Home_Based_Primary_Care.asp",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "va-health",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-records-nprc",
+      "ana_baslik": "veterans",
+      "baslik": "Requesting Military Service Records (NPRC)",
+      "ozet": "Veterans and eligible next of kin (spouse, parent, child, or sibling) can obtain free copies of military service records — including the DD Form 214, Official Military Personnel File (OMPF), medical records, and replacement medals — through the National Personnel Records Center (NPRC). The fastest method is online via the eVetRecs system at vetrecs.archives.gov using ID.me identity verification; requests can also be submitted by mailing or faxing a signed Standard Form 180 to NPRC, 1 Archives Drive, St. Louis, MO 63138. Processing typically takes 90 or more days; records become publicly available 62 years after a veteran's separation.",
+      "resmi_link": "https://www.archives.gov/veterans/military-service-records",
+      "kaynak_adi": "National Archives (NARA)",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "gold-star-families",
+      "ana_baslik": "family",
+      "baslik": "Gold Star Family Benefits",
+      "ozet": "Surviving spouses, children, and parents of service members who died in the line of duty or from a service-connected cause may qualify for VA benefits including Dependency and Indemnity Compensation (DIC), Survivors Pension, education assistance through Chapter 35 or the Fry Scholarship, VA-backed home loans, burial benefits, and family life insurance options. The VA Benefits Hotline (800-827-1000) and the Caregiver Support Line (855-260-3274) provide personalized guidance; installation Casualty Assistance Officers and Military OneSource also offer support during the transition period. Survivors should inquire about Gold Star lapel pins, base access privileges, and commissary and exchange eligibility through their branch casualty office.",
+      "resmi_link": "https://www.va.gov/family-member-benefits/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "family-member",
+        "all-branches",
+        "survivor-benefit"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "scra-mortgage-foreclosure",
+      "ana_baslik": "housing",
+      "baslik": "SCRA Mortgage and Foreclosure Protections",
+      "ozet": "The Servicemembers Civil Relief Act (SCRA) caps the interest rate on mortgages taken out before entering active duty at 6 percent for the duration of service, with the reduced rate continuing for one year after separation. No foreclosure or seizure of property for nonpayment of a pre-service mortgage is valid if made during active duty or within nine months after active duty ends, unless carried out under a valid court order. Service members who miss a mortgage payment due to military service should contact their installation's legal assistance office immediately to invoke these protections.",
+      "resmi_link": "https://www.militaryonesource.mil/benefits/legal/servicemembers-civil-relief-act/",
+      "kaynak_adi": "Military OneSource (DoD)",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }
