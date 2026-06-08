@@ -5614,6 +5614,94 @@
         "all-ranks"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "brandon-act",
+      "ana_baslik": "healthcare",
+      "baslik": "Brandon Act: Right to Request Mental Health Evaluation",
+      "ozet": "The Brandon Act (signed December 27, 2021, as part of the 2022 NDAA) gives service members the right to request a mental health evaluation at any time, for any reason, and in any environment by asking a supervisor of E-6 grade or above — no reason or basis is required. Confidentiality is protected as much as possible under federal privacy laws and Department of War regulations. The law was named after Navy Petty Officer 3rd Class Brandon Caserta, who died by suicide in 2018, and aims to reduce stigma around seeking mental health care.",
+      "resmi_link": "https://www.militaryonesource.mil/health-wellness/mental-health/brandon-act/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "reach-spouse",
+      "ana_baslik": "family",
+      "baslik": "REACH-Spouse Mental Health Training for Military Spouses",
+      "ozet": "REACH-Spouse (Resources Exist, Asking Can Help-Spouse) is a free, facilitator-led two-session training program offered through Military OneSource that equips military spouses to recognize mental health challenges and connect themselves and their service members with support resources. Session 2 teaches the Question, Persuade, Refer (QPR) technique for suicide prevention, enabling spouses to respond effectively when a service member may be struggling. Field testing found that attendees leave with significantly more knowledge of available resources.",
+      "resmi_link": "https://www.militaryonesource.mil/health-wellness/mental-health/reach-spouse/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "msep-spouseworks",
+      "ana_baslik": "family",
+      "baslik": "Military Spouse Employment Partnership and SpouseWorks",
+      "ozet": "The Military Spouse Employment Partnership (MSEP) is a DoD initiative with more than 600 private-sector employers committed to recruiting, hiring, promoting, and retaining military spouses. SpouseWorks (formerly the Spouse Education and Career Opportunities program) provides free career coaching through certified counselors. Military spouses access the MSEP Job Search tool and Job Search Navigator through the MySECO portal at myseco.militaryonesource.mil.",
+      "resmi_link": "https://www.militaryonesource.mil/work-life/service-branches-and-reserve-component/military-spouse-employment/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "family-member",
+        "active-duty",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "cfpb-servicemember-rights",
+      "ana_baslik": "pay",
+      "baslik": "CFPB Financial Protections for Service Members",
+      "ozet": "The Consumer Financial Protection Bureau (CFPB) enforces financial protections for service members including the Military Lending Act (MLA), which caps interest and fees on most consumer loans, and the Servicemembers Civil Relief Act (SCRA), which guards against wrongful foreclosures and repossessions. The CFPB also provides resources on scams targeting service members, monitors complaints from the military community, and takes enforcement action against violators. Service members can file complaints or get help at consumerfinance.gov or by calling 855-411-2372.",
+      "resmi_link": "https://www.consumerfinance.gov/consumer-tools/educator-tools/servicemembers/",
+      "kaynak_adi": "Consumer Financial Protection Bureau",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "reservist",
+        "national-guard",
+        "all-branches"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "afrh-retirement-home",
+      "ana_baslik": "veterans",
+      "baslik": "Armed Forces Retirement Home",
+      "ozet": "The Armed Forces Retirement Home (AFRH) is an independent federal agency operating two residential campuses for eligible enlisted veterans — one in Washington, D.C. and one in Gulfport, Mississippi. Residents receive housing, healthcare, recreation programs, 24/7 wellness center access, nutrition guidance, physical and occupational therapy, dental care, and podiatry care. For admissions information including eligibility requirements, call 800-422-9988 or visit afrh.gov.",
+      "resmi_link": "https://www.afrh.gov/",
+      "kaynak_adi": "Armed Forces Retirement Home",
+      "etiketler": [
+        "veteran",
+        "enlisted",
+        "all-branches",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-pre-need-burial",
+      "ana_baslik": "veterans",
+      "baslik": "VA Pre-Need Burial Eligibility Determination",
+      "ozet": "Veterans and eligible family members can apply in advance for a VA pre-need eligibility determination to confirm eligibility for burial in a VA national cemetery, making the process easier for families during a time of loss. Applications are submitted online, by mail using VA Form 40-10007 (to the NCA Evidence Intake Center, Janesville, WI), or by fax; providing a DD214 speeds processing. The VA will attempt to locate records if separation documents are unavailable, but cannot guarantee placement in a preferred cemetery due to space availability.",
+      "resmi_link": "https://www.va.gov/burials-memorials/pre-need-eligibility/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "family-member",
+        "all-branches",
+        "survivor-benefit"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }

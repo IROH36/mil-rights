@@ -2,6 +2,15 @@
 
 ---
 
+## Content expansion: 6 new topics — status: done ✓ (2026-06-08)
+konular.json: 357 topics (was 351). Sources: militaryonesource.mil, cfpb.gov, afrh.gov, va.gov
+- brandon-act (healthcare) — service members can request mental health eval at any time, any reason, E-6+ supervisor
+- reach-spouse (family) — free QPR suicide prevention training for military spouses
+- msep-spouseworks (family) — 600+ MSEP employers + SpouseWorks career coaching via MySECO portal
+- cfpb-servicemember-rights (pay) — CFPB enforces MLA, SCRA; complaint line 855-411-2372
+- afrh-retirement-home (veterans) — enlisted veteran residential campus in DC and Gulfport MS; 800-422-9988
+- va-pre-need-burial (veterans) — advance VA Form 40-10007 to confirm national cemetery eligibility before death
+
 ## Content expansion: 4 new topics — status: done ✓ (2026-06-08)
 konular.json: 351 topics (was 347). New topics added:
 - tricare-home-health-care (healthcare) — tricare.mil; pre-auth required; skilled nursing, PT/OT/speech, home health aides
