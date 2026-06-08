@@ -2,6 +2,16 @@
 
 ---
 
+## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
+Mevcut durum (2026-06-08 akşamı): **379 konu** — citizenship:32, housing:36, pay:59, family:62, healthcare:70, veterans:120.
+Devam önerileri (öncelik sırasıyla):
+1. **Citizenship** en az konu (32) — INA §329 hostilities ayrıntıları, reserve/guard naturalization eligibility
+2. **Housing** (36) — travel.dod.mil ve HUD hâlâ 403; va.gov housing alt sayfalarından yeni konular denenebilir
+3. **Pay** — officer drill pay, nuclear officer pay (NOBIP, mynavyhr.navy.mil 403 sorunu var)
+4. **Spot-check listesi**: deferred-action-military-family (Mayıs 2026 policy), naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman
+
+---
+
 ## Oturum özeti — 2026-06-08 (citizenship, healthcare, family, housing genişlemesi)
 Başlangıç: 366 konu → Bitiş: 379 konu (+13 net: 15 eklendi, 2 duplikat silindi).
 Kategoriler: citizenship 27→32, housing 35→36, family 60→62, healthcare 66→70, veterans 119→120, pay sabit (1 eklendi 1 silindi).
