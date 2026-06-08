@@ -3,11 +3,30 @@
 ---
 
 ## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
-Mevcut durum (2026-06-08 gece): **391 konu** — citizenship:40, housing:40, pay:59, family:62, healthcare:70, veterans:120.
+Mevcut durum (2026-06-08 gece): **400 konu** — citizenship:40, housing:40, pay:64, family:66, healthcare:70, veterans:120.
 Devam önerileri (öncelik sırasıyla):
-1. **Pay** (59) — officer drill pay, nuclear officer pay (NOBIP), hazardous duty specialties
-2. **Family** (62) — daha fazla okul/eğitim, çocuk bakımı, eş destek konuları
+1. **Housing/Citizenship** (40 eşit) — ikisi de zayıf, yeni konu bulmak güçleşti; araştırma gerekiyor
+2. **Pay** (64) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
 3. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+
+---
+
+## Oturum özeti — 2026-06-08 (pay + family genişlemesi, 400 konu milestone)
+Başlangıç: 391 konu → Bitiş: 400 konu (+9 konu).
+Kategoriler: pay 59→64 (+5), family 62→66 (+4).
+
+**Eklenen pay konuları (5):**
+- involuntary-separation-pay — 10 U.S.C. §1174; 6+ yıl üyeler için, tam/yarım ISP formülü, VA geri tahsil kuralı
+- disability-severance-pay — MyArmyBenefits; %30 altı rating, 2× temel maaş × yıl, savaş bölgesi vergi muafiyeti
+- mypay-dfas-portal — DFAS; LES, W-2, direct deposit, allotment, TSP yönetimi
+- healthcare-professional-special-pays — DoD; doktor/diş/hemşire officer ek ödemeleri, accession bonus bilgisi
+- reserve-guard-retirement-points — DFAS; 20 qualifying year, membership/drill/active duty point türleri, yaş 60 başlangıcı
+
+**Eklenen family konuları (4):**
+- family-care-plan — Military OneSource; tek ebeveyn/çift askeri zorunluluğu, DA Form 5305, yıllık yenileme
+- joint-spouse-macp — Military OneSource; eşlerle birlikte görevlendirme, 50 mil kural, garanti değil
+- gi-bill-mha — VA; E-5 bağımlılı BAH oranı, online $1,169/ay, okulun bulunduğu zip kodu bazında
+- military-child-support-garnishment — DFAS; 42 U.S.C. §659, %50-%60 tavan, DFAS Garnishment Law Directorate
 
 ---
 

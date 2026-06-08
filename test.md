@@ -11,6 +11,19 @@
 
 ---
 
+## New topics (2026-06-08 pay + family batch) — content link tests
+| Date | What checked | Where | Result |
+|------|--------------|-------|--------|
+|      | involuntary-separation-pay: link opens 10 U.S.C. §1174 on law.cornell.edu | Browser | |
+|      | disability-severance-pay: link opens MyArmyBenefits DSP page | Browser | |
+|      | mypay-dfas-portal: link opens dfas.mil/mypayinfo | Browser | |
+|      | healthcare-professional-special-pays: link opens militarypay.defense.gov special pays page | Browser | |
+|      | reserve-guard-retirement-points: link opens DFAS retirement eligibility page | Browser | |
+|      | family-care-plan: link opens militaryonesource.mil FCP page | Browser | |
+|      | joint-spouse-macp: link opens militaryonesource.mil dual military couples page | Browser | |
+|      | gi-bill-mha: link opens va.gov Post-9/11 GI Bill rates page | Browser | |
+|      | military-child-support-garnishment: link opens dfas.mil garnishment page | Browser | |
+
 ## New topics (2026-06-08 citizenship + housing expansion batch) — content link tests
 | Date | What checked | Where | Result |
 |------|--------------|-------|--------|
