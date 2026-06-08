@@ -170,6 +170,26 @@
       letter-spacing: .7px; color: #94a3b8; margin-bottom: 10px;
     }
 
+    /* ── NEW BADGE ───────────────────────────────────── */
+    .new-badge {
+      display: inline-block; background: #2563eb; color: #fff;
+      font-size: 9px; font-weight: 800; letter-spacing: .6px;
+      text-transform: uppercase; border-radius: 4px;
+      padding: 1px 5px; margin-left: 6px; vertical-align: middle;
+      line-height: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .new-badge { background: #3b82f6; }
+    }
+
+    /* ── SEE ALL LINK ────────────────────────────────── */
+    .see-all-btn {
+      width: 100%; background: none; border: none; padding: 12px 0 4px;
+      font-size: 13px; font-weight: 600; color: #2563eb; cursor: pointer;
+      text-align: center;
+    }
+    .see-all-btn:active { opacity: 0.7; }
+
     /* ── EMPTY STATE ─────────────────────────────────── */
     .empty { text-align: center; padding: 52px 24px; }
     .empty-icon  { margin-bottom: 14px; }
@@ -500,11 +520,16 @@ function chevronSvg() {
   return `<span class="chevron"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>`;
 }
 
+const CURRENT_MONTH = '2026-06';
 function topicRow(t) {
   const isFav = favs.includes(t.id);
+  const isNew = t.son_kontrol === CURRENT_MONTH;
+  const titleHtml = isNew
+    ? `${t.baslik}<span class="new-badge">New</span>`
+    : t.baslik;
   return `<div class="topic-item" onclick="go('topic',{topicId:'${t.id}',category:'${t.ana_baslik}'})">
     <div class="tinfo">
-      <div class="ttitle">${t.baslik}</div>
+      <div class="ttitle">${titleHtml}</div>
       <div class="tmeta">${t.kaynak_adi}</div>
     </div>
     ${isFav ? '<span class="fav-dot"></span>' : ''}
@@ -532,7 +557,7 @@ function render() {
   void ct.offsetWidth;
   ct.classList.add("page-in");
 
-  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile, about:renderAbout, ask:renderAsk };
+  const screens = { home:renderHome, category:renderCategory, topic:renderTopic, search:renderSearch, favorites:renderFavorites, profile:renderProfile, about:renderAbout, ask:renderAsk, foryou:renderForYouAll };
   (screens[S.screen] || renderHome)();
 }
 
@@ -546,15 +571,22 @@ function renderHome() {
       </div>
       <div class="hsub">Know your rights — find the official source.</div>`);
 
+  const FY_LIMIT = 12;
   let topHtml = "";
   if (PROFILE && PROFILE.status) {
     const matched = DATA.konular.filter(matchesProfile);
     if (matched.length) {
+      const shown = matched.slice(0, FY_LIMIT);
+      const extra = matched.length - FY_LIMIT;
+      const seeAll = extra > 0
+        ? `<button class="see-all-btn" onclick="go('foryou')">See all ${matched.length} topics for you →</button>`
+        : '';
       topHtml = `<div class="fy-head">
           <span class="slabel" style="margin-bottom:0">For You</span>
           <button class="fy-edit" onclick="go('profile')">Edit Profile</button>
         </div>
-        ${matched.map(topicRow).join("")}
+        ${shown.map(topicRow).join("")}
+        ${seeAll}
         <div class="divider-label">All Categories</div>`;
     }
   } else {
@@ -590,10 +622,26 @@ function renderHome() {
   $c(`${topHtml}<div class="grid">${cards}</div>${supportHtml}`);
 }
 
+// ── FOR YOU ALL ───────────────────────────────────────────────────────────────
+function renderForYouAll() {
+  const matched = DATA.konular.filter(matchesProfile);
+  $h(`<div class="hrow">
+        <button class="back-btn" onclick="go('home')" aria-label="Back">&#8249;</button>
+        <span class="htitle">For You</span>
+      </div>
+      <div class="hsub">${matched.length} topic${matched.length!==1?"s":""} matched your profile</div>`);
+  $c(matched.length
+    ? matched.map(topicRow).join("")
+    : `<div class="empty"><div class="empty-title">No matches</div><div class="empty-desc">Update your profile to see matched topics.</div></div>`
+  );
+}
+
 // ── CATEGORY ──────────────────────────────────────────────────────────────────
 function renderCategory() {
   const cat = CATS.find(c => c.id === S.category) || CATS[0];
-  const topics = DATA.konular.filter(t => t.ana_baslik === S.category);
+  const topics = DATA.konular
+    .filter(t => t.ana_baslik === S.category)
+    .sort((a, b) => a.baslik.localeCompare(b.baslik));
 
   $h(`<div class="hrow">
         <button class="back-btn" onclick="go('home')" aria-label="Back">&#8249;</button>
@@ -742,11 +790,13 @@ function scoreMatch(t, q) {
 
 function topicRowHL(t, q) {
   const isFav = favs.includes(t.id);
+  const isNew = t.son_kontrol === CURRENT_MONTH;
   const title = q ? hl(t.baslik, q) : t.baslik;
   const meta  = q ? hl(t.kaynak_adi, q) : t.kaynak_adi;
+  const badge = isNew ? '<span class="new-badge">New</span>' : '';
   return `<div class="topic-item" onclick="go('topic',{topicId:'${t.id}',category:'${t.ana_baslik}'})">
     <div class="tinfo">
-      <div class="ttitle">${title}</div>
+      <div class="ttitle">${title}${badge}</div>
       <div class="tmeta">${meta}</div>
     </div>
     ${isFav ? '<span class="fav-dot"></span>' : ''}
@@ -939,6 +989,13 @@ const ASK_MAP = [
   { words:["tsp","thrift savings","retirement savings","401k","retirement account"], cats:["pay"] },
   { words:["appeals","va appeal","decision review","disability appeal","board of veterans"], cats:["veterans"] },
   { words:["women","female veteran","womens health","women veteran"], tags:["va-health"] },
+  { words:["substance use","alcohol treatment","drug treatment","addiction","opioid","rehab","detox","sobriety"], cats:["healthcare"] },
+  { words:["nursing home","long-term care","assisted living","state veterans home","residential care for veterans"], cats:["veterans"] },
+  { words:["fully developed claim","fdc","claim evidence","expedite claim","faster claim"], cats:["veterans"] },
+  { words:["family separation","separated from my family","can't live with family","duty station family"], cats:["pay"] },
+  { words:["foreclosure","lose my home","mortgage protection","home seizure","military mortgage"], cats:["housing"] },
+  { words:["tricare mental health","mental health tricare","tricare therapy","tricare psychiatrist","tricare counseling"], tags:["tricare"], cats:["healthcare"] },
+  { words:["service records","military records","discharge papers","ompf","nprc","archives","dd214 replacement"], cats:["veterans"] },
   { words:["army"], tags:["army"] },
   { words:["navy","naval","sailor"], tags:["navy"] },
   { words:["marine","marines","usmc","marine corps"], tags:["marines"] },
