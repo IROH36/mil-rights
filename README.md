@@ -2,7 +2,7 @@
 
 **A free, offline app for U.S. military members, veterans, and their families.**
 
-Know your rights — citizenship, pay, healthcare, family, education, housing, and veteran benefits. 419 topics, every one linked to an official government source.
+Know your rights — citizenship, pay, healthcare, family, education, housing, and veteran benefits. 431 topics, every one linked to an official government source.
 
 > This app does not give advice. It points to the authority.
 

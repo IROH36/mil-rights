@@ -6703,6 +6703,199 @@
         "disability"
       ],
       "son_kontrol": "2026-06"
+    },
+    {
+      "id": "scra-eviction-protection",
+      "ana_baslik": "housing",
+      "baslik": "SCRA Eviction Protection for Nonpayment of Rent",
+      "ozet": "Under the Servicemembers Civil Relief Act (SCRA), a landlord cannot evict a servicemember or their family from a primary residence for nonpayment of rent without first obtaining a court order — regardless of the lease language or local state law. This protection applies to residences where the monthly rent falls below a threshold set by Congress and adjusted periodically. If military service materially affects the servicemember's ability to pay rent, a court may grant a 90-day delay in eviction proceedings and may also adjust lease obligations to protect both parties.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-secondary-service-connection",
+      "ana_baslik": "veterans",
+      "baslik": "VA Secondary Service Connection Claims",
+      "ozet": "Veterans can claim disability compensation for a new physical or mental condition that was caused or aggravated by an already service-connected disability. To establish secondary service connection, VA requires medical records or a medical opinion — often called a nexus letter — showing the link between the new condition and the existing service-connected one; lay statements (buddy statements) may supplement in some cases. One statutory exception: if a veteran has service-connected amputation of a lower limb at or above the knee or ankle, VA presumes a link to a claimed cardiovascular condition without additional evidence.",
+      "resmi_link": "https://www.va.gov/disability/how-to-file-claim/evidence-needed/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-increased-disability-claim",
+      "ana_baslik": "veterans",
+      "baslik": "Filing for Increased VA Disability Compensation",
+      "ozet": "If a rated service-connected disability has gotten worse, veterans can file a claim for increased compensation using VA Form 21-526EZ — there is no time limit on filing. Submit current medical evidence (recent treatment records, exam findings) that shows the severity of the condition has increased since the last rating decision. The claim can be filed online at VA.gov, by mail, in person at a VA regional office, or with help from an accredited VSO, claims agent, or attorney.",
+      "resmi_link": "https://www.va.gov/disability/how-to-file-claim/when-to-file/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "disability"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "special-leave-accrual",
+      "ana_baslik": "pay",
+      "baslik": "Special Leave Accrual (SLA) for Deployed Members",
+      "ozet": "Service members normally carry forward up to 60 days of unused leave into the next fiscal year; Special Leave Accrual (SLA) raises that cap to 90 days (60 standard plus 30 SLA) for members who cannot take leave due to deployment to an area qualifying for Hostile Fire or Imminent Danger Pay for 120 or more consecutive days, assignment to a deployable ship or mobile unit, or other Secretary of Defense-designated duty. Approved SLA must be used within a defined period (typically three fiscal years after the qualifying service ends); service members should monitor their Leave and Earnings Statement remarks section to track the SLA expiration date.",
+      "resmi_link": "https://www.militaryonesource.mil/military-basics/new-to-the-military/military-leave-and-how-it-works/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks",
+        "deployment"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-cancer-clinical-trials",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Coverage for Cancer Clinical Trials",
+      "ozet": "TRICARE covers participation in National Cancer Institute (NCI)-sponsored cancer clinical trials at Phase I, II, and III levels for all eligible beneficiaries selected for a study. Covered costs include medical care and testing to determine eligibility, all care during the trial, and approved chemotherapy agents. At a military treatment facility, outpatient care is provided at no cost; at a civilian TRICARE-authorized provider, standard plan cost-sharing applies. Pre-authorization is required; your primary care manager will consult an NCI case manager and coordinate the referral. For available trials, call 800-4-CANCER (422-6237) or search the NCI database at cancer.gov.",
+      "resmi_link": "https://tricare.mil/Plans/SpecialPrograms/CancerClinicalTrials",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "vetsuccess-on-campus",
+      "ana_baslik": "veterans",
+      "baslik": "VetSuccess on Campus (VSOC)",
+      "ozet": "VetSuccess on Campus places VA Vocational Readiness and Employment (VR&E) counselors at more than 100 college campuses to support student veterans and eligible military-connected students. On-site VSOC counselors provide vocational testing, career guidance, referrals to VA health and benefit services, and assistance securing academic accommodations such as note-taking support. Eligible students include veterans and service members entitled to any VA education benefit, as well as qualifying dependents with Fry Scholarship, DEA, or transferred GI Bill eligibility. To find participating schools and locate your campus counselor, visit the VSOC directory at benefits.va.gov.",
+      "resmi_link": "https://www.va.gov/careers-employment/vetsuccess-on-campus/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "active-duty",
+        "family-member",
+        "all-branches",
+        "all-ranks",
+        "education-benefit"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "national-parks-military-pass",
+      "ana_baslik": "family",
+      "baslik": "Free National Parks Pass for Military and Veterans",
+      "ozet": "Active duty service members and their dependents are eligible for a free Military Annual Pass granting entrance and standard day-use access to all National Park Service sites, National Wildlife Refuges, National Forests, Bureau of Land Management lands, and Army Corps of Engineers recreation areas. Veterans and Gold Star families receive a free Military Lifetime Pass with the same coverage and no renewal requirement. Both passes admit the pass holder and all occupants of a single private vehicle (or up to three additional persons at walk-in sites); valid military ID (CAC, DD Form 1173, or VA Veteran ID) is required at entry. Passes can be obtained in person at more than 1,000 federal recreation sites, digitally at Recreation.gov, or by mail through the USGS Store.",
+      "resmi_link": "https://www.nps.gov/planyourvisit/passes.htm",
+      "kaynak_adi": "National Park Service",
+      "etiketler": [
+        "active-duty",
+        "veteran",
+        "family-member",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "scra-installment-contract",
+      "ana_baslik": "housing",
+      "baslik": "SCRA Protection Against Repossession on Installment Contracts",
+      "ozet": "Under the Servicemembers Civil Relief Act, a seller or lender cannot repossess property purchased under an installment contract — including vehicles, furniture, or electronics — or terminate the contract for nonpayment during a servicemember's active duty without first obtaining a court order. The protection applies as long as the servicemember had made at least one installment payment or paid a deposit before entering active duty. Courts reviewing repossession requests may stay proceedings and adjust payment obligations. Violating this protection is a federal crime punishable by up to one year in prison.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "scra-cell-phone-cancellation",
+      "ana_baslik": "family",
+      "baslik": "SCRA Right to Cancel Phone Service Contracts",
+      "ozet": "Under the Servicemembers Civil Relief Act, service members can cancel cell phone and landline service contracts without paying early termination fees when they receive qualifying military orders — including PCS orders to a location where the carrier has no coverage, or deployment orders of 90 or more days. To exercise this right, provide written notice and a copy of the orders to the carrier; the contract terminates 30 days after the next bill cycle. This right covers both personal mobile and home phone accounts held by the service member.",
+      "resmi_link": "https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/",
+      "kaynak_adi": "Military OneSource",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "va-insurance-coordination",
+      "ana_baslik": "healthcare",
+      "baslik": "Using VA Health Care Alongside Private Insurance and Medicare",
+      "ozet": "Veterans can use VA health care benefits simultaneously with private insurance, Medicare, or TRICARE. For non-service-connected conditions, VA is required by law to bill the veteran's private insurance; the veteran does not owe any unpaid balance the insurer declines to pay, and insurance payments may offset VA copayments. Veterans should still enroll in Medicare Part B at age 65 even if they use VA care — delaying Part B enrollment after becoming eligible creates permanent annual penalties. VA does not cover family members, so maintaining separate private coverage for dependents is strongly recommended.",
+      "resmi_link": "https://www.va.gov/health-care/about-va-health-benefits/va-health-care-and-other-insurance/",
+      "kaynak_adi": "U.S. Department of Veterans Affairs",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "va-health"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "military-credit-identity-protection",
+      "ana_baslik": "pay",
+      "baslik": "Military Credit Protections: Active Duty Alert and Free Monitoring",
+      "ozet": "Active duty service members, reservists on active duty, and National Guard members have three free federal credit protections. An Active Duty Alert (placed by contacting any one of the three major credit bureaus) notifies creditors the member is deployed, requires identity verification before new credit is extended, lasts 12 months, and automatically removes the member from prescreened credit marketing lists for two years. A Security Freeze (must be placed separately at each bureau) blocks creditors from accessing the credit file entirely, preventing new accounts from being opened. Free electronic credit monitoring — providing alerts when material changes occur in credit files — is also available from all three bureaus upon request. Report identity theft at IdentityTheft.gov; on-post Personal Financial Managers and Legal Assistance offices can help at no cost.",
+      "resmi_link": "https://www.consumerfinance.gov/consumer-tools/educator-tools/servicemembers/servicemember-reports-about-identity-theft-are-increasing/",
+      "kaynak_adi": "Consumer Financial Protection Bureau",
+      "etiketler": [
+        "active-duty",
+        "reservist",
+        "national-guard",
+        "all-branches",
+        "all-ranks"
+      ],
+      "son_kontrol": "2026-06"
+    },
+    {
+      "id": "tricare-retirement-transition",
+      "ana_baslik": "healthcare",
+      "baslik": "TRICARE Coverage When Transitioning to Military Retirement",
+      "ozet": "When active duty service members retire, TRICARE coverage changes significantly. Retirees have 90 days from their retirement date to enroll in a plan (retroactive enrollment is allowed up to 12 months, but claims cannot process until enrollment is complete). Available plans include TRICARE Prime (in Prime Service Areas), TRICARE Select, and US Family Health Plan. Unlike active duty coverage, retirees pay annual enrollment fees, copayments, and higher prescription costs. Certain services covered on active duty are no longer available to retirees, including most hearing aids, ECHO services, chiropractic care, and most eye exams (except under Prime). At age 65, retirees must enroll in Medicare Part A and Part B to remain eligible for TRICARE For Life.",
+      "resmi_link": "https://www.tricare.mil/LifeEvents/Retiring",
+      "kaynak_adi": "TRICARE",
+      "etiketler": [
+        "veteran",
+        "all-branches",
+        "all-ranks",
+        "tricare",
+        "retirement"
+      ],
+      "son_kontrol": "2026-06"
     }
   ]
 }

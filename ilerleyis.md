@@ -3,12 +3,39 @@
 ---
 
 ## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
-Mevcut durum (2026-06-09): **419 konu** — citizenship:41, housing:44, pay:66, family:66, healthcare:76, veterans:126.
+Mevcut durum (2026-06-09): **431 konu** — citizenship:41, housing:46, pay:68, family:68, healthcare:79, veterans:129.
 Devam önerileri (öncelik sırasıyla):
-1. **Citizenship** (41) — en zayıf; ICE Directive 10039.2 (military removal protection) için uscis.gov/military 403 döndürüyor, insan spot-check gerekiyor
-2. **Housing** (44) — state veteran home loan programs (CalVet, TX VLB) için merkezi official kaynak bulunmadı; nasvhlo.org bağlanamıyor
-3. **Pay** (66) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
-4. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+1. **Citizenship** (41) — en zayıf; uscis.gov tüm oturumda 403 verdi; insan doğrulaması gerekiyor
+2. **Housing** (46) — state veteran home loan programs (CalVet, TX VLB) için merkezi official kaynak bulunmadı
+3. **Pay** (68) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
+4. **Spot-check listesi**: TSA PreCheck military (tsa.gov 403), military customs CBP exemption (cbp.gov 403), SAPR reporting (sapr.mil 403)
+
+---
+
+## Oturum özeti — 2026-06-09 (housing/pay/healthcare/family/veterans genişlemesi — 12 yeni konu)
+Başlangıç: 419 konu → Bitiş: 431 konu (+12 yeni).
+Kategoriler: housing 44→46 (+2), pay 66→68 (+2), family 66→68 (+2), healthcare 76→79 (+3), veterans 126→129 (+3).
+
+**Eklenen konular (12):**
+- scra-eviction-protection (housing) — militaryonesource.mil; SCRA §531 court order gerekli; 90-gün geciktirme hakkı
+- scra-installment-contract (housing) — militaryonesource.mil; repossession için court order; aktif görev öncesi bir ödeme şartı
+- special-leave-accrual (pay) — militaryonesource.mil; 120+ gün IDP'de 90 gün devir hakkı; 3 mali yıl saklama
+- military-credit-identity-protection (pay) — consumerfinance.gov; Active Duty Alert (1 yıl), Security Freeze, 3 bürodan ücretsiz kredi takibi
+- scra-cell-phone-cancellation (family) — militaryonesource.mil; PCS/90-gün deployment emirleriyle telefon iptali; sonraki fatura döngüsünden 30 gün
+- national-parks-military-pass (family) — nps.gov; aktif: Yıllık Geçiş; veteran/Gold Star: Ömür Boyu Geçiş; NPS+BLM+Orman hizmeti
+- tricare-cancer-clinical-trials (healthcare) — tricare.mil; NCI Faz I/II/III kapsıyor; MTF ücretsiz, sivil maliyet paylaşımı
+- tricare-retirement-transition (healthcare) — tricare.mil; 90-günlük kayıt penceresi; maliyetler artar; 65'te Medicare Part B gerekli
+- va-insurance-coordination (healthcare) — va.gov; VA özel sigortayı faturalandırır; veteran ödeme yapmaz; 65'te Medicare Part B
+- va-secondary-service-connection (veterans) — va.gov; hizmet bağlantılı durumdan kaynaklanan engellilik; nexus mektubu gerekli
+- va-increased-disability-claim (veterans) — va.gov; durum kötüleşince artış talebi; VA Form 21-526EZ
+- vetsuccess-on-campus (veterans) — va.gov; VR&E danışmanları 104 kampüste; mesleki test, kariyer rehberliği
+
+**sw.js:** v8 → v9 (yeni konular için cache yenileme)
+
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **TSA PreCheck for military** — tsa.gov 403; arama sonuçlarında içerik var ama doğrudan fetch yapılamadı
+- **Military customs duty exemption** — cbp.gov 403; içerik search sonuçlarından; insan doğrulaması önerilir
+- **SAPR restricted/unrestricted reporting** — sapr.mil 403; doğrudan erişilemeyen sayfa
 
 ---
 
