@@ -3,12 +3,41 @@
 ---
 
 ## ▶ Bir sonraki oturum başlangıcı — git pull origin master yap önce
-Mevcut durum (2026-06-08 gece): **411 konu** — citizenship:41, housing:41, pay:64, family:66, healthcare:74, veterans:125.
+Mevcut durum (2026-06-09): **419 konu** — citizenship:41, housing:44, pay:66, family:66, healthcare:76, veterans:126.
 Devam önerileri (öncelik sırasıyla):
-1. **Housing/Citizenship** (40 eşit) — en zayıf; yeni konular bulmak güçleşiyor, araştırma gerekiyor
-2. **Pay** (64) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
-3. **Veterans** (120) — zaten güçlü; gap analizi gerekiyor
+1. **Citizenship** (41) — en zayıf; ICE Directive 10039.2 (military removal protection) için uscis.gov/military 403 döndürüyor, insan spot-check gerekiyor
+2. **Housing** (44) — state veteran home loan programs (CalVet, TX VLB) için merkezi official kaynak bulunmadı; nasvhlo.org bağlanamıyor
+3. **Pay** (66) — nuclear officer pay (NOBIP, mynavyhr.navy.mil 403), warrant officer özel ödenekler
 4. **Spot-check listesi**: deferred-action-military-family, naturalization-after-discharge, reserve-drill-pay, esgr-ombudsman (insan doğrulaması bekleniyor)
+
+---
+
+## Oturum özeti — 2026-06-09 (housing/healthcare/pay genişlemesi, duplikat temizliği)
+Başlangıç: 411 konu → Bitiş: 419 konu (+9 yeni, -1 duplikat = net +8).
+Kategoriler: housing 41→44 (+3), healthcare 74→76 (+2), pay 64→66 (+2), veterans 125→126 (+1), family 66 (1 duplikat çıkarıldı +1 yeni eklendi = net 0).
+
+**Eklenen konular (9):**
+- gpd-transitional-housing (housing) — department.va.gov; VA GPD programı; community org'lar aracılığıyla geçici barınma; 877-424-3838
+- va-loan-guard-reserve (housing) — va.gov; Guard/Reserve 6 yıl hizmet ile VA kredi hakkı (90 gün aktif görev alternatifi)
+- va-hisa-grant (housing) — prosthetics.va.gov; küçük ev düzenlemeleri hibesi; service-connected: $6,800, diğer: $2,000; Form 10-0103
+- tricare-virtual-health (healthcare) — tricare.mil; video/telefon/MHS Nurse Advice Line; maliyetler yüz yüze ile aynı
+- va-spinal-cord-injury (healthcare) — sci.va.gov; 25 merkez + 120 spoke; hizmet bağlantısı olmayan yaralanmalar da kapsıyor
+- installation-family-support (family) — militaryonesource.mil; ACS/FFSC/AFRC kurulum bazlı aile destek merkezleri
+- military-retirement-cola (veterans) — myarmybenefits; CPI-W bazlı yıllık artış; CSB/REDUX: CPI-1 puan; yaş 62'de yeniden hesap
+- combat-zone-tax-extension (pay) — irs.gov; savaş bölgesi çıkışından 180 gün sonrasına kadar otomatik vergi uzatması; eş de kapsıyor
+- military-retirement-pay-taxes (pay) — myarmybenefits; emekli maaşı federal vergiye tabi; VA disability compensation vergisiz; 30+ eyalet muafiyet
+
+**Güncellenen konular:**
+- va-adapted-housing-grants — TRA hibesi eklendi (SAH uygunluk: $50,961; SHA uygunluk: $9,100)
+- msep-spouseworks — yeni URL (spouseworks.militaryonesource.mil), Udemy/FlexJobs/Career Accelerator detayları eklendi
+
+**Silinen duplikat:**
+- tricare-maternity (family) — healthcare versiyonu daha kapsamlı; family versiyonu kaldırıldı
+
+**sw.js:** v7 → v8 (yeni konular için cache yenileme)
+
+⚠ NEEDS HUMAN SPOT-CHECK:
+- **military discretionary immigration protections** — uscis.gov/military/discretionary-options 403; ICE Directive 10039.2 içeriği search sonuçlarından; insan doğrulaması önerilir
 
 ---
 
